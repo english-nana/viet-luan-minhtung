@@ -1,0 +1,6517 @@
+window.ESSAY_TOPICS = [
+    {
+        "id": "learning-musical-instruments",
+        "title": "01. Học chơi nhạc cụ",
+        "summary": "Bài luận về những ưu điểm và nhược điểm của việc học chơi nhạc cụ đối với trẻ em.",
+        "isMatchingVocab": true,
+        "meta": {
+            "category": "Giáo dục",
+            "taskType": "Advantages / Disadvantages",
+            "level": "B1-B2",
+            "estimatedMinutes": 40
+        },
+        "prompt": [
+            {
+                "en": "Some people believe that learning to play a musical instrument brings many benefits, especially for young children.",
+                "vn": "Một số người tin rằng việc học chơi một loại nhạc cụ mang lại nhiều lợi ích, đặc biệt là đối với trẻ nhỏ."
+            },
+            {
+                "en": "However, others think it can be a burden for families and may distract children from their studies.",
+                "vn": "Tuy nhiên, những người khác lại nghĩ rằng nó có thể là một gánh nặng cho các gia đình và có thể làm trẻ xao nhãng việc học."
+            },
+            {
+                "en": "Discuss the advantages and disadvantages of playing a musical instrument.",
+                "vn": "Thảo luận về những ưu điểm và nhược điểm của việc chơi một loại nhạc cụ."
+            }
+        ],
+        "introEnExpectedLength": 45,
+        "conclusionEnExpectedLength": 46,
+        "currentVariantIndex": 1,
+        "variants": [
+            {
+                "name": "Level B1",
+                "vocab": [
+                    {
+                        "en": "a musical instrument",
+                        "vn": "một loại nhạc cụ"
+                    },
+                    {
+                        "en": "develop",
+                        "vn": "phát triển"
+                    },
+                    {
+                        "en": "brain",
+                        "vn": "não bộ"
+                    },
+                    {
+                        "en": "thinking skills",
+                        "vn": "kỹ năng tư duy"
+                    },
+                    {
+                        "en": "coordinate",
+                        "vn": "phối hợp"
+                    },
+                    {
+                        "en": "at the same time",
+                        "vn": "cùng một lúc"
+                    },
+                    {
+                        "en": "concentration",
+                        "vn": "sự tập trung"
+                    },
+                    {
+                        "en": "mental health",
+                        "vn": "sức khỏe tinh thần"
+                    },
+                    {
+                        "en": "the guitar",
+                        "vn": "đàn guitar"
+                    },
+                    {
+                        "en": "the piano",
+                        "vn": "đàn piano"
+                    },
+                    {
+                        "en": "forget about study for a while",
+                        "vn": "tạm thời quên đi việc học"
+                    },
+                    {
+                        "en": "time-consuming",
+                        "vn": "tốn nhiều thời gian"
+                    },
+                    {
+                        "en": "play well",
+                        "vn": "chơi giỏi"
+                    },
+                    {
+                        "en": "the violin",
+                        "vn": "đàn violin"
+                    },
+                    {
+                        "en": "a significant amount of money",
+                        "vn": "một khoản tiền lớn"
+                    },
+                    {
+                        "en": "place a heavy financial burden on",
+                        "vn": "đặt gánh nặng tài chính lớn lên"
+                    }
+                ],
+                "introChunks": [
+                    {
+                        "en": "In recent years,",
+                        "vn": "Trong những năm gần đây,"
+                    },
+                    {
+                        "en": "there has been a significant number of young children who",
+                        "vn": "ngày càng có nhiều trẻ em"
+                    },
+                    {
+                        "en": "learn a musical instrument.",
+                        "vn": "học chơi một loại nhạc cụ."
+                    },
+                    {
+                        "en": "While|Although",
+                        "vn": "Mặc dù"
+                    },
+                    {
+                        "en": "this trend",
+                        "vn": "xu hướng này"
+                    },
+                    {
+                        "en": "can bring",
+                        "vn": "có thể mang lại"
+                    },
+                    {
+                        "en": "several benefits,",
+                        "vn": "nhiều lợi ích,"
+                    },
+                    {
+                        "en": "it may also cause|but it may also cause",
+                        "vn": "nhưng nó cũng có thể gây ra"
+                    },
+                    {
+                        "en": "some problems.",
+                        "vn": "một số vấn đề."
+                    },
+                    {
+                        "en": "This essay will",
+                        "vn": "Bài luận này sẽ"
+                    },
+                    {
+                        "en": "discuss",
+                        "vn": "thảo luận về"
+                    },
+                    {
+                        "en": "both the advantages and disadvantages",
+                        "vn": "cả những ưu điểm và nhược điểm"
+                    },
+                    {
+                        "en": "of learning a musical instrument.",
+                        "vn": "của việc học chơi nhạc cụ."
+                    }
+                ],
+                "introVn": "Trong những năm gần đây, ngày càng có nhiều trẻ em học chơi một loại nhạc cụ. Mặc dù xu hướng này có thể mang lại nhiều lợi ích, nhưng nó cũng có thể gây ra một số vấn đề. Bài luận này sẽ thảo luận về cả những ưu điểm và nhược điểm của việc học chơi nhạc cụ.",
+                "bodyParagraphs": [
+                    {
+                        "title": "Đoạn 1: Lợi ích (Advantages)",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "Một mặt, / có một số / lợi ích của việc học một nhạc cụ.",
+                                        "vn": "On the one hand, / there are some / benefits of learning a musical instrument.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lợi ích 1",
+                                "hints": [
+                                    {
+                                        "en": "develop their brain and thinking skills",
+                                        "vn": "phát triển não bộ và kỹ năng tư duy của trẻ"
+                                    },
+                                    {
+                                        "en": "coordinate their eyes and hands at the same time",
+                                        "vn": "phối hợp mắt và tay cùng một lúc"
+                                    },
+                                    {
+                                        "en": "improve concentration",
+                                        "vn": "cải thiện sự tập trung"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lợi ích 2",
+                                "hints": [
+                                    {
+                                        "en": "good for mental health",
+                                        "vn": "tốt cho sức khỏe tinh thần"
+                                    },
+                                    {
+                                        "en": "relax",
+                                        "vn": "thư giãn"
+                                    },
+                                    {
+                                        "en": "enjoy playing the guitar or the piano with their friends",
+                                        "vn": "thích chơi đàn guitar hoặc piano cùng bạn bè"
+                                    },
+                                    {
+                                        "en": "reduce stress + forget about study for a while",
+                                        "vn": "giảm căng thẳng + tạm thời quên đi việc học"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Đoạn 2: Bất lợi (Disadvantages)",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "Mặt khác, / việc học chơi nhạc cụ / cũng đi kèm với / một số bất lợi.",
+                                        "vn": "On the other hand, / learning to play musical instruments / also comes with / some disadvantages.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Bất lợi 1",
+                                "hints": [
+                                    {
+                                        "en": "very time-consuming",
+                                        "vn": "rất tốn thời gian"
+                                    },
+                                    {
+                                        "en": "in order to play well",
+                                        "vn": "để chơi giỏi"
+                                    },
+                                    {
+                                        "en": "spend a lot of time practicing",
+                                        "vn": "dành nhiều thời gian luyện tập"
+                                    },
+                                    {
+                                        "en": "reduce the time they need to study or do other important activities",
+                                        "vn": "giảm thời gian trẻ cần để học hoặc làm các hoạt động quan trọng khác"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Bất lợi 2",
+                                "hints": [
+                                    {
+                                        "en": "cost a lot of money to learn",
+                                        "vn": "tốn nhiều tiền để học"
+                                    },
+                                    {
+                                        "en": "some instruments",
+                                        "vn": "một số nhạc cụ"
+                                    },
+                                    {
+                                        "en": "Very expensive",
+                                        "vn": "Rất đắt tiền"
+                                    },
+                                    {
+                                        "en": "the piano or the violin",
+                                        "vn": "đàn piano hoặc đàn violin"
+                                    },
+                                    {
+                                        "en": "cost a significant amount of money",
+                                        "vn": "tốn một khoản tiền lớn"
+                                    },
+                                    {
+                                        "en": "place a heavy financial burden on some families",
+                                        "vn": "đặt gánh nặng tài chính lớn lên một số gia đình"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "conclusionChunks": [
+                    {
+                        "en": "In conclusion,",
+                        "vn": "Tóm lại,"
+                    },
+                    {
+                        "en": "learning musical instruments",
+                        "vn": "việc học chơi nhạc cụ"
+                    },
+                    {
+                        "en": "offers several benefits,",
+                        "vn": "mang lại nhiều lợi ích,"
+                    },
+                    {
+                        "en": "particularly",
+                        "vn": "đặc biệt là"
+                    },
+                    {
+                        "en": "developing children’s thinking skills",
+                        "vn": "giúp trẻ em phát triển kỹ năng tư duy"
+                    },
+                    {
+                        "en": "and",
+                        "vn": "và"
+                    },
+                    {
+                        "en": "their mental health,",
+                        "vn": "cải thiện sức khỏe tinh thần."
+                    },
+                    {
+                        "en": "but|However,|but However,",
+                        "vn": "Tuy nhiên,"
+                    },
+                    {
+                        "en": "it also has",
+                        "vn": "nó cũng có"
+                    },
+                    {
+                        "en": "some drawbacks,",
+                        "vn": "một số nhược điểm,"
+                    },
+                    {
+                        "en": "such as",
+                        "vn": "chẳng hạn như"
+                    },
+                    {
+                        "en": "requiring a lot of time",
+                        "vn": "đòi hỏi nhiều thời gian"
+                    },
+                    {
+                        "en": "and",
+                        "vn": "và"
+                    },
+                    {
+                        "en": "costing a lot of money.",
+                        "vn": "tốn kém chi phí."
+                    },
+                    {
+                        "en": "Therefore,",
+                        "vn": "Vì vậy,"
+                    },
+                    {
+                        "en": "both its advantages and disadvantages",
+                        "vn": "cả những ưu điểm và nhược điểm của hoạt động này"
+                    },
+                    {
+                        "en": "should be carefully considered.",
+                        "vn": "cần được cân nhắc kỹ lưỡng."
+                    }
+                ],
+                "conclusionVn": "Tóm lại, việc học chơi nhạc cụ mang lại nhiều lợi ích, đặc biệt là giúp trẻ em phát triển kỹ năng tư duy và cải thiện sức khỏe tinh thần. Tuy nhiên, nó cũng có một số nhược điểm, chẳng hạn như đòi hỏi nhiều thời gian và tốn kém chi phí. Vì vậy, cả những ưu điểm và nhược điểm của hoạt động này cần được cân nhắc kỹ lưỡng.",
+                "sampleEssay": {
+                    "paragraphs": [
+                        [
+                            {
+                                "en": "In recent years, there has been a significant number of young children who learn a musical instrument.",
+                                "vn": "Trong những năm gần đây, ngày càng có nhiều trẻ em học chơi một loại nhạc cụ.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "While this trend can bring several benefits, it may also cause some problems.",
+                                "vn": "Mặc dù xu hướng này có thể mang lại nhiều lợi ích, nhưng nó cũng có thể gây ra một số vấn đề.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This essay will discuss both the advantages and disadvantages of learning a musical instrument.",
+                                "vn": "Bài luận này sẽ thảo luận về cả những ưu điểm và nhược điểm của việc học chơi nhạc cụ.",
+                                "isRed": true
+                            }
+                        ],
+                        [
+                            {
+                                "en": "On the one hand, there are several benefits of learning a musical instrument.",
+                                "vn": "Một mặt, có một số lợi ích của việc học một nhạc cụ.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "Firstly, it helps children develop their brain and thinking skills.",
+                                "vn": "Thứ nhất, nó giúp trẻ em phát triển não bộ và kỹ năng tư duy.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This is because when learning an instrument, they have to coordinate their eyes and hands at the same time.",
+                                "vn": "Điều này là do khi học một loại nhạc cụ, chúng phải phối hợp mắt và tay cùng một lúc.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This practice can help them improve concentration.",
+                                "vn": "Việc luyện tập này có thể giúp chúng cải thiện sự tập trung.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Secondly, playing a musical instrument is good for mental health.",
+                                "vn": "Thứ hai, chơi một nhạc cụ rất tốt cho sức khỏe tinh thần.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "In fact, playing an instrument helps children relax.",
+                                "vn": "Trên thực tế, chơi nhạc cụ giúp trẻ em thư giãn.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "For example, many children enjoy playing the guitar or the piano with their friends to reduce stress and forget about study for a while.",
+                                "vn": "Ví dụ, nhiều trẻ em thích chơi đàn guitar hoặc piano cùng bạn bè để giảm căng thẳng và tạm thời quên đi việc học.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "On the other hand, learning instruments also comes with some downsides.",
+                                "vn": "Mặt khác, việc học chơi nhạc cụ cũng đi kèm với một số bất lợi.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "One major problem is that it is very time-consuming.",
+                                "vn": "Một vấn đề lớn là nó rất tốn thời gian.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "In order to play well, children need to spend a lot of time practicing.",
+                                "vn": "Để chơi giỏi, trẻ em cần dành nhiều thời gian luyện tập.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This might reduce the time they need to study or do other important activities.",
+                                "vn": "Điều này có thể làm giảm thời gian chúng cần để học hoặc làm các hoạt động quan trọng khác.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Another difficulty is that it costs a lot of money to learn.",
+                                "vn": "Một khó khăn khác là tốn nhiều tiền để học.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This is because some instruments like the piano or the violin, are very expensive.",
+                                "vn": "Điều này là do một số nhạc cụ như đàn piano hoặc đàn violin rất đắt tiền.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "For example, some instruments like the piano or the violin can cost a significant amount of money.",
+                                "vn": "Ví dụ, một số nhạc cụ như đàn piano hoặc đàn violin có thể tốn một khoản tiền lớn.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Consequently, learning a musical instrument may place a heavy financial burden on some families.",
+                                "vn": "Hậu quả là, việc học một nhạc cụ có thể đặt gánh nặng tài chính lớn lên một số gia đình.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "In conclusion, learning musical instruments offers several benefits, particularly developing children’s thinking skills and their mental health, but it also has some drawbacks, such as requiring a lot of time and costing a lot of money.",
+                                "vn": "Tóm lại, việc học chơi nhạc cụ mang lại nhiều lợi ích, đặc biệt là giúp trẻ em phát triển kỹ năng tư duy và cải thiện sức khỏe tinh thần, nhưng nó cũng có một số nhược điểm, chẳng hạn như đòi hỏi nhiều thời gian và tốn kém chi phí.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Therefore, both its advantages and disadvantages should be carefully considered.",
+                                "vn": "Vì vậy, cả những ưu điểm và nhược điểm của hoạt động này cần được cân nhắc kỹ lưỡng.",
+                                "isRed": false
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Level B2",
+                "vocab": [
+                    {
+                        "en": "a musical instrument",
+                        "vn": "một loại nhạc cụ"
+                    },
+                    {
+                        "en": "cognitive skills",
+                        "vn": "kỹ năng nhận thức"
+                    },
+                    {
+                        "en": "thinking skills",
+                        "vn": "kỹ năng tư duy"
+                    },
+                    {
+                        "en": "coordinate",
+                        "vn": "phối hợp"
+                    },
+                    {
+                        "en": "simultaneously",
+                        "vn": "đồng thời"
+                    },
+                    {
+                        "en": "concentration",
+                        "vn": "sự tập trung"
+                    },
+                    {
+                        "en": "have a positive impact on",
+                        "vn": "có tác động tích cực đến"
+                    },
+                    {
+                        "en": "mental health",
+                        "vn": "sức khỏe tinh thần"
+                    },
+                    {
+                        "en": "take a break",
+                        "vn": "nghỉ ngơi"
+                    },
+                    {
+                        "en": "academic pressure",
+                        "vn": "áp lực học tập"
+                    },
+                    {
+                        "en": "temporarily forget about their studies",
+                        "vn": "tạm thời quên đi việc học"
+                    },
+                    {
+                        "en": "time-consuming",
+                        "vn": "tốn nhiều thời gian"
+                    },
+                    {
+                        "en": "regularly",
+                        "vn": "thường xuyên"
+                    },
+                    {
+                        "en": "other important activities",
+                        "vn": "các hoạt động quan trọng khác"
+                    },
+                    {
+                        "en": "pay for",
+                        "vn": "trả tiền cho"
+                    },
+                    {
+                        "en": "music lessons",
+                        "vn": "các bài học nhạc"
+                    },
+                    {
+                        "en": "the piano",
+                        "vn": "đàn piano"
+                    },
+                    {
+                        "en": "the violin",
+                        "vn": "đàn violin"
+                    },
+                    {
+                        "en": "a huge amount of money",
+                        "vn": "một số tiền lớn"
+                    },
+                    {
+                        "en": "place a heavy financial burden",
+                        "vn": "đặt gánh nặng tài chính lớn"
+                    },
+                    {
+                        "en": "low-income families",
+                        "vn": "các gia đình thu nhập thấp"
+                    }
+                ],
+                "introChunks": [
+                    {
+                        "en": "In recent years,",
+                        "vn": "Trong những năm gần đây,"
+                    },
+                    {
+                        "en": "there has been a significant number of young children who",
+                        "vn": "ngày càng có nhiều trẻ em"
+                    },
+                    {
+                        "en": "learn a musical instrument.",
+                        "vn": "học chơi một loại nhạc cụ."
+                    },
+                    {
+                        "en": "While|Although",
+                        "vn": "Mặc dù"
+                    },
+                    {
+                        "en": "this trend",
+                        "vn": "xu hướng này"
+                    },
+                    {
+                        "en": "can bring",
+                        "vn": "có thể mang lại"
+                    },
+                    {
+                        "en": "several benefits,",
+                        "vn": "nhiều lợi ích,"
+                    },
+                    {
+                        "en": "it may also cause|but it may also cause",
+                        "vn": "nhưng nó cũng có thể gây ra"
+                    },
+                    {
+                        "en": "some problems.",
+                        "vn": "một số vấn đề."
+                    },
+                    {
+                        "en": "This essay will",
+                        "vn": "Bài luận này sẽ"
+                    },
+                    {
+                        "en": "discuss",
+                        "vn": "thảo luận về"
+                    },
+                    {
+                        "en": "both the advantages and disadvantages",
+                        "vn": "cả những ưu điểm và nhược điểm"
+                    },
+                    {
+                        "en": "of learning a musical instrument.",
+                        "vn": "của việc học chơi nhạc cụ."
+                    }
+                ],
+                "introVn": "Trong những năm gần đây, ngày càng có nhiều trẻ em học chơi một loại nhạc cụ. Mặc dù xu hướng này có thể mang lại nhiều lợi ích, nhưng nó cũng có thể gây ra một số vấn đề. Bài luận này sẽ thảo luận về cả những ưu điểm và nhược điểm của việc học chơi nhạc cụ.",
+                "bodyParagraphs": [
+                    {
+                        "title": "Đoạn 1: Lợi ích (Advantages)",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "Một mặt, / có một số / lợi ích của việc học một nhạc cụ.",
+                                        "vn": "On the one hand, / there are several / benefits of learning a musical instrument.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lợi ích 1",
+                                "hints": [
+                                    {
+                                        "en": "develop their cognitive and thinking skills",
+                                        "vn": "phát triển kỹ năng nhận thức và tư duy của chúng"
+                                    },
+                                    {
+                                        "en": "coordinate their eyes and hands simultaneously",
+                                        "vn": "phối hợp mắt và tay đồng thời"
+                                    },
+                                    {
+                                        "en": "improve their concentration and memory",
+                                        "vn": "cải thiện sự tập trung và trí nhớ của chúng"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lợi ích 2",
+                                "hints": [
+                                    {
+                                        "en": "have a positive impact on mental health",
+                                        "vn": "có tác động tích cực đến sức khỏe tinh thần"
+                                    },
+                                    {
+                                        "en": "relax + take a break from academic pressure",
+                                        "vn": "thư giãn + nghỉ ngơi khỏi áp lực học tập"
+                                    },
+                                    {
+                                        "en": "enjoy playing the guitar or the piano with their friends after school",
+                                        "vn": "thích chơi đàn guitar hoặc piano cùng bạn bè sau giờ học"
+                                    },
+                                    {
+                                        "en": "reduce stress + temporarily forget about their studies",
+                                        "vn": "giảm căng thẳng + tạm thời quên đi việc học"
+                                    },
+                                    {
+                                        "en": "feel happier and more motivated",
+                                        "vn": "cảm thấy vui vẻ và có động lực hơn"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Đoạn 2: Bất lợi (Disadvantages)",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "Mặt khác, / việc học chơi nhạc cụ / cũng đi kèm với / một số bất lợi.",
+                                        "vn": "On the other hand, / learning to play musical instruments / also comes with / some disadvantages.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Bất lợi 1",
+                                "hints": [
+                                    {
+                                        "en": "very time-consuming",
+                                        "vn": "rất tốn thời gian"
+                                    },
+                                    {
+                                        "en": "In order to become good at an instrument",
+                                        "vn": "Để giỏi một loại nhạc cụ"
+                                    },
+                                    {
+                                        "en": "practice regularly + spend many hours improving their skills",
+                                        "vn": "thực hành thường xuyên + dành nhiều giờ để cải thiện kỹ năng của chúng"
+                                    },
+                                    {
+                                        "en": "have less time for studying or participating in other important activities",
+                                        "vn": "có ít thời gian hơn cho việc học hoặc tham gia vào các hoạt động quan trọng khác"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Bất lợi 2",
+                                "hints": [
+                                    {
+                                        "en": "the high cost of learning an instrument",
+                                        "vn": "chi phí cao cho việc học một nhạc cụ"
+                                    },
+                                    {
+                                        "en": "buy the instrument itself (very expensive) + pay for music lessons",
+                                        "vn": "mua chính loại nhạc cụ đó (rất đắt) + trả tiền cho các bài học nhạc"
+                                    },
+                                    {
+                                        "en": "the piano and violin",
+                                        "vn": "đàn piano và đàn violin"
+                                    },
+                                    {
+                                        "en": "cost a huge amount of money",
+                                        "vn": "tốn một số tiền lớn"
+                                    },
+                                    {
+                                        "en": "place a heavy financial burden on students",
+                                        "vn": "đặt gánh nặng tài chính lớn lên học sinh"
+                                    },
+                                    {
+                                        "en": "low-income families",
+                                        "vn": "các gia đình có thu nhập thấp"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "conclusionChunks": [
+                    {
+                        "en": "In conclusion,",
+                        "vn": "Tóm lại,"
+                    },
+                    {
+                        "en": "learning musical instruments",
+                        "vn": "việc học chơi nhạc cụ"
+                    },
+                    {
+                        "en": "offers several benefits,",
+                        "vn": "mang lại nhiều lợi ích,"
+                    },
+                    {
+                        "en": "particularly",
+                        "vn": "đặc biệt là"
+                    },
+                    {
+                        "en": "developing children’s thinking skills",
+                        "vn": "giúp trẻ em phát triển kỹ năng tư duy"
+                    },
+                    {
+                        "en": "and",
+                        "vn": "và"
+                    },
+                    {
+                        "en": "their mental health,",
+                        "vn": "cải thiện sức khỏe tinh thần."
+                    },
+                    {
+                        "en": "but|However,|but However,",
+                        "vn": "Tuy nhiên,"
+                    },
+                    {
+                        "en": "it also has",
+                        "vn": "nó cũng có"
+                    },
+                    {
+                        "en": "some drawbacks,",
+                        "vn": "một số nhược điểm,"
+                    },
+                    {
+                        "en": "such as",
+                        "vn": "chẳng hạn như"
+                    },
+                    {
+                        "en": "requiring a lot of time",
+                        "vn": "đòi hỏi nhiều thời gian"
+                    },
+                    {
+                        "en": "and",
+                        "vn": "và"
+                    },
+                    {
+                        "en": "costing a lot of money.",
+                        "vn": "tốn kém chi phí."
+                    },
+                    {
+                        "en": "Therefore,",
+                        "vn": "Vì vậy,"
+                    },
+                    {
+                        "en": "both its advantages and disadvantages",
+                        "vn": "cả những ưu điểm và nhược điểm của hoạt động này"
+                    },
+                    {
+                        "en": "should be carefully considered.",
+                        "vn": "cần được cân nhắc kỹ lưỡng."
+                    }
+                ],
+                "conclusionVn": "Tóm lại, việc học chơi nhạc cụ mang lại nhiều lợi ích, đặc biệt là giúp trẻ em phát triển kỹ năng tư duy và cải thiện sức khỏe tinh thần. Tuy nhiên, nó cũng có một số nhược điểm, chẳng hạn như đòi hỏi nhiều thời gian và tốn kém chi phí. Vì vậy, cả những ưu điểm và nhược điểm của hoạt động này cần được cân nhắc kỹ lưỡng.",
+                "sampleEssay": {
+                    "paragraphs": [
+                        [
+                            {
+                                "en": "In recent years, there has been a significant number of young children who learn a musical instrument.",
+                                "vn": "Trong những năm gần đây, ngày càng có nhiều trẻ em học chơi một loại nhạc cụ.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "While this trend can bring several benefits, it may also cause some problems.",
+                                "vn": "Mặc dù xu hướng này có thể mang lại nhiều lợi ích, nhưng nó cũng có thể gây ra một số vấn đề.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This essay will discuss both the advantages and disadvantages of learning a musical instrument.",
+                                "vn": "Bài luận này sẽ thảo luận về cả những ưu điểm và nhược điểm của việc học chơi nhạc cụ.",
+                                "isRed": true
+                            }
+                        ],
+                        [
+                            {
+                                "en": "On the one hand, there are several benefits of learning a musical instrument.",
+                                "vn": "Một mặt, có một số lợi ích của việc học một nhạc cụ.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "Firstly, it helps children develop their cognitive and thinking skills.",
+                                "vn": "Thứ nhất, nó giúp trẻ em phát triển kỹ năng nhận thức và tư duy của chúng.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This is because learning an instrument requires them to coordinate their eyes and hands simultaneously.",
+                                "vn": "Điều này là do việc học một loại nhạc cụ đòi hỏi chúng phải phối hợp mắt và tay đồng thời.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This practice can improve their concentration and memory.",
+                                "vn": "Việc luyện tập này có thể cải thiện sự tập trung và trí nhớ của chúng.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Secondly, playing a musical instrument can have a positive impact on mental health.",
+                                "vn": "Thứ hai, chơi một nhạc cụ có thể có tác động tích cực đến sức khỏe tinh thần.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "It allows children to relax and take a break from academic pressure.",
+                                "vn": "Nó cho phép trẻ em thư giãn và nghỉ ngơi khỏi áp lực học tập.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "For example, many children enjoy playing the guitar or the piano with their friends after school to reduce stress and temporarily forget about their studies.",
+                                "vn": "Ví dụ, nhiều trẻ em thích chơi đàn guitar hoặc piano cùng bạn bè sau giờ học để giảm căng thẳng và tạm thời quên đi việc học.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Consequently, they may feel happier and more motivated in their daily lives.",
+                                "vn": "Hậu quả là, chúng có thể cảm thấy vui vẻ và có động lực hơn trong cuộc sống hàng ngày.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "On the other hand, learning a musical instrument also comes with some drawbacks.",
+                                "vn": "Mặt khác, việc học chơi nhạc cụ cũng đi kèm với một số bất lợi.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "One major issue is that it can be very time-consuming.",
+                                "vn": "Một vấn đề lớn là nó có thể rất tốn thời gian.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "In order to become good at an instrument, children need to practice regularly and spend many hours improving their skills.",
+                                "vn": "Để giỏi một loại nhạc cụ, trẻ em cần thực hành thường xuyên và dành nhiều giờ để cải thiện kỹ năng của chúng.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "As a result, they may have less time for studying or participating in other important activities.",
+                                "vn": "Do đó, chúng có thể có ít thời gian hơn cho việc học hoặc tham gia vào các hoạt động quan trọng khác.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Another obvious downside is the high cost of learning an instrument.",
+                                "vn": "Một nhược điểm rõ ràng khác là chi phí cao cho việc học một nhạc cụ.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Students not only have to buy the instrument itself, which is often very expensive, but they also need to pay for music lessons.",
+                                "vn": "Học sinh không chỉ phải mua chính loại nhạc cụ đó, thường rất đắt tiền, mà còn phải trả tiền cho các bài học nhạc.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "For example, some instruments such as the piano and violin can cost a huge amount of money.",
+                                "vn": "Ví dụ, một số nhạc cụ như đàn piano và đàn violin có thể tốn một số tiền lớn.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Consequently, learning a musical instrument may place a heavy financial burden on students, especially those who come from low-income families.",
+                                "vn": "Hậu quả là, việc học một nhạc cụ có thể đặt gánh nặng tài chính lớn lên học sinh, đặc biệt là những học sinh đến từ các gia đình có thu nhập thấp.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "In conclusion, learning musical instruments offers several benefits, particularly developing children’s thinking skills and their mental health, but it also has some drawbacks, such as requiring a lot of time and costing a lot of money.",
+                                "vn": "Tóm lại, việc học chơi nhạc cụ mang lại nhiều lợi ích, đặc biệt là giúp trẻ em phát triển kỹ năng tư duy và cải thiện sức khỏe tinh thần, nhưng nó cũng có một số nhược điểm, chẳng hạn như đòi hỏi nhiều thời gian và tốn kém chi phí.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Therefore, both its advantages and disadvantages should be carefully considered.",
+                                "vn": "Vì vậy, cả những ưu điểm và nhược điểm của hoạt động này cần được cân nhắc kỹ lưỡng.",
+                                "isRed": false
+                            }
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "religious-tourism",
+        "title": "02. Du lịch tôn giáo",
+        "summary": "Bài luyện dạng advantages and disadvantages về tác động của du lịch tôn giáo lên cộng đồng, môi trường và du khách.",
+        "isMatchingVocab": true,
+        "meta": {
+            "category": "Du lịch & văn hóa",
+            "taskType": "Advantages / Disadvantages",
+            "level": "B1-B2",
+            "estimatedMinutes": 40
+        },
+        "prompt": [
+            {
+                "en": "Religious tourism is a form of travel that involves visiting places of religious significance or interest.",
+                "vn": "Du lịch tôn giáo là một hình thức du lịch bao gồm việc đến thăm các địa điểm có ý nghĩa hoặc sự quan tâm về tôn giáo."
+            },
+            {
+                "en": "It can have positive and negative impacts on the local communities, the environment, and the tourists themselves.",
+                "vn": "Nó có thể có những tác động tích cực và tiêu cực đến cộng đồng địa phương, môi trường và chính bản thân du khách."
+            },
+            {
+                "en": "Discuss the advantages and disadvantages of religious tourism.",
+                "vn": "Thảo luận về những lợi ích và bất lợi của du lịch tôn giáo."
+            }
+        ],
+        "vocab": [
+            {
+                "en": "a country's identity",
+                "type": "(n)",
+                "vn": "bản sắc quốc gia"
+            },
+            {
+                "en": "ancient buildings",
+                "type": "(n)",
+                "vn": "các tòa nhà cổ"
+            },
+            {
+                "en": "behave",
+                "type": "(v)",
+                "vn": "cư xử"
+            },
+            {
+                "en": "beliefs",
+                "type": "(n)",
+                "vn": "tín ngưỡng"
+            },
+            {
+                "en": "churches",
+                "type": "(n)",
+                "vn": "nhà thờ"
+            },
+            {
+                "en": "commercialized",
+                "type": "(adj)",
+                "vn": "bị thương mại hóa"
+            },
+            {
+                "en": "cultural heritage sites",
+                "type": "(n)",
+                "vn": "địa điểm di sản văn hóa"
+            },
+            {
+                "en": "heritage",
+                "type": "(n)",
+                "vn": "di sản"
+            },
+            {
+                "en": "inappropriate clothes",
+                "type": "(n)",
+                "vn": "quần áo không phù hợp"
+            },
+            {
+                "en": "irresponsibly",
+                "type": "(adv)",
+                "vn": "thiếu trách nhiệm"
+            },
+            {
+                "en": "local businesses",
+                "type": "(n)",
+                "vn": "doanh nghiệp địa phương"
+            },
+            {
+                "en": "local communities",
+                "type": "(n)",
+                "vn": "cộng đồng địa phương"
+            },
+            {
+                "en": "making profits",
+                "type": "(v.phr)",
+                "vn": "kiếm lợi nhuận"
+            },
+            {
+                "en": "religious sites/places",
+                "type": "(n)",
+                "vn": "địa điểm tôn giáo"
+            },
+            {
+                "en": "religious tourism",
+                "type": "(n)",
+                "vn": "du lịch tôn giáo"
+            },
+            {
+                "en": "sacred",
+                "type": "(adj)",
+                "vn": "thiêng liêng"
+            },
+            {
+                "en": "temples",
+                "type": "(n)",
+                "vn": "đền"
+            },
+            {
+                "en": "the spiritual values",
+                "type": "(n)",
+                "vn": "giá trị tâm linh"
+            },
+            {
+                "en": "traditions",
+                "type": "(n)",
+                "vn": "truyền thống"
+            },
+            {
+                "en": "type of tourism",
+                "type": "(n)",
+                "vn": "loại hình du lịch"
+            },
+            {
+                "en": "values",
+                "type": "(n)",
+                "vn": "giá trị"
+            }
+        ],
+        "introVn": "Du lịch tôn giáo đang ngày càng trở nên phổ biến ở nhiều quốc gia trên thế giới. Mặc dù loại hình du lịch này có thể mang lại một số lợi ích cho cộng đồng địa phương và du khách, nó cũng có một số tác động tiêu cực. Bài luận này sẽ thảo luận về cả những lợi ích và bất lợi của du lịch tôn giáo.",
+        "introEnExpectedLength": 294,
+        "conclusionVn": "Tóm lại, du lịch tôn giáo có cả những tác động tích cực và tiêu cực. Nó có thể cải thiện nền kinh tế địa phương, bảo tồn di sản văn hóa và thúc đẩy sự hiểu biết văn hóa. Tuy nhiên, nó cũng có thể làm hỏng các di tích lịch sử, gây hại cho môi trường và làm giảm tầm quan trọng tâm linh của các địa điểm tôn giáo. Do đó, chính phủ và khách du lịch nên hợp tác cùng nhau để phát triển du lịch tôn giáo một cách có trách nhiệm và bền vững.",
+        "conclusionEnExpectedLength": 427,
+        "bodyParagraphs": [
+            {
+                "title": "Đoạn 1: Lợi ích (Advantages)",
+                "hintGroups": [
+                    {
+                        "label": "Lợi ích 1",
+                        "hints": [
+                            {
+                                "en": "Một mặt, / du lịch tôn giáo / mang lại / một số lợi ích.",
+                                "vn": "On the one hand, / religious tourism / brings / some benefits.",
+                                "isTopic": true
+                            },
+                            {
+                                "en": "support the local economy",
+                                "vn": "Hỗ trợ nền kinh tế địa phương"
+                            },
+                            {
+                                "en": "visit religious sites",
+                                "vn": "Đến thăm các địa điểm tôn giáo"
+                            },
+                            {
+                                "en": "spend money on hotels, restaurants, transportation, and souvenirs",
+                                "vn": "Chi tiêu cho khách sạn, nhà hàng, đi lại và đồ lưu niệm"
+                            },
+                            {
+                                "en": "more job opportunities",
+                                "vn": "Thêm nhiều cơ hội việc làm"
+                            },
+                            {
+                                "en": "higher incomes",
+                                "vn": "Thu nhập cao hơn",
+                                "color": "brown"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Lợi ích 2",
+                        "hints": [
+                            {
+                                "en": "preserve historical and cultural heritage",
+                                "vn": "Bảo tồn di sản lịch sử và văn hóa"
+                            },
+                            {
+                                "en": "temples, churches, ancient buildings",
+                                "vn": "Đền, nhà thờ, các tòa nhà cổ"
+                            },
+                            {
+                                "en": "important parts of a country's culture and identity",
+                                "vn": "Phần quan trọng của văn hóa và bản sắc quốc gia"
+                            },
+                            {
+                                "en": "income from tourism",
+                                "vn": "Thu nhập từ du lịch"
+                            },
+                            {
+                                "en": "maintain and protect these sites",
+                                "vn": "Duy trì và bảo vệ những địa điểm này"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Lợi ích 3",
+                        "hints": [
+                            {
+                                "en": "learn about different cultures and beliefs",
+                                "vn": "Tìm hiểu các nền văn hóa và tín ngưỡng khác nhau"
+                            },
+                            {
+                                "en": "visiting famous temples (Thailand) + churches (Europe)",
+                                "vn": "Thăm đền nổi tiếng (Thái Lan) + nhà thờ (Châu Âu)",
+                                "color": "brown"
+                            },
+                            {
+                                "en": "understand the traditions and values",
+                                "vn": "Hiểu được các truyền thống và giá trị"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Đoạn 2: Bất lợi (Disadvantages)",
+                "hintGroups": [
+                    {
+                        "label": "Bất lợi 1",
+                        "hints": [
+                            {
+                                "en": "Mặt khác, / loại hình du lịch này / cũng có / một số nhược điểm.",
+                                "vn": "On the other hand, / this type of tourism / also has / some disadvantages.",
+                                "isTopic": true
+                            },
+                            {
+                                "en": "damage historical and religious places",
+                                "vn": "Làm hư hại các địa điểm lịch sử và tôn giáo"
+                            },
+                            {
+                                "en": "behave irresponsibly",
+                                "vn": "Cư xử thiếu trách nhiệm"
+                            },
+                            {
+                                "en": "throwing garbage, making noise, wearing inappropriate clothes",
+                                "vn": "Vứt rác, làm ồn, mặc quần áo không phù hợp"
+                            },
+                            {
+                                "en": "gradually lose their original conditions",
+                                "vn": "Dần mất đi tình trạng ban đầu",
+                                "color": "brown"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Bất lợi 2",
+                        "hints": [
+                            {
+                                "en": "negatively affect the environment",
+                                "vn": "Ảnh hưởng tiêu cực đến môi trường"
+                            },
+                            {
+                                "en": "popular destinations",
+                                "vn": "Các điểm đến phổ biến"
+                            },
+                            {
+                                "en": "traffic congestion, pollution, overcrowding",
+                                "vn": "Tắc nghẽn giao thông, ô nhiễm, quá tải"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Bất lợi 3",
+                        "hints": [
+                            {
+                                "en": "reduce the spiritual value of religious places",
+                                "vn": "Làm giảm giá trị tâm linh của các địa điểm tôn giáo"
+                            },
+                            {
+                                "en": "become too commercialized",
+                                "vn": "Trở nên quá thương mại hóa"
+                            },
+                            {
+                                "en": "local businesses",
+                                "vn": "Các doanh nghiệp địa phương",
+                                "color": "brown"
+                            },
+                            {
+                                "en": "focus on making profits than protecting religious traditions",
+                                "vn": "Tập trung kiếm lợi nhuận hơn là bảo vệ truyền thống",
+                                "color": "brown"
+                            },
+                            {
+                                "en": "lose their peaceful and sacred atmosphere",
+                                "vn": "Mất đi bầu không khí yên bình và thiêng liêng"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "traffic-countdown-timers",
+        "title": "03. Đồng hồ đếm ngược",
+        "summary": "Bài luyện dạng opinion essay về việc có nên bỏ đồng hồ đếm ngược ở đèn giao thông hay không.",
+        "isMatchingVocab": true,
+        "meta": {
+            "category": "Giao thông & xã hội",
+            "taskType": "Opinion",
+            "level": "B1-B2",
+            "estimatedMinutes": 40
+        },
+        "prompt": [
+            {
+                "en": "Write an essay expressing your opinion on whether countdown timers at traffic lights should be removed.",
+                "vn": "Viết một bài luận bày tỏ quan điểm của bạn về việc liệu đồng hồ đếm ngược tại các đèn giao thông có nên bị dỡ bỏ hay không."
+            },
+            {
+                "en": "You should: state your opinion clearly, provide reasons and examples, consider possible opposing views (optional).",
+                "vn": "Bạn nên: nêu rõ quan điểm của bạn, đưa ra lý do và ví dụ, xem xét các quan điểm trái chiều có thể có (tùy chọn)."
+            }
+        ],
+        "vocab": [
+            {
+                "en": "countdown timers",
+                "type": "(n)",
+                "vn": "đồng hồ đếm ngược"
+            },
+            {
+                "en": "cross the road",
+                "type": "(v.phr)",
+                "vn": "qua đường"
+            },
+            {
+                "en": "driving behavior",
+                "type": "(n)",
+                "vn": "hành vi lái xe"
+            },
+            {
+                "en": "driving habits",
+                "type": "(n)",
+                "vn": "thói quen lái xe"
+            },
+            {
+                "en": "ignore",
+                "type": "(v)",
+                "vn": "phớt lờ"
+            },
+            {
+                "en": "pay more attention to",
+                "type": "(v.phr)",
+                "vn": "chú ý nhiều hơn đến"
+            },
+            {
+                "en": "pedestrians",
+                "type": "(n)",
+                "vn": "người đi bộ"
+            },
+            {
+                "en": "predict",
+                "type": "(v)",
+                "vn": "dự đoán"
+            },
+            {
+                "en": "reckless driving",
+                "type": "(n)",
+                "vn": "lái xe ẩu"
+            },
+            {
+                "en": "speed up",
+                "type": "(v)",
+                "vn": "tăng tốc"
+            },
+            {
+                "en": "the intersection",
+                "type": "(n)",
+                "vn": "ngã tư, giao lộ"
+            },
+            {
+                "en": "traffic accidents",
+                "type": "(n)",
+                "vn": "tai nạn giao thông"
+            },
+            {
+                "en": "traffic discipline",
+                "type": "(n)",
+                "vn": "kỷ luật giao thông"
+            },
+            {
+                "en": "traffic lights",
+                "type": "(n)",
+                "vn": "đèn giao thông"
+            },
+            {
+                "en": "traffic rules",
+                "type": "(n)",
+                "vn": "luật giao thông"
+            },
+            {
+                "en": "traffic signals",
+                "type": "(n)",
+                "vn": "tín hiệu giao thông"
+            },
+            {
+                "en": "vehicles",
+                "type": "(n)",
+                "vn": "phương tiện"
+            }
+        ],
+        "introVn": "Đèn giao thông có đồng hồ đếm ngược rất phổ biến ở nhiều thành phố vì chúng giúp người lái xe biết còn bao nhiêu thời gian trước khi đèn chuyển màu. Tuy nhiên, một số người tin rằng những đồng hồ này nên bị dỡ bỏ. Tôi hoàn toàn đồng ý với quan điểm này vì đồng hồ đếm ngược có thể khuyến khích hành vi lái xe nguy hiểm và làm tăng nguy cơ tai nạn giao thông.",
+        "introEnExpectedLength": 347,
+        "conclusionVn": "Tóm lại, tôi tin tưởng mạnh mẽ rằng đồng hồ đếm ngược tại các đèn giao thông nên bị dỡ bỏ vì chúng có thể khuyến khích lái xe ẩu, tạo ra căng thẳng cho người tham gia giao thông và làm giảm kỷ luật giao thông. Do đó, chính phủ nên xem xét việc dỡ bỏ chúng để giảm thiểu tai nạn và làm cho đường xá an toàn hơn cho mọi người.",
+        "conclusionEnExpectedLength": 307,
+        "bodyParagraphs": [
+            {
+                "title": "Lý do 01 (Reason 1)",
+                "hints": [
+                    {
+                        "en": "Có một số lý do tại sao / tôi đồng ý rằng / đồng hồ đếm ngược tại các đèn giao thông / nên bị gỡ bỏ.",
+                        "vn": "There are several reasons why / I agree that / countdown timers at traffic lights / should be removed.",
+                        "isTopic": true
+                    },
+                    {
+                        "en": "make drivers impatient and careless",
+                        "vn": "làm cho người lái xe mất kiên nhẫn và bất cẩn"
+                    },
+                    {
+                        "en": "only a few seconds remain before the light turns red",
+                        "vn": "chỉ còn vài giây trước khi đèn chuyển sang màu đỏ"
+                    },
+                    {
+                        "en": "speed up instead of slowing down",
+                        "vn": "tăng tốc thay vì giảm tốc độ"
+                    },
+                    {
+                        "en": "drive too fast + ignore traffic rules",
+                        "vn": "lái xe quá nhanh + phớt lờ luật giao thông",
+                        "level": "advanced",
+                        "color": "brown"
+                    },
+                    {
+                        "en": "pass the intersection in time",
+                        "vn": "vượt qua giao lộ kịp lúc",
+                        "level": "advanced",
+                        "color": "brown"
+                    },
+                    {
+                        "en": "very dangerous",
+                        "vn": "rất nguy hiểm"
+                    }
+                ]
+            },
+            {
+                "title": "Lý do 02 (Reason 2)",
+                "hints": [
+                    {
+                        "en": "create unnecessary pressure for both drivers and pedestrians",
+                        "vn": "tạo áp lực không cần thiết cho cả người lái xe và người đi bộ"
+                    },
+                    {
+                        "en": "become nervous when they see the timer decreasing quickly",
+                        "vn": "trở nên lo lắng khi thấy đồng hồ giảm nhanh"
+                    },
+                    {
+                        "en": "make poor decisions",
+                        "vn": "đưa ra những quyết định tồi tệ"
+                    },
+                    {
+                        "en": "pedestrians",
+                        "vn": "người đi bộ",
+                        "level": "advanced",
+                        "color": "brown"
+                    },
+                    {
+                        "en": "cross the road too quickly before the timer ends",
+                        "vn": "qua đường quá nhanh trước khi đồng hồ kết thúc",
+                        "level": "advanced",
+                        "color": "brown"
+                    },
+                    {
+                        "en": "increase the possibility of accidents",
+                        "vn": "làm tăng khả năng xảy ra tai nạn",
+                        "level": "advanced",
+                        "color": "brown"
+                    },
+                    {
+                        "en": "without countdown timers",
+                        "vn": "nếu không có đồng hồ đếm ngược",
+                        "level": "advanced",
+                        "color": "brown"
+                    },
+                    {
+                        "en": "behave more calmly + carefully on traffic signals",
+                        "vn": "cư xử bình tĩnh + cẩn thận hơn với tín hiệu giao thông",
+                        "level": "advanced",
+                        "color": "brown"
+                    }
+                ]
+            },
+            {
+                "title": "Lý do 03 (Reason 3)",
+                "hints": [
+                    {
+                        "en": "improve overall traffic discipline",
+                        "vn": "cải thiện kỷ luật giao thông nói chung"
+                    },
+                    {
+                        "en": "slow down naturally + wait patiently for the next signal change",
+                        "vn": "giảm tốc độ một cách tự nhiên + kiên nhẫn chờ đợi tín hiệu thay đổi"
+                    },
+                    {
+                        "en": "cannot predict the exact moment when the lights would change",
+                        "vn": "không thể dự đoán thời điểm chính xác khi đèn thay đổi",
+                        "level": "advanced",
+                        "color": "brown"
+                    },
+                    {
+                        "en": "encourage safer driving habits in the long term",
+                        "vn": "khuyến khích thói quen lái xe an toàn hơn trong dài hạn"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "sharing-lives-online",
+        "title": "04. Chia sẻ cuộc sống trên mạng",
+        "summary": "Bài luyện dạng advantages and disadvantages về những tác động tích cực của việc chia sẻ cuộc sống trực tuyến.",
+        "isMatchingVocab": true,
+        "meta": {
+            "category": "Đời sống & Xã hội",
+            "taskType": "Advantages / Disadvantages",
+            "level": "B1-B2",
+            "estimatedMinutes": 40
+        },
+        "prompt": [
+            {
+                "en": "Many people today share their daily activities, thoughts, and experiences on social media platforms.",
+                "vn": "Nhiều người ngày nay chia sẻ các hoạt động hàng ngày, suy nghĩ, và trải nghiệm của họ trên các nền tảng mạng xã hội."
+            },
+            {
+                "en": "Discuss the positive impacts of sharing our lives online.",
+                "vn": "Thảo luận về những tác động tích cực của việc chia sẻ cuộc sống của chúng ta trực tuyến."
+            }
+        ],
+        "vocab": [
+            {
+                "en": "thoughts",
+                "type": "(n)",
+                "vn": "suy nghĩ"
+            },
+            {
+                "en": "experiences",
+                "type": "(n)",
+                "vn": "trải nghiệm"
+            },
+            {
+                "en": "social media platforms",
+                "type": "(n)",
+                "vn": "các nền tảng mạng xã hội"
+            },
+            {
+                "en": "stay connected",
+                "type": "(v)",
+                "vn": "giữ liên lạc"
+            },
+            {
+                "en": "important moments",
+                "type": "(n)",
+                "vn": "những khoảnh khắc quan trọng"
+            },
+            {
+                "en": "instantly",
+                "type": "(adv)",
+                "vn": "ngay lập tức"
+            },
+            {
+                "en": "international students",
+                "type": "(n)",
+                "vn": "du học sinh"
+            },
+            {
+                "en": "daily lives",
+                "type": "(n)",
+                "vn": "cuộc sống hàng ngày"
+            },
+            {
+                "en": "educational opportunities",
+                "type": "(n)",
+                "vn": "cơ hội giáo dục"
+            },
+            {
+                "en": "business opportunities",
+                "type": "(n)",
+                "vn": "cơ hội kinh doanh"
+            },
+            {
+                "en": "promote",
+                "type": "(v)",
+                "vn": "quảng bá"
+            },
+            {
+                "en": "tutorials",
+                "type": "(n)",
+                "vn": "hướng dẫn"
+            },
+            {
+                "en": "educational communities",
+                "type": "(n)",
+                "vn": "cộng đồng giáo dục"
+            },
+            {
+                "en": "spread",
+                "type": "(v)",
+                "vn": "lan truyền"
+            },
+            {
+                "en": "inspire",
+                "type": "(v)",
+                "vn": "truyền cảm hứng"
+            },
+            {
+                "en": "positive stories",
+                "type": "(n)",
+                "vn": "những câu chuyện tích cực"
+            },
+            {
+                "en": "study experience",
+                "type": "(n)",
+                "vn": "kinh nghiệm học tập"
+            },
+            {
+                "en": "health advice",
+                "type": "(n)",
+                "vn": "lời khuyên sức khỏe"
+            },
+            {
+                "en": "motivational content",
+                "type": "(n)",
+                "vn": "nội dung truyền động lực"
+            },
+            {
+                "en": "improve themselves",
+                "type": "(v)",
+                "vn": "hoàn thiện bản thân"
+            }
+        ],
+        "introVn": "Nhiều người ngày nay chia sẻ các hoạt động hàng ngày, suy nghĩ, và trải nghiệm của họ trên các nền tảng mạng xã hội. Mặc dù một số người tin rằng thói quen này có thể gây ra các vấn đề, việc chia sẻ cuộc sống trực tuyến cũng mang lại nhiều tác động tích cực. Bài luận này sẽ thảo luận một số lợi ích chính của xu hướng này.",
+        "introEnExpectedLength": 275,
+        "conclusionVn": "Tóm lại, việc chia sẻ cuộc sống trực tuyến có một vài tác động tích cực, chẳng hạn như cải thiện giao tiếp, tạo ra cơ hội nghề nghiệp, và lan truyền thông tin giá trị. Mặc dù mọi người nên sử dụng mạng xã hội một cách cẩn thận, rõ ràng là chia sẻ trực tuyến có thể mang lại nhiều lợi ích cho cá nhân và xã hội.",
+        "conclusionEnExpectedLength": 304,
+        "bodyParagraphs": [
+            {
+                "title": "Lợi ích 01 (Benefit 1)",
+                "hints": [
+                    {
+                        "en": "Việc chia sẻ đời sống cá nhân lên mạng / có / một số ưu điểm.",
+                        "vn": "Sharing personal lives online / has / some advantages.",
+                        "isTopic": true
+                    },
+                    {
+                        "en": "help people stay connected with others",
+                        "vn": "giúp mọi người giữ liên lạc với người khác"
+                    },
+                    {
+                        "en": "social media",
+                        "vn": "mạng xã hội"
+                    },
+                    {
+                        "en": "communicate with friends and family members",
+                        "vn": "giao tiếp với bạn bè và các thành viên gia đình"
+                    },
+                    {
+                        "en": "live far away from each other",
+                        "vn": "sống xa nhau"
+                    },
+                    {
+                        "en": "share photos, videos, or important moments in their lives instantly",
+                        "vn": "chia sẻ hình ảnh, video hoặc những khoảnh khắc quan trọng trong cuộc sống của họ một cách nhanh chóng",
+                        "color": "brown"
+                    },
+                    {
+                        "en": "international students",
+                        "vn": "du học sinh",
+                        "level": "advanced",
+                        "color": "brown"
+                    },
+                    {
+                        "en": "post pictures + updates online",
+                        "vn": "đăng ảnh + cập nhật trực tuyến",
+                        "level": "advanced",
+                        "color": "brown"
+                    },
+                    {
+                        "en": "know about their daily lives",
+                        "vn": "biết về cuộc sống hàng ngày của họ",
+                        "level": "advanced",
+                        "color": "brown"
+                    }
+                ]
+            },
+            {
+                "title": "Lợi ích 02 (Benefit 2)",
+                "hints": [
+                    {
+                        "en": "create educational + business opportunities",
+                        "vn": "tạo ra các cơ hội giáo dục + kinh doanh"
+                    },
+                    {
+                        "en": "social media",
+                        "vn": "mạng xã hội"
+                    },
+                    {
+                        "en": "promote their skills, products, or services",
+                        "vn": "quảng bá kỹ năng, sản phẩm hoặc dịch vụ của họ"
+                    },
+                    {
+                        "en": "earn money + develop their careers",
+                        "vn": "kiếm tiền + phát triển sự nghiệp của họ"
+                    },
+                    {
+                        "en": "learn from others",
+                        "vn": "học hỏi từ người khác",
+                        "level": "advanced",
+                        "color": "brown"
+                    },
+                    {
+                        "en": "watching tutorials + joining educational communities",
+                        "vn": "xem các hướng dẫn + tham gia các cộng đồng giáo dục",
+                        "level": "advanced",
+                        "color": "brown"
+                    }
+                ]
+            },
+            {
+                "title": "Lợi ích 03 (Benefit 3)",
+                "hints": [
+                    {
+                        "en": "spread useful information + inspire other people",
+                        "vn": "lan truyền thông tin hữu ích + truyền cảm hứng cho người khác"
+                    },
+                    {
+                        "en": "share positive stories, study experiences, health advice, or motivational content",
+                        "vn": "chia sẻ những câu chuyện tích cực, kinh nghiệm học tập, lời khuyên sức khỏe hoặc nội dung truyền động lực"
+                    },
+                    {
+                        "en": "encourage others to improve themselves",
+                        "vn": "khuyến khích những người khác hoàn thiện bản thân",
+                        "level": "advanced",
+                        "color": "brown"
+                    },
+                    {
+                        "en": "the COVID-19 pandemic",
+                        "vn": "đại dịch COVID-19",
+                        "level": "advanced"
+                    },
+                    {
+                        "en": "shared health information + supported each other",
+                        "vn": "đã chia sẻ thông tin sức khỏe + hỗ trợ lẫn nhau",
+                        "level": "advanced"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "sharing-success-online",
+        "title": "05. Chia sẻ thành công cá nhân",
+        "summary": "Bài luyện dạng advantages and disadvantages về việc chia sẻ thành công cá nhân trên Facebook.",
+        "isMatchingVocab": true,
+        "meta": {
+            "category": "Đời sống & Xã hội",
+            "taskType": "Advantages / Disadvantages",
+            "level": "B1-B2",
+            "estimatedMinutes": 40
+        },
+        "prompt": [
+            {
+                "en": "Some people use social media to showcase their personal lives, including success and wealth.",
+                "vn": "Một số người sử dụng mạng xã hội để thể hiện cuộc sống cá nhân của họ, bao gồm thành công và sự giàu có."
+            },
+            {
+                "en": "However, others believe that seeing such displays makes them feel bad about themselves.",
+                "vn": "Tuy nhiên, những người khác tin rằng việc nhìn thấy những màn thể hiện như vậy khiến họ cảm thấy tồi tệ về bản thân."
+            },
+            {
+                "en": "Discuss advantages and disadvantages of sharing personal success on Facebook.",
+                "vn": "Thảo luận về những ưu điểm và nhược điểm của việc chia sẻ thành công cá nhân trên Facebook."
+            }
+        ],
+        "vocab": [
+            {
+                "en": "showcase",
+                "type": "(v)",
+                "vn": "thể hiện"
+            },
+            {
+                "en": "success",
+                "type": "(n)",
+                "vn": "thành công"
+            },
+            {
+                "en": "wealth",
+                "type": "(n)",
+                "vn": "sự giàu có"
+            },
+            {
+                "en": "achievements",
+                "type": "(n)",
+                "vn": "thành tựu"
+            },
+            {
+                "en": "sharing success",
+                "type": "(n.phr)",
+                "vn": "chia sẻ thành công"
+            },
+            {
+                "en": "inspire",
+                "type": "(v)",
+                "vn": "truyền cảm hứng"
+            },
+            {
+                "en": "Post",
+                "type": "(v/n)",
+                "vn": "đăng bài / bài đăng"
+            },
+            {
+                "en": "academic achievements",
+                "type": "(n.phr)",
+                "vn": "thành tích học tập"
+            },
+            {
+                "en": "career progress",
+                "type": "(n.phr)",
+                "vn": "tiến bộ nghề nghiệp"
+            },
+            {
+                "en": "personal goals",
+                "type": "(n.phr)",
+                "vn": "mục tiêu cá nhân"
+            },
+            {
+                "en": "feel encouraged to + Vo",
+                "type": "(v.phr)",
+                "vn": "cảm thấy được khuyến khích để"
+            },
+            {
+                "en": "personal relationships",
+                "type": "(n.phr)",
+                "vn": "mối quan hệ cá nhân"
+            },
+            {
+                "en": "professional opportunities",
+                "type": "(n.phr)",
+                "vn": "cơ hội nghề nghiệp"
+            },
+            {
+                "en": "a positive image",
+                "type": "(n.phr)",
+                "vn": "một hình ảnh tích cực"
+            },
+            {
+                "en": "gain support from others",
+                "type": "(v.phr)",
+                "vn": "nhận được sự ủng hộ từ người khác"
+            },
+            {
+                "en": "compare",
+                "type": "(v)",
+                "vn": "so sánh"
+            },
+            {
+                "en": "jealousy",
+                "type": "(n)",
+                "vn": "sự ghen tị"
+            },
+            {
+                "en": "low self-esteem",
+                "type": "(n.phr)",
+                "vn": "lòng tự trọng thấp"
+            },
+            {
+                "en": "constantly",
+                "type": "(adv)",
+                "vn": "liên tục"
+            },
+            {
+                "en": "luxury lifestyles",
+                "type": "(n.phr)",
+                "vn": "lối sống xa xỉ"
+            },
+            {
+                "en": "unrealistic expectations",
+                "type": "(n.phr)",
+                "vn": "kỳ vọng không thực tế"
+            }
+        ],
+        "introChunks": [
+            {
+                "en": "In today's society,",
+                "vn": "Trong xã hội ngày nay,"
+            },
+            {
+                "en": "many people",
+                "vn": "nhiều người"
+            },
+            {
+                "en": "enjoy",
+                "vn": "thích"
+            },
+            {
+                "en": "sharing their achievements,",
+                "vn": "chia sẻ thành tựu,"
+            },
+            {
+                "en": "lifestyle,",
+                "vn": "lối sống"
+            },
+            {
+                "en": "and wealth",
+                "vn": "và sự giàu có của họ"
+            },
+            {
+                "en": "on social media platforms",
+                "vn": "trên các nền tảng mạng xã hội"
+            },
+            {
+                "en": "such as Facebook.",
+                "vn": "như Facebook."
+            },
+            {
+                "en": "While|Although",
+                "vn": "Mặc dù"
+            },
+            {
+                "en": "this trend",
+                "vn": "xu hướng này"
+            },
+            {
+                "en": "can motivate and connect people,|can create motivation and connect others,",
+                "vn": "có thể tạo động lực và kết nối mọi người,"
+            },
+            {
+                "en": "it may also|but it can also|it can also",
+                "vn": "nhưng nó cũng có thể"
+            },
+            {
+                "en": "create|cause",
+                "vn": "gây ra"
+            },
+            {
+                "en": "negative feelings for others.|negative emotions for other people.",
+                "vn": "những cảm xúc tiêu cực cho người khác."
+            },
+            {
+                "en": "This essay will",
+                "vn": "Bài luận này sẽ"
+            },
+            {
+                "en": "discuss",
+                "vn": "thảo luận"
+            },
+            {
+                "en": "both the advantages and disadvantages of",
+                "vn": "cả ưu điểm và nhược điểm của"
+            },
+            {
+                "en": "sharing personal success online.",
+                "vn": "việc chia sẻ thành công cá nhân trên mạng."
+            }
+        ],
+        "introVn": "Trong xã hội ngày nay, nhiều người thích chia sẻ thành tựu, lối sống và sự giàu có của họ trên các nền tảng mạng xã hội như Facebook. Mặc dù xu hướng này có thể tạo động lực và kết nối mọi người, nhưng nó cũng có thể gây ra những cảm xúc tiêu cực cho người khác. Bài luận này sẽ thảo luận cả ưu điểm và nhược điểm của việc chia sẻ thành công cá nhân trên mạng.",
+        "introEnExpectedLength": 350,
+        "conclusionChunks": [
+            {
+                "en": "In conclusion,",
+                "vn": "Tóm lại,"
+            },
+            {
+                "en": "sharing personal success on Facebook",
+                "vn": "việc chia sẻ thành công cá nhân trên Facebook"
+            },
+            {
+                "en": "has",
+                "vn": "có"
+            },
+            {
+                "en": "both advantages and disadvantages.",
+                "vn": "cả ưu điểm và nhược điểm."
+            },
+            {
+                "en": "Although",
+                "vn": "Mặc dù"
+            },
+            {
+                "en": "it can",
+                "vn": "nó có thể"
+            },
+            {
+                "en": "inspire people",
+                "vn": "truyền cảm hứng cho mọi người"
+            },
+            {
+                "en": "and create many opportunities,",
+                "vn": "và tạo ra nhiều cơ hội,"
+            },
+            {
+                "en": "it can also",
+                "vn": "nhưng nó cũng có thể"
+            },
+            {
+                "en": "cause",
+                "vn": "gây ra"
+            },
+            {
+                "en": "negative emotions",
+                "vn": "những cảm xúc tiêu cực"
+            },
+            {
+                "en": "and unrealistic expectations.|and unrealistic comparisons.",
+                "vn": "và sự so sánh không thực tế."
+            },
+            {
+                "en": "Therefore,",
+                "vn": "Vì vậy,"
+            },
+            {
+                "en": "people should",
+                "vn": "mọi người nên"
+            },
+            {
+                "en": "use social media",
+                "vn": "sử dụng mạng xã hội"
+            },
+            {
+                "en": "responsibly",
+                "vn": "một cách có trách nhiệm"
+            },
+            {
+                "en": "and avoid",
+                "vn": "và tránh"
+            },
+            {
+                "en": "comparing themselves too much with others.",
+                "vn": "so sánh bản thân quá nhiều với người khác."
+            }
+        ],
+        "conclusionVn": "Tóm lại, việc chia sẻ thành công cá nhân trên Facebook có cả ưu điểm và nhược điểm. Mặc dù nó có thể truyền cảm hứng cho mọi người và tạo ra nhiều cơ hội, nhưng nó cũng có thể gây ra những cảm xúc tiêu cực và sự so sánh không thực tế. Vì vậy, mọi người nên sử dụng mạng xã hội một cách có trách nhiệm và tránh so sánh bản thân quá nhiều với người khác.",
+        "conclusionEnExpectedLength": 325,
+        "bodyParagraphs": [
+            {
+                "title": "Thân bài 01: Lợi ích (Advantages)",
+                "hintGroups": [
+                    {
+                        "label": "Lợi ích 01",
+                        "hints": [
+                            {
+                                "en": "Một mặt, / việc chia sẻ sự thành công lên Facebook / mang lại / một số tác động tích cực",
+                                "vn": "On the one hand, / sharing success on Facebook / brings / some positive impacts",
+                                "isTopic": true
+                            },
+                            {
+                                "en": "inspire and motivate other people",
+                                "vn": "truyền cảm hứng và tạo động lực cho người khác"
+                            },
+                            {
+                                "en": "post academic achievements, career progress, or personal goals",
+                                "vn": "đăng thành tích học tập, tiến bộ nghề nghiệp, hoặc mục tiêu cá nhân"
+                            },
+                            {
+                                "en": "others feel encouraged to work harder",
+                                "vn": "những người khác cảm thấy được khuyến khích làm việc chăm chỉ hơn"
+                            },
+                            {
+                                "en": "a student sharing study methods and successful exam results",
+                                "vn": "một sinh viên chia sẻ phương pháp học tập và kết quả thi thành công",
+                                "color": "brown"
+                            },
+                            {
+                                "en": "motivate their friends to improve their learning habits",
+                                "vn": "tạo động lực cho bạn bè cải thiện thói quen học tập của họ",
+                                "color": "brown"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Lợi ích 02",
+                        "hints": [
+                            {
+                                "en": "social media helps build personal relationships and professional opportunities",
+                                "vn": "mạng xã hội giúp xây dựng các mối quan hệ cá nhân và cơ hội nghề nghiệp"
+                            },
+                            {
+                                "en": "sharing achievements creates a positive image",
+                                "vn": "chia sẻ thành tựu tạo ra một hình ảnh tích cực"
+                            },
+                            {
+                                "en": "gain support from others",
+                                "vn": "nhận được sự ủng hộ từ người khác",
+                                "color": "brown"
+                            },
+                            {
+                                "en": "use Facebook to show their success",
+                                "vn": "sử dụng Facebook để thể hiện thành công của họ",
+                                "color": "brown"
+                            },
+                            {
+                                "en": "attract customers or partners",
+                                "vn": "thu hút khách hàng hoặc đối tác"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Thân bài 02: Bất lợi (Disadvantages)",
+                "hintGroups": [
+                    {
+                        "label": "Bất lợi 01",
+                        "hints": [
+                            {
+                                "en": "Mặt khác, / xu hướng này / cũng có / một số bất lợi.",
+                                "vn": "On the other hand, / this trend / also has / some disadvantages.",
+                                "isTopic": true
+                            },
+                            {
+                                "en": "seeing other people's success can make some feel unhappy or less confident about their own lives",
+                                "vn": "nhìn thấy thành công của người khác có thể khiến một số người cảm thấy không hạnh phúc hoặc kém tự tin về cuộc sống của chính họ"
+                            },
+                            {
+                                "en": "compare themselves with others on social media",
+                                "vn": "so sánh bản thân với người khác trên mạng xã hội"
+                            },
+                            {
+                                "en": "leads to stress, jealousy, or low self-esteem",
+                                "vn": "dẫn đến căng thẳng, ghen tị hoặc lòng tự trọng thấp"
+                            },
+                            {
+                                "en": "young people see luxury lifestyles online",
+                                "vn": "những người trẻ thấy lối sống xa xỉ trực tuyến",
+                                "color": "brown"
+                            },
+                            {
+                                "en": "feel pressure to become rich quickly",
+                                "vn": "cảm thấy áp lực phải trở nên giàu có nhanh chóng",
+                                "color": "brown"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Bất lợi 02",
+                        "hints": [
+                            {
+                                "en": "people only share the best parts of their lives and hide their difficulties",
+                                "vn": "mọi người chỉ chia sẻ những phần tốt đẹp nhất trong cuộc sống của họ và giấu đi những khó khăn"
+                            },
+                            {
+                                "en": "social media creates unrealistic expectations about success and happiness",
+                                "vn": "mạng xã hội tạo ra những kỳ vọng không thực tế về thành công và hạnh phúc"
+                            },
+                            {
+                                "en": "start believing that everyone else has a perfect life",
+                                "vn": "bắt đầu tin rằng tất cả mọi người khác đều có một cuộc sống hoàn hảo"
+                            },
+                            {
+                                "en": "this is mostly not true",
+                                "vn": "điều này hầu như không đúng",
+                                "color": "brown"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "social-media-self-esteem",
+        "title": "06. Mạng xã hội và lòng tự trọng",
+        "meta": {
+            "category": "Đời sống & Xã hội",
+            "taskType": "Opinion",
+            "level": "B1-B2",
+            "estimatedMinutes": 40
+        },
+        "prompt": [
+            {
+                "en": "In recent years, social media platforms such as Facebook, TikTok, and Instagram have become increasingly popular.",
+                "vn": "Trong những năm gần đây, các nền tảng mạng xã hội như Facebook, TikTok và Instagram ngày càng trở nên phổ biến."
+            },
+            {
+                "en": "Many people share their personal lives, including career achievements, daily activities, and happy moments online.",
+                "vn": "Nhiều người chia sẻ cuộc sống cá nhân của họ trên mạng, bao gồm thành tựu nghề nghiệp, hoạt động hằng ngày và những khoảnh khắc hạnh phúc."
+            },
+            {
+                "en": "However, some argue that seeing the idealized lives of others on social media can make them feel worse about themselves.",
+                "vn": "Tuy nhiên, một số người cho rằng việc nhìn thấy cuộc sống lý tưởng hóa của người khác trên mạng xã hội có thể khiến họ cảm thấy tệ hơn về bản thân."
+            },
+            {
+                "en": "Write an essay to express your opinion on whether you agree or disagree with the idea that viewing others' seemingly perfect lives on social media negatively affects self-esteem.",
+                "vn": "Viết một bài luận bày tỏ quan điểm của bạn về việc bạn đồng ý hay không đồng ý với ý kiến rằng việc xem cuộc sống có vẻ hoàn hảo của người khác trên mạng xã hội ảnh hưởng tiêu cực đến lòng tự trọng."
+            }
+        ],
+        "vocab": [
+            {
+                "en": "self-esteem",
+                "type": "(n)",
+                "vn": "lòng tự trọng"
+            },
+            {
+                "en": "unsuccessful",
+                "type": "(adj)",
+                "vn": "không thành công"
+            },
+            {
+                "en": "feel dissatisfied",
+                "type": "(v.phr)",
+                "vn": "cảm thấy không hài lòng"
+            },
+            {
+                "en": "image",
+                "type": "(n)",
+                "vn": "hình ảnh"
+            },
+            {
+                "en": "the edited photos",
+                "type": "(n.phr)",
+                "vn": "những bức ảnh đã chỉnh sửa"
+            },
+            {
+                "en": "influencers",
+                "type": "(n)",
+                "vn": "những người có sức ảnh hưởng"
+            },
+            {
+                "en": "appearance",
+                "type": "(n)",
+                "vn": "ngoại hình"
+            },
+            {
+                "en": "unrealistic expectations",
+                "type": "(n.phr)",
+                "vn": "kỳ vọng không thực tế"
+            },
+            {
+                "en": "failures",
+                "type": "(n)",
+                "vn": "sự thất bại"
+            },
+            {
+                "en": "difficulties",
+                "type": "(n)",
+                "vn": "khó khăn"
+            },
+            {
+                "en": "face challenges",
+                "type": "(v.phr)",
+                "vn": "đối mặt với thử thách"
+            },
+            {
+                "en": "misunderstanding",
+                "type": "(n)",
+                "vn": "sự hiểu lầm"
+            },
+            {
+                "en": "anxiety",
+                "type": "(n)",
+                "vn": "lo lắng"
+            },
+            {
+                "en": "self-confidence",
+                "type": "(n)",
+                "vn": "sự tự tin"
+            }
+        ],
+        "introChunks": [
+            {
+                "en": "In recent years,",
+                "vn": "Trong những năm gần đây,"
+            },
+            {
+                "en": "social media platforms",
+                "vn": "các nền tảng mạng xã hội"
+            },
+            {
+                "en": "such as Facebook, TikTok, and Instagram",
+                "vn": "như Facebook, TikTok và Instagram"
+            },
+            {
+                "en": "have become increasingly popular.",
+                "vn": "ngày càng trở nên phổ biến."
+            },
+            {
+                "en": "Many people",
+                "vn": "Nhiều người"
+            },
+            {
+                "en": "often share",
+                "vn": "thường chia sẻ"
+            },
+            {
+                "en": "their personal lives",
+                "vn": "cuộc sống cá nhân của họ"
+            },
+            {
+                "en": "online,",
+                "vn": "trên mạng,"
+            },
+            {
+                "en": "including",
+                "vn": "bao gồm"
+            },
+            {
+                "en": "their achievements,",
+                "vn": "thành tựu,"
+            },
+            {
+                "en": "beautiful photos,",
+                "vn": "những bức ảnh đẹp"
+            },
+            {
+                "en": "and happy moments.",
+                "vn": "và những khoảnh khắc hạnh phúc."
+            },
+            {
+                "en": "I agree that",
+                "vn": "Tôi đồng ý rằng"
+            },
+            {
+                "en": "viewing others’ seemingly perfect lives",
+                "vn": "việc nhìn thấy cuộc sống có vẻ hoàn hảo của người khác"
+            },
+            {
+                "en": "on social media",
+                "vn": "trên mạng xã hội"
+            },
+            {
+                "en": "can negatively affect",
+                "vn": "có thể ảnh hưởng tiêu cực đến"
+            },
+            {
+                "en": "people’s self-esteem.",
+                "vn": "lòng tự trọng của mọi người."
+            }
+        ],
+        "introVn": "Trong những năm gần đây, các nền tảng mạng xã hội như Facebook, TikTok và Instagram ngày càng trở nên phổ biến. Nhiều người thường chia sẻ cuộc sống cá nhân của họ trên mạng, bao gồm thành tựu, những bức ảnh đẹp và những khoảnh khắc hạnh phúc. Tôi đồng ý rằng việc nhìn thấy cuộc sống có vẻ hoàn hảo của người khác trên mạng xã hội có thể ảnh hưởng tiêu cực đến lòng tự trọng của mọi người.",
+        "introEnExpectedLength": 384,
+        "bodyParagraphs": [
+            {
+                "title": "Thân bài 01",
+                "hints": [
+                    {
+                        "en": "Có một số lý do tại sao / tôi tin rằng / mạng xã hội / có thể làm giảm / lòng tự trọng.",
+                        "vn": "There are several reasons why / I believe that / social media / can reduce / self-esteem.",
+                        "isTopic": true
+                    },
+                    {
+                        "en": "compare their lives with others",
+                        "vn": "so sánh cuộc sống của họ với người khác",
+                        "color": "red"
+                    },
+                    {
+                        "en": "On social media",
+                        "vn": "Trên mạng xã hội"
+                    },
+                    {
+                        "en": "post only the best parts of their lives",
+                        "vn": "chỉ đăng những phần tốt đẹp nhất trong cuộc sống của họ"
+                    },
+                    {
+                        "en": "success + travel + happy relationships",
+                        "vn": "thành công + du lịch + các mối quan hệ hạnh phúc"
+                    },
+                    {
+                        "en": "other people see these posts",
+                        "vn": "những người khác nhìn thấy những bài đăng này"
+                    },
+                    {
+                        "en": "think that their own lives are boring or unsuccessful",
+                        "vn": "nghĩ rằng cuộc sống của chính họ thật nhàm chán hoặc không thành công"
+                    },
+                    {
+                        "en": "feel less confident + dissatisfied with themselves",
+                        "vn": "cảm thấy bớt tự tin + không hài lòng với bản thân",
+                        "color": "brown"
+                    }
+                ]
+            },
+            {
+                "title": "Thân bài 02",
+                "hints": [
+                    {
+                        "en": "create pressure to become successful",
+                        "vn": "tạo áp lực để trở nên thành công",
+                        "color": "red"
+                    },
+                    {
+                        "en": "want to look rich, beautiful, or popular",
+                        "vn": "muốn trông giàu có, xinh đẹp hoặc nổi tiếng"
+                    },
+                    {
+                        "en": "like the people they see online",
+                        "vn": "giống như những người họ thấy trên mạng"
+                    },
+                    {
+                        "en": "spend too much time and money",
+                        "vn": "dành quá nhiều thời gian và tiền bạc"
+                    },
+                    {
+                        "en": "improve their image instead of focusing on their real goals",
+                        "vn": "cải thiện hình ảnh thay vì tập trung vào các mục tiêu thực sự"
+                    },
+                    {
+                        "en": "some teenagers",
+                        "vn": "một số thanh thiếu niên",
+                        "color": "brown"
+                    },
+                    {
+                        "en": "see the edited photos of influencers",
+                        "vn": "thấy những bức ảnh đã chỉnh sửa của những người có sức ảnh hưởng",
+                        "color": "brown"
+                    },
+                    {
+                        "en": "feel unhappy with their own appearance",
+                        "vn": "cảm thấy không hạnh phúc với ngoại hình của chính mình",
+                        "color": "brown"
+                    }
+                ]
+            },
+            {
+                "title": "Thân bài 03",
+                "hints": [
+                    {
+                        "en": "create unrealistic expectations about happiness and success",
+                        "vn": "tạo ra những kỳ vọng không thực tế về hạnh phúc và thành công",
+                        "color": "red"
+                    },
+                    {
+                        "en": "everyone has problems",
+                        "vn": "mọi người đều có vấn đề"
+                    },
+                    {
+                        "en": "rarely share their failures or difficulties",
+                        "vn": "hiếm khi chia sẻ những thất bại hoặc khó khăn của họ"
+                    },
+                    {
+                        "en": "may believe that others have perfect lives",
+                        "vn": "có thể tin rằng những người khác có cuộc sống hoàn hảo"
+                    },
+                    {
+                        "en": "sadness, anxiety, and low self-confidence",
+                        "vn": "sự buồn bã, lo lắng và tự tin thấp"
+                    }
+                ]
+            }
+        ],
+        "conclusionChunks": [
+            {
+                "en": "In conclusion,",
+                "vn": "Tóm lại,"
+            },
+            {
+                "en": "I agree that",
+                "vn": "tôi đồng ý rằng"
+            },
+            {
+                "en": "seeing others’ seemingly perfect lives",
+                "vn": "việc nhìn thấy cuộc sống có vẻ hoàn hảo của người khác"
+            },
+            {
+                "en": "on social media",
+                "vn": "trên mạng xã hội"
+            },
+            {
+                "en": "can have a negative impact on",
+                "vn": "có thể gây ảnh hưởng tiêu cực đến"
+            },
+            {
+                "en": "self-esteem.",
+                "vn": "lòng tự trọng."
+            },
+            {
+                "en": "It can make people",
+                "vn": "Điều này có thể khiến mọi người"
+            },
+            {
+                "en": "compare themselves with others,",
+                "vn": "so sánh bản thân với người khác,"
+            },
+            {
+                "en": "feel pressure to be perfect,",
+                "vn": "cảm thấy áp lực phải trở nên hoàn hảo"
+            },
+            {
+                "en": "and develop unrealistic views of life.",
+                "vn": "và hình thành những quan điểm không thực tế về cuộc sống."
+            },
+            {
+                "en": "Therefore,",
+                "vn": "Vì vậy,"
+            },
+            {
+                "en": "social media users",
+                "vn": "người dùng mạng xã hội"
+            },
+            {
+                "en": "should remember that",
+                "vn": "nên nhớ rằng"
+            },
+            {
+                "en": "online posts",
+                "vn": "các bài đăng trực tuyến"
+            },
+            {
+                "en": "do not always show",
+                "vn": "không phải lúc nào cũng thể hiện"
+            },
+            {
+                "en": "the full truth.",
+                "vn": "toàn bộ sự thật."
+            }
+        ],
+        "conclusionVn": "Tóm lại, tôi đồng ý rằng việc nhìn thấy cuộc sống có vẻ hoàn hảo của người khác trên mạng xã hội có thể gây ảnh hưởng tiêu cực đến lòng tự trọng. Điều này có thể khiến mọi người so sánh bản thân với người khác, cảm thấy áp lực phải trở nên hoàn hảo và hình thành những quan điểm không thực tế về cuộc sống. Vì vậy, người dùng mạng xã hội nên nhớ rằng các bài đăng trực tuyến không phải lúc nào cũng thể hiện toàn bộ sự thật.",
+        "conclusionEnExpectedLength": 369
+    },
+    {
+        "id": "lots-of-online-friends",
+        "title": "07. Có nhiều bạn bè trực tuyến",
+        "summary": "Bài luyện dạng advantages and disadvantages về việc có nhiều bạn bè trực tuyến.",
+        "isMatchingVocab": true,
+        "meta": {
+            "category": "Đời sống & Xã hội",
+            "taskType": "Advantages / Disadvantages",
+            "level": "B1-B2",
+            "estimatedMinutes": 40
+        },
+        "prompt": [
+            {
+                "en": "Nowadays, people tend to spend a lot of time socializing with colleagues at work or classmates at university.",
+                "vn": "Ngày nay, mọi người có xu hướng dành nhiều thời gian giao lưu với đồng nghiệp ở nơi làm việc hoặc bạn cùng lớp ở trường đại học."
+            },
+            {
+                "en": "The result is that we do not have enough time to see our real, close friends.",
+                "vn": "Kết quả là chúng ta không có đủ thời gian để gặp những người bạn thân ngoài đời thực."
+            },
+            {
+                "en": "As our life gets busier, it becomes more important to spend the little free time we have with people we really want to see, people we have and who really love us.",
+                "vn": "Khi cuộc sống trở nên bận rộn hơn, việc dành chút thời gian rảnh ít ỏi cho những người chúng ta thật sự muốn gặp và những người thật sự yêu thương chúng ta trở nên quan trọng hơn."
+            },
+            {
+                "en": "Write an essay to discuss the advantages and disadvantages of having lots of online friends.",
+                "vn": "Viết một bài luận thảo luận về những ưu điểm và nhược điểm của việc có nhiều bạn bè trực tuyến."
+            }
+        ],
+        "vocab": [
+            {
+                "en": "social circle = social connections",
+                "type": "(n)",
+                "vn": "vòng quan hệ xã hội = các mối quan hệ xã hội"
+            },
+            {
+                "en": "expand = widen",
+                "type": "(v)",
+                "vn": "mở rộng"
+            },
+            {
+                "en": "thanks to + N",
+                "type": "(prep.phr)",
+                "vn": "nhờ vào + danh từ"
+            },
+            {
+                "en": "traditions",
+                "type": "(n)",
+                "vn": "truyền thống"
+            },
+            {
+                "en": "daily lives",
+                "type": "(n)",
+                "vn": "cuộc sống hằng ngày"
+            },
+            {
+                "en": "live far away from + N",
+                "type": "(v.phr)",
+                "vn": "sống xa + danh từ"
+            },
+            {
+                "en": "study partners",
+                "type": "(n)",
+                "vn": "bạn học chung"
+            },
+            {
+                "en": "job information",
+                "type": "(n)",
+                "vn": "thông tin việc làm"
+            },
+            {
+                "en": "online friendships",
+                "type": "(n)",
+                "vn": "tình bạn trực tuyến"
+            },
+            {
+                "en": "reliable",
+                "type": "(adj)",
+                "vn": "đáng tin cậy"
+            },
+            {
+                "en": "through",
+                "type": "(prep)",
+                "vn": "thông qua"
+            },
+            {
+                "en": "be willing to + Vo",
+                "type": "(v.phr)",
+                "vn": "sẵn lòng làm gì"
+            },
+            {
+                "en": "take time away from",
+                "type": "(v.phr)",
+                "vn": "lấy mất thời gian khỏi"
+            },
+            {
+                "en": "real relationships",
+                "type": "(n)",
+                "vn": "các mối quan hệ ngoài đời thực"
+            },
+            {
+                "en": "unsafe",
+                "type": "(adj)",
+                "vn": "không an toàn"
+            },
+            {
+                "en": "honest",
+                "type": "(adj)",
+                "vn": "trung thực"
+            },
+            {
+                "en": "identity",
+                "type": "(n)",
+                "vn": "danh tính"
+            },
+            {
+                "en": "scams",
+                "type": "(n)",
+                "vn": "các vụ lừa đảo"
+            },
+            {
+                "en": "strangers",
+                "type": "(n)",
+                "vn": "người lạ"
+            },
+            {
+                "en": "ignore",
+                "type": "(v)",
+                "vn": "bỏ bê / phớt lờ"
+            }
+        ],
+        "introChunks": [
+            {
+                "en": "In today’s society,",
+                "vn": "Trong xã hội ngày nay,"
+            },
+            {
+                "en": "people",
+                "vn": "mọi người"
+            },
+            {
+                "en": "have",
+                "vn": "có"
+            },
+            {
+                "en": "a lot of online friends",
+                "vn": "rất nhiều bạn bè trực tuyến"
+            },
+            {
+                "en": "on social media platforms.",
+                "vn": "trên các nền tảng mạng xã hội."
+            },
+            {
+                "en": "While|Although",
+                "vn": "Mặc dù"
+            },
+            {
+                "en": "having many online friends",
+                "vn": "việc có nhiều bạn bè trên mạng"
+            },
+            {
+                "en": "can bring",
+                "vn": "có thể mang lại"
+            },
+            {
+                "en": "some benefits,",
+                "vn": "một số lợi ích,"
+            },
+            {
+                "en": "it also has",
+                "vn": "nhưng nó cũng có"
+            },
+            {
+                "en": "several disadvantages.",
+                "vn": "một số bất lợi."
+            },
+            {
+                "en": "This essay will",
+                "vn": "Bài luận này sẽ"
+            },
+            {
+                "en": "discuss",
+                "vn": "thảo luận"
+            },
+            {
+                "en": "both the advantages and disadvantages of",
+                "vn": "cả ưu điểm và nhược điểm của"
+            },
+            {
+                "en": "this trend.",
+                "vn": "xu hướng này."
+            }
+        ],
+        "introVn": "Trong xã hội ngày nay, mọi người có rất nhiều bạn bè trực tuyến trên các nền tảng mạng xã hội. Mặc dù việc có nhiều bạn bè trên mạng có thể mang lại một số lợi ích, nhưng nó cũng có một số bất lợi. Bài luận này sẽ thảo luận cả ưu điểm và nhược điểm của xu hướng này.",
+        "introEnExpectedLength": 249,
+        "bodyParagraphs": [
+            {
+                "title": "Thân bài 01: Lợi ích (Advantages)",
+                "hintGroups": [
+                    {
+                        "label": "Topic sentence",
+                        "hints": [
+                            {
+                                "en": "Một mặt, / việc có nhiều bạn online / mang lại / một số lợi ích.",
+                                "vn": "On the one hand, / having many online friends / brings / some benefits.",
+                                "isTopic": true
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Lợi ích 01",
+                        "hints": [
+                            {
+                                "en": "expand social circle easily",
+                                "vn": "dễ dàng mở rộng vòng quan hệ xã hội",
+                                "color": "red"
+                            },
+                            {
+                                "en": "the internet",
+                                "vn": "internet"
+                            },
+                            {
+                                "en": "make friends with those from different cities or countries",
+                                "vn": "kết bạn với những người đến từ các thành phố hoặc quốc gia khác nhau"
+                            },
+                            {
+                                "en": "widen their social connections + learn about new cultures",
+                                "vn": "mở rộng các mối quan hệ xã hội + tìm hiểu về các nền văn hóa mới"
+                            },
+                            {
+                                "en": "a Vietnamese student",
+                                "vn": "một học sinh Việt Nam",
+                                "color": "brown"
+                            },
+                            {
+                                "en": "make friends with students from Japan",
+                                "vn": "kết bạn với học sinh đến từ Nhật Bản",
+                                "color": "brown"
+                            },
+                            {
+                                "en": "learn more about their traditions + daily lives",
+                                "vn": "học thêm về truyền thống + cuộc sống hằng ngày của họ",
+                                "color": "brown"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Lợi ích 02",
+                        "hints": [
+                            {
+                                "en": "feel less lonely",
+                                "vn": "cảm thấy bớt cô đơn",
+                                "color": "red"
+                            },
+                            {
+                                "en": "busy + live far away from family or friends",
+                                "vn": "bận rộn + sống xa gia đình hoặc bạn bè"
+                            },
+                            {
+                                "en": "can still chat with others online + share feelings",
+                                "vn": "vẫn có thể trò chuyện với người khác trên mạng + chia sẻ cảm xúc"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Lợi ích 03",
+                        "hints": [
+                            {
+                                "en": "create more opportunities",
+                                "vn": "tạo ra nhiều cơ hội hơn",
+                                "color": "red"
+                            },
+                            {
+                                "en": "find study partners + job information + useful advice",
+                                "vn": "tìm bạn học chung + thông tin việc làm + lời khuyên hữu ích"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Thân bài 02: Bất lợi (Disadvantages)",
+                "hintGroups": [
+                    {
+                        "label": "Topic sentence",
+                        "hints": [
+                            {
+                                "en": "Tuy nhiên, / có quá nhiều bạn online / cũng có / một số bất lợi.",
+                                "vn": "However, / having too many online friends / also has / some disadvantages.",
+                                "isTopic": true
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Bất lợi 01",
+                        "hints": [
+                            {
+                                "en": "Not deep or reliable",
+                                "vn": "không sâu sắc hoặc đáng tin cậy",
+                                "color": "red"
+                            },
+                            {
+                                "en": "only communicate",
+                                "vn": "chỉ giao tiếp"
+                            },
+                            {
+                                "en": "short messages + comments",
+                                "vn": "tin nhắn ngắn + bình luận"
+                            },
+                            {
+                                "en": "not truly understand each other",
+                                "vn": "không thật sự hiểu nhau"
+                            },
+                            {
+                                "en": "have hundreds of Facebook friends",
+                                "vn": "có hàng trăm bạn bè trên Facebook"
+                            },
+                            {
+                                "en": "a few of them",
+                                "vn": "một vài người trong số họ"
+                            },
+                            {
+                                "en": "willing to help",
+                                "vn": "sẵn lòng giúp đỡ"
+                            },
+                            {
+                                "en": "have a serious problem",
+                                "vn": "gặp một vấn đề nghiêm trọng"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Bất lợi 02",
+                        "hints": [
+                            {
+                                "en": "take time away from real relationships",
+                                "vn": "lấy mất thời gian khỏi các mối quan hệ ngoài đời thực",
+                                "color": "red"
+                            },
+                            {
+                                "en": "spend hours chatting online",
+                                "vn": "dành hàng giờ trò chuyện trên mạng"
+                            },
+                            {
+                                "en": "forget to spend time with their family or close friends",
+                                "vn": "quên dành thời gian cho gia đình hoặc bạn bè thân thiết"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Bất lợi 03",
+                        "hints": [
+                            {
+                                "en": "Unsafe",
+                                "vn": "không an toàn",
+                                "color": "red"
+                            },
+                            {
+                                "en": "not honest about their identity",
+                                "vn": "không trung thực về danh tính của họ"
+                            },
+                            {
+                                "en": "risks",
+                                "vn": "rủi ro"
+                            },
+                            {
+                                "en": "scams + sharing personal information with strangers",
+                                "vn": "lừa đảo + chia sẻ thông tin cá nhân với người lạ"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "conclusionChunks": [
+            {
+                "en": "In conclusion,",
+                "vn": "Tóm lại,"
+            },
+            {
+                "en": "having lots of online friends",
+                "vn": "việc có nhiều bạn bè trực tuyến"
+            },
+            {
+                "en": "has",
+                "vn": "có"
+            },
+            {
+                "en": "both advantages and disadvantages.",
+                "vn": "cả ưu điểm và nhược điểm."
+            },
+            {
+                "en": "It can help people",
+                "vn": "Nó có thể giúp mọi người"
+            },
+            {
+                "en": "expand their social network,",
+                "vn": "mở rộng mạng lưới xã hội,"
+            },
+            {
+                "en": "reduce loneliness,",
+                "vn": "giảm cảm giác cô đơn"
+            },
+            {
+                "en": "and create more opportunities.",
+                "vn": "và tạo ra nhiều cơ hội hơn."
+            },
+            {
+                "en": "However,",
+                "vn": "Tuy nhiên,"
+            },
+            {
+                "en": "it may also",
+                "vn": "nó cũng có thể"
+            },
+            {
+                "en": "lead to",
+                "vn": "dẫn đến"
+            },
+            {
+                "en": "shallow relationships,",
+                "vn": "những mối quan hệ hời hợt,"
+            },
+            {
+                "en": "less time for close friends,",
+                "vn": "làm giảm thời gian dành cho bạn bè thân thiết"
+            },
+            {
+                "en": "possible online risks.",
+                "vn": "và một số rủi ro trên mạng."
+            },
+            {
+                "en": "Therefore,",
+                "vn": "Vì vậy,"
+            },
+            {
+                "en": "people",
+                "vn": "mọi người"
+            },
+            {
+                "en": "should be careful",
+                "vn": "nên cẩn thận"
+            },
+            {
+                "en": "when",
+                "vn": "khi"
+            },
+            {
+                "en": "making friends online",
+                "vn": "kết bạn trực tuyến"
+            },
+            {
+                "en": "and should not",
+                "vn": "và không nên"
+            },
+            {
+                "en": "ignore",
+                "vn": "bỏ bê"
+            },
+            {
+                "en": "their real relationships.",
+                "vn": "các mối quan hệ ngoài đời thực."
+            }
+        ],
+        "conclusionVn": "Tóm lại, việc có nhiều bạn bè trực tuyến có cả ưu điểm và nhược điểm. Nó có thể giúp mọi người mở rộng mạng lưới xã hội, giảm cảm giác cô đơn và tạo ra nhiều cơ hội hơn. Tuy nhiên, nó cũng có thể dẫn đến những mối quan hệ hời hợt, làm giảm thời gian dành cho bạn bè thân thiết và một số rủi ro trên mạng. Vì vậy, mọi người nên cẩn thận khi kết bạn trực tuyến và không nên bỏ bê các mối quan hệ ngoài đời thực.",
+        "conclusionEnExpectedLength": 382
+    },
+    {
+        "id": "family-vs-friendship",
+        "title": "08. Gia đình và tình bạn",
+        "summary": "Bài luyện dạng discuss both views về việc tình bạn hay gia đình quan trọng hơn.",
+        "isMatchingVocab": true,
+        "meta": {
+            "category": "Đời sống & Xã hội",
+            "taskType": "Discuss both views",
+            "level": "B1-B2",
+            "estimatedMinutes": 40
+        },
+        "prompt": [
+            {
+                "en": "Some people believe that friendship is more important than family, while others think that friendship is temporary and people may leave at any time.",
+                "vn": "Một số người tin rằng tình bạn quan trọng hơn gia đình, trong khi những người khác cho rằng tình bạn chỉ là tạm thời và mọi người có thể rời đi bất cứ lúc nào."
+            },
+            {
+                "en": "Discuss both views and give your opinion.",
+                "vn": "Thảo luận cả hai quan điểm và đưa ra ý kiến của bạn."
+            }
+        ],
+        "vocab": [
+            {
+                "en": "play important roles",
+                "type": "(v.phr)",
+                "vn": "đóng vai trò quan trọng"
+            },
+            {
+                "en": "temporary",
+                "type": "(adj)",
+                "vn": "tạm thời"
+            },
+            {
+                "en": "reliable",
+                "type": "(adj)",
+                "vn": "đáng tin cậy"
+            },
+            {
+                "en": "personal thoughts",
+                "type": "(n)",
+                "vn": "những suy nghĩ cá nhân"
+            },
+            {
+                "en": "emotional connections",
+                "type": "(n)",
+                "vn": "sự kết nối về mặt cảm xúc"
+            },
+            {
+                "en": "similar interests",
+                "type": "(n)",
+                "vn": "những sở thích tương đồng"
+            },
+            {
+                "en": "feel understood",
+                "type": "(v.phr)",
+                "vn": "cảm thấy được thấu hiểu"
+            },
+            {
+                "en": "study pressure",
+                "type": "(n)",
+                "vn": "áp lực học tập"
+            },
+            {
+                "en": "relationship problems",
+                "type": "(n)",
+                "vn": "những vấn đề về các mối quan hệ"
+            },
+            {
+                "en": "emotional support",
+                "type": "(n)",
+                "vn": "sự hỗ trợ về mặt tinh thần"
+            },
+            {
+                "en": "difficult times",
+                "type": "(n)",
+                "vn": "những khoảng thời gian khó khăn"
+            },
+            {
+                "en": "permanent",
+                "type": "(adj)",
+                "vn": "mãi mãi"
+            },
+            {
+                "en": "over time",
+                "type": "(adv.phr)",
+                "vn": "theo thời gian"
+            },
+            {
+                "en": "grow older",
+                "type": "(v.phr)",
+                "vn": "trưởng thành"
+            },
+            {
+                "en": "develop different priorities",
+                "type": "(v.phr)",
+                "vn": "phát triển những ưu tiên khác nhau"
+            },
+            {
+                "en": "gradually",
+                "type": "(adv)",
+                "vn": "dần dần"
+            },
+            {
+                "en": "unconditional support",
+                "type": "(n)",
+                "vn": "sự hỗ trợ vô điều kiện"
+            },
+            {
+                "en": "experiences",
+                "type": "(n)",
+                "vn": "những trải nghiệm"
+            },
+            {
+                "en": "financial difficulties",
+                "type": "(n)",
+                "vn": "những khó khăn về tài chính"
+            },
+            {
+                "en": "emotional difficulties",
+                "type": "(n)",
+                "vn": "những khó khăn về mặt cảm xúc"
+            },
+            {
+                "en": "stable",
+                "type": "(adj)",
+                "vn": "ổn định"
+            },
+            {
+                "en": "shared responsibilities",
+                "type": "(n)",
+                "vn": "những trách nhiệm chung"
+            },
+            {
+                "en": "throughout",
+                "type": "(prep)",
+                "vn": "trong suốt"
+            },
+            {
+                "en": "long-lasting",
+                "type": "(adj)",
+                "vn": "bền vững"
+            }
+        ],
+        "introChunks": [
+            {
+                "en": "Family and friendship",
+                "vn": "Gia đình và tình bạn"
+            },
+            {
+                "en": "both",
+                "vn": "đều"
+            },
+            {
+                "en": "play important roles",
+                "vn": "đóng vai trò quan trọng"
+            },
+            {
+                "en": "in people’s lives.",
+                "vn": "trong cuộc sống của con người."
+            },
+            {
+                "en": "While",
+                "vn": "Trong khi"
+            },
+            {
+                "en": "some people believe that",
+                "vn": "một số người tin rằng"
+            },
+            {
+                "en": "friendship",
+                "vn": "tình bạn"
+            },
+            {
+                "en": "is more important,",
+                "vn": "quan trọng hơn,"
+            },
+            {
+                "en": "others argue that",
+                "vn": "những người khác lại cho rằng"
+            },
+            {
+                "en": "friendship",
+                "vn": "tình bạn"
+            },
+            {
+                "en": "is temporary",
+                "vn": "chỉ mang tính tạm thời"
+            },
+            {
+                "en": "and that",
+                "vn": "và"
+            },
+            {
+                "en": "family relationships",
+                "vn": "các mối quan hệ gia đình"
+            },
+            {
+                "en": "are more reliable.",
+                "vn": "đáng tin cậy hơn."
+            },
+            {
+                "en": "This essay will",
+                "vn": "Bài luận này sẽ"
+            },
+            {
+                "en": "discuss",
+                "vn": "thảo luận"
+            },
+            {
+                "en": "both views",
+                "vn": "cả hai quan điểm"
+            },
+            {
+                "en": "before",
+                "vn": "trước khi"
+            },
+            {
+                "en": "explaining",
+                "vn": "giải thích"
+            },
+            {
+                "en": "why I believe",
+                "vn": "vì sao tôi tin rằng"
+            },
+            {
+                "en": "family is more important.",
+                "vn": "gia đình quan trọng hơn."
+            }
+        ],
+        "introVn": "Gia đình và tình bạn đều đóng vai trò quan trọng trong cuộc sống của con người. Trong khi một số người tin rằng tình bạn quan trọng hơn, những người khác lại cho rằng tình bạn chỉ mang tính tạm thời và các mối quan hệ gia đình đáng tin cậy hơn. Bài luận này sẽ thảo luận cả hai quan điểm trước khi giải thích vì sao tôi tin rằng gia đình quan trọng hơn.",
+        "introEnExpectedLength": 312,
+        "bodyParagraphs": [
+            {
+                "title": "Thân bài 01",
+                "hintGroups": [
+                    {
+                        "label": "Topic sentence",
+                        "hints": [
+                            {
+                                "en": "Một mặt, / tôi hiểu tại sao / một số người lập luận rằng / tình bạn / thì quan trọng hơn / gia đình.",
+                                "vn": "On the one hand, / I understand why / some people argue that / friendship / is more important than / family.",
+                                "isTopic": true
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Lý do 01",
+                        "hints": [
+                            {
+                                "en": "easier to share personal thoughts and feelings",
+                                "vn": "dễ dàng chia sẻ những suy nghĩ và cảm xúc cá nhân hơn",
+                                "color": "red"
+                            },
+                            {
+                                "en": "young people",
+                                "vn": "những người trẻ",
+                                "color": "brown"
+                            },
+                            {
+                                "en": "spend a lot of time with their friends",
+                                "vn": "dành nhiều thời gian với bạn bè của họ"
+                            },
+                            {
+                                "en": "develop strong emotional connections",
+                                "vn": "phát triển sự kết nối mạnh mẽ về mặt cảm xúc"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Lý do 02",
+                        "hints": [
+                            {
+                                "en": "have similar interests and lifestyles",
+                                "vn": "có những sở thích và lối sống tương đồng",
+                                "color": "red"
+                            },
+                            {
+                                "en": "feel understood and comfortable",
+                                "vn": "cảm thấy được thấu hiểu và thoải mái"
+                            },
+                            {
+                                "en": "prefer discussing study pressure or relationship problems",
+                                "vn": "thích thảo luận về áp lực học tập hoặc những vấn đề về các mối quan hệ hơn"
+                            },
+                            {
+                                "en": "with close friends",
+                                "vn": "với những người bạn thân"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Lý do 03",
+                        "hints": [
+                            {
+                                "en": "provide emotional support during difficult times",
+                                "vn": "cung cấp sự hỗ trợ về mặt tinh thần trong những khoảng thời gian khó khăn",
+                                "color": "red"
+                            },
+                            {
+                                "en": "encourage people",
+                                "vn": "khuyến khích mọi người"
+                            },
+                            {
+                                "en": "more confident and independent",
+                                "vn": "tự tin và độc lập hơn"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Thân bài 02",
+                "hintGroups": [
+                    {
+                        "label": "Topic sentence",
+                        "hints": [
+                            {
+                                "en": "Tuy nhiên, / tôi vẫn nghiêng về phía / những người với quan điểm rằng / tình bạn / không phải lúc nào cũng / mãi mãi.",
+                                "vn": "However, / I still lean towards / those with the view that / friendship / is not always / permanent.",
+                                "isTopic": true
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Lý do 01",
+                        "hints": [
+                            {
+                                "en": "leave or change over time",
+                                "vn": "rời đi hoặc thay đổi theo thời gian",
+                                "color": "red"
+                            },
+                            {
+                                "en": "grow older",
+                                "vn": "lớn lên"
+                            },
+                            {
+                                "en": "move to different cities and become busy with work",
+                                "vn": "chuyển đến các thành phố khác nhau và trở nên bận rộn với công việc"
+                            },
+                            {
+                                "en": "develop different priorities",
+                                "vn": "phát triển những ưu tiên khác nhau"
+                            },
+                            {
+                                "en": "gradually become weaker",
+                                "vn": "dần dần trở nên yếu đi"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Lý do 02",
+                        "hints": [
+                            {
+                                "en": "family members provide unconditional support",
+                                "vn": "các thành viên trong gia đình cung cấp sự hỗ trợ vô điều kiện",
+                                "color": "red"
+                            },
+                            {
+                                "en": "friendships",
+                                "vn": "tình bạn",
+                                "color": "brown"
+                            },
+                            {
+                                "en": "depend on personal interests and benefits",
+                                "vn": "phụ thuộc vào những sở thích cá nhân và lợi ích",
+                                "color": "brown"
+                            },
+                            {
+                                "en": "some friends may disappear",
+                                "vn": "một số người bạn có thể biến mất"
+                            },
+                            {
+                                "en": "financial or emotional difficulties",
+                                "vn": "những khó khăn về tài chính hoặc cảm xúc"
+                            },
+                            {
+                                "en": "family members",
+                                "vn": "các thành viên gia đình"
+                            },
+                            {
+                                "en": "stay beside them",
+                                "vn": "ở bên cạnh họ"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Lý do 03",
+                        "hints": [
+                            {
+                                "en": "connected by blood and shared responsibilities",
+                                "vn": "được kết nối bởi máu mủ và những trách nhiệm chung",
+                                "color": "red"
+                            },
+                            {
+                                "en": "parents and siblings",
+                                "vn": "cha mẹ và anh chị em",
+                                "color": "brown"
+                            },
+                            {
+                                "en": "care for each other",
+                                "vn": "quan tâm lẫn nhau"
+                            },
+                            {
+                                "en": "even after arguments or disagreements",
+                                "vn": "ngay cả sau những cuộc cãi vã hoặc bất đồng"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "conclusionChunks": [
+            {
+                "en": "In conclusion,",
+                "vn": "Tóm lại,"
+            },
+            {
+                "en": "although",
+                "vn": "mặc dù"
+            },
+            {
+                "en": "friendship",
+                "vn": "tình bạn"
+            },
+            {
+                "en": "can provide",
+                "vn": "có thể mang lại"
+            },
+            {
+                "en": "emotional support",
+                "vn": "sự đồng cảm"
+            },
+            {
+                "en": "and understanding,",
+                "vn": "và hỗ trợ về mặt tinh thần,"
+            },
+            {
+                "en": "I believe",
+                "vn": "tôi tin rằng"
+            },
+            {
+                "en": "family",
+                "vn": "gia đình"
+            },
+            {
+                "en": "is more important",
+                "vn": "quan trọng hơn"
+            },
+            {
+                "en": "because",
+                "vn": "vì"
+            },
+            {
+                "en": "family members",
+                "vn": "các thành viên trong gia đình"
+            },
+            {
+                "en": "usually",
+                "vn": "thường"
+            },
+            {
+                "en": "stay together",
+                "vn": "luôn gắn bó"
+            },
+            {
+                "en": "and support each other",
+                "vn": "và hỗ trợ nhau"
+            },
+            {
+                "en": "throughout life.",
+                "vn": "suốt cuộc đời."
+            },
+            {
+                "en": "Therefore,",
+                "vn": "Vì vậy,"
+            },
+            {
+                "en": "family relationships",
+                "vn": "các mối quan hệ gia đình"
+            },
+            {
+                "en": "are definitely more reliable",
+                "vn": "chắc chắn đáng tin cậy"
+            },
+            {
+                "en": "and long-lasting",
+                "vn": "và bền vững"
+            },
+            {
+                "en": "than friendships.",
+                "vn": "hơn tình bạn."
+            }
+        ],
+        "conclusionVn": "Tóm lại, mặc dù tình bạn có thể mang lại sự đồng cảm và hỗ trợ về mặt tinh thần, tôi tin rằng gia đình quan trọng hơn vì các thành viên trong gia đình thường luôn gắn bó và hỗ trợ nhau suốt cuộc đời. Vì vậy, các mối quan hệ gia đình chắc chắn đáng tin cậy và bền vững hơn tình bạn.",
+        "conclusionEnExpectedLength": 299
+    },
+    {
+        "id": "smoking-ban-public-places",
+        "title": "09. Cấm hút thuốc nơi công cộng",
+        "summary": "",
+        "meta": {
+            "category": "Đời sống & Xã hội",
+            "taskType": "Discuss both views",
+            "level": "B1-B2",
+            "estimatedMinutes": 40
+        },
+        "prompt": [
+            {
+                "en": "Some people who smoke believe that they have the right to do so, while others argue that smoking in public places should be banned due to its harmful effects on both smokers and non-smokers.",
+                "vn": "Một số người hút thuốc tin rằng họ có quyền làm như vậy, trong khi những người khác cho rằng việc hút thuốc ở những nơi công cộng nên bị cấm do tác hại của nó đối với cả người hút và người không hút thuốc."
+            },
+            {
+                "en": "Discuss both views and give your own opinion.",
+                "vn": "Thảo luận cả hai quan điểm và đưa ra ý kiến của riêng bạn."
+            }
+        ],
+        "currentVariantIndex": 1,
+        "variants": [
+            {
+                "name": "Level B1",
+                "vocab": [
+                    {
+                        "en": "smokers",
+                        "type": "(n)",
+                        "vn": "người hút thuốc"
+                    },
+                    {
+                        "en": "have the freedom to",
+                        "type": "(v.phr)",
+                        "vn": "có quyền tự do"
+                    },
+                    {
+                        "en": "a legal activity",
+                        "type": "(n.phr)",
+                        "vn": "một hoạt động hợp pháp"
+                    },
+                    {
+                        "en": "have the right to",
+                        "type": "(v.phr)",
+                        "vn": "có quyền"
+                    },
+                    {
+                        "en": "lifestyle choices",
+                        "type": "(n.phr)",
+                        "vn": "những lựa chọn lối sống"
+                    },
+                    {
+                        "en": "personal choice",
+                        "type": "(n.phr)",
+                        "vn": "lựa chọn cá nhân"
+                    },
+                    {
+                        "en": "personal freedom",
+                        "type": "(n.phr)",
+                        "vn": "tự do cá nhân"
+                    },
+                    {
+                        "en": "ban",
+                        "type": "(v)",
+                        "vn": "cấm"
+                    },
+                    {
+                        "en": "second-hand smoke",
+                        "type": "(n.phr)",
+                        "vn": "khói thuốc thụ động"
+                    },
+                    {
+                        "en": "non-smokers",
+                        "type": "(n)",
+                        "vn": "người không hút thuốc"
+                    },
+                    {
+                        "en": "breathe in",
+                        "type": "(v.phr)",
+                        "vn": "hít vào"
+                    },
+                    {
+                        "en": "cigarette smoke",
+                        "type": "(n.phr)",
+                        "vn": "khói thuốc lá"
+                    },
+                    {
+                        "en": "suffer from",
+                        "type": "(v)",
+                        "vn": "chịu đựng, mắc phải"
+                    },
+                    {
+                        "en": "lung cancer",
+                        "type": "(n.phr)",
+                        "vn": "ung thư phổi"
+                    },
+                    {
+                        "en": "unpleasant",
+                        "type": "(adj)",
+                        "vn": "khó chịu"
+                    },
+                    {
+                        "en": "the smell of cigarettes",
+                        "type": "(n.phr)",
+                        "vn": "mùi thuốc lá"
+                    },
+                    {
+                        "en": "public health",
+                        "type": "(n.phr)",
+                        "vn": "sức khỏe cộng đồng"
+                    },
+                    {
+                        "en": "the number of smokers",
+                        "type": "(n.phr)",
+                        "vn": "số lượng người hút thuốc"
+                    },
+                    {
+                        "en": "strict",
+                        "type": "(adj)",
+                        "vn": "nghiêm ngặt"
+                    },
+                    {
+                        "en": "smoking rules",
+                        "type": "(n.phr)",
+                        "vn": "quy tắc hút thuốc"
+                    }
+                ],
+                "introChunks": [
+                    {
+                        "en": "Some people believe that",
+                        "vn": "Một số người cho rằng"
+                    },
+                    {
+                        "en": "smokers",
+                        "vn": "người hút thuốc"
+                    },
+                    {
+                        "en": "should have the right to",
+                        "vn": "nên có quyền"
+                    },
+                    {
+                        "en": "smoke",
+                        "vn": "hút"
+                    },
+                    {
+                        "en": "if they want.",
+                        "vn": "nếu họ muốn."
+                    },
+                    {
+                        "en": "However,",
+                        "vn": "Tuy nhiên,"
+                    },
+                    {
+                        "en": "others argue that",
+                        "vn": "những người khác cho rằng"
+                    },
+                    {
+                        "en": "smoking in public places",
+                        "vn": "việc hút thuốc ở nơi công cộng"
+                    },
+                    {
+                        "en": "should be banned",
+                        "vn": "nên bị cấm"
+                    },
+                    {
+                        "en": "because",
+                        "vn": "vì"
+                    },
+                    {
+                        "en": "it can harm",
+                        "vn": "nó có thể gây hại cho"
+                    },
+                    {
+                        "en": "both smokers and non-smokers.",
+                        "vn": "cả người hút thuốc và người không hút thuốc."
+                    },
+                    {
+                        "en": "This essay will",
+                        "vn": "Bài luận này sẽ"
+                    },
+                    {
+                        "en": "discuss both views",
+                        "vn": "thảo luận cả hai quan điểm"
+                    },
+                    {
+                        "en": "before",
+                        "vn": "trước khi"
+                    },
+                    {
+                        "en": "explaining why",
+                        "vn": "giải thích lý do tại sao"
+                    },
+                    {
+                        "en": "I support",
+                        "vn": "tôi ủng hộ"
+                    },
+                    {
+                        "en": "banning smoking",
+                        "vn": "việc cấm hút thuốc"
+                    },
+                    {
+                        "en": "in public areas.",
+                        "vn": "ở những khu vực công cộng."
+                    }
+                ],
+                "introVn": "Một số người cho rằng người hút thuốc nên có quyền hút nếu họ muốn. Tuy nhiên, những người khác cho rằng việc hút thuốc ở nơi công cộng nên bị cấm vì nó có thể gây hại cho cả người hút thuốc và người không hút thuốc. Bài luận này sẽ thảo luận cả hai quan điểm trước khi giải thích lý do tại sao tôi ủng hộ việc cấm hút thuốc ở những khu vực công cộng.",
+                "bodyParagraphs": [
+                    {
+                        "title": "Thân bài 01",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "Một mặt, / tôi hiểu tại sao / một số người tranh cãi rằng / người hút thuốc / nên có quyền hút.",
+                                        "vn": "On the one hand, / I understand why / some people argue that / smokers / should have the right to smoke.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lý do 01",
+                                "hints": [
+                                    {
+                                        "en": "smoking is a legal activity",
+                                        "vn": "hút thuốc là một hoạt động hợp pháp",
+                                        "color": "red"
+                                    },
+                                    {
+                                        "en": "have the right to make their own lifestyle choices",
+                                        "vn": "có quyền đưa ra những lựa chọn lối sống của riêng họ"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lý do 02",
+                                "hints": [
+                                    {
+                                        "en": "adults are responsible for their own health",
+                                        "vn": "người lớn phải chịu trách nhiệm về sức khỏe của chính mình",
+                                        "color": "red"
+                                    },
+                                    {
+                                        "en": "decide whether they want to smoke or not",
+                                        "vn": "quyết định xem họ có muốn hút thuốc hay không"
+                                    },
+                                    {
+                                        "en": "understand the health risks of smoking",
+                                        "vn": "hiểu rõ các nguy cơ về sức khỏe của việc hút thuốc"
+                                    },
+                                    {
+                                        "en": "still choose to continue the habit",
+                                        "vn": "vẫn chọn tiếp tục thói quen này"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lý do 03",
+                                "hints": [
+                                    {
+                                        "en": "relax and reduce stress",
+                                        "vn": "thư giãn và giảm căng thẳng",
+                                        "color": "red"
+                                    },
+                                    {
+                                        "en": "their personal freedom should be respected",
+                                        "vn": "tự do cá nhân của họ nên được tôn trọng"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Thân bài 02",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "Tuy nhiên, / tôi vẫn nghiêng về phía những người với quan điểm rằng / việc hút thuốc / ở nơi công cộng / nên bị cấm.",
+                                        "vn": "However, / I still lean towards those with the view that / smoking / in public places / should be banned.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lý do 01",
+                                "hints": [
+                                    {
+                                        "en": "second-hand smoke",
+                                        "vn": "khói thuốc thụ động",
+                                        "color": "red"
+                                    },
+                                    {
+                                        "en": "affect the health of non-smokers",
+                                        "vn": "ảnh hưởng đến sức khỏe của những người không hút thuốc"
+                                    },
+                                    {
+                                        "en": "People who breathe in cigarette smoke",
+                                        "vn": "Những người hít vào khói thuốc lá"
+                                    },
+                                    {
+                                        "en": "suffer from lung cancer and other health problems",
+                                        "vn": "chịu đựng bệnh ung thư phổi và các vấn đề sức khỏe khác"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lý do 02",
+                                "hints": [
+                                    {
+                                        "en": "create an unpleasant environment",
+                                        "vn": "tạo ra một môi trường khó chịu",
+                                        "color": "red"
+                                    },
+                                    {
+                                        "en": "Many people",
+                                        "vn": "Nhiều người"
+                                    },
+                                    {
+                                        "en": "dislike the smell of cigarettes",
+                                        "vn": "không thích mùi thuốc lá"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lý do 03",
+                                "hints": [
+                                    {
+                                        "en": "encourage smokers to reduce or quit smoking",
+                                        "vn": "khuyến khích người hút thuốc giảm hoặc bỏ hút thuốc",
+                                        "color": "red"
+                                    },
+                                    {
+                                        "en": "improve public health",
+                                        "vn": "cải thiện sức khỏe cộng đồng"
+                                    },
+                                    {
+                                        "en": "introduce strict smoking rules",
+                                        "vn": "đưa ra các quy tắc hút thuốc nghiêm ngặt"
+                                    },
+                                    {
+                                        "en": "the number of smokers decreases",
+                                        "vn": "số lượng người hút thuốc giảm"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "conclusionChunks": [
+                    {
+                        "en": "In conclusion,",
+                        "vn": "Tóm lại,"
+                    },
+                    {
+                        "en": "although",
+                        "vn": "mặc dù"
+                    },
+                    {
+                        "en": "some people believe that",
+                        "vn": "một số người cho rằng"
+                    },
+                    {
+                        "en": "smokers",
+                        "vn": "người hút thuốc"
+                    },
+                    {
+                        "en": "have the right to",
+                        "vn": "có quyền"
+                    },
+                    {
+                        "en": "smoke",
+                        "vn": "hút"
+                    },
+                    {
+                        "en": "because",
+                        "vn": "vì"
+                    },
+                    {
+                        "en": "it is a personal choice,",
+                        "vn": "đó là lựa chọn cá nhân,"
+                    },
+                    {
+                        "en": "I believe",
+                        "vn": "tôi tin rằng"
+                    },
+                    {
+                        "en": "smoking",
+                        "vn": "việc hút thuốc"
+                    },
+                    {
+                        "en": "should be prohibited",
+                        "vn": "nên bị cấm"
+                    },
+                    {
+                        "en": "in public places.",
+                        "vn": "ở nơi công cộng."
+                    },
+                    {
+                        "en": "Therefore,",
+                        "vn": "Vì vậy,"
+                    },
+                    {
+                        "en": "governments",
+                        "vn": "chính phủ"
+                    },
+                    {
+                        "en": "should continue to",
+                        "vn": "nên tiếp tục"
+                    },
+                    {
+                        "en": "enforce",
+                        "vn": "thực thi"
+                    },
+                    {
+                        "en": "smoking bans",
+                        "vn": "lệnh cấm hút thuốc"
+                    },
+                    {
+                        "en": "in public areas.",
+                        "vn": "tại các khu vực công cộng."
+                    }
+                ],
+                "conclusionVn": "Tóm lại, mặc dù một số người cho rằng người hút thuốc có quyền hút vì đó là lựa chọn cá nhân, tôi tin rằng việc hút thuốc nên bị cấm ở nơi công cộng. Vì vậy, chính phủ nên tiếp tục thực thi lệnh cấm hút thuốc tại các khu vực công cộng.",
+                "sampleEssay": {
+                    "paragraphs": [
+                        [
+                            {
+                                "en": "Some people believe smokers should have the right to smoke if they want.",
+                                "vn": "Một số người tin rằng người hút thuốc nên có quyền hút nếu họ muốn.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "However, others argue that smoking in public places should be banned because it can harm both smokers and non-smokers.",
+                                "vn": "Tuy nhiên, những người khác lập luận rằng việc hút thuốc ở những nơi công cộng nên bị cấm vì nó có thể gây hại cho cả người hút thuốc và người không hút thuốc.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This essay will discuss both views before explaining why I support banning smoking in public areas.",
+                                "vn": "Bài luận này sẽ thảo luận về cả hai quan điểm trước khi giải thích lý do tại sao tôi ủng hộ việc cấm hút thuốc ở các khu vực công cộng.",
+                                "isRed": true
+                            }
+                        ],
+                        [
+                            {
+                                "en": "On the one hand, I understand why some people argue that smokers should have the freedom to smoke.",
+                                "vn": "Một mặt, tôi hiểu tại sao một số người lập luận rằng người hút thuốc nên có quyền tự do hút thuốc.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "Firstly, smoking is a legal activity in many countries, so smokers believe they have the right to make their own lifestyle choices.",
+                                "vn": "Thứ nhất, hút thuốc là một hoạt động hợp pháp ở nhiều quốc gia, vì vậy người hút thuốc tin rằng họ có quyền đưa ra những lựa chọn lối sống của riêng mình.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Secondly, adults are responsible for their own health and should be free to decide whether they want to smoke or not.",
+                                "vn": "Thứ hai, người lớn phải chịu trách nhiệm về sức khỏe của chính họ và nên được tự do quyết định xem họ có muốn hút thuốc hay không.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "For example, many people understand the health risks of smoking but still choose to continue the habit.",
+                                "vn": "Ví dụ, nhiều người hiểu những rủi ro sức khỏe của việc hút thuốc nhưng vẫn chọn tiếp tục thói quen này.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Finally, some smokers argue that smoking helps them relax and reduce stress, especially after a long day of work.",
+                                "vn": "Cuối cùng, một số người hút thuốc cho rằng hút thuốc giúp họ thư giãn và giảm căng thẳng, đặc biệt là sau một ngày dài làm việc.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Therefore, they believe their personal freedom should be respected.",
+                                "vn": "Vì vậy, họ tin rằng tự do cá nhân của họ nên được tôn trọng.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "However, I would side with those who are of the opinion that smoking in public places should be banned.",
+                                "vn": "Tuy nhiên, tôi đứng về phía những người cho rằng nên cấm hút thuốc ở những nơi công cộng.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "One important reason is that second-hand smoke can seriously affect the health of non-smokers.",
+                                "vn": "Một lý do quan trọng là khói thuốc thụ động có thể ảnh hưởng nghiêm trọng đến sức khỏe của những người không hút thuốc.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "People who breathe in cigarette smoke may suffer from lung cancer and other health problems even if they do not smoke themselves.",
+                                "vn": "Những người hít phải khói thuốc lá có thể bị ung thư phổi và các vấn đề sức khỏe khác ngay cả khi bản thân họ không hút thuốc.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Another reason is that smoking in public areas can create an unpleasant environment.",
+                                "vn": "Một lý do khác là việc hút thuốc ở các khu vực công cộng có thể tạo ra một môi trường khó chịu.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Many people dislike the smell of cigarettes, particularly in restaurants, parks, and public transport.",
+                                "vn": "Nhiều người không thích mùi thuốc lá, đặc biệt là ở các nhà hàng, công viên và các phương tiện giao thông công cộng.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Finally, banning smoking in public places can encourage smokers to reduce or quit smoking.",
+                                "vn": "Cuối cùng, việc cấm hút thuốc ở những nơi công cộng có thể khuyến khích người hút thuốc giảm bớt hoặc bỏ hút thuốc.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This can improve public health.",
+                                "vn": "Điều này có thể cải thiện sức khỏe cộng đồng.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "For instance, in some countries, after introducing strict smoking rules, the number of smokers has decreased.",
+                                "vn": "Ví dụ, ở một số quốc gia, sau khi ban hành các quy định nghiêm ngặt về hút thuốc, số lượng người hút thuốc đã giảm.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "In conclusion, although some people believe that smokers have the right to smoke because it is a personal choice, I believe smoking should be banned in public places.",
+                                "vn": "Tóm lại, mặc dù một số người cho rằng người hút thuốc có quyền hút vì đó là một lựa chọn cá nhân, tôi tin rằng nên cấm hút thuốc ở những nơi công cộng.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Therefore, governments should continue to enforce smoking bans in public areas.",
+                                "vn": "Vì vậy, các chính phủ nên tiếp tục thực thi lệnh cấm hút thuốc tại các khu vực công cộng.",
+                                "isRed": false
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Level B2",
+                "vocab": [
+                    {
+                        "en": "smokers",
+                        "type": "(n)",
+                        "vn": "người hút thuốc"
+                    },
+                    {
+                        "en": "have the freedom to",
+                        "type": "(v.phr)",
+                        "vn": "có quyền tự do"
+                    },
+                    {
+                        "en": "a legal activity",
+                        "type": "(n.phr)",
+                        "vn": "một hoạt động hợp pháp"
+                    },
+                    {
+                        "en": "have the right to",
+                        "type": "(v.phr)",
+                        "vn": "có quyền"
+                    },
+                    {
+                        "en": "lifestyle choices",
+                        "type": "(n.phr)",
+                        "vn": "những lựa chọn lối sống"
+                    },
+                    {
+                        "en": "personal choice",
+                        "type": "(n.phr)",
+                        "vn": "lựa chọn cá nhân"
+                    },
+                    {
+                        "en": "personal freedom",
+                        "type": "(n.phr)",
+                        "vn": "tự do cá nhân"
+                    },
+                    {
+                        "en": "ban = prohibit",
+                        "type": "(v)",
+                        "vn": "cấm"
+                    },
+                    {
+                        "en": "second-hand smoke",
+                        "type": "(n.phr)",
+                        "vn": "khói thuốc thụ động"
+                    },
+                    {
+                        "en": "non-smokers",
+                        "type": "(n)",
+                        "vn": "người không hút thuốc"
+                    },
+                    {
+                        "en": "exposed to",
+                        "type": "(adj/v.p)",
+                        "vn": "tiếp xúc với"
+                    },
+                    {
+                        "en": "cigarette smoke",
+                        "type": "(n.phr)",
+                        "vn": "khói thuốc lá"
+                    },
+                    {
+                        "en": "suffer from",
+                        "type": "(v)",
+                        "vn": "chịu đựng, mắc phải"
+                    },
+                    {
+                        "en": "respiratory diseases",
+                        "type": "(n.phr)",
+                        "vn": "các bệnh về đường hô hấp"
+                    },
+                    {
+                        "en": "an unpleasant environment",
+                        "type": "(n.phr)",
+                        "vn": "một môi trường khó chịu"
+                    },
+                    {
+                        "en": "the smell of cigarettes",
+                        "type": "(n.phr)",
+                        "vn": "mùi thuốc lá"
+                    },
+                    {
+                        "en": "public health",
+                        "type": "(n.phr)",
+                        "vn": "sức khỏe cộng đồng"
+                    },
+                    {
+                        "en": "lower smoking rates",
+                        "type": "(v.phr)",
+                        "vn": "làm giảm tỷ lệ hút thuốc"
+                    },
+                    {
+                        "en": "strict",
+                        "type": "(adj)",
+                        "vn": "nghiêm ngặt"
+                    },
+                    {
+                        "en": "smoking regulations",
+                        "type": "(n.phr)",
+                        "vn": "các quy định về hút thuốc"
+                    }
+                ],
+                "introChunks": [
+                    {
+                        "en": "Some people believe that",
+                        "vn": "Một số người cho rằng"
+                    },
+                    {
+                        "en": "smoking is",
+                        "vn": "hút thuốc là"
+                    },
+                    {
+                        "en": "a personal choice",
+                        "vn": "lựa chọn cá nhân"
+                    },
+                    {
+                        "en": "and",
+                        "vn": "và"
+                    },
+                    {
+                        "en": "smokers",
+                        "vn": "người hút thuốc"
+                    },
+                    {
+                        "en": "should have the right to",
+                        "vn": "nên có quyền"
+                    },
+                    {
+                        "en": "smoke",
+                        "vn": "hút"
+                    },
+                    {
+                        "en": "if they wish.",
+                        "vn": "nếu họ muốn."
+                    },
+                    {
+                        "en": "However,",
+                        "vn": "Tuy nhiên,"
+                    },
+                    {
+                        "en": "others argue that",
+                        "vn": "những người khác cho rằng"
+                    },
+                    {
+                        "en": "smoking in public places",
+                        "vn": "việc hút thuốc ở nơi công cộng"
+                    },
+                    {
+                        "en": "should be prohibited",
+                        "vn": "nên bị cấm"
+                    },
+                    {
+                        "en": "because",
+                        "vn": "vì"
+                    },
+                    {
+                        "en": "it can harm",
+                        "vn": "nó có thể gây hại cho"
+                    },
+                    {
+                        "en": "both smokers and non-smokers.",
+                        "vn": "cả người hút thuốc và người không hút thuốc."
+                    },
+                    {
+                        "en": "This essay will",
+                        "vn": "Bài luận này sẽ"
+                    },
+                    {
+                        "en": "discuss both views",
+                        "vn": "thảo luận cả hai quan điểm"
+                    },
+                    {
+                        "en": "before",
+                        "vn": "trước khi"
+                    },
+                    {
+                        "en": "explaining why",
+                        "vn": "giải thích lý do tại sao"
+                    },
+                    {
+                        "en": "I support",
+                        "vn": "tôi ủng hộ"
+                    },
+                    {
+                        "en": "banning smoking",
+                        "vn": "việc cấm hút thuốc"
+                    },
+                    {
+                        "en": "in public areas.",
+                        "vn": "ở những khu vực công cộng."
+                    }
+                ],
+                "introVn": "Một số người cho rằng hút thuốc là lựa chọn cá nhân và người hút thuốc nên có quyền hút nếu họ muốn. Tuy nhiên, những người khác cho rằng việc hút thuốc ở nơi công cộng nên bị cấm vì nó có thể gây hại cho cả người hút thuốc và người không hút thuốc. Bài luận này sẽ thảo luận cả hai quan điểm trước khi giải thích lý do tại sao tôi ủng hộ việc cấm hút thuốc ở những khu vực công cộng.",
+                "bodyParagraphs": [
+                    {
+                        "title": "Thân bài 01",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "Một mặt, / tôi hiểu tại sao / một số người tranh cãi rằng / người hút thuốc / nên có quyền hút.",
+                                        "vn": "On the one hand, / I understand why / some people argue that / smokers / should have the right to smoke.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lý do 01",
+                                "hints": [
+                                    {
+                                        "en": "smoking is a legal activity",
+                                        "vn": "hút thuốc là một hoạt động hợp pháp",
+                                        "color": "red"
+                                    },
+                                    {
+                                        "en": "have the right to make their own lifestyle choices",
+                                        "vn": "có quyền đưa ra những lựa chọn lối sống của riêng họ"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lý do 02",
+                                "hints": [
+                                    {
+                                        "en": "adults are responsible for their own health",
+                                        "vn": "người lớn phải chịu trách nhiệm về sức khỏe của chính mình",
+                                        "color": "red"
+                                    },
+                                    {
+                                        "en": "decide whether they want to smoke or not",
+                                        "vn": "quyết định xem họ có muốn hút thuốc hay không"
+                                    },
+                                    {
+                                        "en": "understand the health risks of smoking",
+                                        "vn": "hiểu rõ các nguy cơ về sức khỏe của việc hút thuốc"
+                                    },
+                                    {
+                                        "en": "still choose to continue the habit",
+                                        "vn": "vẫn chọn tiếp tục thói quen này"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lý do 03",
+                                "hints": [
+                                    {
+                                        "en": "relax and reduce stress",
+                                        "vn": "thư giãn và giảm căng thẳng",
+                                        "color": "red"
+                                    },
+                                    {
+                                        "en": "their personal freedom should be respected",
+                                        "vn": "tự do cá nhân của họ nên được tôn trọng"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Thân bài 02",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "Tuy nhiên, / tôi vẫn nghiêng về phía những người với quan điểm rằng / việc hút thuốc / ở nơi công cộng / nên bị cấm.",
+                                        "vn": "However, / I still lean towards those with the view that / smoking / in public places / should be banned.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lý do 01",
+                                "hints": [
+                                    {
+                                        "en": "second-hand smoke",
+                                        "vn": "khói thuốc thụ động",
+                                        "color": "red"
+                                    },
+                                    {
+                                        "en": "affect the health of non-smokers",
+                                        "vn": "ảnh hưởng đến sức khỏe của những người không hút thuốc"
+                                    },
+                                    {
+                                        "en": "People who are exposed to cigarette smoke",
+                                        "vn": "Những người tiếp xúc với khói thuốc lá"
+                                    },
+                                    {
+                                        "en": "suffer from respiratory diseases and other health problems",
+                                        "vn": "chịu đựng các bệnh về đường hô hấp và các vấn đề sức khỏe khác"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lý do 02",
+                                "hints": [
+                                    {
+                                        "en": "create an unpleasant environment",
+                                        "vn": "tạo ra một môi trường khó chịu",
+                                        "color": "red"
+                                    },
+                                    {
+                                        "en": "Many people",
+                                        "vn": "Nhiều người"
+                                    },
+                                    {
+                                        "en": "dislike the smell of cigarettes",
+                                        "vn": "không thích mùi thuốc lá"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lý do 03",
+                                "hints": [
+                                    {
+                                        "en": "encourage smokers to reduce or quit smoking",
+                                        "vn": "khuyến khích người hút thuốc giảm hoặc bỏ hút thuốc",
+                                        "color": "red"
+                                    },
+                                    {
+                                        "en": "improve public health overall",
+                                        "vn": "cải thiện sức khỏe cộng đồng nói chung"
+                                    },
+                                    {
+                                        "en": "introduce strict smoking regulations",
+                                        "vn": "đưa ra các quy định nghiêm ngặt về hút thuốc"
+                                    },
+                                    {
+                                        "en": "lower smoking rates",
+                                        "vn": "làm giảm tỷ lệ hút thuốc"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "conclusionChunks": [
+                    {
+                        "en": "In conclusion,",
+                        "vn": "Tóm lại,"
+                    },
+                    {
+                        "en": "although",
+                        "vn": "mặc dù"
+                    },
+                    {
+                        "en": "some people believe that",
+                        "vn": "một số người cho rằng"
+                    },
+                    {
+                        "en": "smokers",
+                        "vn": "người hút thuốc"
+                    },
+                    {
+                        "en": "have the right to",
+                        "vn": "có quyền"
+                    },
+                    {
+                        "en": "smoke",
+                        "vn": "hút"
+                    },
+                    {
+                        "en": "because",
+                        "vn": "vì"
+                    },
+                    {
+                        "en": "it is a personal choice,",
+                        "vn": "đó là lựa chọn cá nhân,"
+                    },
+                    {
+                        "en": "I believe",
+                        "vn": "tôi tin rằng"
+                    },
+                    {
+                        "en": "smoking",
+                        "vn": "việc hút thuốc"
+                    },
+                    {
+                        "en": "should be prohibited",
+                        "vn": "nên bị cấm"
+                    },
+                    {
+                        "en": "in public places.",
+                        "vn": "ở nơi công cộng."
+                    },
+                    {
+                        "en": "This is because",
+                        "vn": "Điều này là do"
+                    },
+                    {
+                        "en": "second-hand smoke",
+                        "vn": "khói thuốc thụ động"
+                    },
+                    {
+                        "en": "can harm",
+                        "vn": "có thể gây hại cho"
+                    },
+                    {
+                        "en": "others,",
+                        "vn": "người khác,"
+                    },
+                    {
+                        "en": "reduce the quality of public environments,",
+                        "vn": "làm giảm chất lượng môi trường công cộng"
+                    },
+                    {
+                        "en": "and",
+                        "vn": "và"
+                    },
+                    {
+                        "en": "negatively affect",
+                        "vn": "ảnh hưởng tiêu cực đến"
+                    },
+                    {
+                        "en": "public health.",
+                        "vn": "sức khỏe cộng đồng."
+                    },
+                    {
+                        "en": "Therefore,",
+                        "vn": "Vì vậy,"
+                    },
+                    {
+                        "en": "governments",
+                        "vn": "chính phủ"
+                    },
+                    {
+                        "en": "should continue to",
+                        "vn": "nên tiếp tục"
+                    },
+                    {
+                        "en": "enforce",
+                        "vn": "thực thi"
+                    },
+                    {
+                        "en": "smoking bans",
+                        "vn": "lệnh cấm hút thuốc"
+                    },
+                    {
+                        "en": "in public areas.",
+                        "vn": "tại các khu vực công cộng."
+                    }
+                ],
+                "conclusionVn": "Tóm lại, mặc dù một số người cho rằng người hút thuốc có quyền hút vì đó là lựa chọn cá nhân, tôi tin rằng việc hút thuốc nên bị cấm ở nơi công cộng. Điều này là do khói thuốc thụ động có thể gây hại cho người khác, làm giảm chất lượng môi trường công cộng và ảnh hưởng tiêu cực đến sức khỏe cộng đồng. Vì vậy, chính phủ nên tiếp tục thực thi lệnh cấm hút thuốc tại các khu vực công cộng.",
+                "sampleEssay": {
+                    "paragraphs": [
+                        [
+                            {
+                                "en": "Some people believe that smoking is a personal choice and smokers should have the right to smoke if they wish.",
+                                "vn": "Một số người tin rằng hút thuốc là một lựa chọn cá nhân và người hút thuốc nên có quyền hút thuốc nếu họ muốn.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "However, others argue that smoking in public places should be prohibited because it can harm both smokers and non-smokers.",
+                                "vn": "Tuy nhiên, những người khác lập luận rằng nên cấm hút thuốc ở những nơi công cộng vì nó có thể gây hại cho cả người hút thuốc và người không hút thuốc.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This essay will discuss both views before explaining why I support banning smoking in public areas.",
+                                "vn": "Bài luận này sẽ thảo luận về cả hai quan điểm trước khi giải thích lý do tại sao tôi ủng hộ việc cấm hút thuốc ở các khu vực công cộng.",
+                                "isRed": true
+                            }
+                        ],
+                        [
+                            {
+                                "en": "On the one hand, I understand why some people argue that smokers should have the freedom to smoke.",
+                                "vn": "Một mặt, tôi hiểu tại sao một số người lập luận rằng người hút thuốc nên có quyền tự do hút thuốc.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "Firstly, smoking is a legal activity in many countries, so smokers believe they have the right to make their own lifestyle choices.",
+                                "vn": "Thứ nhất, hút thuốc là một hoạt động hợp pháp ở nhiều quốc gia, vì vậy người hút thuốc tin rằng họ có quyền đưa ra những lựa chọn lối sống của riêng mình.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Secondly, adults are responsible for their own health and should be free to decide whether they want to smoke or not.",
+                                "vn": "Thứ hai, người lớn phải chịu trách nhiệm về sức khỏe của chính họ và nên được tự do quyết định xem họ có muốn hút thuốc hay không.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "For example, many people understand the health risks of smoking but still choose to continue the habit.",
+                                "vn": "Ví dụ, nhiều người hiểu những rủi ro sức khỏe của việc hút thuốc nhưng vẫn chọn tiếp tục thói quen này.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Finally, some smokers argue that smoking helps them relax and reduce stress, especially after a long day of work.",
+                                "vn": "Cuối cùng, một số người hút thuốc cho rằng hút thuốc giúp họ thư giãn và giảm căng thẳng, đặc biệt là sau một ngày dài làm việc.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Therefore, they believe their personal freedom should be respected.",
+                                "vn": "Vì vậy, họ tin rằng tự do cá nhân của họ nên được tôn trọng.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "However, I would side with those who are of the opinion that smoking in public places should be banned.",
+                                "vn": "Tuy nhiên, tôi đứng về phía những người cho rằng nên cấm hút thuốc ở những nơi công cộng.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "One important reason is that second-hand smoke can seriously affect the health of non-smokers.",
+                                "vn": "Một lý do quan trọng là khói thuốc thụ động có thể ảnh hưởng nghiêm trọng đến sức khỏe của những người không hút thuốc.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "People who are exposed to cigarette smoke may suffer from respiratory diseases and other health problems even if they do not smoke themselves.",
+                                "vn": "Những người tiếp xúc với khói thuốc lá có thể mắc các bệnh về đường hô hấp và các vấn đề sức khỏe khác ngay cả khi bản thân họ không hút thuốc.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Another reason is that smoking in public areas can create an unpleasant environment.",
+                                "vn": "Một lý do khác là việc hút thuốc ở các khu vực công cộng có thể tạo ra một môi trường khó chịu.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Many people dislike the smell of cigarettes, particularly in restaurants, parks, and public transport.",
+                                "vn": "Nhiều người không thích mùi thuốc lá, đặc biệt là ở các nhà hàng, công viên và các phương tiện giao thông công cộng.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Finally, banning smoking in public places may encourage smokers to reduce or quit smoking, which can improve public health overall.",
+                                "vn": "Cuối cùng, việc cấm hút thuốc ở những nơi công cộng có thể khuyến khích người hút thuốc giảm bớt hoặc bỏ hút thuốc, điều này có thể cải thiện sức khỏe cộng đồng nói chung.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "For instance, several countries have reported lower smoking rates after introducing strict smoking regulations.",
+                                "vn": "Ví dụ, một số quốc gia đã báo cáo tỷ lệ hút thuốc thấp hơn sau khi ban hành các quy định nghiêm ngặt về hút thuốc.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "In conclusion, although some people believe that smokers have the right to smoke because it is a personal choice, I believe smoking should be prohibited in public places.",
+                                "vn": "Tóm lại, mặc dù một số người cho rằng người hút thuốc có quyền hút vì đó là một lựa chọn cá nhân, tôi tin rằng nên cấm hút thuốc ở những nơi công cộng.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This is because second-hand smoke can harm others, reduce the quality of public environments, and negatively affect public health.",
+                                "vn": "Điều này là do khói thuốc thụ động có thể gây hại cho những người khác, làm giảm chất lượng môi trường công cộng và ảnh hưởng tiêu cực đến sức khỏe cộng đồng.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Therefore, governments should continue to enforce smoking bans in public areas.",
+                                "vn": "Vì vậy, các chính phủ nên tiếp tục thực thi lệnh cấm hút thuốc tại các khu vực công cộng.",
+                                "isRed": false
+                            }
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "historical-exhibitions",
+        "title": "10. Triển lãm lịch sử",
+        "summary": "Bài luận về những lợi ích của việc tham quan các triển lãm lịch sử.",
+        "isMatchingVocab": true,
+        "meta": {
+            "category": "Văn hóa - Xã hội",
+            "taskType": "Advantages / Disadvantages",
+            "level": "B1",
+            "estimatedMinutes": 40
+        },
+        "prompt": [
+            {
+                "en": "Read the short passage below and write an essay about the benefits of visiting historical exhibitions.",
+                "vn": "Đọc đoạn văn ngắn dưới đây và viết một bài luận về lợi ích của việc tham quan các triển lãm lịch sử."
+            },
+            {
+                "en": "“This year in Hanoi, the exhibition \"Thành tựu Đất nước - 80 năm hành trình Độc lập - Tự do - Hạnh phúc\" is organized to celebrate the August Revolution and National Day 2/9. The exhibition displays documents, photos, and objects about the history and achievements of Vietnam.”",
+                "vn": "“Năm nay tại Hà Nội, triển lãm \"Thành tựu Đất nước - 80 năm hành trình Độc lập - Tự do - Hạnh phúc\" được tổ chức để kỷ niệm Cách mạng tháng Tám và Quốc khánh 2/9. Triển lãm trưng bày các tài liệu, hình ảnh và hiện vật về lịch sử và những thành tựu của Việt Nam.”"
+            },
+            {
+                "en": "Write an essay discussing the benefits of visiting historical exhibitions. Give reasons and examples to support your ideas.",
+                "vn": "Viết một bài luận thảo luận về những lợi ích của việc tham quan các triển lãm lịch sử. Đưa ra các lý do và ví dụ để hỗ trợ ý kiến của bạn."
+            }
+        ],
+        "introEnExpectedLength": 40,
+        "conclusionEnExpectedLength": 38,
+        "currentVariantIndex": 0,
+        "variants": [
+            {
+                "name": "Level B1",
+                "vocab": [
+                    {
+                        "en": "a significant increase",
+                        "vn": "sự gia tăng đáng kể"
+                    },
+                    {
+                        "en": "historical exhibitions",
+                        "vn": "các triển lãm lịch sử"
+                    },
+                    {
+                        "en": "obvious",
+                        "vn": "rõ ràng"
+                    },
+                    {
+                        "en": "learn more about",
+                        "vn": "hiểu biết nhiều hơn về"
+                    },
+                    {
+                        "en": "gain knowledge about",
+                        "vn": "thu thập kiến thức về"
+                    },
+                    {
+                        "en": "important events",
+                        "vn": "những sự kiện quan trọng"
+                    },
+                    {
+                        "en": "materials",
+                        "vn": "tài liệu"
+                    },
+                    {
+                        "en": "Vietnam's history",
+                        "vn": "lịch sử Việt Nam"
+                    },
+                    {
+                        "en": "historical events",
+                        "vn": "sự kiện lịch sử"
+                    },
+                    {
+                        "en": "real objects",
+                        "vn": "hiện vật thực tế"
+                    },
+                    {
+                        "en": "textbooks",
+                        "vn": "sách giáo khoa"
+                    },
+                    {
+                        "en": "visitors",
+                        "vn": "khách tham quan"
+                    },
+                    {
+                        "en": "historical artifacts",
+                        "vn": "hiện vật lịch sử"
+                    },
+                    {
+                        "en": "explanations",
+                        "vn": "lời giải thích"
+                    },
+                    {
+                        "en": "national pride",
+                        "vn": "lòng tự hào dân tộc"
+                    },
+                    {
+                        "en": "achievements",
+                        "vn": "thành tựu"
+                    },
+                    {
+                        "en": "contributions",
+                        "vn": "sự đóng góp"
+                    },
+                    {
+                        "en": "previous generations",
+                        "vn": "các thế hệ đi trước"
+                    },
+                    {
+                        "en": "feel proud",
+                        "vn": "cảm thấy tự hào"
+                    },
+                    {
+                        "en": "have greater respect for",
+                        "vn": "có sự tôn trọng lớn hơn dành cho"
+                    }
+                ],
+                "introVn": "Trong những năm gần đây, đã có sự gia tăng đáng kể về số lượng người tham quan các triển lãm lịch sử. Xu hướng này có thể mang lại nhiều lợi ích cho cả cá nhân và xã hội. Bài luận này sẽ thảo luận về những lợi ích chính của việc tham quan các triển lãm lịch sử.",
+                "introChunks": [
+                    {
+                        "en": "In recent years,",
+                        "vn": "Trong những năm gần đây,"
+                    },
+                    {
+                        "en": "there has been a significant increase",
+                        "vn": "đã có sự gia tăng đáng kể"
+                    },
+                    {
+                        "en": "in the number of people who",
+                        "vn": "về số lượng người"
+                    },
+                    {
+                        "en": "visit",
+                        "vn": "tham quan"
+                    },
+                    {
+                        "en": "historical exhibitions.",
+                        "vn": "các triển lãm lịch sử."
+                    },
+                    {
+                        "en": "This trend",
+                        "vn": "Xu hướng này"
+                    },
+                    {
+                        "en": "can bring",
+                        "vn": "có thể mang lại"
+                    },
+                    {
+                        "en": "several benefits to",
+                        "vn": "nhiều lợi ích cho"
+                    },
+                    {
+                        "en": "both individuals and society.",
+                        "vn": "cả cá nhân và xã hội."
+                    },
+                    {
+                        "en": "This essay will discuss",
+                        "vn": "Bài luận này sẽ thảo luận về"
+                    },
+                    {
+                        "en": "the main advantages",
+                        "vn": "những lợi ích chính"
+                    },
+                    {
+                        "en": "of visiting historical exhibitions.",
+                        "vn": "của việc tham quan các triển lãm lịch sử."
+                    }
+                ],
+                "bodyParagraphs": [
+                    {
+                        "title": "Đoạn 1: Hiểu biết nhiều hơn về lịch sử",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "Rõ ràng là / có nhiều tác động tích cực / của các triển lãm lịch sử.",
+                                        "vn": "It is obvious that / there are several positive impacts / of historical exhibitions.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lợi ích 1",
+                                "hints": [
+                                    {
+                                        "en": "learn more about history",
+                                        "vn": "hiểu biết nhiều hơn về lịch sử"
+                                    },
+                                    {
+                                        "en": "looking at documents and photographs",
+                                        "vn": "nhìn vào các tài liệu và hình ảnh"
+                                    },
+                                    {
+                                        "en": "gain knowledge about important events and people from the past",
+                                        "vn": "thu thập kiến thức về những sự kiện quan trọng và những người trong quá khứ"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Ví dụ",
+                                "hints": [
+                                    {
+                                        "en": "the exhibition 'Thành tựu Đất nước - 80 năm hành trình Độc lập - Tự do - Hạnh phúc'",
+                                        "vn": "triển lãm 'Thành tựu Đất nước - 80 năm hành trình Độc lập - Tự do - Hạnh phúc'"
+                                    },
+                                    {
+                                        "en": "displays materials related to Vietnam's history",
+                                        "vn": "trưng bày các tài liệu liên quan đến lịch sử Việt Nam"
+                                    },
+                                    {
+                                        "en": "understand historical events",
+                                        "vn": "hiểu các sự kiện lịch sử"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Đoạn 2: Việc học trở nên thú vị hơn",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "Thứ hai, / việc đi đến các triển lãm lịch sử / có thể khiến việc học trở nên thú vị hơn.",
+                                        "vn": "Secondly, / going to historical exhibitions / can make learning more interesting.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lợi ích 2",
+                                "hints": [
+                                    {
+                                        "en": "seeing real objects",
+                                        "vn": "việc nhìn thấy các hiện vật thực tế"
+                                    },
+                                    {
+                                        "en": "much more interesting than reading information in textbooks",
+                                        "vn": "thú vị hơn nhiều so với việc đọc thông tin trong sách giáo khoa"
+                                    },
+                                    {
+                                        "en": "look at historical artifacts and photographs",
+                                        "vn": "nhìn vào các hiện vật lịch sử và hình ảnh"
+                                    },
+                                    {
+                                        "en": "listen to explanations about them",
+                                        "vn": "nghe những lời giải thích về chúng"
+                                    },
+                                    {
+                                        "en": "remember what they learn more easily",
+                                        "vn": "nhớ những gì họ học dễ dàng hơn"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Đoạn 3: Nâng cao lòng tự hào dân tộc",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "Cuối cùng, / các triển lãm lịch sử / cũng giúp / nâng cao lòng tự hào dân tộc.",
+                                        "vn": "Finally, / historical exhibitions / also help to / increase national pride.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lợi ích 3",
+                                "hints": [
+                                    {
+                                        "en": "learn about the achievements and contributions of previous generations",
+                                        "vn": "tìm hiểu về những thành tựu và sự đóng góp của các thế hệ đi trước"
+                                    },
+                                    {
+                                        "en": "feel proud to see how their country has developed over the years",
+                                        "vn": "cảm thấy tự hào khi thấy đất nước họ đã phát triển như thế nào qua nhiều năm"
+                                    },
+                                    {
+                                        "en": "have greater respect for their nation and its history",
+                                        "vn": "có sự tôn trọng lớn hơn dành cho quốc gia của họ và lịch sử của nó"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "conclusionVn": "Tóm lại, việc tham quan các triển lãm lịch sử mang lại nhiều lợi ích, đặc biệt là giúp mọi người hiểu biết nhiều hơn về lịch sử, khiến việc học trở nên thú vị hơn và nâng cao lòng tự hào dân tộc. Vì vậy, nhiều người nên được khuyến khích tham quan những triển lãm như vậy.",
+                "conclusionChunks": [
+                    {
+                        "en": "In conclusion,",
+                        "vn": "Tóm lại,"
+                    },
+                    {
+                        "en": "visiting historical exhibitions",
+                        "vn": "việc tham quan các triển lãm lịch sử"
+                    },
+                    {
+                        "en": "offers",
+                        "vn": "mang lại"
+                    },
+                    {
+                        "en": "several benefits,",
+                        "vn": "nhiều lợi ích,"
+                    },
+                    {
+                        "en": "particularly",
+                        "vn": "đặc biệt là"
+                    },
+                    {
+                        "en": "helping people learn more about history,",
+                        "vn": "giúp mọi người hiểu biết nhiều hơn về lịch sử,"
+                    },
+                    {
+                        "en": "making learning more interesting,",
+                        "vn": "khiến việc học trở nên thú vị hơn"
+                    },
+                    {
+                        "en": "and",
+                        "vn": "và"
+                    },
+                    {
+                        "en": "increasing national pride.",
+                        "vn": "nâng cao lòng tự hào dân tộc."
+                    },
+                    {
+                        "en": "Therefore,",
+                        "vn": "Vì vậy,"
+                    },
+                    {
+                        "en": "more people",
+                        "vn": "nhiều người"
+                    },
+                    {
+                        "en": "should be encouraged to",
+                        "vn": "nên được khuyến khích"
+                    },
+                    {
+                        "en": "visit",
+                        "vn": "tham quan"
+                    },
+                    {
+                        "en": "such exhibitions.",
+                        "vn": "những triển lãm như vậy."
+                    }
+                ],
+                "sampleEssay": {
+                    "paragraphs": [
+                        [
+                            {
+                                "en": "In recent years, there has been a significant increase in the number of people who visit historical exhibitions.",
+                                "vn": "Trong những năm gần đây, đã có sự gia tăng đáng kể về số lượng người tham quan các triển lãm lịch sử.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This trend can bring several benefits to both individuals and society.",
+                                "vn": "Xu hướng này có thể mang lại nhiều lợi ích cho cả cá nhân và xã hội.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This essay will discuss the main advantages of visiting historical exhibitions.",
+                                "vn": "Bài luận này sẽ thảo luận về những lợi ích chính của việc tham quan các triển lãm lịch sử.",
+                                "isRed": true
+                            }
+                        ],
+                        [
+                            {
+                                "en": "It is obvious that there are many positive impacts of historical exhibitions.",
+                                "vn": "Rõ ràng là có nhiều tác động tích cực của các triển lãm lịch sử.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "First of all, they help people learn more about history.",
+                                "vn": "Trước hết, chúng giúp mọi người hiểu biết nhiều hơn về lịch sử.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Visitors can gain knowledge about important events and people from the past by looking at documents and photographs.",
+                                "vn": "Khách tham quan có thể thu thập kiến thức về những sự kiện quan trọng và những người trong quá khứ bằng cách nhìn vào các tài liệu và hình ảnh.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "For example, the exhibition \"Thành tựu Đất nước - 80 năm hành trình Độc lập - Tự do - Hạnh phúc\" shows many materials related to Vietnam's history.",
+                                "vn": "Ví dụ, triển lãm \"Thành tựu Đất nước - 80 năm hành trình Độc lập - Tự do - Hạnh phúc\" trưng bày nhiều tài liệu liên quan đến lịch sử Việt Nam.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "As a result, they can understand historical events more clearly.",
+                                "vn": "Kết quả là, họ có thể hiểu các sự kiện lịch sử rõ ràng hơn.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "Another advantage is that historical exhibitions make learning more interesting.",
+                                "vn": "Một lợi ích khác là các triển lãm lịch sử giúp việc học trở nên thú vị hơn.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "This is because seeing real objects is often more interesting than reading information in textbooks.",
+                                "vn": "Điều này là do việc nhìn thấy các hiện vật thực tế thường thú vị hơn so với việc đọc thông tin trong sách giáo khoa.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "For instance, visitors can look at historical artifacts and photographs while listening to explanations about them.",
+                                "vn": "Ví dụ, khách tham quan có thể nhìn vào các hiện vật lịch sử và hình ảnh trong khi nghe những lời giải thích về chúng.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Therefore, they can remember what they learn more easily.",
+                                "vn": "Vì vậy, họ có thể nhớ những gì họ học dễ dàng hơn.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "Finally, visiting historical exhibitions can increase national pride.",
+                                "vn": "Cuối cùng, việc tham quan các triển lãm lịch sử có thể nâng cao lòng tự hào dân tộc.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "People can learn about the achievements and contributions of previous generations.",
+                                "vn": "Mọi người có thể tìm hiểu về những thành tựu và sự đóng góp của các thế hệ đi trước.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "For example, many young people feel proud when they see how their country has developed over the years.",
+                                "vn": "Ví dụ, nhiều người trẻ cảm thấy tự hào khi thấy đất nước họ đã phát triển như thế nào qua nhiều năm.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "As a result, they will have greater respect for their nation and its history.",
+                                "vn": "Kết quả là, họ sẽ có sự tôn trọng lớn hơn dành cho quốc gia của họ và lịch sử của nó.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "In conclusion, visiting historical exhibitions offers several benefits, particularly helping people learn more about history, making learning more interesting, and increasing national pride.",
+                                "vn": "Tóm lại, việc tham quan các triển lãm lịch sử mang lại nhiều lợi ích, đặc biệt là giúp mọi người hiểu biết nhiều hơn về lịch sử, khiến việc học trở nên thú vị hơn và nâng cao lòng tự hào dân tộc.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Therefore, more people should be encouraged to visit such exhibitions.",
+                                "vn": "Vì vậy, nhiều người nên được khuyến khích tham quan những triển lãm như vậy.",
+                                "isRed": false
+                            }
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "multiple-textbooks",
+        "title": "11. Sử dụng nhiều sách giáo khoa",
+        "summary": "Bài luận về những ưu điểm của việc sử dụng nhiều sách giáo khoa trong giáo dục.",
+        "isMatchingVocab": true,
+        "meta": {
+            "category": "Giáo dục",
+            "taskType": "Advantages / Disadvantages",
+            "level": "B1-B2",
+            "estimatedMinutes": 40
+        },
+        "prompt": [
+            {
+                "en": "In some developed countries such as the United States and the United Kingdom, schools use multiple textbooks in their education system.",
+                "vn": "Ở một số nước phát triển như Hoa Kỳ và Vương quốc Anh, các trường học sử dụng nhiều sách giáo khoa trong hệ thống giáo dục của họ."
+            },
+            {
+                "en": "This approach allows teachers to design lessons more creatively and provides more flexibility to meet students’ needs.",
+                "vn": "Cách tiếp cận này cho phép giáo viên thiết kế bài học một cách sáng tạo hơn và mang lại sự linh hoạt hơn để đáp ứng nhu cầu của học sinh."
+            },
+            {
+                "en": "Discuss the advantages of using multiple textbooks in education.",
+                "vn": "Thảo luận về những ưu điểm của việc sử dụng nhiều sách giáo khoa trong giáo dục."
+            }
+        ],
+        "introEnExpectedLength": 45,
+        "conclusionEnExpectedLength": 38,
+        "currentVariantIndex": 0,
+        "variants": [
+            {
+                "name": "Level B1-B2",
+                "vocab": [
+                    {
+                        "en": "multiple textbooks",
+                        "vn": "nhiều sách giáo khoa"
+                    },
+                    {
+                        "en": "developed countries",
+                        "vn": "các quốc gia phát triển"
+                    },
+                    {
+                        "en": "this approach",
+                        "vn": "cách tiếp cận này"
+                    },
+                    {
+                        "en": "format",
+                        "vn": "định dạng"
+                    },
+                    {
+                        "en": "contain",
+                        "vn": "chứa đựng"
+                    },
+                    {
+                        "en": "real-life examples",
+                        "vn": "các ví dụ thực tế"
+                    },
+                    {
+                        "en": "weak students",
+                        "vn": "học sinh yếu"
+                    },
+                    {
+                        "en": "challenging tasks",
+                        "vn": "những nhiệm vụ thử thách"
+                    },
+                    {
+                        "en": "strong students",
+                        "vn": "học sinh giỏi"
+                    },
+                    {
+                        "en": "communication activities",
+                        "vn": "các hoạt động giao tiếp"
+                    },
+                    {
+                        "en": "a variety of skills",
+                        "vn": "nhiều kỹ năng đa dạng"
+                    },
+                    {
+                        "en": "engaging",
+                        "vn": "hấp dẫn"
+                    },
+                    {
+                        "en": "types of learners",
+                        "vn": "những kiểu người học"
+                    }
+                ],
+                "introChunks": [
+                    {
+                        "en": "In recent years,",
+                        "vn": "Trong những năm gần đây,"
+                    },
+                    {
+                        "en": "there has been",
+                        "vn": "đã có"
+                    },
+                    {
+                        "en": "a significant increase in",
+                        "vn": "sự gia tăng đáng kể trong"
+                    },
+                    {
+                        "en": "the use of",
+                        "vn": "việc sử dụng"
+                    },
+                    {
+                        "en": "multiple textbooks",
+                        "vn": "nhiều sách giáo khoa"
+                    },
+                    {
+                        "en": "in schools",
+                        "vn": "trong trường học"
+                    },
+                    {
+                        "en": "in many developed countries.",
+                        "vn": "ở nhiều quốc gia phát triển."
+                    },
+                    {
+                        "en": "This approach",
+                        "vn": "Cách tiếp cận này"
+                    },
+                    {
+                        "en": "can bring",
+                        "vn": "có thể mang lại"
+                    },
+                    {
+                        "en": "several benefits to",
+                        "vn": "nhiều lợi ích cho"
+                    },
+                    {
+                        "en": "both teachers and students.",
+                        "vn": "cả giáo viên và học sinh."
+                    },
+                    {
+                        "en": "This essay will",
+                        "vn": "Bài luận này sẽ"
+                    },
+                    {
+                        "en": "discuss",
+                        "vn": "thảo luận về"
+                    },
+                    {
+                        "en": "some of the main advantages of",
+                        "vn": "một số ưu điểm chính của"
+                    },
+                    {
+                        "en": "using multiple textbooks in education.",
+                        "vn": "việc sử dụng nhiều sách giáo khoa trong giáo dục."
+                    }
+                ],
+                "introVn": "Trong những năm gần đây, đã có sự gia tăng đáng kể trong việc sử dụng nhiều sách giáo khoa trong trường học ở nhiều quốc gia phát triển. Cách tiếp cận này có thể mang lại nhiều lợi ích cho cả giáo viên và học sinh. Bài luận này sẽ thảo luận về một số ưu điểm chính của việc sử dụng nhiều sách giáo khoa trong giáo dục.",
+                "bodyParagraphs": [
+                    {
+                        "title": "Thân bài 1: Bài học thú vị hơn",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "Một lợi ích chính / của việc sử dụng nhiều sách giáo khoa / là / nó khiến cho bài học / thú vị hơn.",
+                                        "vn": "A main benefit / of using multiple textbooks / is that / it makes lessons / more interesting.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Giải thích 1",
+                                "hints": [
+                                    {
+                                        "en": "use only one textbook",
+                                        "vn": "sử dụng chỉ một cuốn sách giáo khoa"
+                                    },
+                                    {
+                                        "en": "become bored",
+                                        "vn": "trở nên nhàm chán"
+                                    },
+                                    {
+                                        "en": "the lessons follow the same format",
+                                        "vn": "các bài học theo cùng một định dạng"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Giải thích 2",
+                                "hints": [
+                                    {
+                                        "en": "different textbooks",
+                                        "vn": "các cuốn sách giáo khoa khác nhau"
+                                    },
+                                    {
+                                        "en": "different activities, pictures, and examples",
+                                        "vn": "các hoạt động, hình ảnh và ví dụ khác nhau"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Ví dụ và kết quả",
+                                "hints": [
+                                    {
+                                        "en": "exercises from one book + real-life examples from another",
+                                        "vn": "bài tập từ một cuốn sách + ví dụ thực tế từ cuốn khác"
+                                    },
+                                    {
+                                        "en": "stay focused + enjoy learning",
+                                        "vn": "giữ sự tập trung + thích thú với việc học"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Thân bài 2: Giúp đỡ học sinh với khả năng khác nhau",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "Một lợi ích khác là / đa dạng sách giáo khoa / có thể giúp / các học sinh với các khả năng khác nhau.",
+                                        "vn": "Another benefit is that / a variety of textbooks / can help / students with different abilities.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Giải thích 1",
+                                "hints": [
+                                    {
+                                        "en": "not all students",
+                                        "vn": "không phải tất cả học sinh"
+                                    },
+                                    {
+                                        "en": "learn at the same speed",
+                                        "vn": "học với cùng một tốc độ"
+                                    },
+                                    {
+                                        "en": "find a textbook too difficult >< too easy",
+                                        "vn": "thấy một cuốn sách giáo khoa quá khó >< quá dễ"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Giải thích 2",
+                                "hints": [
+                                    {
+                                        "en": "using several textbooks",
+                                        "vn": "việc sử dụng vài cuốn sách giáo khoa"
+                                    },
+                                    {
+                                        "en": "choose suitable materials for weaker students + more challenging tasks for stronger students",
+                                        "vn": "chọn tài liệu phù hợp cho học sinh yếu + nhiều nhiệm vụ thử thách hơn cho học sinh giỏi"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Kết quả",
+                                "hints": [
+                                    {
+                                        "en": "all students (learn more effectively)",
+                                        "vn": "tất cả học sinh (học hiệu quả hơn)"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Thân bài 3: Học nhiều thông tin hữu ích",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "Cuối cùng, / học sinh / có thể học được / nhiều thông tin hữu ích.",
+                                        "vn": "Finally, / students / can learn / a lot of useful information.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Giải thích 1",
+                                "hints": [
+                                    {
+                                        "en": "Different textbooks",
+                                        "vn": "Những cuốn sách giáo khoa khác nhau"
+                                    },
+                                    {
+                                        "en": "different examples + explanations of the same topic",
+                                        "vn": "những ví dụ + cách giải thích khác nhau về cùng một chủ đề"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Ví dụ",
+                                "hints": [
+                                    {
+                                        "en": "In an English classes",
+                                        "vn": "Trong các lớp học tiếng Anh"
+                                    },
+                                    {
+                                        "en": "focus on grammar >< more communication activities",
+                                        "vn": "tập trung vào ngữ pháp >< nhiều hoạt động giao tiếp hơn"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Kết quả",
+                                "hints": [
+                                    {
+                                        "en": "gain a wider understanding of the subject + learn a variety of skills",
+                                        "vn": "có được hiểu biết rộng hơn về môn học + học được nhiều kỹ năng đa dạng"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "conclusionChunks": [
+                    {
+                        "en": "In conclusion,",
+                        "vn": "Tóm lại,"
+                    },
+                    {
+                        "en": "the use of",
+                        "vn": "việc sử dụng"
+                    },
+                    {
+                        "en": "multiple textbooks",
+                        "vn": "nhiều sách giáo khoa"
+                    },
+                    {
+                        "en": "is beneficial",
+                        "vn": "mang lại nhiều lợi ích"
+                    },
+                    {
+                        "en": "in education.",
+                        "vn": "trong giáo dục."
+                    },
+                    {
+                        "en": "It helps",
+                        "vn": "Cách tiếp cận này giúp"
+                    },
+                    {
+                        "en": "make classes more engaging,",
+                        "vn": "các tiết học trở nên hấp dẫn hơn,"
+                    },
+                    {
+                        "en": "supports",
+                        "vn": "hỗ trợ"
+                    },
+                    {
+                        "en": "different types of learners,",
+                        "vn": "những kiểu người học khác nhau,"
+                    },
+                    {
+                        "en": "and",
+                        "vn": "đồng thời"
+                    },
+                    {
+                        "en": "allows students to",
+                        "vn": "cho phép học sinh"
+                    },
+                    {
+                        "en": "learn from",
+                        "vn": "học từ"
+                    },
+                    {
+                        "en": "a variety of materials.",
+                        "vn": "nhiều nguồn tài liệu đa dạng."
+                    },
+                    {
+                        "en": "For these reasons,",
+                        "vn": "Vì những lý do này,"
+                    },
+                    {
+                        "en": "many schools",
+                        "vn": "nhiều trường học"
+                    },
+                    {
+                        "en": "can benefit from",
+                        "vn": "có thể hưởng lợi từ"
+                    },
+                    {
+                        "en": "adopting this approach.",
+                        "vn": "việc áp dụng phương pháp này."
+                    }
+                ],
+                "conclusionVn": "Tóm lại, việc sử dụng nhiều sách giáo khoa mang lại nhiều lợi ích trong giáo dục. Cách tiếp cận này giúp các tiết học trở nên hấp dẫn hơn, hỗ trợ những kiểu người học khác nhau, đồng thời cho phép học sinh học từ nhiều nguồn tài liệu đa dạng. Vì những lý do này, nhiều trường học có thể hưởng lợi từ việc áp dụng phương pháp này.",
+                "sampleEssay": {
+                    "title": "The Advantages of Using Multiple Textbooks",
+                    "type": "Advantages/Disadvantages",
+                    "paragraphs": [
+                        [
+                            {
+                                "en": "In recent years, there has been a significant increase in the use of multiple textbooks in schools in many developed countries.",
+                                "vn": "Trong những năm gần đây, đã có sự gia tăng đáng kể trong việc sử dụng nhiều sách giáo khoa trong trường học ở nhiều quốc gia phát triển.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This approach can bring several benefits to both teachers and students.",
+                                "vn": "Cách tiếp cận này có thể mang lại nhiều lợi ích cho cả giáo viên và học sinh.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This essay will discuss some of the main advantages of using multiple textbooks in education.",
+                                "vn": "Bài luận này sẽ thảo luận về một số ưu điểm chính của việc sử dụng nhiều sách giáo khoa trong giáo dục.",
+                                "isRed": true
+                            }
+                        ],
+                        [
+                            {
+                                "en": "One major advantage of using multiple textbooks is that it makes lessons more interesting.",
+                                "vn": "Một ưu điểm chính của việc sử dụng nhiều sách giáo khoa là làm cho các bài học trở nên thú vị hơn.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "When teachers use only one textbook, students may become bored because the lessons follow the same format all the time.",
+                                "vn": "Khi giáo viên chỉ sử dụng một cuốn sách giáo khoa, học sinh có thể trở nên nhàm chán vì các bài học luôn theo cùng một định dạng.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "However, different textbooks contain different activities, pictures, and examples.",
+                                "vn": "Tuy nhiên, các sách giáo khoa khác nhau chứa đựng các hoạt động, hình ảnh và ví dụ khác nhau.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "For instance, a teacher can use exercises from one book and real-life examples from another.",
+                                "vn": "Ví dụ, một giáo viên có thể sử dụng bài tập từ một cuốn sách và các ví dụ thực tế từ cuốn khác.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "As a result, students are more likely to stay focused and enjoy learning.",
+                                "vn": "Kết quả là, học sinh có nhiều khả năng giữ được sự tập trung và thích thú với việc học hơn.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "Another benefit is that multiple textbooks can help students with different abilities.",
+                                "vn": "Một lợi ích khác là nhiều sách giáo khoa có thể giúp ích cho học sinh với những khả năng khác nhau.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "In a classroom, not all students learn at the same speed.",
+                                "vn": "Trong một lớp học, không phải tất cả học sinh đều học với cùng một tốc độ.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Some students may find a textbook too difficult, while others may think it is too easy.",
+                                "vn": "Một số học sinh có thể thấy một cuốn sách giáo khoa quá khó, trong khi những em khác lại cho rằng nó quá dễ.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "By using several textbooks, teachers can choose suitable materials for weaker students and more challenging tasks for stronger students.",
+                                "vn": "Bằng cách sử dụng một vài sách giáo khoa, giáo viên có thể chọn những tài liệu phù hợp cho học sinh yếu và những nhiệm vụ thử thách hơn cho học sinh giỏi.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This can help all students learn more effectively.",
+                                "vn": "Điều này có thể giúp tất cả học sinh học tập hiệu quả hơn.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "Finally, students can learn more useful information.",
+                                "vn": "Cuối cùng, học sinh có thể học được nhiều thông tin hữu ích hơn.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "Different textbooks often provide different examples and explanations of the same topic.",
+                                "vn": "Các cuốn sách giáo khoa khác nhau thường cung cấp những ví dụ và lời giải thích khác nhau về cùng một chủ đề.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "For example, in an English class, one textbook may focus on grammar, while another may include more communication activities.",
+                                "vn": "Ví dụ, trong một lớp học tiếng Anh, một cuốn sách có thể tập trung vào ngữ pháp, trong khi một cuốn khác có thể bao gồm nhiều hoạt động giao tiếp hơn.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "By learning from different books, students can gain a wider understanding of the subject and learn a variety of skills that are useful in daily life.",
+                                "vn": "Bằng cách học từ các cuốn sách khác nhau, học sinh có thể có được sự hiểu biết rộng hơn về môn học và học được nhiều kỹ năng đa dạng hữu ích trong cuộc sống hàng ngày.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "In conclusion, the use of multiple textbooks is beneficial in education.",
+                                "vn": "Tóm lại, việc sử dụng nhiều sách giáo khoa mang lại nhiều lợi ích trong giáo dục.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "It helps make classes more engaging, supports different types of learners, and allows students to learn from a variety of materials.",
+                                "vn": "Nó giúp làm cho các lớp học hấp dẫn hơn, hỗ trợ những kiểu người học khác nhau và cho phép học sinh học hỏi từ nhiều loại tài liệu đa dạng.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "For these reasons, many schools can benefit from adopting this approach.",
+                                "vn": "Vì những lý do này, nhiều trường học có thể được hưởng lợi từ việc áp dụng cách tiếp cận này.",
+                                "isRed": false
+                            }
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "choose-textbooks",
+        "title": "12. Tự chọn sách giáo khoa ngoại ngữ",
+        "summary": "Bài luận về những ưu điểm và nhược điểm của việc trường học tự lựa chọn sách giáo khoa ngoại ngữ.",
+        "isMatchingVocab": true,
+        "meta": {
+            "category": "Giáo dục",
+            "taskType": "Advantages / Disadvantages",
+            "level": "B1-B2",
+            "estimatedMinutes": 40
+        },
+        "prompt": [
+            {
+                "en": "Some schools are allowed to choose their own foreign language textbooks, rather than using textbooks provided by the government.",
+                "vn": "Một số trường được phép tự lựa chọn sách giáo khoa ngoại ngữ, thay vì sử dụng sách giáo khoa do chính phủ cung cấp."
+            },
+            {
+                "en": "While this approach has some advantages, it also comes with certain disadvantages.",
+                "vn": "Mặc dù cách tiếp cận này có một số ưu điểm, nó cũng đi kèm với những nhược điểm nhất định."
+            },
+            {
+                "en": "Discuss the advantages and disadvantages of schools choosing their own foreign language textbook.",
+                "vn": "Thảo luận về những ưu điểm và nhược điểm của việc trường học tự lựa chọn sách giáo khoa ngoại ngữ."
+            }
+        ],
+        "analysisFields": [
+            {
+                "label": "Đối tượng",
+                "value": "Trường học tự chọn sách giáo khoa ngoại ngữ"
+            },
+            {
+                "label": "Vấn đề được đặt ra",
+                "value": "Có những lợi ích và hạn chế của phương pháp này"
+            },
+            {
+                "label": "Yêu cầu đề bài",
+                "value": "Thảo luận về cả ưu điểm và nhược điểm"
+            }
+        ],
+        "currentVariantIndex": 0,
+        "variants": [
+            {
+                "name": "Level B1",
+                "vocab": [
+                    {
+                        "en": "select",
+                        "vn": "lựa chọn"
+                    },
+                    {
+                        "en": "let",
+                        "vn": "cho phép"
+                    },
+                    {
+                        "en": "suit",
+                        "vn": "phù hợp"
+                    },
+                    {
+                        "en": "students’ needs",
+                        "vn": "nhu cầu của học sinh"
+                    },
+                    {
+                        "en": "English background",
+                        "vn": "nền tảng tiếng Anh"
+                    },
+                    {
+                        "en": "English skills",
+                        "vn": "kỹ năng tiếng Anh"
+                    },
+                    {
+                        "en": "engaged",
+                        "vn": "hứng thú"
+                    },
+                    {
+                        "en": "the quality of textbooks",
+                        "vn": "chất lượng sách giáo khoa"
+                    },
+                    {
+                        "en": "outdated",
+                        "vn": "lỗi thời"
+                    },
+                    {
+                        "en": "educational quality",
+                        "vn": "chất lượng giáo dục"
+                    },
+                    {
+                        "en": "purchasing",
+                        "vn": "việc mua sắm"
+                    },
+                    {
+                        "en": "government-provided textbooks",
+                        "vn": "sách giáo khoa do chính phủ cung cấp"
+                    },
+                    {
+                        "en": "a larger budget",
+                        "vn": "ngân sách lớn hơn"
+                    },
+                    {
+                        "en": "financial resources",
+                        "vn": "nguồn lực tài chính"
+                    },
+                    {
+                        "en": "unequal educational quality",
+                        "vn": "chất lượng giáo dục không đồng đều"
+                    }
+                ],
+                "introChunks": [
+                    {
+                        "en": "In recent years,",
+                        "vn": "Trong những năm gần đây,"
+                    },
+                    {
+                        "en": "there has been",
+                        "vn": "đã có"
+                    },
+                    {
+                        "en": "a significant increase in the number of",
+                        "vn": "sự gia tăng đáng kể trong việc"
+                    },
+                    {
+                        "en": "schools that choose",
+                        "vn": "trường học tự lựa chọn"
+                    },
+                    {
+                        "en": "their own foreign language textbooks",
+                        "vn": "sách giáo khoa ngoại ngữ"
+                    },
+                    {
+                        "en": "rather than",
+                        "vn": "thay vì"
+                    },
+                    {
+                        "en": "use",
+                        "vn": "sử dụng"
+                    },
+                    {
+                        "en": "those provided by the government.",
+                        "vn": "sách do chính phủ cung cấp."
+                    },
+                    {
+                        "en": "While",
+                        "vn": "Mặc dù"
+                    },
+                    {
+                        "en": "this approach",
+                        "vn": "cách tiếp cận này"
+                    },
+                    {
+                        "en": "offers several benefits,",
+                        "vn": "mang lại một số lợi ích,"
+                    },
+                    {
+                        "en": "it also has",
+                        "vn": "nó cũng có"
+                    },
+                    {
+                        "en": "some drawbacks.",
+                        "vn": "một số hạn chế."
+                    },
+                    {
+                        "en": "This essay will",
+                        "vn": "Bài luận này sẽ"
+                    },
+                    {
+                        "en": "discuss",
+                        "vn": "thảo luận về"
+                    },
+                    {
+                        "en": "both the advantages and disadvantages",
+                        "vn": "cả những ưu điểm và nhược điểm"
+                    },
+                    {
+                        "en": "of",
+                        "vn": "của việc"
+                    },
+                    {
+                        "en": "schools selecting their own foreign language textbooks.",
+                        "vn": "các trường học tự lựa chọn sách giáo khoa ngoại ngữ."
+                    }
+                ],
+                "introVn": "Trong những năm gần đây, đã có sự gia tăng đáng kể trong việc trường học tự lựa chọn sách giáo khoa ngoại ngữ thay vì sử dụng sách do chính phủ cung cấp. Mặc dù cách tiếp cận này mang lại một số lợi ích, nó cũng có một số hạn chế. Bài luận này sẽ thảo luận về cả những ưu điểm và nhược điểm của việc các trường học tự lựa chọn sách giáo khoa ngoại ngữ.",
+                "bodyParagraphs": [
+                    {
+                        "title": "Đoạn 1: Lợi ích",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "On the one hand,",
+                                        "vn": "Một mặt,"
+                                    },
+                                    {
+                                        "en": "letting schools choose their own foreign language textbooks",
+                                        "vn": "việc để trường học tự chọn sách giáo khoa ngoại ngữ"
+                                    },
+                                    {
+                                        "en": "brings many benefits.",
+                                        "vn": "mang lại nhiều lợi ích."
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lợi ích 1",
+                                "hints": [
+                                    {
+                                        "en": "select materials that best suit their students’ needs",
+                                        "vn": "chọn tài liệu phù hợp nhất với nhu cầu của học sinh"
+                                    },
+                                    {
+                                        "en": "students with a stronger English background >< learners who have poor English skills",
+                                        "vn": "học sinh có nền tảng tiếng Anh tốt >< những người học có kỹ năng tiếng Anh kém"
+                                    },
+                                    {
+                                        "en": "learn more effectively",
+                                        "vn": "học tập hiệu quả hơn"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lợi ích 2",
+                                "hints": [
+                                    {
+                                        "en": "make lessons more interesting",
+                                        "vn": "làm cho bài học thú vị hơn"
+                                    },
+                                    {
+                                        "en": "different textbooks",
+                                        "vn": "các sách giáo khoa khác nhau"
+                                    },
+                                    {
+                                        "en": "different activities, pictures, and topics",
+                                        "vn": "các hoạt động, hình ảnh và chủ đề khác nhau"
+                                    },
+                                    {
+                                        "en": "choose books that keep students engaged",
+                                        "vn": "chọn những cuốn sách giúp học sinh hứng thú"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Đoạn 2: Bất lợi",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "However,",
+                                        "vn": "Tuy nhiên,"
+                                    },
+                                    {
+                                        "en": "letting schools choose their own foreign language textbooks",
+                                        "vn": "việc để trường học tự chọn sách giáo khoa ngoại ngữ cho riêng mình"
+                                    },
+                                    {
+                                        "en": "also comes with",
+                                        "vn": "cũng đi kèm với"
+                                    },
+                                    {
+                                        "en": "some disadvantages.",
+                                        "vn": "một số bất lợi."
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Bất lợi 1",
+                                "hints": [
+                                    {
+                                        "en": "the quality of textbooks (not the same in all schools)",
+                                        "vn": "chất lượng sách giáo khoa (không giống nhau ở tất cả các trường)"
+                                    },
+                                    {
+                                        "en": "excellent textbooks >< books that are outdated or less effective",
+                                        "vn": "sách giáo khoa xuất sắc >< những cuốn sách đã lỗi thời hoặc kém hiệu quả"
+                                    },
+                                    {
+                                        "en": "create differences in educational quality",
+                                        "vn": "tạo ra sự khác biệt về chất lượng giáo dục"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Bất lợi 2",
+                                "hints": [
+                                    {
+                                        "en": "spend more money on purchasing textbooks",
+                                        "vn": "tiêu nhiều tiền hơn vào việc mua sách giáo khoa"
+                                    },
+                                    {
+                                        "en": "Government-provided textbooks (cheaper)",
+                                        "vn": "Sách giáo khoa do chính phủ cung cấp (rẻ hơn)"
+                                    },
+                                    {
+                                        "en": "schools that choose their own materials => a larger budget",
+                                        "vn": "các trường tự chọn tài liệu => ngân sách lớn hơn"
+                                    },
+                                    {
+                                        "en": "face difficulties",
+                                        "vn": "đối mặt với khó khăn"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "conclusionChunks": [
+                    {
+                        "en": "In conclusion,",
+                        "vn": "Tóm lại,"
+                    },
+                    {
+                        "en": "allowing schools to",
+                        "vn": "việc cho phép các trường học"
+                    },
+                    {
+                        "en": "choose their own foreign language textbooks",
+                        "vn": "tự lựa chọn sách giáo khoa ngoại ngữ"
+                    },
+                    {
+                        "en": "has",
+                        "vn": "mang lại"
+                    },
+                    {
+                        "en": "both advantages and disadvantages.",
+                        "vn": "cả ưu điểm lẫn nhược điểm."
+                    },
+                    {
+                        "en": "It helps schools",
+                        "vn": "Cách tiếp cận này giúp các trường"
+                    },
+                    {
+                        "en": "meet students’ needs",
+                        "vn": "đáp ứng tốt hơn nhu cầu của học sinh"
+                    },
+                    {
+                        "en": "and",
+                        "vn": "và"
+                    },
+                    {
+                        "en": "create more engaging lessons,",
+                        "vn": "tạo ra những bài học hấp dẫn hơn."
+                    },
+                    {
+                        "en": "but it may also",
+                        "vn": "Tuy nhiên, nó cũng có thể"
+                    },
+                    {
+                        "en": "result in",
+                        "vn": "dẫn đến"
+                    },
+                    {
+                        "en": "unequal educational quality",
+                        "vn": "sự không đồng đều về chất lượng giáo dục giữa các trường"
+                    },
+                    {
+                        "en": "and higher costs.",
+                        "vn": "và làm tăng chi phí."
+                    },
+                    {
+                        "en": "Therefore,",
+                        "vn": "Vì vậy,"
+                    },
+                    {
+                        "en": "schools",
+                        "vn": "các trường học"
+                    },
+                    {
+                        "en": "should carefully consider",
+                        "vn": "nên cân nhắc kỹ lưỡng"
+                    },
+                    {
+                        "en": "their choices",
+                        "vn": "khi lựa chọn sách giáo khoa."
+                    },
+                    {
+                        "en": "when selecting textbooks.",
+                        "vn": ""
+                    }
+                ],
+                "conclusionVn": "Tóm lại, việc cho phép các trường học tự lựa chọn sách giáo khoa ngoại ngữ mang lại cả ưu điểm lẫn nhược điểm. Cách tiếp cận này giúp các trường đáp ứng tốt hơn nhu cầu của học sinh và tạo ra những bài học hấp dẫn hơn. Tuy nhiên, nó cũng có thể dẫn đến sự không đồng đều về chất lượng giáo dục giữa các trường và làm tăng chi phí. Vì vậy, các trường học nên cân nhắc kỹ lưỡng khi lựa chọn sách giáo khoa.",
+                "sampleEssay": {
+                    "paragraphs": [
+                        [
+                            {
+                                "en": "In recent years, there has been a significant increase in the number of schools that choose their own foreign language textbooks rather than use those provided by the government.",
+                                "vn": "Trong những năm gần đây, đã có sự gia tăng đáng kể số lượng trường học tự lựa chọn sách giáo khoa ngoại ngữ thay vì sử dụng sách do chính phủ cung cấp.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "While this approach offers several benefits, it also has some drawbacks.",
+                                "vn": "Mặc dù cách tiếp cận này mang lại một số lợi ích, nó cũng có một vài hạn chế.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This essay will discuss both the advantages and disadvantages of schools selecting their own foreign language textbooks.",
+                                "vn": "Bài luận này sẽ thảo luận về cả những ưu điểm và nhược điểm của việc các trường học tự lựa chọn sách giáo khoa ngoại ngữ.",
+                                "isRed": true
+                            }
+                        ],
+                        [
+                            {
+                                "en": "On the one hand, letting schools select their own language textbooks offers several benefits.",
+                                "vn": "Một mặt, việc để trường học tự chọn sách giáo khoa ngôn ngữ mang lại một số lợi ích.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "Firstly, they can select materials that best suit their students’ needs.",
+                                "vn": "Thứ nhất, họ có thể chọn tài liệu phù hợp nhất với nhu cầu của học sinh.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "For example, some schools may have students with a stronger English background, while others may have learners who have poor English skills.",
+                                "vn": "Ví dụ, một số trường có thể có học sinh với nền tảng tiếng Anh tốt hơn, trong khi những trường khác có thể có người học với kỹ năng tiếng Anh kém.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This approach can help students learn more effectively.",
+                                "vn": "Cách tiếp cận này có thể giúp học sinh học tập hiệu quả hơn.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "In addition, using multiple textbooks can make lessons more interesting.",
+                                "vn": "Thêm vào đó, việc sử dụng nhiều sách giáo khoa có thể làm cho các bài học trở nên thú vị hơn.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This is because different textbooks contain different activities, pictures, and topics.",
+                                "vn": "Điều này là do các sách giáo khoa khác nhau chứa đựng những hoạt động, hình ảnh và chủ đề khác nhau.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Therefore, teachers can choose books that keep students engaged and motivated to learn a foreign language.",
+                                "vn": "Do đó, giáo viên có thể chọn những cuốn sách giúp học sinh luôn hứng thú và có động lực để học một ngoại ngữ.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "However, schools selecting their own foreign language textbooks also come with a few downsides.",
+                                "vn": "Tuy nhiên, việc các trường tự chọn sách giáo khoa ngoại ngữ cũng đi kèm với một số mặt trái.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "One major disadvantage is that the quality of textbooks may not be the same in all schools.",
+                                "vn": "Một nhược điểm lớn là chất lượng sách giáo khoa có thể không giống nhau ở tất cả các trường.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "For example, some schools may choose excellent textbooks, while others may select books that are outdated or less effective.",
+                                "vn": "Ví dụ, một số trường có thể chọn sách giáo khoa xuất sắc, trong khi những trường khác có thể chọn những cuốn sách đã lỗi thời hoặc kém hiệu quả.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This can create differences in educational quality among students.",
+                                "vn": "Điều này có thể tạo ra sự khác biệt về chất lượng giáo dục giữa các học sinh.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Another drawback is that schools may have to spend more money on purchasing textbooks.",
+                                "vn": "Một hạn chế khác là các trường có thể phải tiêu nhiều tiền hơn cho việc mua sách giáo khoa.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Government-provided textbooks are often cheaper, but schools that choose their own materials may need a larger budget.",
+                                "vn": "Sách giáo khoa do chính phủ cung cấp thường rẻ hơn, nhưng những trường tự chọn tài liệu cho riêng mình có thể cần một ngân sách lớn hơn.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "As a result, some schools, especially those with limited financial resources, may face difficulties.",
+                                "vn": "Kết quả là, một số trường, đặc biệt là những trường có nguồn lực tài chính hạn hẹp, có thể phải đối mặt với nhiều khó khăn.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "In conclusion, allowing schools to choose their own foreign language textbooks has both advantages and disadvantages.",
+                                "vn": "Tóm lại, việc cho phép các trường tự chọn sách giáo khoa ngoại ngữ mang lại cả ưu điểm và nhược điểm.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "It helps schools meet students’ needs and create more engaging lessons, but it may also result in unequal educational quality and higher costs.",
+                                "vn": "Nó giúp các trường đáp ứng nhu cầu của học sinh và tạo ra những bài học hấp dẫn hơn, nhưng nó cũng có thể dẫn đến chất lượng giáo dục không đồng đều và chi phí cao hơn.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Therefore, schools should carefully consider their choices when selecting textbooks.",
+                                "vn": "Vì vậy, các trường học nên cân nhắc kỹ lưỡng các lựa chọn của mình khi chọn sách giáo khoa.",
+                                "isRed": false
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Level B2"
+            }
+        ]
+    },
+    {
+        "id": "friendship",
+        "title": "13. Tình bạn trong xã hội hiện đại",
+        "summary": "Bài luận về tầm quan trọng của tình bạn và những thách thức trong việc duy trì tình bạn trong xã hội hiện đại.",
+        "isMatchingVocab": true,
+        "meta": {
+            "category": "Xã hội",
+            "taskType": "Opinion",
+            "level": "B1-B2",
+            "estimatedMinutes": 40
+        },
+        "prompt": [
+            {
+                "en": "Read the following quote and discuss:",
+                "vn": "Đọc trích dẫn sau và thảo luận:"
+            },
+            {
+                "en": "“Friendship is one of the most valuable things in life. However, some people believe that maintaining true friendship is becoming more difficult in modern society.”",
+                "vn": "“Tình bạn là một trong những điều quý giá nhất trong cuộc sống. Tuy nhiên, một số người tin rằng việc duy trì tình bạn chân thành đang trở nên khó khăn hơn trong xã hội hiện đại.”"
+            },
+            {
+                "en": "Write an essay discussing:",
+                "vn": "Viết một bài luận thảo luận về:"
+            },
+            {
+                "en": "- The importance of friendship",
+                "vn": "- Tầm quan trọng của tình bạn"
+            },
+            {
+                "en": "- The challenges of keeping friendship today",
+                "vn": "- Những thách thức của việc duy trì tình bạn ngày nay"
+            },
+            {
+                "en": "- Your opinion about whether modern life makes friendship stronger or weaker",
+                "vn": "- Ý kiến của bạn về việc liệu cuộc sống hiện đại làm cho tình bạn mạnh mẽ hơn hay yếu đi"
+            }
+        ],
+        "introEnExpectedLength": 45,
+        "conclusionEnExpectedLength": 45,
+        "currentVariantIndex": 1,
+        "variants": [
+            {
+                "name": "Level B1",
+                "vocab": [],
+                "outline": [],
+                "sampleEssay": {
+                    "paragraphs": []
+                }
+            },
+            {
+                "name": "Level B2",
+                "vocab": [
+                    {
+                        "en": "parts of life",
+                        "vn": "phần của cuộc sống"
+                    },
+                    {
+                        "en": "maintain",
+                        "vn": "duy trì"
+                    },
+                    {
+                        "en": "friendship",
+                        "vn": "tình bạn"
+                    },
+                    {
+                        "en": "modern society",
+                        "vn": "xã hội hiện đại"
+                    },
+                    {
+                        "en": "emotional support",
+                        "vn": "sự hỗ trợ về mặt tinh thần"
+                    },
+                    {
+                        "en": "during difficult times",
+                        "vn": "trong những lúc khó khăn"
+                    },
+                    {
+                        "en": "personal lives",
+                        "vn": "cuộc sống cá nhân"
+                    },
+                    {
+                        "en": "share their feelings",
+                        "vn": "chia sẻ cảm xúc của họ"
+                    },
+                    {
+                        "en": "trusted friends",
+                        "vn": "những người bạn đáng tin cậy"
+                    },
+                    {
+                        "en": "encouragement",
+                        "vn": "sự động viên"
+                    },
+                    {
+                        "en": "feelings of loneliness",
+                        "vn": "cảm giác cô đơn"
+                    },
+                    {
+                        "en": "face difficulties",
+                        "vn": "đối mặt với khó khăn"
+                    },
+                    {
+                        "en": "feel understood",
+                        "vn": "cảm thấy được thấu hiểu"
+                    },
+                    {
+                        "en": "feel isolated",
+                        "vn": "cảm thấy bị cô lập"
+                    },
+                    {
+                        "en": "cope with",
+                        "vn": "đối phó với"
+                    },
+                    {
+                        "en": "family responsibilities",
+                        "vn": "trách nhiệm gia đình"
+                    },
+                    {
+                        "en": "in person",
+                        "vn": "trực tiếp"
+                    },
+                    {
+                        "en": "resulting in",
+                        "vn": "dẫn đến"
+                    },
+                    {
+                        "en": "emotional connection",
+                        "vn": "sự kết nối về mặt cảm xúc"
+                    },
+                    {
+                        "en": "online interactions",
+                        "vn": "các tương tác trực tuyến"
+                    },
+                    {
+                        "en": "face-to-face conversations",
+                        "vn": "các cuộc trò chuyện trực tiếp"
+                    },
+                    {
+                        "en": "over time",
+                        "vn": "theo thời gian"
+                    },
+                    {
+                        "en": "digital technology",
+                        "vn": "công nghệ kỹ thuật số"
+                    },
+                    {
+                        "en": "stay connected",
+                        "vn": "giữ liên lạc"
+                    },
+                    {
+                        "en": "the growing reliance on",
+                        "vn": "sự phụ thuộc ngày càng nhiều vào"
+                    }
+                ],
+                "sampleEssay": {
+                    "paragraphs": [
+                        [
+                            {
+                                "en": "Friendship is often considered one of the most valuable parts of life.",
+                                "vn": "Tình bạn thường được xem là một trong những điều quý giá nhất trong cuộc sống.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "However, many people believe that maintaining true friendship has become more difficult in modern society.",
+                                "vn": "Tuy nhiên, nhiều người cho rằng việc duy trì một tình bạn chân thành đã trở nên khó khăn hơn trong xã hội hiện đại.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This essay will discuss the importance of friendship, the challenges people face in keeping friendships today, and explain why I believe modern life makes friendship weaker.",
+                                "vn": "Bài luận này sẽ thảo luận về tầm quan trọng của tình bạn, những thách thức mà con người gặp phải trong việc duy trì các mối quan hệ bạn bè ngày nay, đồng thời giải thích lý do tại sao tôi cho rằng cuộc sống hiện đại đang làm cho tình bạn trở nên yếu đi.",
+                                "isRed": true
+                            }
+                        ],
+                        [
+                            {
+                                "en": "On the one hand, there are several reasons why friendship is essential in our lives.",
+                                "vn": "Một mặt, có một số lý do tại sao tình bạn vô cùng quan trọng trong cuộc sống của chúng ta.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "First of all, friends provide emotional support during difficult times.",
+                                "vn": "Trước hết, bạn bè mang lại sự hỗ trợ về mặt tinh thần trong những lúc khó khăn.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "For example, when people face problems at school, work, or in their personal lives, they can share their feelings with trusted friends and receive advice or encouragement.",
+                                "vn": "Ví dụ, khi con người gặp khó khăn ở trường học, nơi làm việc hoặc trong cuộc sống cá nhân, họ có thể chia sẻ cảm xúc với những người bạn đáng tin cậy và nhận được lời khuyên hoặc sự động viên.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "In addition, friendship helps reduce feelings of loneliness and stress.",
+                                "vn": "Ngoài ra, tình bạn giúp giảm bớt cảm giác cô đơn và căng thẳng.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "When people face difficulties in their studies, work, or personal lives, they can talk to their friends about their problems.",
+                                "vn": "Khi con người gặp khó khăn trong học tập, công việc hoặc cuộc sống cá nhân, họ có thể nói chuyện với bạn bè về vấn đề của mình.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Friends can listen to them, offer advice, and provide emotional support.",
+                                "vn": "Bạn bè có thể lắng nghe, đưa ra lời khuyên và hỗ trợ về mặt tinh thần.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "As a result, people feel understood and less isolated, which helps them cope with stress more effectively.",
+                                "vn": "Kết quả là, mọi người cảm thấy được thấu hiểu và bớt bị cô lập, điều này giúp họ đối phó với căng thẳng hiệu quả hơn.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "Despite these benefits, maintaining friendship has become more challenging in modern society.",
+                                "vn": "Bất chấp những lợi ích này, việc duy trì tình bạn đã trở nên thách thức hơn trong xã hội hiện đại.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "One major reason is that people are often busy with work, study, and family responsibilities.",
+                                "vn": "Một lý do chính là mọi người thường xuyên bận rộn với công việc, học tập và trách nhiệm gia đình.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Consequently, many people do not have time to meet their friends in person, resulting in weaker emotional connection.",
+                                "vn": "Hậu quả là, nhiều người không có thời gian gặp gỡ bạn bè trực tiếp, dẫn đến sự kết nối về mặt cảm xúc yếu đi.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Another challenge is that many friendships are now maintained through social media.",
+                                "vn": "Một thách thức khác là nhiều tình bạn hiện nay được duy trì qua mạng xã hội.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Although technology makes communication easier, online interactions are often less meaningful than face-to-face conversations.",
+                                "vn": "Mặc dù công nghệ giúp cho việc giao tiếp dễ dàng hơn, những tương tác trực tuyến thường ít ý nghĩa hơn các cuộc trò chuyện trực tiếp.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "As a result, some relationships become weaker over time.",
+                                "vn": "Kết quả là, một số mối quan hệ trở nên yếu đi theo thời gian.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "In my opinion, modern life generally makes friendship weaker.",
+                                "vn": "Theo quan điểm của tôi, cuộc sống hiện đại nhìn chung làm tình bạn yếu đi.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "While digital technology allows people to stay connected, it cannot fully replace the emotional connection created through personal contact.",
+                                "vn": "Trong khi công nghệ kỹ thuật số cho phép mọi người giữ liên lạc, nó không thể hoàn toàn thay thế sự kết nối cảm xúc được tạo ra thông qua sự tiếp xúc trực tiếp.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Therefore, many friendships become less close than they were in the past.",
+                                "vn": "Vì vậy, nhiều tình bạn trở nên ít thân thiết hơn so với trước đây.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "In conclusion, friendship plays an important role in people’s lives.",
+                                "vn": "Tóm lại, tình bạn đóng vai trò quan trọng trong cuộc sống của con người.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "It provides emotional support, reduces loneliness, and encourages personal development.",
+                                "vn": "Nó mang lại sự hỗ trợ về mặt tinh thần, giúp giảm cảm giác cô đơn và thúc đẩy sự phát triển của mỗi cá nhân.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "However, busy lifestyles and the growing reliance on online communication make it more difficult to maintain strong friendships.",
+                                "vn": "Tuy nhiên, lối sống bận rộn và sự phụ thuộc ngày càng nhiều vào giao tiếp trực tuyến khiến việc duy trì những tình bạn bền chặt trở nên khó khăn hơn.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "For these reasons, I believe that modern life tends to weaken friendship.",
+                                "vn": "Vì những lý do này, tôi cho rằng cuộc sống hiện đại có xu hướng làm suy yếu tình bạn.",
+                                "isRed": false
+                            }
+                        ]
+                    ]
+                },
+                "introChunks": [
+                    {
+                        "en": "Friendship",
+                        "vn": "Tình bạn"
+                    },
+                    {
+                        "en": "is often considered",
+                        "vn": "thường được xem là"
+                    },
+                    {
+                        "en": "one of",
+                        "vn": "một trong những"
+                    },
+                    {
+                        "en": "the most valuable parts of life.",
+                        "vn": "điều quý giá nhất trong cuộc sống."
+                    },
+                    {
+                        "en": "However,",
+                        "vn": "Tuy nhiên,"
+                    },
+                    {
+                        "en": "many people believe that",
+                        "vn": "nhiều người cho rằng"
+                    },
+                    {
+                        "en": "maintaining true friendship",
+                        "vn": "việc duy trì một tình bạn chân thành"
+                    },
+                    {
+                        "en": "has become",
+                        "vn": "đã trở nên"
+                    },
+                    {
+                        "en": "more difficult",
+                        "vn": "khó khăn hơn"
+                    },
+                    {
+                        "en": "in modern society.",
+                        "vn": "trong xã hội hiện đại."
+                    },
+                    {
+                        "en": "This essay will",
+                        "vn": "Bài luận này sẽ"
+                    },
+                    {
+                        "en": "discuss",
+                        "vn": "thảo luận về"
+                    },
+                    {
+                        "en": "the importance of friendship,",
+                        "vn": "tầm quan trọng của tình bạn,"
+                    },
+                    {
+                        "en": "the challenges people face",
+                        "vn": "những thách thức mà con người gặp phải"
+                    },
+                    {
+                        "en": "in keeping friendships today,",
+                        "vn": "trong việc duy trì các mối quan hệ bạn bè ngày nay,"
+                    },
+                    {
+                        "en": "and explain why",
+                        "vn": "đồng thời giải thích lý do tại sao"
+                    },
+                    {
+                        "en": "I believe",
+                        "vn": "tôi cho rằng"
+                    },
+                    {
+                        "en": "modern life",
+                        "vn": "cuộc sống hiện đại"
+                    },
+                    {
+                        "en": "makes friendship weaker.",
+                        "vn": "đang làm cho tình bạn trở nên yếu đi."
+                    }
+                ],
+                "introVn": "Tình bạn thường được xem là một trong những điều quý giá nhất trong cuộc sống. Tuy nhiên, nhiều người cho rằng việc duy trì một tình bạn chân thành đã trở nên khó khăn hơn trong xã hội hiện đại. Bài luận này sẽ thảo luận về tầm quan trọng của tình bạn, những thách thức mà con người gặp phải trong việc duy trì các mối quan hệ bạn bè ngày nay, đồng thời giải thích lý do tại sao tôi cho rằng cuộc sống hiện đại đang làm cho tình bạn trở nên yếu đi.",
+                "bodyParagraphs": [
+                    {
+                        "title": "Thân bài 1",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "On the one hand, / there are several reasons why / friendship / is essential / in our lives.",
+                                        "vn": "Một mặt, / có một số lý do tại sao / tình bạn / vô cùng quan trọng / trong cuộc sống của chúng ta.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Ý 1",
+                                "hints": [
+                                    {
+                                        "en": "provide emotional support",
+                                        "vn": "cung cấp sự hỗ trợ tinh thần"
+                                    },
+                                    {
+                                        "en": "face problems (at school + work + in their personal lives)",
+                                        "vn": "đối mặt với vấn đề (ở trường + nơi làm việc + trong cuộc sống cá nhân)"
+                                    },
+                                    {
+                                        "en": "share their feelings with trusted friends + receive (advice + encouragement)",
+                                        "vn": "chia sẻ cảm xúc với bạn bè tin cậy + nhận (lời khuyên + sự động viên)"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Ý 2",
+                                "hints": [
+                                    {
+                                        "en": "reduce feelings of loneliness and stress",
+                                        "vn": "giảm cảm giác cô đơn và căng thẳng"
+                                    },
+                                    {
+                                        "en": "face difficulties (their studies + work + personal lives)",
+                                        "vn": "đối mặt với khó khăn (trong học tập + công việc + cuộc sống cá nhân)"
+                                    },
+                                    {
+                                        "en": "talk to their friends about their problems",
+                                        "vn": "tâm sự với bạn bè về vấn đề của họ"
+                                    },
+                                    {
+                                        "en": "listen to them + offer advice + provide emotional support",
+                                        "vn": "lắng nghe họ + đưa ra lời khuyên + cung cấp hỗ trợ tinh thần"
+                                    },
+                                    {
+                                        "en": "feel understood + less isolated",
+                                        "vn": "cảm thấy được thấu hiểu + bớt cô lập hơn"
+                                    },
+                                    {
+                                        "en": "cope with stress",
+                                        "vn": "đối phó với căng thẳng"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Thân bài 2",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "Despite these benefits, / maintaining friendship / has become / more challenging / in modern society.",
+                                        "vn": "Mặc dù những lợi ích trên, / duy trì tình bạn / đã và đang trở nên / khó khăn hơn / trong xã hội hiện đại.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Ý 1",
+                                "hints": [
+                                    {
+                                        "en": "busy with work, study, and family responsibilities",
+                                        "vn": "bận rộn với công việc, học tập, và trách nhiệm gia đình"
+                                    },
+                                    {
+                                        "en": "do not have time to meet their friends in person",
+                                        "vn": "không có thời gian gặp gỡ bạn bè trực tiếp"
+                                    },
+                                    {
+                                        "en": "weaker emotional connection",
+                                        "vn": "kết nối cảm xúc yếu đi"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Ý 2",
+                                "hints": [
+                                    {
+                                        "en": "maintained through social media",
+                                        "vn": "được duy trì thông qua mạng xã hội"
+                                    },
+                                    {
+                                        "en": "technology (easier communication) >< less meaningful than face-to-face conversations",
+                                        "vn": "công nghệ (giao tiếp dễ dàng hơn) >< ít ý nghĩa hơn so với trò chuyện trực tiếp"
+                                    },
+                                    {
+                                        "en": "some relationships => become weaker over time",
+                                        "vn": "một số mối quan hệ => trở nên yếu đi theo thời gian"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Thân bài 3",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "In my opinion, / modern life / generally / makes friendship / weaker.",
+                                        "vn": "Theo quan điểm của tôi, / đời sống hiện đại / nhìn chung / khiến tình bạn / trở nên yếu đi.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Ý 1",
+                                "hints": [
+                                    {
+                                        "en": "digital technology => stay connected",
+                                        "vn": "công nghệ kỹ thuật số => giữ liên lạc"
+                                    },
+                                    {
+                                        "en": "cannot fully replace the emotional connection",
+                                        "vn": "không thể hoàn toàn thay thế sự kết nối cảm xúc"
+                                    },
+                                    {
+                                        "en": "many friendships => less close than they were in the past",
+                                        "vn": "nhiều tình bạn => bớt thân thiết hơn so với trước đây"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "conclusionChunks": [
+                    {
+                        "en": "In conclusion,",
+                        "vn": "Tóm lại,"
+                    },
+                    {
+                        "en": "friendship",
+                        "vn": "tình bạn"
+                    },
+                    {
+                        "en": "plays an important role",
+                        "vn": "đóng vai trò quan trọng"
+                    },
+                    {
+                        "en": "in people’s lives.",
+                        "vn": "trong cuộc sống của con người."
+                    },
+                    {
+                        "en": "It",
+                        "vn": "Nó"
+                    },
+                    {
+                        "en": "provides emotional support,",
+                        "vn": "mang lại sự hỗ trợ về mặt tinh thần,"
+                    },
+                    {
+                        "en": "reduces loneliness,",
+                        "vn": "giúp giảm cảm giác cô đơn"
+                    },
+                    {
+                        "en": "and encourages personal development.",
+                        "vn": "và thúc đẩy sự phát triển của mỗi cá nhân."
+                    },
+                    {
+                        "en": "However,",
+                        "vn": "Tuy nhiên,"
+                    },
+                    {
+                        "en": "busy lifestyles",
+                        "vn": "lối sống bận rộn"
+                    },
+                    {
+                        "en": "and the growing reliance on online communication",
+                        "vn": "và sự phụ thuộc ngày càng nhiều vào giao tiếp trực tuyến"
+                    },
+                    {
+                        "en": "make it more difficult to maintain strong friendships.",
+                        "vn": "khiến việc duy trì những tình bạn bền chặt trở nên khó khăn hơn."
+                    },
+                    {
+                        "en": "For these reasons,",
+                        "vn": "Vì những lý do này,"
+                    },
+                    {
+                        "en": "I believe that",
+                        "vn": "tôi cho rằng"
+                    },
+                    {
+                        "en": "modern life",
+                        "vn": "cuộc sống hiện đại"
+                    },
+                    {
+                        "en": "tends to",
+                        "vn": "có xu hướng"
+                    },
+                    {
+                        "en": "weaken friendship.",
+                        "vn": "làm suy yếu tình bạn."
+                    }
+                ],
+                "conclusionVn": "Tóm lại, tình bạn đóng vai trò quan trọng trong cuộc sống của con người. Nó mang lại sự hỗ trợ về mặt tinh thần, giúp giảm cảm giác cô đơn và thúc đẩy sự phát triển của mỗi cá nhân. Tuy nhiên, lối sống bận rộn và sự phụ thuộc ngày càng nhiều vào giao tiếp trực tuyến khiến việc duy trì những tình bạn bền chặt trở nên khó khăn hơn. Vì những lý do này, tôi cho rằng cuộc sống hiện đại có xu hướng làm suy yếu tình bạn."
+            }
+        ]
+    }
+];

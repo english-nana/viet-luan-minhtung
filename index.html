@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Không gian luyện viết luận VSTEP với đề bài, phân tích, từ vựng và gợi ý triển khai.">
+    <title>Luyện Viết Luận VSTEP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-shell">
+        <header class="mobile-header">
+            <div class="mobile-brand">WRITING TASK 02</div>
+            <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Mở menu"><i class="fa-solid fa-bars"></i></button>
+        </header>
+        <div class="sidebar-backdrop" id="sidebar-backdrop"></div>
+        <aside class="sidebar" id="sidebar">
+            <div class="brand-block">
+                <span class="brand-mark"><i class="fa-solid fa-pen-nib"></i></span>
+                <div>
+                    <p class="eyebrow">IELTS/VSTEP WRITING</p>
+                    <h1>WRITING TASK 02</h1>
+                </div>
+            </div>
+
+            <div class="sidebar-tools">
+                <div class="filter-chips" id="topic-filters"></div>
+            </div>
+
+            <div class="essay-list">
+                <div class="list-header">
+                    <h2>Chủ đề luận</h2>
+                    <span id="topic-count"></span>
+                </div>
+                <ul id="essay-list-ul"></ul>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <section class="workspace-hero">
+                <div class="hero-copy">
+                    <p class="eyebrow" id="topic-kicker"></p>
+                    <h2 id="current-title"></h2>
+                </div>
+                <div class="hero-side">
+                    <div class="metric-strip">
+                        <button id="btn-sample" class="metric-item btn-sample" type="button">
+                            <strong id="metric-primary-value">01</strong>
+                            <span id="metric-primary-label" class="desktop-only">Bài mẫu</span>
+                            <span class="mobile-only-btn-text">Xem bài mẫu</span>
+                        </button>
+                        <div class="metric-item">
+                            <strong id="metric-body">0</strong>
+                            <span id="metric-body-label">Đoạn thân bài</span>
+                        </div>
+                        <div class="metric-item">
+                            <strong id="metric-time">40'</strong>
+                            <span id="metric-time-label">Thời lượng</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="general-theory-section" class="theory-page hidden" aria-label="Lý thuyết chung"></section>
+
+            <section class="content-card prompt-card essay-section">
+                <div class="section-header-flex">
+                    <h2 class="section-title"><i class="fa-solid fa-book-open"></i> ĐỀ BÀI</h2>
+                    <div class="section-actions">
+                        <div class="local-tools font-tools" data-font-target="prompt-content"></div>
+                    </div>
+                </div>
+                <div class="prompt-content" id="prompt-content"></div>
+            </section>
+
+            <section id="analysis-section" class="content-card practice-section essay-section">
+                <h2 class="section-title"><i class="fa-solid fa-magnifying-glass-chart"></i> PHÂN TÍCH ĐỀ BÀI</h2>
+                <div class="analysis-grid" id="analysis-fields"></div>
+            </section>
+
+            <section id="vocab-section" class="content-card practice-section essay-section">
+                <h2 class="section-title"><i class="fa-solid fa-spell-check"></i> TỪ VỰNG QUAN TRỌNG</h2>
+                <div class="vocab-compact-grid" id="vocab-grid"></div>
+            </section>
+
+            <section id="sample-essay-section" class="content-card essay-section hidden">
+                <div class="section-header-flex">
+                    <h2 class="section-title"><i class="fa-solid fa-file-lines"></i> BÀI MẪU</h2>
+                    <div class="section-actions">
+                        <div class="local-tools font-tools" data-font-target="sample-essay-content"></div>
+                    </div>
+                </div>
+                <div id="sample-essay-content" class="sample-essay" style="margin-top: 1rem;"></div>
+            </section>
+
+            <section id="intro-section" class="content-card practice-section essay-section">
+                <div class="section-header-flex">
+                    <h2 class="section-title"><i class="fa-solid fa-play"></i> MỞ BÀI</h2>
+                    <div class="section-actions">
+                        <div class="local-tools font-tools" data-font-target="intro-en"></div>
+                    </div>
+                </div>
+                <div class="translation-workspace">
+                    <div class="vn-layer" id="intro-vn"></div>
+                    <div class="en-layer" id="intro-en" contenteditable="true" aria-label="Viết mở bài bằng tiếng Anh"></div>
+                </div>
+            </section>
+
+            <section id="body-section" class="content-card practice-section essay-section">
+                <h2 class="section-title"><i class="fa-solid fa-align-left"></i> THÂN BÀI</h2>
+                <div id="body-paragraphs-container"></div>
+            </section>
+
+            <section id="conclusion-section" class="content-card practice-section essay-section">
+                <div class="section-header-flex">
+                    <h2 class="section-title"><i class="fa-solid fa-flag-checkered"></i> KẾT BÀI</h2>
+                    <div class="section-actions">
+                        <div class="local-tools font-tools" data-font-target="conclusion-en"></div>
+                    </div>
+                </div>
+                <div class="translation-workspace">
+                    <div class="vn-layer" id="conclusion-vn"></div>
+                    <div class="en-layer" id="conclusion-en" contenteditable="true" aria-label="Viết kết bài bằng tiếng Anh"></div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+
+    <script src="essays-data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
