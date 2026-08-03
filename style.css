@@ -4231,3 +4231,10 @@ button {
     border-color: var(--danger);
     background: transparent;
 }
+
+.matching-completed:not(.has-items) {
+    display: none !important;
+}
+.matching-completed-title {
+    display: none !important;
+}

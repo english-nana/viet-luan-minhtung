@@ -8097,7 +8097,7 @@ window.ESSAY_TOPICS = [
                                     {
                                         "en": "earn a high income",
                                         "vn": "kiếm được thu nhập cao",
-                                        "connector": "➜",
+                                        "connector": ":",
                                         "isBoldRed": true
                                     },
                                     {
@@ -8144,7 +8144,7 @@ window.ESSAY_TOPICS = [
                                     {
                                         "en": "have more career opportunities",
                                         "vn": "có nhiều cơ hội nghề nghiệp hơn",
-                                        "connector": "➜",
+                                        "connector": ":",
                                         "isBoldRed": true
                                     },
                                     {
@@ -8196,7 +8196,7 @@ window.ESSAY_TOPICS = [
                                     {
                                         "en": "the lack of privacy",
                                         "vn": "sự thiếu riêng tư",
-                                        "connector": "➜",
+                                        "connector": ":",
                                         "isBoldRed": true
                                     },
                                     {
@@ -8207,12 +8207,13 @@ window.ESSAY_TOPICS = [
                                     {
                                         "en": "cannot enjoy a normal personal life",
                                         "vn": "không thể tận hưởng một cuộc sống cá nhân bình thường",
-                                        "connector": "➜"
+                                        "connector": ""
                                     },
                                     {
                                         "en": "simple activities",
                                         "vn": "những hoạt động đơn giản",
-                                        "connector": "➜"
+                                        "connector": "➜",
+                                        "newLine": true
                                     },
                                     {
                                         "en": "attract public attention",
@@ -8226,7 +8227,7 @@ window.ESSAY_TOPICS = [
                                     {
                                         "en": "the heavy pressure of being famous",
                                         "vn": "áp lực nặng nề của việc nổi tiếng",
-                                        "connector": "➜",
+                                        "connector": ":",
                                         "isBoldRed": true
                                     },
                                     {
@@ -8237,12 +8238,13 @@ window.ESSAY_TOPICS = [
                                     {
                                         "en": "behave carefully all the time",
                                         "vn": "cư xử cẩn thận mọi lúc",
-                                        "connector": "➜"
+                                        "connector": ""
                                     },
                                     {
                                         "en": "a small mistake",
                                         "vn": "một sai lầm nhỏ",
-                                        "connector": "➜"
+                                        "connector": "➜",
+                                        "newLine": true
                                     },
                                     {
                                         "en": "big news online",
@@ -8771,7 +8773,8 @@ window.ESSAY_TOPICS = [
                                     {
                                         "en": "personal relationships",
                                         "vn": "các mối quan hệ cá nhân",
-                                        "connector": "+"
+                                        "connector": "+",
+                                        "newLine": true
                                     },
                                     {
                                         "en": "daily activities",
@@ -8796,12 +8799,13 @@ window.ESSAY_TOPICS = [
                                     {
                                         "en": "millions of people watch their actions",
                                         "vn": "hàng triệu người theo dõi hành động của họ",
-                                        "connector": "➜"
+                                        "connector": ""
                                     },
                                     {
                                         "en": "a small mistake",
                                         "vn": "một sai lầm nhỏ",
-                                        "connector": "➜"
+                                        "connector": "➜",
+                                        "newLine": true
                                     },
                                     {
                                         "en": "spread on social media",

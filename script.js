@@ -2758,6 +2758,13 @@ function renderIdeaGroups(container, paragraph, essayId, paragraphIndex, passedL
                 button.setAttribute("aria-expanded", String(!isHidden));
             });
 
+            if (hint.newLine) {
+                const lineBreak = document.createElement("div");
+                lineBreak.style.flexBasis = "100%";
+                lineBreak.style.height = "0";
+                row.appendChild(lineBreak);
+            }
+            
             wrapper.append(button, translation);
             row.appendChild(wrapper);
 
