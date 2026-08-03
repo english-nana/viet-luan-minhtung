@@ -207,8 +207,8 @@ window.ESSAY_TOPICS = [
                                 "label": "Topic sentence",
                                 "hints": [
                                     {
-                                        "en": "On the one hand, / there are {some|several} / benefits of learning a musical instrument.",
-                                        "vn": "Một mặt, / có một số / lợi ích của việc học một nhạc cụ.",
+                                        "en": "On the one hand, there are {some|several} benefits of learning a musical instrument.",
+                                        "vn": "Một mặt, có một số lợi ích của việc học một nhạc cụ.",
                                         "isTopic": true
                                     }
                                 ]
@@ -264,8 +264,8 @@ window.ESSAY_TOPICS = [
                                 "label": "Topic sentence",
                                 "hints": [
                                     {
-                                        "en": "On the other hand, / learning to play musical instruments / also comes with / some {disadvantages|drawbacks}.",
-                                        "vn": "Mặt khác, / việc học chơi nhạc cụ / cũng đi kèm với / một số bất lợi.",
+                                        "en": "On the other hand, learning to play musical instruments also comes with some {disadvantages|drawbacks}.",
+                                        "vn": "Mặt khác, việc học chơi nhạc cụ cũng đi kèm với một số bất lợi.",
                                         "isTopic": true
                                     }
                                 ]
@@ -3671,8 +3671,8 @@ window.ESSAY_TOPICS = [
                                 "label": "Topic sentence",
                                 "hints": [
                                     {
-                                        "en": "Một mặt, / tôi hiểu tại sao / một số người tranh cãi rằng / người hút thuốc / nên có quyền hút.",
-                                        "vn": "On the one hand, / I understand why / some people argue that / smokers / should have the right to smoke.",
+                                        "en": "Một mặt, tôi hiểu tại sao một số người tranh cãi rằng người hút thuốc nên có quyền hút.",
+                                        "vn": "On the one hand, I understand why some people argue that smokers should have the right to smoke.",
                                         "isTopic": true
                                     }
                                 ]
@@ -3736,8 +3736,8 @@ window.ESSAY_TOPICS = [
                                 "label": "Topic sentence",
                                 "hints": [
                                     {
-                                        "en": "Tuy nhiên, / tôi vẫn nghiêng về phía những người với quan điểm rằng / việc hút thuốc / ở nơi công cộng / nên bị cấm.",
-                                        "vn": "However, / I still lean towards those with the view that / smoking / in public places / should be banned.",
+                                        "en": "Tuy nhiên, tôi vẫn nghiêng về phía những người với quan điểm rằng việc hút thuốc ở nơi công cộng nên bị cấm.",
+                                        "vn": "However, I still lean towards those with the view that smoking in public places should be banned.",
                                         "isTopic": true
                                     }
                                 ]
@@ -4193,8 +4193,8 @@ window.ESSAY_TOPICS = [
                                 "label": "Topic sentence",
                                 "hints": [
                                     {
-                                        "en": "Một mặt, / tôi hiểu tại sao / một số người tranh cãi rằng / người hút thuốc / nên có quyền hút.",
-                                        "vn": "On the one hand, / I understand why / some people argue that / smokers / should have the right to smoke.",
+                                        "en": "Một mặt, tôi hiểu tại sao một số người tranh cãi rằng người hút thuốc nên có quyền hút.",
+                                        "vn": "On the one hand, I understand why some people argue that smokers should have the right to smoke.",
                                         "isTopic": true
                                     }
                                 ]
@@ -4258,8 +4258,8 @@ window.ESSAY_TOPICS = [
                                 "label": "Topic sentence",
                                 "hints": [
                                     {
-                                        "en": "Tuy nhiên, / tôi vẫn nghiêng về phía những người với quan điểm rằng / việc hút thuốc / ở nơi công cộng / nên bị cấm.",
-                                        "vn": "However, / I still lean towards those with the view that / smoking / in public places / should be banned.",
+                                        "en": "Tuy nhiên, tôi vẫn nghiêng về phía những người với quan điểm rằng việc hút thuốc ở nơi công cộng nên bị cấm.",
+                                        "vn": "However, I still lean towards those with the view that smoking in public places should be banned.",
                                         "isTopic": true
                                     }
                                 ]
@@ -4718,8 +4718,8 @@ window.ESSAY_TOPICS = [
                                 "label": "Topic sentence",
                                 "hints": [
                                     {
-                                        "en": "Rõ ràng là / có nhiều tác động tích cực / của các triển lãm lịch sử.",
-                                        "vn": "It is obvious that / there are several positive impacts / of historical exhibitions.",
+                                        "en": "Rõ ràng là có nhiều tác động tích cực của các triển lãm lịch sử.",
+                                        "vn": "It is obvious that there are several positive impacts of historical exhibitions.",
                                         "isTopic": true
                                     }
                                 ]
@@ -4767,8 +4767,8 @@ window.ESSAY_TOPICS = [
                                 "label": "Topic sentence",
                                 "hints": [
                                     {
-                                        "en": "Thứ hai, / việc đi đến các triển lãm lịch sử / có thể khiến việc học trở nên thú vị hơn.",
-                                        "vn": "Secondly, / going to historical exhibitions / can make learning more interesting.",
+                                        "en": "Thứ hai, việc đi đến các triển lãm lịch sử có thể khiến việc học trở nên thú vị hơn.",
+                                        "vn": "Secondly, going to historical exhibitions can make learning more interesting.",
                                         "isTopic": true
                                     }
                                 ]
@@ -4807,8 +4807,8 @@ window.ESSAY_TOPICS = [
                                 "label": "Topic sentence",
                                 "hints": [
                                     {
-                                        "en": "Cuối cùng, / các triển lãm lịch sử / cũng giúp / nâng cao lòng tự hào dân tộc.",
-                                        "vn": "Finally, / historical exhibitions / also help to / increase national pride.",
+                                        "en": "Cuối cùng, các triển lãm lịch sử cũng giúp nâng cao lòng tự hào dân tộc.",
+                                        "vn": "Finally, historical exhibitions also help to increase national pride.",
                                         "isTopic": true
                                     }
                                 ]
@@ -5155,8 +5155,8 @@ window.ESSAY_TOPICS = [
                                 "label": "Topic sentence",
                                 "hints": [
                                     {
-                                        "en": "Một lợi ích chính / của việc sử dụng nhiều sách giáo khoa / là / nó khiến cho bài học / thú vị hơn.",
-                                        "vn": "A main benefit / of using multiple textbooks / is that / it makes lessons / more interesting.",
+                                        "en": "Một lợi ích chính của việc sử dụng nhiều sách giáo khoa là nó khiến cho bài học thú vị hơn.",
+                                        "vn": "A main benefit of using multiple textbooks is that it makes lessons more interesting.",
                                         "isTopic": true
                                     }
                                 ]
@@ -5213,8 +5213,8 @@ window.ESSAY_TOPICS = [
                                 "label": "Topic sentence",
                                 "hints": [
                                     {
-                                        "en": "Một lợi ích khác là / đa dạng sách giáo khoa / có thể giúp / các học sinh với các khả năng khác nhau.",
-                                        "vn": "Another benefit is that / a variety of textbooks / can help / students with different abilities.",
+                                        "en": "Một lợi ích khác là đa dạng sách giáo khoa có thể giúp các học sinh với các khả năng khác nhau.",
+                                        "vn": "Another benefit is that a variety of textbooks can help students with different abilities.",
                                         "isTopic": true
                                     }
                                 ]
@@ -5267,8 +5267,8 @@ window.ESSAY_TOPICS = [
                                 "label": "Topic sentence",
                                 "hints": [
                                     {
-                                        "en": "Cuối cùng, / học sinh / có thể học được / nhiều thông tin hữu ích.",
-                                        "vn": "Finally, / students / can learn / a lot of useful information.",
+                                        "en": "Cuối cùng, học sinh có thể học được nhiều thông tin hữu ích.",
+                                        "vn": "Finally, students can learn a lot of useful information.",
                                         "isTopic": true
                                     }
                                 ]
@@ -6369,8 +6369,8 @@ window.ESSAY_TOPICS = [
                                 "label": "Topic sentence",
                                 "hints": [
                                     {
-                                        "en": "On the one hand, / there are several reasons why / friendship / is essential / in our lives.",
-                                        "vn": "Một mặt, / có một số lý do tại sao / tình bạn / vô cùng quan trọng / trong cuộc sống của chúng ta.",
+                                        "en": "On the one hand, there are several reasons why friendship is essential in our lives.",
+                                        "vn": "Một mặt, có một số lý do tại sao tình bạn vô cùng quan trọng trong cuộc sống của chúng ta.",
                                         "isTopic": true
                                     }
                                 ]
@@ -6430,8 +6430,8 @@ window.ESSAY_TOPICS = [
                                 "label": "Topic sentence",
                                 "hints": [
                                     {
-                                        "en": "Despite these benefits, / maintaining friendship / has become / more challenging / in modern society.",
-                                        "vn": "Mặc dù những lợi ích trên, / duy trì tình bạn / đã và đang trở nên / khó khăn hơn / trong xã hội hiện đại.",
+                                        "en": "Despite these benefits, maintaining friendship has become more challenging in modern society.",
+                                        "vn": "Mặc dù những lợi ích trên, duy trì tình bạn đã và đang trở nên khó khăn hơn trong xã hội hiện đại.",
                                         "isTopic": true
                                     }
                                 ]
@@ -6479,8 +6479,8 @@ window.ESSAY_TOPICS = [
                                 "label": "Topic sentence",
                                 "hints": [
                                     {
-                                        "en": "In my opinion, / modern life / generally / makes friendship / weaker.",
-                                        "vn": "Theo quan điểm của tôi, / đời sống hiện đại / nhìn chung / khiến tình bạn / trở nên yếu đi.",
+                                        "en": "In my opinion, modern life generally makes friendship weaker.",
+                                        "vn": "Theo quan điểm của tôi, đời sống hiện đại nhìn chung khiến tình bạn trở nên yếu đi.",
                                         "isTopic": true
                                     }
                                 ]
@@ -8134,8 +8134,8 @@ window.ESSAY_TOPICS = [
                                 "label": "Topic sentence",
                                 "hints": [
                                     {
-                                        "en": "However, I believe the disadvantages are greater.",
-                                        "vn": "Tuy nhiên, tôi tin rằng những bất lợi lớn hơn.",
+                                        "en": "However, I believe these advantages cannot outweigh the disadvantages of becoming famous.",
+                                        "vn": "Tuy nhiên, tôi tin rằng những lợi ích này không thể vượt qua những bất lợi của việc trở nên nổi tiếng.",
                                         "isTopic": true
                                     }
                                 ]
@@ -8557,8 +8557,8 @@ window.ESSAY_TOPICS = [
                                 "label": "Topic sentence",
                                 "hints": [
                                     {
-                                        "en": "On the one hand, / becoming a famous actor or singer / offers many advantages.",
-                                        "vn": "Một mặt, / việc trở thành một diễn viên hay ca sĩ nổi tiếng / mang lại nhiều lợi ích.",
+                                        "en": "On the one hand, becoming a famous actor or singer offers many advantages.",
+                                        "vn": "Một mặt, việc trở thành một diễn viên hay ca sĩ nổi tiếng mang lại nhiều lợi ích.",
                                         "isTopic": true
                                     }
                                 ]
@@ -8567,16 +8567,8 @@ window.ESSAY_TOPICS = [
                                 "label": "Lợi ích 1",
                                 "hints": [
                                     {
-                                        "en": "{earn a high income|Firstly, celebrities usually earn a high income.}",
-                                        "vn": "{kiếm được thu nhập cao|Đầu tiên, những người nổi tiếng thường kiếm được thu nhập cao.}"
-                                    },
-                                    {
-                                        "en": "{receive additional income (advertisements + brand partnerships)|Besides their main profession, they can receive additional income from other sources such as advertisements and brand partnerships.}",
-                                        "vn": "{nhận thêm thu nhập (quảng cáo + hợp tác thương hiệu)|Bên cạnh nghề nghiệp chính, họ có thể nhận thêm thu nhập từ các nguồn khác như quảng cáo và hợp tác thương hiệu.}"
-                                    },
-                                    {
-                                        "en": "{enjoy a comfortable lifestyle + travel around the world + afford experiences|As a result, they can enjoy a comfortable lifestyle, travel around the world, and afford experiences that many people cannot.}",
-                                        "vn": "{tận hưởng một lối sống thoải mái + đi du lịch vòng quanh thế giới + có khả năng chi trả cho những trải nghiệm|Kết quả là, họ có thể tận hưởng một lối sống thoải mái, đi du lịch vòng quanh thế giới và có khả năng chi trả cho những trải nghiệm mà nhiều người không thể.}"
+                                        "en": "earn a high income: receive additional income (advertisements + brand partnerships) ➜ enjoy a comfortable lifestyle + travel around the world + afford experiences that many people cannot",
+                                        "vn": "kiếm được thu nhập cao: nhận thêm thu nhập (quảng cáo + hợp tác thương hiệu) ➜ tận hưởng lối sống thoải mái + đi du lịch vòng quanh thế giới + có khả năng chi trả cho những trải nghiệm mà nhiều người không thể"
                                     }
                                 ]
                             },
@@ -8584,16 +8576,12 @@ window.ESSAY_TOPICS = [
                                 "label": "Lợi ích 2",
                                 "hints": [
                                     {
-                                        "en": "{open the door to a wide range of career opportunities|In addition, fame can open the door to a wide range of career opportunities.}",
-                                        "vn": "{mở ra cơ hội cho một loạt các cơ hội nghề nghiệp|Ngoài ra, sự nổi tiếng có thể mở ra cơ hội cho một loạt các cơ hội nghề nghiệp.}"
+                                        "en": "a wide range of career opportunities: act in movies + appear on television programmes + collaborate with international companies",
+                                        "vn": "một loạt các cơ hội nghề nghiệp: đóng phim + xuất hiện trên các chương trình truyền hình + hợp tác với các công ty quốc tế"
                                     },
                                     {
-                                        "en": "{act in movies + appear on television programmes + collaborate with international companies|They may be invited to act in movies, appear on television programmes, or collaborate with international companies.}",
-                                        "vn": "{đóng phim + xuất hiện trên các chương trình truyền hình + hợp tác với các công ty quốc tế|Họ có thể được mời đóng phim, xuất hiện trên các chương trình truyền hình hoặc hợp tác với các công ty quốc tế.}"
-                                    },
-                                    {
-                                        "en": "{their reputation grows ➜ expand their careers (businesses + charity work)|As their reputation grows, they can also expand their careers into other areas such as businesses or charity work.}",
-                                        "vn": "{danh tiếng của họ tăng lên ➜ mở rộng sự nghiệp của họ (kinh doanh + công việc từ thiện)|Khi danh tiếng của họ tăng lên, họ cũng có thể mở rộng sự nghiệp sang các lĩnh vực khác như kinh doanh hoặc công việc từ thiện.}"
+                                        "en": "their reputation grows ➜ expand their careers (businesses + charity work)",
+                                        "vn": "danh tiếng của họ tăng lên ➜ mở rộng sự nghiệp (kinh doanh + công việc từ thiện)"
                                     }
                                 ]
                             }
@@ -8606,8 +8594,8 @@ window.ESSAY_TOPICS = [
                                 "label": "Topic sentence",
                                 "hints": [
                                     {
-                                        "en": "However, / I believe / the disadvantages are greater.",
-                                        "vn": "Tuy nhiên, / tôi tin rằng / những bất lợi lớn hơn.",
+                                        "en": "However, I believe these advantages cannot outweigh the disadvantages of becoming famous.",
+                                        "vn": "Tuy nhiên, tôi tin rằng những lợi ích này không thể vượt qua những bất lợi của việc trở nên nổi tiếng.",
                                         "isTopic": true
                                     }
                                 ]
@@ -8616,16 +8604,12 @@ window.ESSAY_TOPICS = [
                                 "label": "Bất lợi 1",
                                 "hints": [
                                     {
-                                        "en": "{the loss of privacy|However, one major drawback of fame is the loss of privacy.}",
-                                        "vn": "{sự mất đi tính riêng tư|Tuy nhiên, một nhược điểm lớn của sự nổi tiếng là sự mất đi tính riêng tư.}"
+                                        "en": "the loss of privacy: followed by the media + photographed by fans ➜ difficult to enjoy ordinary life",
+                                        "vn": "sự mất đi tính riêng tư: bị truyền thông theo dõi + bị người hâm mộ chụp ảnh ➜ khó khăn để tận hưởng cuộc sống bình thường"
                                     },
                                     {
-                                        "en": "{followed by the media + photographed by fans ➜ difficult to enjoy ordinary life|Celebrities are constantly followed by the media and photographed by fans, which makes it difficult for them to enjoy an ordinary life.}",
-                                        "vn": "{bị truyền thông theo dõi + bị người hâm mộ chụp ảnh ➜ khó khăn để tận hưởng cuộc sống bình thường|Những người nổi tiếng liên tục bị truyền thông theo dõi và bị người hâm mộ chụp ảnh, điều này khiến họ gặp khó khăn trong việc tận hưởng một cuộc sống bình thường.}"
-                                    },
-                                    {
-                                        "en": "{personal relationships + daily activities ➜ topics of public discussion|Even their personal relationships and daily activities can become topics of public discussion.}",
-                                        "vn": "{các mối quan hệ cá nhân + các hoạt động hàng ngày ➜ các chủ đề thảo luận của công chúng|Thậm chí các mối quan hệ cá nhân và các hoạt động hàng ngày của họ cũng có thể trở thành các chủ đề thảo luận của công chúng.}"
+                                        "en": "personal relationships + daily activities ➜ topics of public discussion",
+                                        "vn": "các mối quan hệ cá nhân + các hoạt động hàng ngày ➜ các chủ đề thảo luận của công chúng"
                                     }
                                 ]
                             },
@@ -8633,16 +8617,8 @@ window.ESSAY_TOPICS = [
                                 "label": "Bất lợi 2",
                                 "hints": [
                                     {
-                                        "en": "{the pressure to maintain a perfect public image|Another significant disadvantage is the pressure to maintain a perfect public image.}",
-                                        "vn": "{áp lực duy trì một hình ảnh công chúng hoàn hảo|Một bất lợi đáng kể khác là áp lực duy trì một hình ảnh công chúng hoàn hảo.}"
-                                    },
-                                    {
-                                        "en": "{millions of people watch their actions ➜ a small mistake ➜ spread on social media + damage their reputation|Because millions of people watch their actions, a small mistake can quickly spread on social media and damage their reputation.}",
-                                        "vn": "{hàng triệu người theo dõi hành động của họ ➜ một sai lầm nhỏ ➜ lan truyền trên mạng xã hội + làm hỏng danh tiếng của họ|Bởi vì hàng triệu người theo dõi hành động của họ, một sai lầm nhỏ có thể nhanh chóng lan truyền trên mạng xã hội và làm hỏng danh tiếng của họ.}"
-                                    },
-                                    {
-                                        "en": "{stress, anxiety, or mental health issues|This constant scrutiny often leads to severe stress, anxiety, or even mental health issues.}",
-                                        "vn": "{căng thẳng, lo lắng, hoặc các vấn đề sức khỏe tinh thần|Sự giám sát liên tục này thường dẫn đến căng thẳng nghiêm trọng, lo lắng, hoặc thậm chí là các vấn đề sức khỏe tinh thần.}"
+                                        "en": "the pressure to maintain a perfect public image: millions of people watch their actions ➜ a small mistake ➜ spread on social media + damage their reputation ➜ stress, anxiety, or mental health issues",
+                                        "vn": "áp lực duy trì một hình ảnh công chúng hoàn hảo: hàng triệu người theo dõi hành động của họ ➜ một sai lầm nhỏ ➜ lan truyền trên mạng xã hội + làm hỏng danh tiếng của họ ➜ căng thẳng, lo lắng, hoặc các vấn đề sức khỏe tinh thần"
                                     }
                                 ]
                             }

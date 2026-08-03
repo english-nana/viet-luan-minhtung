@@ -2740,8 +2740,13 @@ function renderIdeaGroups(container, paragraph, essayId, paragraphIndex, passedL
                 return;
             }
 
-            button.textContent = resolvedPrimary;
-            translation.textContent = resolvedSecondary;
+            const formatPunctuation = (str) => {
+                if (!str) return str;
+                return str.replace(/([:()➜]|=>)/g, '<b style="color: black;">$1</b>');
+            };
+
+            button.innerHTML = formatPunctuation(resolvedPrimary);
+            translation.innerHTML = formatPunctuation(resolvedSecondary);
             button.setAttribute("aria-expanded", "false");
 
             button.addEventListener("click", () => {
