@@ -2757,11 +2757,32 @@ function renderIdeaGroups(container, paragraph, essayId, paragraphIndex, passedL
             wrapper.append(button, translation);
             row.appendChild(wrapper);
 
+            if (hint.prefix) {
+                const prefixSpan = document.createElement("span");
+                prefixSpan.className = "hint-arrow";
+                prefixSpan.innerHTML = `<b style="color: black;">${hint.prefix}</b>`;
+                row.insertBefore(prefixSpan, wrapper);
+            }
+
+            if (hint.suffix) {
+                const suffixSpan = document.createElement("span");
+                suffixSpan.className = "hint-arrow";
+                suffixSpan.innerHTML = `<b style="color: black;">${hint.suffix}</b>`;
+                row.appendChild(suffixSpan);
+            }
+
             if (hintIndex < group.hints.length - 1) {
                 const arrow = document.createElement("span");
                 arrow.className = "hint-arrow";
-                arrow.innerHTML = '<i class="fa-solid fa-arrow-right"></i>';
-                row.appendChild(arrow);
+                const connectorText = hint.connector !== undefined ? hint.connector : '<i class="fa-solid fa-arrow-right"></i>';
+                if (['+', ':', '➜', '=>'].includes(connectorText)) {
+                    arrow.innerHTML = `<b style="color: black;">${connectorText}</b>`;
+                } else if (connectorText !== '') {
+                    arrow.innerHTML = connectorText;
+                }
+                if (connectorText !== '') {
+                    row.appendChild(arrow);
+                }
             }
         });
 

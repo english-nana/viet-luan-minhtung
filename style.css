@@ -2880,7 +2880,7 @@ button {
     }
 
     .hint-arrow {
-        display: none;
+        /* display: none; */
     }
 
     .aspect-grid {

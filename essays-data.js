@@ -8095,16 +8095,45 @@ window.ESSAY_TOPICS = [
                                 "label": "Lợi ích 1",
                                 "hints": [
                                     {
-                                        "en": "{earn a high income|Firstly, celebrities usually earn a high income.}",
-                                        "vn": "{kiếm được thu nhập cao|Đầu tiên, những người nổi tiếng thường kiếm được thu nhập cao.}"
+                                        "en": "earn a high income",
+                                        "vn": "kiếm được thu nhập cao",
+                                        "connector": "➜"
                                     },
                                     {
-                                        "en": "{make money (from their main job + from advertisement + from brand partnerships)|They can make money not only from their main job but also from advertisements or brand partnerships.}",
-                                        "vn": "{kiếm tiền (từ công việc chính + từ quảng cáo + từ hợp tác thương hiệu)|Họ có thể kiếm tiền không chỉ từ công việc chính mà còn từ các quảng cáo hoặc quan hệ đối tác thương hiệu.}"
+                                        "en": "make money",
+                                        "vn": "kiếm tiền",
+                                        "connector": ""
                                     },
                                     {
-                                        "en": "{enjoy a comfortable lifestyle + travel + buy expensive things|As a result, they can enjoy a comfortable lifestyle and have more opportunities to travel or buy expensive things.}",
-                                        "vn": "{tận hưởng một lối sống thoải mái + đi du lịch + mua những món đồ đắt tiền|Kết quả là, họ có thể tận hưởng một lối sống thoải mái và có nhiều cơ hội đi du lịch hoặc mua những món đồ đắt tiền.}"
+                                        "en": "from their main job",
+                                        "vn": "từ công việc chính",
+                                        "prefix": "(",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "from advertisement",
+                                        "vn": "từ quảng cáo",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "from brand partnerships",
+                                        "vn": "từ hợp tác thương hiệu",
+                                        "suffix": ")",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "enjoy a comfortable lifestyle",
+                                        "vn": "tận hưởng một lối sống thoải mái",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "travel",
+                                        "vn": "đi du lịch",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "buy expensive things",
+                                        "vn": "mua những món đồ đắt tiền"
                                     }
                                 ]
                             },
@@ -8112,16 +8141,35 @@ window.ESSAY_TOPICS = [
                                 "label": "Lợi ích 2",
                                 "hints": [
                                     {
-                                        "en": "{have more career opportunities|In addition, celebrities often have more career opportunities.}",
-                                        "vn": "{có nhiều cơ hội nghề nghiệp hơn|Ngoài ra, những người nổi tiếng thường có nhiều cơ hội nghề nghiệp hơn.}"
+                                        "en": "have more career opportunities",
+                                        "vn": "có nhiều cơ hội nghề nghiệp hơn",
+                                        "connector": "➜"
                                     },
                                     {
-                                        "en": "{popular ➜ receive invitations to (act in movies + appear in television)|Their popularity helps them receive invitations to act in movies or appear on television.}",
-                                        "vn": "{nổi tiếng ➜ nhận lời mời (đóng phim + xuất hiện trên truyền hình)|Sự nổi tiếng của họ giúp họ nhận được các lời mời đóng phim hoặc xuất hiện trên truyền hình.}"
+                                        "en": "popular",
+                                        "vn": "nổi tiếng",
+                                        "connector": "➜"
                                     },
                                     {
-                                        "en": "{work with international companies|They can even have the opportunities to work with international companies.}",
-                                        "vn": "{làm việc với các công ty quốc tế|Họ thậm chí có cơ hội làm việc với các công ty quốc tế.}"
+                                        "en": "receive invitations",
+                                        "vn": "nhận lời mời",
+                                        "connector": ""
+                                    },
+                                    {
+                                        "en": "act in movies",
+                                        "vn": "đóng phim",
+                                        "prefix": "(",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "appear in television",
+                                        "vn": "xuất hiện trên truyền hình",
+                                        "suffix": ")",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "work with international companies",
+                                        "vn": "làm việc với các công ty quốc tế"
                                     }
                                 ]
                             }
@@ -8144,16 +8192,28 @@ window.ESSAY_TOPICS = [
                                 "label": "Bất lợi 1",
                                 "hints": [
                                     {
-                                        "en": "{the lack of privacy|One major drawback is the lack of privacy.}",
-                                        "vn": "{sự thiếu riêng tư|Một nhược điểm chính là sự thiếu riêng tư.}"
+                                        "en": "the lack of privacy",
+                                        "vn": "sự thiếu riêng tư",
+                                        "connector": "➜"
                                     },
                                     {
-                                        "en": "{followed by the media and fans ➜ cannot enjoy a normal personal life|Celebrities are often followed by the media and fans, so they cannot enjoy a normal personal life.}",
-                                        "vn": "{bị truyền thông và người hâm mộ theo dõi ➜ không thể tận hưởng một cuộc sống cá nhân bình thường|Những người nổi tiếng thường bị truyền thông và người hâm mộ theo dõi, vì vậy họ không thể tận hưởng một cuộc sống cá nhân bình thường.}"
+                                        "en": "followed by the media and fans",
+                                        "vn": "bị truyền thông và người hâm mộ theo dõi",
+                                        "connector": "➜"
                                     },
                                     {
-                                        "en": "{simple activities ➜ attract public attention|Even simple activities, such as eating at a restaurant or spending time with family, may attract public attention.}",
-                                        "vn": "{những hoạt động đơn giản ➜ thu hút sự chú ý của công chúng|Thậm chí những hoạt động đơn giản, chẳng hạn như ăn tại nhà hàng hoặc dành thời gian cho gia đình, cũng có thể thu hút sự chú ý của công chúng.}"
+                                        "en": "cannot enjoy a normal personal life",
+                                        "vn": "không thể tận hưởng một cuộc sống cá nhân bình thường",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "simple activities",
+                                        "vn": "những hoạt động đơn giản",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "attract public attention",
+                                        "vn": "thu hút sự chú ý của công chúng"
                                     }
                                 ]
                             },
@@ -8161,20 +8221,33 @@ window.ESSAY_TOPICS = [
                                 "label": "Bất lợi 2",
                                 "hints": [
                                     {
-                                        "en": "{the heavy pressure of being famous|Another disadvantage is the heavy pressure of being famous.}",
-                                        "vn": "{áp lực nặng nề của việc nổi tiếng|Một nhược điểm khác là áp lực nặng nề của việc nổi tiếng.}"
+                                        "en": "the heavy pressure of being famous",
+                                        "vn": "áp lực nặng nề của việc nổi tiếng",
+                                        "connector": "➜"
                                     },
                                     {
-                                        "en": "{expected to look perfect + behave carefully all the time|They are expected to look perfect and behave carefully all the time}",
-                                        "vn": "{được kỳ vọng sẽ có vẻ ngoài hoàn hảo + cư xử cẩn thận mọi lúc|Họ được kỳ vọng sẽ có vẻ ngoài hoàn hảo và cư xử cẩn thận mọi lúc}"
+                                        "en": "expected to look perfect",
+                                        "vn": "được kỳ vọng sẽ có vẻ ngoài hoàn hảo",
+                                        "connector": "+"
                                     },
                                     {
-                                        "en": "{a small mistake ➜ big news online|because even a small mistake can become big news online.}",
-                                        "vn": "{một sai lầm nhỏ ➜ tin tức lớn trên mạng|bởi vì ngay cả một sai lầm nhỏ cũng có thể trở thành tin tức lớn trên mạng.}"
+                                        "en": "behave carefully all the time",
+                                        "vn": "cư xử cẩn thận mọi lúc",
+                                        "connector": "➜"
                                     },
                                     {
-                                        "en": "{stress, anxiety, mental health problems|This pressure may lead to stress, anxiety, or even mental health problems.}",
-                                        "vn": "{căng thẳng, lo lắng, các vấn đề sức khỏe tinh thần|Áp lực này có thể dẫn đến căng thẳng, lo lắng, hoặc thậm chí là các vấn đề sức khỏe tinh thần.}"
+                                        "en": "a small mistake",
+                                        "vn": "một sai lầm nhỏ",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "big news online",
+                                        "vn": "tin tức lớn trên mạng",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "stress, anxiety, mental health problems",
+                                        "vn": "căng thẳng, lo lắng, các vấn đề sức khỏe tinh thần"
                                     }
                                 ]
                             }
@@ -8567,8 +8640,40 @@ window.ESSAY_TOPICS = [
                                 "label": "Lợi ích 1",
                                 "hints": [
                                     {
-                                        "en": "earn a high income: receive additional income (advertisements + brand partnerships) ➜ enjoy a comfortable lifestyle + travel around the world + afford experiences that many people cannot",
-                                        "vn": "kiếm được thu nhập cao: nhận thêm thu nhập (quảng cáo + hợp tác thương hiệu) ➜ tận hưởng lối sống thoải mái + đi du lịch vòng quanh thế giới + có khả năng chi trả cho những trải nghiệm mà nhiều người không thể"
+                                        "en": "earn a high income",
+                                        "vn": "kiếm được thu nhập cao",
+                                        "connector": ":"
+                                    },
+                                    {
+                                        "en": "receive additional income",
+                                        "vn": "nhận thêm thu nhập",
+                                        "connector": ""
+                                    },
+                                    {
+                                        "en": "advertisements",
+                                        "vn": "quảng cáo",
+                                        "prefix": "(",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "brand partnerships",
+                                        "vn": "hợp tác thương hiệu",
+                                        "suffix": ")",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "enjoy a comfortable lifestyle",
+                                        "vn": "tận hưởng lối sống thoải mái",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "travel around the world",
+                                        "vn": "đi du lịch vòng quanh thế giới",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "afford experiences that many people cannot",
+                                        "vn": "có khả năng chi trả cho những trải nghiệm mà nhiều người không thể"
                                     }
                                 ]
                             },
@@ -8576,12 +8681,45 @@ window.ESSAY_TOPICS = [
                                 "label": "Lợi ích 2",
                                 "hints": [
                                     {
-                                        "en": "a wide range of career opportunities: act in movies + appear on television programmes + collaborate with international companies",
-                                        "vn": "một loạt các cơ hội nghề nghiệp: đóng phim + xuất hiện trên các chương trình truyền hình + hợp tác với các công ty quốc tế"
+                                        "en": "a wide range of career opportunities",
+                                        "vn": "một loạt các cơ hội nghề nghiệp",
+                                        "connector": ":"
                                     },
                                     {
-                                        "en": "their reputation grows ➜ expand their careers (businesses + charity work)",
-                                        "vn": "danh tiếng của họ tăng lên ➜ mở rộng sự nghiệp (kinh doanh + công việc từ thiện)"
+                                        "en": "act in movies",
+                                        "vn": "đóng phim",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "appear on television programmes",
+                                        "vn": "xuất hiện trên các chương trình truyền hình",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "collaborate with international companies",
+                                        "vn": "hợp tác với các công ty quốc tế",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "their reputation grows",
+                                        "vn": "danh tiếng của họ tăng lên",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "expand their careers",
+                                        "vn": "mở rộng sự nghiệp",
+                                        "connector": ""
+                                    },
+                                    {
+                                        "en": "businesses",
+                                        "vn": "kinh doanh",
+                                        "prefix": "(",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "charity work",
+                                        "vn": "công việc từ thiện",
+                                        "suffix": ")"
                                     }
                                 ]
                             }
@@ -8604,12 +8742,38 @@ window.ESSAY_TOPICS = [
                                 "label": "Bất lợi 1",
                                 "hints": [
                                     {
-                                        "en": "the loss of privacy: followed by the media + photographed by fans ➜ difficult to enjoy ordinary life",
-                                        "vn": "sự mất đi tính riêng tư: bị truyền thông theo dõi + bị người hâm mộ chụp ảnh ➜ khó khăn để tận hưởng cuộc sống bình thường"
+                                        "en": "the loss of privacy",
+                                        "vn": "sự mất đi tính riêng tư",
+                                        "connector": ":"
                                     },
                                     {
-                                        "en": "personal relationships + daily activities ➜ topics of public discussion",
-                                        "vn": "các mối quan hệ cá nhân + các hoạt động hàng ngày ➜ các chủ đề thảo luận của công chúng"
+                                        "en": "followed by the media",
+                                        "vn": "bị truyền thông theo dõi",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "photographed by fans",
+                                        "vn": "bị người hâm mộ chụp ảnh",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "difficult to enjoy ordinary life",
+                                        "vn": "khó khăn để tận hưởng cuộc sống bình thường",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "personal relationships",
+                                        "vn": "các mối quan hệ cá nhân",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "daily activities",
+                                        "vn": "các hoạt động hàng ngày",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "topics of public discussion",
+                                        "vn": "các chủ đề thảo luận của công chúng"
                                     }
                                 ]
                             },
@@ -8617,8 +8781,33 @@ window.ESSAY_TOPICS = [
                                 "label": "Bất lợi 2",
                                 "hints": [
                                     {
-                                        "en": "the pressure to maintain a perfect public image: millions of people watch their actions ➜ a small mistake ➜ spread on social media + damage their reputation ➜ stress, anxiety, or mental health issues",
-                                        "vn": "áp lực duy trì một hình ảnh công chúng hoàn hảo: hàng triệu người theo dõi hành động của họ ➜ một sai lầm nhỏ ➜ lan truyền trên mạng xã hội + làm hỏng danh tiếng của họ ➜ căng thẳng, lo lắng, hoặc các vấn đề sức khỏe tinh thần"
+                                        "en": "the pressure to maintain a perfect public image",
+                                        "vn": "áp lực duy trì một hình ảnh công chúng hoàn hảo",
+                                        "connector": ":"
+                                    },
+                                    {
+                                        "en": "millions of people watch their actions",
+                                        "vn": "hàng triệu người theo dõi hành động của họ",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "a small mistake",
+                                        "vn": "một sai lầm nhỏ",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "spread on social media",
+                                        "vn": "lan truyền trên mạng xã hội",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "damage their reputation",
+                                        "vn": "làm hỏng danh tiếng của họ",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "stress, anxiety, or mental health issues",
+                                        "vn": "căng thẳng, lo lắng, hoặc các vấn đề sức khỏe tinh thần"
                                     }
                                 ]
                             }
