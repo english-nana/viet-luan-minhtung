@@ -26,10 +26,10 @@ window.ESSAY_TOPICS = [
         ],
         "introEnExpectedLength": 45,
         "conclusionEnExpectedLength": 46,
-        "currentVariantIndex": 1,
+        "currentVariantIndex": 0,
         "variants": [
             {
-                "name": "Level B1",
+                "name": "Level B1-B2",
                 "vocab": [
                     {
                         "en": "a musical instrument",
@@ -44,425 +44,6 @@ window.ESSAY_TOPICS = [
                         "vn": "não bộ"
                     },
                     {
-                        "en": "thinking skills",
-                        "vn": "kỹ năng tư duy"
-                    },
-                    {
-                        "en": "coordinate",
-                        "vn": "phối hợp"
-                    },
-                    {
-                        "en": "at the same time",
-                        "vn": "cùng một lúc"
-                    },
-                    {
-                        "en": "concentration",
-                        "vn": "sự tập trung"
-                    },
-                    {
-                        "en": "mental health",
-                        "vn": "sức khỏe tinh thần"
-                    },
-                    {
-                        "en": "the guitar",
-                        "vn": "đàn guitar"
-                    },
-                    {
-                        "en": "the piano",
-                        "vn": "đàn piano"
-                    },
-                    {
-                        "en": "forget about study for a while",
-                        "vn": "tạm thời quên đi việc học"
-                    },
-                    {
-                        "en": "time-consuming",
-                        "vn": "tốn nhiều thời gian"
-                    },
-                    {
-                        "en": "play well",
-                        "vn": "chơi giỏi"
-                    },
-                    {
-                        "en": "the violin",
-                        "vn": "đàn violin"
-                    },
-                    {
-                        "en": "a significant amount of money",
-                        "vn": "một khoản tiền lớn"
-                    },
-                    {
-                        "en": "place a heavy financial burden on",
-                        "vn": "đặt gánh nặng tài chính lớn lên"
-                    }
-                ],
-                "introChunks": [
-                    {
-                        "en": "In recent years,",
-                        "vn": "Trong những năm gần đây,"
-                    },
-                    {
-                        "en": "there has been a significant number of young children who",
-                        "vn": "ngày càng có nhiều trẻ em"
-                    },
-                    {
-                        "en": "learn a musical instrument.",
-                        "vn": "học chơi một loại nhạc cụ."
-                    },
-                    {
-                        "en": "While|Although",
-                        "vn": "Mặc dù"
-                    },
-                    {
-                        "en": "this trend",
-                        "vn": "xu hướng này"
-                    },
-                    {
-                        "en": "can bring",
-                        "vn": "có thể mang lại"
-                    },
-                    {
-                        "en": "several benefits,",
-                        "vn": "nhiều lợi ích,"
-                    },
-                    {
-                        "en": "it may also cause|but it may also cause",
-                        "vn": "nhưng nó cũng có thể gây ra"
-                    },
-                    {
-                        "en": "some problems.",
-                        "vn": "một số vấn đề."
-                    },
-                    {
-                        "en": "This essay will",
-                        "vn": "Bài luận này sẽ"
-                    },
-                    {
-                        "en": "discuss",
-                        "vn": "thảo luận về"
-                    },
-                    {
-                        "en": "both the advantages and disadvantages",
-                        "vn": "cả những ưu điểm và nhược điểm"
-                    },
-                    {
-                        "en": "of learning a musical instrument.",
-                        "vn": "của việc học chơi nhạc cụ."
-                    }
-                ],
-                "introVn": "Trong những năm gần đây, ngày càng có nhiều trẻ em học chơi một loại nhạc cụ. Mặc dù xu hướng này có thể mang lại nhiều lợi ích, nhưng nó cũng có thể gây ra một số vấn đề. Bài luận này sẽ thảo luận về cả những ưu điểm và nhược điểm của việc học chơi nhạc cụ.",
-                "bodyParagraphs": [
-                    {
-                        "title": "Đoạn 1: Lợi ích (Advantages)",
-                        "hintGroups": [
-                            {
-                                "label": "Topic sentence",
-                                "hints": [
-                                    {
-                                        "en": "Một mặt, / có một số / lợi ích của việc học một nhạc cụ.",
-                                        "vn": "On the one hand, / there are some / benefits of learning a musical instrument.",
-                                        "isTopic": true
-                                    }
-                                ]
-                            },
-                            {
-                                "label": "Lợi ích 1",
-                                "hints": [
-                                    {
-                                        "en": "develop their brain and thinking skills",
-                                        "vn": "phát triển não bộ và kỹ năng tư duy của trẻ"
-                                    },
-                                    {
-                                        "en": "coordinate their eyes and hands at the same time",
-                                        "vn": "phối hợp mắt và tay cùng một lúc"
-                                    },
-                                    {
-                                        "en": "improve concentration",
-                                        "vn": "cải thiện sự tập trung"
-                                    }
-                                ]
-                            },
-                            {
-                                "label": "Lợi ích 2",
-                                "hints": [
-                                    {
-                                        "en": "good for mental health",
-                                        "vn": "tốt cho sức khỏe tinh thần"
-                                    },
-                                    {
-                                        "en": "relax",
-                                        "vn": "thư giãn"
-                                    },
-                                    {
-                                        "en": "enjoy playing the guitar or the piano with their friends",
-                                        "vn": "thích chơi đàn guitar hoặc piano cùng bạn bè"
-                                    },
-                                    {
-                                        "en": "reduce stress + forget about study for a while",
-                                        "vn": "giảm căng thẳng + tạm thời quên đi việc học"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "title": "Đoạn 2: Bất lợi (Disadvantages)",
-                        "hintGroups": [
-                            {
-                                "label": "Topic sentence",
-                                "hints": [
-                                    {
-                                        "en": "Mặt khác, / việc học chơi nhạc cụ / cũng đi kèm với / một số bất lợi.",
-                                        "vn": "On the other hand, / learning to play musical instruments / also comes with / some disadvantages.",
-                                        "isTopic": true
-                                    }
-                                ]
-                            },
-                            {
-                                "label": "Bất lợi 1",
-                                "hints": [
-                                    {
-                                        "en": "very time-consuming",
-                                        "vn": "rất tốn thời gian"
-                                    },
-                                    {
-                                        "en": "in order to play well",
-                                        "vn": "để chơi giỏi"
-                                    },
-                                    {
-                                        "en": "spend a lot of time practicing",
-                                        "vn": "dành nhiều thời gian luyện tập"
-                                    },
-                                    {
-                                        "en": "reduce the time they need to study or do other important activities",
-                                        "vn": "giảm thời gian trẻ cần để học hoặc làm các hoạt động quan trọng khác"
-                                    }
-                                ]
-                            },
-                            {
-                                "label": "Bất lợi 2",
-                                "hints": [
-                                    {
-                                        "en": "cost a lot of money to learn",
-                                        "vn": "tốn nhiều tiền để học"
-                                    },
-                                    {
-                                        "en": "some instruments",
-                                        "vn": "một số nhạc cụ"
-                                    },
-                                    {
-                                        "en": "Very expensive",
-                                        "vn": "Rất đắt tiền"
-                                    },
-                                    {
-                                        "en": "the piano or the violin",
-                                        "vn": "đàn piano hoặc đàn violin"
-                                    },
-                                    {
-                                        "en": "cost a significant amount of money",
-                                        "vn": "tốn một khoản tiền lớn"
-                                    },
-                                    {
-                                        "en": "place a heavy financial burden on some families",
-                                        "vn": "đặt gánh nặng tài chính lớn lên một số gia đình"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "conclusionChunks": [
-                    {
-                        "en": "In conclusion,",
-                        "vn": "Tóm lại,"
-                    },
-                    {
-                        "en": "learning musical instruments",
-                        "vn": "việc học chơi nhạc cụ"
-                    },
-                    {
-                        "en": "offers several benefits,",
-                        "vn": "mang lại nhiều lợi ích,"
-                    },
-                    {
-                        "en": "particularly",
-                        "vn": "đặc biệt là"
-                    },
-                    {
-                        "en": "developing children’s thinking skills",
-                        "vn": "giúp trẻ em phát triển kỹ năng tư duy"
-                    },
-                    {
-                        "en": "and",
-                        "vn": "và"
-                    },
-                    {
-                        "en": "their mental health,",
-                        "vn": "cải thiện sức khỏe tinh thần."
-                    },
-                    {
-                        "en": "but|However,|but However,",
-                        "vn": "Tuy nhiên,"
-                    },
-                    {
-                        "en": "it also has",
-                        "vn": "nó cũng có"
-                    },
-                    {
-                        "en": "some drawbacks,",
-                        "vn": "một số nhược điểm,"
-                    },
-                    {
-                        "en": "such as",
-                        "vn": "chẳng hạn như"
-                    },
-                    {
-                        "en": "requiring a lot of time",
-                        "vn": "đòi hỏi nhiều thời gian"
-                    },
-                    {
-                        "en": "and",
-                        "vn": "và"
-                    },
-                    {
-                        "en": "costing a lot of money.",
-                        "vn": "tốn kém chi phí."
-                    },
-                    {
-                        "en": "Therefore,",
-                        "vn": "Vì vậy,"
-                    },
-                    {
-                        "en": "both its advantages and disadvantages",
-                        "vn": "cả những ưu điểm và nhược điểm của hoạt động này"
-                    },
-                    {
-                        "en": "should be carefully considered.",
-                        "vn": "cần được cân nhắc kỹ lưỡng."
-                    }
-                ],
-                "conclusionVn": "Tóm lại, việc học chơi nhạc cụ mang lại nhiều lợi ích, đặc biệt là giúp trẻ em phát triển kỹ năng tư duy và cải thiện sức khỏe tinh thần. Tuy nhiên, nó cũng có một số nhược điểm, chẳng hạn như đòi hỏi nhiều thời gian và tốn kém chi phí. Vì vậy, cả những ưu điểm và nhược điểm của hoạt động này cần được cân nhắc kỹ lưỡng.",
-                "sampleEssay": {
-                    "paragraphs": [
-                        [
-                            {
-                                "en": "In recent years, there has been a significant number of young children who learn a musical instrument.",
-                                "vn": "Trong những năm gần đây, ngày càng có nhiều trẻ em học chơi một loại nhạc cụ.",
-                                "isRed": false
-                            },
-                            {
-                                "en": "While this trend can bring several benefits, it may also cause some problems.",
-                                "vn": "Mặc dù xu hướng này có thể mang lại nhiều lợi ích, nhưng nó cũng có thể gây ra một số vấn đề.",
-                                "isRed": false
-                            },
-                            {
-                                "en": "This essay will discuss both the advantages and disadvantages of learning a musical instrument.",
-                                "vn": "Bài luận này sẽ thảo luận về cả những ưu điểm và nhược điểm của việc học chơi nhạc cụ.",
-                                "isRed": true
-                            }
-                        ],
-                        [
-                            {
-                                "en": "On the one hand, there are several benefits of learning a musical instrument.",
-                                "vn": "Một mặt, có một số lợi ích của việc học một nhạc cụ.",
-                                "isRed": true
-                            },
-                            {
-                                "en": "Firstly, it helps children develop their brain and thinking skills.",
-                                "vn": "Thứ nhất, nó giúp trẻ em phát triển não bộ và kỹ năng tư duy.",
-                                "isRed": false
-                            },
-                            {
-                                "en": "This is because when learning an instrument, they have to coordinate their eyes and hands at the same time.",
-                                "vn": "Điều này là do khi học một loại nhạc cụ, chúng phải phối hợp mắt và tay cùng một lúc.",
-                                "isRed": false
-                            },
-                            {
-                                "en": "This practice can help them improve concentration.",
-                                "vn": "Việc luyện tập này có thể giúp chúng cải thiện sự tập trung.",
-                                "isRed": false
-                            },
-                            {
-                                "en": "Secondly, playing a musical instrument is good for mental health.",
-                                "vn": "Thứ hai, chơi một nhạc cụ rất tốt cho sức khỏe tinh thần.",
-                                "isRed": false
-                            },
-                            {
-                                "en": "In fact, playing an instrument helps children relax.",
-                                "vn": "Trên thực tế, chơi nhạc cụ giúp trẻ em thư giãn.",
-                                "isRed": false
-                            },
-                            {
-                                "en": "For example, many children enjoy playing the guitar or the piano with their friends to reduce stress and forget about study for a while.",
-                                "vn": "Ví dụ, nhiều trẻ em thích chơi đàn guitar hoặc piano cùng bạn bè để giảm căng thẳng và tạm thời quên đi việc học.",
-                                "isRed": false
-                            }
-                        ],
-                        [
-                            {
-                                "en": "On the other hand, learning instruments also comes with some downsides.",
-                                "vn": "Mặt khác, việc học chơi nhạc cụ cũng đi kèm với một số bất lợi.",
-                                "isRed": true
-                            },
-                            {
-                                "en": "One major problem is that it is very time-consuming.",
-                                "vn": "Một vấn đề lớn là nó rất tốn thời gian.",
-                                "isRed": false
-                            },
-                            {
-                                "en": "In order to play well, children need to spend a lot of time practicing.",
-                                "vn": "Để chơi giỏi, trẻ em cần dành nhiều thời gian luyện tập.",
-                                "isRed": false
-                            },
-                            {
-                                "en": "This might reduce the time they need to study or do other important activities.",
-                                "vn": "Điều này có thể làm giảm thời gian chúng cần để học hoặc làm các hoạt động quan trọng khác.",
-                                "isRed": false
-                            },
-                            {
-                                "en": "Another difficulty is that it costs a lot of money to learn.",
-                                "vn": "Một khó khăn khác là tốn nhiều tiền để học.",
-                                "isRed": false
-                            },
-                            {
-                                "en": "This is because some instruments like the piano or the violin, are very expensive.",
-                                "vn": "Điều này là do một số nhạc cụ như đàn piano hoặc đàn violin rất đắt tiền.",
-                                "isRed": false
-                            },
-                            {
-                                "en": "For example, some instruments like the piano or the violin can cost a significant amount of money.",
-                                "vn": "Ví dụ, một số nhạc cụ như đàn piano hoặc đàn violin có thể tốn một khoản tiền lớn.",
-                                "isRed": false
-                            },
-                            {
-                                "en": "Consequently, learning a musical instrument may place a heavy financial burden on some families.",
-                                "vn": "Hậu quả là, việc học một nhạc cụ có thể đặt gánh nặng tài chính lớn lên một số gia đình.",
-                                "isRed": false
-                            }
-                        ],
-                        [
-                            {
-                                "en": "In conclusion, learning musical instruments offers several benefits, particularly developing children’s thinking skills and their mental health, but it also has some drawbacks, such as requiring a lot of time and costing a lot of money.",
-                                "vn": "Tóm lại, việc học chơi nhạc cụ mang lại nhiều lợi ích, đặc biệt là giúp trẻ em phát triển kỹ năng tư duy và cải thiện sức khỏe tinh thần, nhưng nó cũng có một số nhược điểm, chẳng hạn như đòi hỏi nhiều thời gian và tốn kém chi phí.",
-                                "isRed": false
-                            },
-                            {
-                                "en": "Therefore, both its advantages and disadvantages should be carefully considered.",
-                                "vn": "Vì vậy, cả những ưu điểm và nhược điểm của hoạt động này cần được cân nhắc kỹ lưỡng.",
-                                "isRed": false
-                            }
-                        ]
-                    ]
-                }
-            },
-            {
-                "name": "Level B2",
-                "vocab": [
-                    {
-                        "en": "a musical instrument",
-                        "vn": "một loại nhạc cụ"
-                    },
-                    {
                         "en": "cognitive skills",
                         "vn": "kỹ năng nhận thức"
                     },
@@ -475,6 +56,10 @@ window.ESSAY_TOPICS = [
                         "vn": "phối hợp"
                     },
                     {
+                        "en": "at the same time",
+                        "vn": "cùng một lúc"
+                    },
+                    {
                         "en": "simultaneously",
                         "vn": "đồng thời"
                     },
@@ -483,12 +68,24 @@ window.ESSAY_TOPICS = [
                         "vn": "sự tập trung"
                     },
                     {
+                        "en": "mental health",
+                        "vn": "sức khỏe tinh thần"
+                    },
+                    {
                         "en": "have a positive impact on",
                         "vn": "có tác động tích cực đến"
                     },
                     {
-                        "en": "mental health",
-                        "vn": "sức khỏe tinh thần"
+                        "en": "the guitar",
+                        "vn": "đàn guitar"
+                    },
+                    {
+                        "en": "the piano",
+                        "vn": "đàn piano"
+                    },
+                    {
+                        "en": "the violin",
+                        "vn": "đàn violin"
                     },
                     {
                         "en": "take a break",
@@ -523,20 +120,16 @@ window.ESSAY_TOPICS = [
                         "vn": "các bài học nhạc"
                     },
                     {
-                        "en": "the piano",
-                        "vn": "đàn piano"
-                    },
-                    {
-                        "en": "the violin",
-                        "vn": "đàn violin"
+                        "en": "a significant amount of money",
+                        "vn": "một khoản tiền lớn"
                     },
                     {
                         "en": "a huge amount of money",
                         "vn": "một số tiền lớn"
                     },
                     {
-                        "en": "place a heavy financial burden",
-                        "vn": "đặt gánh nặng tài chính lớn"
+                        "en": "place a heavy financial burden on",
+                        "vn": "đặt gánh nặng tài chính lớn lên"
                     },
                     {
                         "en": "low-income families",
@@ -549,12 +142,20 @@ window.ESSAY_TOPICS = [
                         "vn": "Trong những năm gần đây,"
                     },
                     {
-                        "en": "there has been a significant number of young children who",
-                        "vn": "ngày càng có nhiều trẻ em"
+                        "en": "a significant number of",
+                        "vn": "ngày càng có nhiều"
                     },
                     {
-                        "en": "learn a musical instrument.",
-                        "vn": "học chơi một loại nhạc cụ."
+                        "en": "young children",
+                        "vn": "trẻ em"
+                    },
+                    {
+                        "en": "learn",
+                        "vn": "học chơi"
+                    },
+                    {
+                        "en": "a musical instrument.",
+                        "vn": "một loại nhạc cụ."
                     },
                     {
                         "en": "While|Although",
@@ -606,8 +207,8 @@ window.ESSAY_TOPICS = [
                                 "label": "Topic sentence",
                                 "hints": [
                                     {
-                                        "en": "Một mặt, / có một số / lợi ích của việc học một nhạc cụ.",
-                                        "vn": "On the one hand, / there are several / benefits of learning a musical instrument.",
+                                        "en": "On the one hand, / there are {some|several} / benefits of learning a musical instrument.",
+                                        "vn": "Một mặt, / có một số / lợi ích của việc học một nhạc cụ.",
                                         "isTopic": true
                                     }
                                 ]
@@ -616,16 +217,16 @@ window.ESSAY_TOPICS = [
                                 "label": "Lợi ích 1",
                                 "hints": [
                                     {
-                                        "en": "develop their cognitive and thinking skills",
-                                        "vn": "phát triển kỹ năng nhận thức và tư duy của chúng"
+                                        "en": "develop their {brain|cognitive} and thinking skills",
+                                        "vn": "phát triển {não bộ và kỹ năng tư duy|kỹ năng nhận thức và tư duy} của trẻ"
                                     },
                                     {
-                                        "en": "coordinate their eyes and hands simultaneously",
-                                        "vn": "phối hợp mắt và tay đồng thời"
+                                        "en": "coordinate their eyes and hands {at the same time|simultaneously}",
+                                        "vn": "phối hợp mắt và tay {cùng một lúc|đồng thời}"
                                     },
                                     {
-                                        "en": "improve their concentration and memory",
-                                        "vn": "cải thiện sự tập trung và trí nhớ của chúng"
+                                        "en": "improve {concentration|their concentration and memory}",
+                                        "vn": "cải thiện {sự tập trung|sự tập trung và trí nhớ của chúng}"
                                     }
                                 ]
                             },
@@ -633,24 +234,24 @@ window.ESSAY_TOPICS = [
                                 "label": "Lợi ích 2",
                                 "hints": [
                                     {
-                                        "en": "have a positive impact on mental health",
-                                        "vn": "có tác động tích cực đến sức khỏe tinh thần"
+                                        "en": "{good for|have a positive impact on} mental health",
+                                        "vn": "{tốt cho|có tác động tích cực đến} sức khỏe tinh thần"
                                     },
                                     {
-                                        "en": "relax + take a break from academic pressure",
-                                        "vn": "thư giãn + nghỉ ngơi khỏi áp lực học tập"
+                                        "en": "relax + {take a break from academic pressure|enjoy playing with friends}",
+                                        "vn": "thư giãn + {nghỉ ngơi khỏi áp lực học tập|thích chơi cùng bạn bè}"
                                     },
                                     {
-                                        "en": "enjoy playing the guitar or the piano with their friends after school",
-                                        "vn": "thích chơi đàn guitar hoặc piano cùng bạn bè sau giờ học"
+                                        "en": "enjoy playing the guitar or the piano with their friends {to reduce stress|after school to reduce stress}",
+                                        "vn": "thích chơi đàn guitar hoặc piano cùng bạn bè {để giảm căng thẳng|sau giờ học để giảm căng thẳng}"
                                     },
                                     {
-                                        "en": "reduce stress + temporarily forget about their studies",
-                                        "vn": "giảm căng thẳng + tạm thời quên đi việc học"
+                                        "en": "reduce stress + {forget about study for a while|temporarily forget about their studies}",
+                                        "vn": "giảm căng thẳng + {tạm thời quên đi việc học|quên đi áp lực học tập}"
                                     },
                                     {
-                                        "en": "feel happier and more motivated",
-                                        "vn": "cảm thấy vui vẻ và có động lực hơn"
+                                        "en": "{+Thêm ý|feel happier and more motivated}",
+                                        "vn": "{+Thêm ý|cảm thấy vui vẻ và có động lực hơn}"
                                     }
                                 ]
                             }
@@ -663,8 +264,8 @@ window.ESSAY_TOPICS = [
                                 "label": "Topic sentence",
                                 "hints": [
                                     {
-                                        "en": "Mặt khác, / việc học chơi nhạc cụ / cũng đi kèm với / một số bất lợi.",
-                                        "vn": "On the other hand, / learning to play musical instruments / also comes with / some disadvantages.",
+                                        "en": "On the other hand, / learning to play musical instruments / also comes with / some {disadvantages|drawbacks}.",
+                                        "vn": "Mặt khác, / việc học chơi nhạc cụ / cũng đi kèm với / một số bất lợi.",
                                         "isTopic": true
                                     }
                                 ]
@@ -677,16 +278,16 @@ window.ESSAY_TOPICS = [
                                         "vn": "rất tốn thời gian"
                                     },
                                     {
-                                        "en": "In order to become good at an instrument",
-                                        "vn": "Để giỏi một loại nhạc cụ"
+                                        "en": "{in order to play well|in order to become good at an instrument}",
+                                        "vn": "để chơi giỏi một loại nhạc cụ"
                                     },
                                     {
-                                        "en": "practice regularly + spend many hours improving their skills",
-                                        "vn": "thực hành thường xuyên + dành nhiều giờ để cải thiện kỹ năng của chúng"
+                                        "en": "{spend a lot of time practicing|practice regularly + spend many hours improving their skills}",
+                                        "vn": "{dành nhiều thời gian luyện tập|thực hành thường xuyên + dành nhiều giờ cải thiện kỹ năng}"
                                     },
                                     {
-                                        "en": "have less time for studying or participating in other important activities",
-                                        "vn": "có ít thời gian hơn cho việc học hoặc tham gia vào các hoạt động quan trọng khác"
+                                        "en": "{reduce the time they need to study|have less time for studying or participating in other important activities}",
+                                        "vn": "giảm thời gian trẻ cần để học hoặc làm các hoạt động quan trọng khác"
                                     }
                                 ]
                             },
@@ -694,28 +295,20 @@ window.ESSAY_TOPICS = [
                                 "label": "Bất lợi 2",
                                 "hints": [
                                     {
-                                        "en": "the high cost of learning an instrument",
-                                        "vn": "chi phí cao cho việc học một nhạc cụ"
+                                        "en": "{costs a lot of money to learn|the high cost of learning an instrument}",
+                                        "vn": "{tốn nhiều tiền để học|chi phí cao cho việc học một nhạc cụ}"
                                     },
                                     {
-                                        "en": "buy the instrument itself (very expensive) + pay for music lessons",
-                                        "vn": "mua chính loại nhạc cụ đó (rất đắt) + trả tiền cho các bài học nhạc"
+                                        "en": "{some instruments are very expensive|buy the instrument itself (very expensive) + pay for music lessons}",
+                                        "vn": "{một số nhạc cụ rất đắt tiền|mua chính nhạc cụ đó (rất đắt) + trả tiền cho các bài học nhạc}"
                                     },
                                     {
-                                        "en": "the piano and violin",
-                                        "vn": "đàn piano và đàn violin"
+                                        "en": "the piano and violin {can cost a significant amount of money|can cost a huge amount of money}",
+                                        "vn": "đàn piano và đàn violin {có thể tốn một khoản tiền lớn|có thể tốn một số tiền lớn}"
                                     },
                                     {
-                                        "en": "cost a huge amount of money",
-                                        "vn": "tốn một số tiền lớn"
-                                    },
-                                    {
-                                        "en": "place a heavy financial burden on students",
-                                        "vn": "đặt gánh nặng tài chính lớn lên học sinh"
-                                    },
-                                    {
-                                        "en": "low-income families",
-                                        "vn": "các gia đình có thu nhập thấp"
+                                        "en": "place a heavy financial burden on {some families|students and low-income families}",
+                                        "vn": "đặt gánh nặng tài chính lớn lên {một số gia đình|học sinh, đặc biệt là các gia đình thu nhập thấp}"
                                     }
                                 ]
                             }
@@ -740,8 +333,8 @@ window.ESSAY_TOPICS = [
                         "vn": "đặc biệt là"
                     },
                     {
-                        "en": "developing children’s thinking skills",
-                        "vn": "giúp trẻ em phát triển kỹ năng tư duy"
+                        "en": "developing children’s thinking skills|developing children's cognitive skills",
+                        "vn": "giúp trẻ em phát triển kỹ năng tư duy|giúp trẻ em phát triển kỹ năng nhận thức"
                     },
                     {
                         "en": "and",
@@ -819,80 +412,80 @@ window.ESSAY_TOPICS = [
                                 "isRed": true
                             },
                             {
-                                "en": "Firstly, it helps children develop their cognitive and thinking skills.",
-                                "vn": "Thứ nhất, nó giúp trẻ em phát triển kỹ năng nhận thức và tư duy của chúng.",
+                                "en": "Firstly, it helps children develop their {brain|cognitive} and thinking skills.",
+                                "vn": "Thứ nhất, nó giúp trẻ em {phát triển não bộ và kỹ năng tư duy|phát triển kỹ năng nhận thức và tư duy của chúng}.",
                                 "isRed": false
                             },
                             {
-                                "en": "This is because learning an instrument requires them to coordinate their eyes and hands simultaneously.",
-                                "vn": "Điều này là do việc học một loại nhạc cụ đòi hỏi chúng phải phối hợp mắt và tay đồng thời.",
+                                "en": "This is because {when learning an instrument, they have to coordinate their eyes and hands at the same time|learning an instrument requires them to coordinate their eyes and hands simultaneously}.",
+                                "vn": "Điều này là do {khi học một loại nhạc cụ, chúng phải phối hợp mắt và tay cùng một lúc|việc học một loại nhạc cụ đòi hỏi chúng phải phối hợp mắt và tay đồng thời}.",
                                 "isRed": false
                             },
                             {
-                                "en": "This practice can improve their concentration and memory.",
-                                "vn": "Việc luyện tập này có thể cải thiện sự tập trung và trí nhớ của chúng.",
+                                "en": "This practice can {help them improve concentration|improve their concentration and memory}.",
+                                "vn": "Việc luyện tập này có thể {giúp chúng cải thiện sự tập trung|cải thiện sự tập trung và trí nhớ của chúng}.",
                                 "isRed": false
                             },
                             {
-                                "en": "Secondly, playing a musical instrument can have a positive impact on mental health.",
-                                "vn": "Thứ hai, chơi một nhạc cụ có thể có tác động tích cực đến sức khỏe tinh thần.",
+                                "en": "Secondly, playing a musical instrument {is good for|can have a positive impact on} mental health.",
+                                "vn": "Thứ hai, chơi một nhạc cụ {rất tốt cho|có thể có tác động tích cực đến} sức khỏe tinh thần.",
                                 "isRed": false
                             },
                             {
-                                "en": "It allows children to relax and take a break from academic pressure.",
-                                "vn": "Nó cho phép trẻ em thư giãn và nghỉ ngơi khỏi áp lực học tập.",
+                                "en": "{In fact, playing an instrument helps children relax|It allows children to relax and take a break from academic pressure}.",
+                                "vn": "{Trên thực tế, chơi nhạc cụ giúp trẻ em thư giãn|Nó cho phép trẻ em thư giãn và nghỉ ngơi khỏi áp lực học tập}.",
                                 "isRed": false
                             },
                             {
-                                "en": "For example, many children enjoy playing the guitar or the piano with their friends after school to reduce stress and temporarily forget about their studies.",
-                                "vn": "Ví dụ, nhiều trẻ em thích chơi đàn guitar hoặc piano cùng bạn bè sau giờ học để giảm căng thẳng và tạm thời quên đi việc học.",
+                                "en": "For example, many children enjoy playing the guitar or the piano with their friends {to reduce stress and forget about study for a while|after school to reduce stress and temporarily forget about their studies}.",
+                                "vn": "Ví dụ, nhiều trẻ em thích chơi đàn guitar hoặc piano cùng bạn bè {để giảm căng thẳng và tạm thời quên đi việc học|sau giờ học để giảm căng thẳng và tạm thời quên đi việc học}.",
                                 "isRed": false
                             },
                             {
-                                "en": "Consequently, they may feel happier and more motivated in their daily lives.",
-                                "vn": "Hậu quả là, chúng có thể cảm thấy vui vẻ và có động lực hơn trong cuộc sống hàng ngày.",
+                                "en": "{+Thêm ý|Consequently, they may feel happier and more motivated in their daily lives.}",
+                                "vn": "{+Thêm ý|Hậu quả là, chúng có thể cảm thấy vui vẻ và có động lực hơn trong cuộc sống hàng ngày.}",
                                 "isRed": false
                             }
                         ],
                         [
                             {
-                                "en": "On the other hand, learning a musical instrument also comes with some drawbacks.",
+                                "en": "On the other hand, {learning instruments also comes with some downsides|learning a musical instrument also comes with some drawbacks}.",
                                 "vn": "Mặt khác, việc học chơi nhạc cụ cũng đi kèm với một số bất lợi.",
                                 "isRed": true
                             },
                             {
-                                "en": "One major issue is that it can be very time-consuming.",
-                                "vn": "Một vấn đề lớn là nó có thể rất tốn thời gian.",
+                                "en": "One major {problem is that it is|issue is that it can be} very time-consuming.",
+                                "vn": "Một vấn đề lớn là nó {rất tốn thời gian|có thể rất tốn thời gian}.",
                                 "isRed": false
                             },
                             {
-                                "en": "In order to become good at an instrument, children need to practice regularly and spend many hours improving their skills.",
-                                "vn": "Để giỏi một loại nhạc cụ, trẻ em cần thực hành thường xuyên và dành nhiều giờ để cải thiện kỹ năng của chúng.",
+                                "en": "{In order to play well, children need to spend a lot of time practicing|In order to become good at an instrument, children need to practice regularly and spend many hours improving their skills}.",
+                                "vn": "{Để chơi giỏi, trẻ em cần dành nhiều thời gian luyện tập|Để giỏi một loại nhạc cụ, trẻ em cần thực hành thường xuyên và dành nhiều giờ để cải thiện kỹ năng của chúng}.",
                                 "isRed": false
                             },
                             {
-                                "en": "As a result, they may have less time for studying or participating in other important activities.",
-                                "vn": "Do đó, chúng có thể có ít thời gian hơn cho việc học hoặc tham gia vào các hoạt động quan trọng khác.",
+                                "en": "{This might reduce the time they need to study or do other important activities|As a result, they may have less time for studying or participating in other important activities}.",
+                                "vn": "{Điều này có thể làm giảm thời gian chúng cần để học hoặc làm các hoạt động quan trọng khác|Do đó, chúng có thể có ít thời gian hơn cho việc học hoặc tham gia vào các hoạt động quan trọng khác}.",
                                 "isRed": false
                             },
                             {
-                                "en": "Another obvious downside is the high cost of learning an instrument.",
-                                "vn": "Một nhược điểm rõ ràng khác là chi phí cao cho việc học một nhạc cụ.",
+                                "en": "{Another difficulty is that it costs a lot of money to learn|Another obvious downside is the high cost of learning an instrument}.",
+                                "vn": "{Một khó khăn khác là tốn nhiều tiền để học|Một nhược điểm rõ ràng khác là chi phí cao cho việc học một nhạc cụ}.",
                                 "isRed": false
                             },
                             {
-                                "en": "Students not only have to buy the instrument itself, which is often very expensive, but they also need to pay for music lessons.",
-                                "vn": "Học sinh không chỉ phải mua chính loại nhạc cụ đó, thường rất đắt tiền, mà còn phải trả tiền cho các bài học nhạc.",
+                                "en": "{This is because some instruments like the piano or the violin, are very expensive|Students not only have to buy the instrument itself, which is often very expensive, but they also need to pay for music lessons}.",
+                                "vn": "{Điều này là do một số nhạc cụ như đàn piano hoặc đàn violin rất đắt tiền|Học sinh không chỉ phải mua chính loại nhạc cụ đó, thường rất đắt tiền, mà còn phải trả tiền cho các bài học nhạc}.",
                                 "isRed": false
                             },
                             {
-                                "en": "For example, some instruments such as the piano and violin can cost a huge amount of money.",
-                                "vn": "Ví dụ, một số nhạc cụ như đàn piano và đàn violin có thể tốn một số tiền lớn.",
+                                "en": "For example, some instruments {like the piano or the violin can cost a significant amount of money|such as the piano and violin can cost a huge amount of money}.",
+                                "vn": "Ví dụ, một số nhạc cụ {như đàn piano hoặc đàn violin có thể tốn một khoản tiền lớn|như đàn piano và đàn violin có thể tốn một số tiền lớn}.",
                                 "isRed": false
                             },
                             {
-                                "en": "Consequently, learning a musical instrument may place a heavy financial burden on students, especially those who come from low-income families.",
-                                "vn": "Hậu quả là, việc học một nhạc cụ có thể đặt gánh nặng tài chính lớn lên học sinh, đặc biệt là những học sinh đến từ các gia đình có thu nhập thấp.",
+                                "en": "Consequently, learning a musical instrument may place a heavy financial burden on {some families|students, especially those who come from low-income families}.",
+                                "vn": "Hậu quả là, việc học một nhạc cụ có thể đặt gánh nặng tài chính lớn lên {một số gia đình|học sinh, đặc biệt là những học sinh đến từ các gia đình có thu nhập thấp}.",
                                 "isRed": false
                             }
                         ],
@@ -1045,8 +638,176 @@ window.ESSAY_TOPICS = [
                 "vn": "giá trị"
             }
         ],
+        "introChunks": [
+            {
+                "en": "Religious tourism",
+                "vn": "Du lịch tôn giáo"
+            },
+            {
+                "en": "is becoming increasingly popular|has become increasingly popular",
+                "vn": "đang ngày càng trở nên phổ biến"
+            },
+            {
+                "en": "in many countries",
+                "vn": "ở nhiều quốc gia"
+            },
+            {
+                "en": "around the world.|in the world.",
+                "vn": "trên thế giới."
+            },
+            {
+                "en": "While|Although|Even though",
+                "vn": "Mặc dù"
+            },
+            {
+                "en": "this type of tourism|this form of tourism",
+                "vn": "loại hình du lịch này"
+            },
+            {
+                "en": "can bring|can offer|may bring",
+                "vn": "có thể mang lại"
+            },
+            {
+                "en": "some benefits|several benefits|some advantages",
+                "vn": "một số lợi ích"
+            },
+            {
+                "en": "to local communities|for local communities|to the local community",
+                "vn": "cho cộng đồng địa phương"
+            },
+            {
+                "en": "and tourists,",
+                "vn": "và du khách,"
+            },
+            {
+                "en": "it also has",
+                "vn": "nó cũng có"
+            },
+            {
+                "en": "some negative impacts.|several negative impacts.",
+                "vn": "một số tác động tiêu cực."
+            },
+            {
+                "en": "This essay will",
+                "vn": "Bài luận này sẽ"
+            },
+            {
+                "en": "discuss",
+                "vn": "thảo luận về"
+            },
+            {
+                "en": "both the advantages and disadvantages|both the benefits and drawbacks",
+                "vn": "cả những lợi ích và bất lợi"
+            },
+            {
+                "en": "of religious tourism.",
+                "vn": "của du lịch tôn giáo."
+            }
+        ],
         "introVn": "Du lịch tôn giáo đang ngày càng trở nên phổ biến ở nhiều quốc gia trên thế giới. Mặc dù loại hình du lịch này có thể mang lại một số lợi ích cho cộng đồng địa phương và du khách, nó cũng có một số tác động tiêu cực. Bài luận này sẽ thảo luận về cả những lợi ích và bất lợi của du lịch tôn giáo.",
         "introEnExpectedLength": 294,
+        "conclusionChunks": [
+            {
+                "en": "In conclusion,|To sum up,",
+                "vn": "Tóm lại,"
+            },
+            {
+                "en": "religious tourism",
+                "vn": "du lịch tôn giáo"
+            },
+            {
+                "en": "has both",
+                "vn": "có cả"
+            },
+            {
+                "en": "positive and negative impacts.|positive and negative effects.",
+                "vn": "những tác động tích cực và tiêu cực."
+            },
+            {
+                "en": "It can improve",
+                "vn": "Nó có thể cải thiện"
+            },
+            {
+                "en": "the local economy,",
+                "vn": "nền kinh tế địa phương,"
+            },
+            {
+                "en": "preserve|protect",
+                "vn": "bảo tồn"
+            },
+            {
+                "en": "cultural heritage",
+                "vn": "di sản văn hóa"
+            },
+            {
+                "en": "and promote",
+                "vn": "và thúc đẩy"
+            },
+            {
+                "en": "cultural understanding.",
+                "vn": "sự hiểu biết văn hóa."
+            },
+            {
+                "en": "However,",
+                "vn": "Tuy nhiên,"
+            },
+            {
+                "en": "it can also|it may also",
+                "vn": "nó cũng có thể"
+            },
+            {
+                "en": "damage|harm",
+                "vn": "làm hỏng"
+            },
+            {
+                "en": "historical sites,|historic sites,",
+                "vn": "các di tích lịch sử,"
+            },
+            {
+                "en": "harm the environment|damage the environment",
+                "vn": "gây hại cho môi trường"
+            },
+            {
+                "en": "and reduce",
+                "vn": "và làm giảm"
+            },
+            {
+                "en": "the spiritual importance|the spiritual value",
+                "vn": "tầm quan trọng tâm linh"
+            },
+            {
+                "en": "of religious places.|of religious sites.",
+                "vn": "của các địa điểm tôn giáo."
+            },
+            {
+                "en": "Therefore,|Thus,",
+                "vn": "Do đó,"
+            },
+            {
+                "en": "governments and tourists|the government and tourists",
+                "vn": "chính phủ và khách du lịch"
+            },
+            {
+                "en": "should work together|should cooperate",
+                "vn": "nên hợp tác cùng nhau"
+            },
+            {
+                "en": "to develop",
+                "vn": "để phát triển"
+            },
+            {
+                "en": "religious tourism",
+                "vn": "du lịch tôn giáo"
+            },
+            {
+                "en": "responsibly|in a responsible way",
+                "vn": "một cách có trách nhiệm"
+            },
+            {
+                "en": "and sustainably.|and sustainable manner.",
+                "vn": "và bền vững."
+            }
+        ],
         "conclusionVn": "Tóm lại, du lịch tôn giáo có cả những tác động tích cực và tiêu cực. Nó có thể cải thiện nền kinh tế địa phương, bảo tồn di sản văn hóa và thúc đẩy sự hiểu biết văn hóa. Tuy nhiên, nó cũng có thể làm hỏng các di tích lịch sử, gây hại cho môi trường và làm giảm tầm quan trọng tâm linh của các địa điểm tôn giáo. Do đó, chính phủ và khách du lịch nên hợp tác cùng nhau để phát triển du lịch tôn giáo một cách có trách nhiệm và bền vững.",
         "conclusionEnExpectedLength": 427,
         "bodyParagraphs": [
@@ -1315,8 +1076,168 @@ window.ESSAY_TOPICS = [
                 "vn": "phương tiện"
             }
         ],
+        "introChunks": [
+            {
+                "en": "Traffic lights with countdown timers|Countdown timers at traffic lights",
+                "vn": "Đèn giao thông có đồng hồ đếm ngược"
+            },
+            {
+                "en": "are very popular|are common",
+                "vn": "rất phổ biến"
+            },
+            {
+                "en": "in many cities",
+                "vn": "ở nhiều thành phố"
+            },
+            {
+                "en": "because they help",
+                "vn": "vì chúng giúp"
+            },
+            {
+                "en": "drivers know",
+                "vn": "người lái xe biết"
+            },
+            {
+                "en": "how much time remains|how much time is left",
+                "vn": "còn bao nhiêu thời gian"
+            },
+            {
+                "en": "before the light changes.|before the lights change.",
+                "vn": "trước khi đèn chuyển màu."
+            },
+            {
+                "en": "However,",
+                "vn": "Tuy nhiên,"
+            },
+            {
+                "en": "some people believe that|some believe that",
+                "vn": "một số người tin rằng"
+            },
+            {
+                "en": "these timers",
+                "vn": "những đồng hồ này"
+            },
+            {
+                "en": "should be removed.",
+                "vn": "nên bị dỡ bỏ."
+            },
+            {
+                "en": "I completely agree|I strongly agree|I totally agree",
+                "vn": "Tôi hoàn toàn đồng ý"
+            },
+            {
+                "en": "with this view|with this opinion",
+                "vn": "với quan điểm này"
+            },
+            {
+                "en": "because|since",
+                "vn": "vì"
+            },
+            {
+                "en": "countdown timers|these timers",
+                "vn": "đồng hồ đếm ngược"
+            },
+            {
+                "en": "can encourage|may encourage",
+                "vn": "có thể khuyến khích"
+            },
+            {
+                "en": "dangerous driving behavior|reckless driving|dangerous driving",
+                "vn": "hành vi lái xe nguy hiểm"
+            },
+            {
+                "en": "and increase",
+                "vn": "và làm tăng"
+            },
+            {
+                "en": "the risk of",
+                "vn": "nguy cơ"
+            },
+            {
+                "en": "traffic accidents.|accidents.",
+                "vn": "tai nạn giao thông."
+            }
+        ],
         "introVn": "Đèn giao thông có đồng hồ đếm ngược rất phổ biến ở nhiều thành phố vì chúng giúp người lái xe biết còn bao nhiêu thời gian trước khi đèn chuyển màu. Tuy nhiên, một số người tin rằng những đồng hồ này nên bị dỡ bỏ. Tôi hoàn toàn đồng ý với quan điểm này vì đồng hồ đếm ngược có thể khuyến khích hành vi lái xe nguy hiểm và làm tăng nguy cơ tai nạn giao thông.",
         "introEnExpectedLength": 347,
+        "conclusionChunks": [
+            {
+                "en": "In conclusion,|To sum up,",
+                "vn": "Tóm lại,"
+            },
+            {
+                "en": "I strongly believe that|I firmly believe that",
+                "vn": "tôi tin tưởng mạnh mẽ rằng"
+            },
+            {
+                "en": "countdown timers",
+                "vn": "đồng hồ đếm ngược"
+            },
+            {
+                "en": "at traffic lights",
+                "vn": "tại các đèn giao thông"
+            },
+            {
+                "en": "should be removed",
+                "vn": "nên bị dỡ bỏ"
+            },
+            {
+                "en": "because they can encourage|since they can encourage",
+                "vn": "vì chúng có thể khuyến khích"
+            },
+            {
+                "en": "reckless driving,|careless driving,",
+                "vn": "lái xe ẩu,"
+            },
+            {
+                "en": "create stress|create unnecessary stress|cause stress",
+                "vn": "tạo ra căng thẳng"
+            },
+            {
+                "en": "for road users|for drivers and pedestrians",
+                "vn": "cho người tham gia giao thông"
+            },
+            {
+                "en": "and reduce",
+                "vn": "và làm giảm"
+            },
+            {
+                "en": "traffic discipline.",
+                "vn": "kỷ luật giao thông."
+            },
+            {
+                "en": "Therefore,|Thus,",
+                "vn": "Do đó,"
+            },
+            {
+                "en": "the government should consider|governments should consider",
+                "vn": "chính phủ nên xem xét"
+            },
+            {
+                "en": "removing them",
+                "vn": "việc dỡ bỏ chúng"
+            },
+            {
+                "en": "to minimize|to reduce",
+                "vn": "để giảm thiểu"
+            },
+            {
+                "en": "accidents|traffic accidents",
+                "vn": "tai nạn"
+            },
+            {
+                "en": "and make roads",
+                "vn": "và làm cho đường xá"
+            },
+            {
+                "en": "safer",
+                "vn": "an toàn hơn"
+            },
+            {
+                "en": "for everyone.|for all people.",
+                "vn": "cho mọi người."
+            }
+        ],
         "conclusionVn": "Tóm lại, tôi tin tưởng mạnh mẽ rằng đồng hồ đếm ngược tại các đèn giao thông nên bị dỡ bỏ vì chúng có thể khuyến khích lái xe ẩu, tạo ra căng thẳng cho người tham gia giao thông và làm giảm kỷ luật giao thông. Do đó, chính phủ nên xem xét việc dỡ bỏ chúng để giảm thiểu tai nạn và làm cho đường xá an toàn hơn cho mọi người.",
         "conclusionEnExpectedLength": 307,
         "bodyParagraphs": [
@@ -1553,8 +1474,152 @@ window.ESSAY_TOPICS = [
                 "vn": "hoàn thiện bản thân"
             }
         ],
+        "introChunks": [
+            {
+                "en": "Many people today|Nowadays, many people",
+                "vn": "Nhiều người ngày nay"
+            },
+            {
+                "en": "share",
+                "vn": "chia sẻ"
+            },
+            {
+                "en": "their daily activities,|daily activities,",
+                "vn": "các hoạt động hàng ngày,"
+            },
+            {
+                "en": "thoughts,",
+                "vn": "suy nghĩ,"
+            },
+            {
+                "en": "and experiences|and their experiences",
+                "vn": "và trải nghiệm của họ"
+            },
+            {
+                "en": "on social media platforms.|on social media.",
+                "vn": "trên các nền tảng mạng xã hội."
+            },
+            {
+                "en": "While|Although|Even though",
+                "vn": "Mặc dù"
+            },
+            {
+                "en": "some people believe that|some believe that",
+                "vn": "một số người tin rằng"
+            },
+            {
+                "en": "this habit|this practice",
+                "vn": "thói quen này"
+            },
+            {
+                "en": "can cause problems,|may cause problems,|can create problems,",
+                "vn": "có thể gây ra các vấn đề,"
+            },
+            {
+                "en": "sharing our lives online|sharing lives online",
+                "vn": "việc chia sẻ cuộc sống trực tuyến"
+            },
+            {
+                "en": "also brings|also has|also offers",
+                "vn": "cũng mang lại"
+            },
+            {
+                "en": "many positive impacts.|several positive impacts.",
+                "vn": "nhiều tác động tích cực."
+            },
+            {
+                "en": "This essay will",
+                "vn": "Bài luận này sẽ"
+            },
+            {
+                "en": "discuss",
+                "vn": "thảo luận"
+            },
+            {
+                "en": "some main benefits|some key benefits|some major benefits",
+                "vn": "một số lợi ích chính"
+            },
+            {
+                "en": "of this trend.",
+                "vn": "của xu hướng này."
+            }
+        ],
         "introVn": "Nhiều người ngày nay chia sẻ các hoạt động hàng ngày, suy nghĩ, và trải nghiệm của họ trên các nền tảng mạng xã hội. Mặc dù một số người tin rằng thói quen này có thể gây ra các vấn đề, việc chia sẻ cuộc sống trực tuyến cũng mang lại nhiều tác động tích cực. Bài luận này sẽ thảo luận một số lợi ích chính của xu hướng này.",
         "introEnExpectedLength": 275,
+        "conclusionChunks": [
+            {
+                "en": "In conclusion,|To sum up,",
+                "vn": "Tóm lại,"
+            },
+            {
+                "en": "sharing our lives online|sharing lives online",
+                "vn": "việc chia sẻ cuộc sống trực tuyến"
+            },
+            {
+                "en": "has|offers|brings",
+                "vn": "có"
+            },
+            {
+                "en": "several positive impacts,|some positive impacts,",
+                "vn": "một vài tác động tích cực,"
+            },
+            {
+                "en": "such as|like",
+                "vn": "chẳng hạn như"
+            },
+            {
+                "en": "improving communication,",
+                "vn": "cải thiện giao tiếp,"
+            },
+            {
+                "en": "creating career opportunities,|creating job opportunities,",
+                "vn": "tạo ra cơ hội nghề nghiệp,"
+            },
+            {
+                "en": "and spreading",
+                "vn": "và lan truyền"
+            },
+            {
+                "en": "valuable information.",
+                "vn": "thông tin giá trị."
+            },
+            {
+                "en": "While|Although|Even though",
+                "vn": "Mặc dù"
+            },
+            {
+                "en": "people should",
+                "vn": "mọi người nên"
+            },
+            {
+                "en": "use social media",
+                "vn": "sử dụng mạng xã hội"
+            },
+            {
+                "en": "carefully,|cautiously,",
+                "vn": "một cách cẩn thận,"
+            },
+            {
+                "en": "it is clear that|it is obvious that",
+                "vn": "rõ ràng là"
+            },
+            {
+                "en": "sharing online",
+                "vn": "chia sẻ trực tuyến"
+            },
+            {
+                "en": "can bring|can offer|can provide",
+                "vn": "có thể mang lại"
+            },
+            {
+                "en": "many benefits|many advantages",
+                "vn": "nhiều lợi ích"
+            },
+            {
+                "en": "to individuals and society.|for individuals and society.",
+                "vn": "cho cá nhân và xã hội."
+            }
+        ],
         "conclusionVn": "Tóm lại, việc chia sẻ cuộc sống trực tuyến có một vài tác động tích cực, chẳng hạn như cải thiện giao tiếp, tạo ra cơ hội nghề nghiệp, và lan truyền thông tin giá trị. Mặc dù mọi người nên sử dụng mạng xã hội một cách cẩn thận, rõ ràng là chia sẻ trực tuyến có thể mang lại nhiều lợi ích cho cá nhân và xã hội.",
         "conclusionEnExpectedLength": 304,
         "bodyParagraphs": [
@@ -5575,7 +5640,7 @@ window.ESSAY_TOPICS = [
                         "vn": "sách do chính phủ cung cấp."
                     },
                     {
-                        "en": "While",
+                        "en": "While|Although",
                         "vn": "Mặc dù"
                     },
                     {
@@ -5730,8 +5795,8 @@ window.ESSAY_TOPICS = [
                                         "vn": "Sách giáo khoa do chính phủ cung cấp (rẻ hơn)"
                                     },
                                     {
-                                        "en": "schools that choose their own materials => a larger budget",
-                                        "vn": "các trường tự chọn tài liệu => ngân sách lớn hơn"
+                                        "en": "schools that choose their own materials ➜ a larger budget",
+                                        "vn": "các trường tự chọn tài liệu ➜ ngân sách lớn hơn"
                                     },
                                     {
                                         "en": "face difficulties",
@@ -6400,8 +6465,8 @@ window.ESSAY_TOPICS = [
                                         "vn": "công nghệ (giao tiếp dễ dàng hơn) >< ít ý nghĩa hơn so với trò chuyện trực tiếp"
                                     },
                                     {
-                                        "en": "some relationships => become weaker over time",
-                                        "vn": "một số mối quan hệ => trở nên yếu đi theo thời gian"
+                                        "en": "some relationships ➜ become weaker over time",
+                                        "vn": "một số mối quan hệ ➜ trở nên yếu đi theo thời gian"
                                     }
                                 ]
                             }
@@ -6424,16 +6489,16 @@ window.ESSAY_TOPICS = [
                                 "label": "Ý 1",
                                 "hints": [
                                     {
-                                        "en": "digital technology => stay connected",
-                                        "vn": "công nghệ kỹ thuật số => giữ liên lạc"
+                                        "en": "digital technology ➜ stay connected",
+                                        "vn": "công nghệ kỹ thuật số ➜ giữ liên lạc"
                                     },
                                     {
                                         "en": "cannot fully replace the emotional connection",
                                         "vn": "không thể hoàn toàn thay thế sự kết nối cảm xúc"
                                     },
                                     {
-                                        "en": "many friendships => less close than they were in the past",
-                                        "vn": "nhiều tình bạn => bớt thân thiết hơn so với trước đây"
+                                        "en": "many friendships ➜ less close than they were in the past",
+                                        "vn": "nhiều tình bạn ➜ bớt thân thiết hơn so với trước đây"
                                     }
                                 ]
                             }
@@ -6511,6 +6576,1767 @@ window.ESSAY_TOPICS = [
                     }
                 ],
                 "conclusionVn": "Tóm lại, tình bạn đóng vai trò quan trọng trong cuộc sống của con người. Nó mang lại sự hỗ trợ về mặt tinh thần, giúp giảm cảm giác cô đơn và thúc đẩy sự phát triển của mỗi cá nhân. Tuy nhiên, lối sống bận rộn và sự phụ thuộc ngày càng nhiều vào giao tiếp trực tuyến khiến việc duy trì những tình bạn bền chặt trở nên khó khăn hơn. Vì những lý do này, tôi cho rằng cuộc sống hiện đại có xu hướng làm suy yếu tình bạn."
+            }
+        ]
+    },
+    {
+        "id": "computer-games-behavior",
+        "title": "14. Game điện tử và hành vi trẻ em",
+        "summary": "Bài luận về những tác động tiêu cực của trò chơi điện tử đến hành vi của trẻ em và các giải pháp giảm thiểu.",
+        "isMatchingVocab": true,
+        "meta": {
+            "category": "Xã hội",
+            "taskType": "Causes - Problems - Solutions",
+            "level": "B1-B2",
+            "estimatedMinutes": 40
+        },
+        "prompt": [
+            {
+                "en": "Write an essay to discuss the negative effects of playing computer games on children’s behavior and what can be done to minimize these effects.",
+                "vn": "Viết một bài luận thảo luận về những tác động tiêu cực của việc chơi trò chơi điện tử đến hành vi của trẻ em và những gì có thể làm để giảm thiểu những tác động này."
+            }
+        ],
+        "introEnExpectedLength": 45,
+        "conclusionEnExpectedLength": 45,
+        "currentVariantIndex": 0,
+        "variants": [
+            {
+                "name": "Level B1-B2",
+                "vocab": [
+                    {
+                        "en": "excessive",
+                        "vn": "quá mức"
+                    },
+                    {
+                        "en": "entertaining",
+                        "vn": "mang tính giải trí"
+                    },
+                    {
+                        "en": "behavior",
+                        "vn": "hành vi"
+                    },
+                    {
+                        "en": "aggressive",
+                        "vn": "hung hăng"
+                    },
+                    {
+                        "en": "fighting",
+                        "vn": "đánh nhau"
+                    },
+                    {
+                        "en": "violence",
+                        "vn": "bạo lực"
+                    },
+                    {
+                        "en": "are exposed to",
+                        "vn": "tiếp xúc với"
+                    },
+                    {
+                        "en": "content",
+                        "vn": "nội dung"
+                    },
+                    {
+                        "en": "communication skills",
+                        "vn": "kỹ năng giao tiếp"
+                    },
+                    {
+                        "en": "build relationships",
+                        "vn": "xây dựng các mối quan hệ"
+                    },
+                    {
+                        "en": "the amount of time",
+                        "vn": "lượng thời gian"
+                    },
+                    {
+                        "en": "develop healthier habits",
+                        "vn": "phát triển các thói quen lành mạnh hơn"
+                    },
+                    {
+                        "en": "extracurricular activities",
+                        "vn": "các hoạt động ngoại khóa"
+                    },
+                    {
+                        "en": "poor social skills",
+                        "vn": "kỹ năng xã hội kém"
+                    }
+                ],
+                "introChunks": [
+                    {
+                        "en": "Nowadays,",
+                        "vn": "Ngày nay,"
+                    },
+                    {
+                        "en": "many children",
+                        "vn": "nhiều trẻ em"
+                    },
+                    {
+                        "en": "spend a lot of time",
+                        "vn": "dành rất nhiều thời gian"
+                    },
+                    {
+                        "en": "playing computer games.",
+                        "vn": "để chơi trò chơi điện tử."
+                    },
+                    {
+                        "en": "While|Although",
+                        "vn": "Mặc dù"
+                    },
+                    {
+                        "en": "these games",
+                        "vn": "những trò chơi này"
+                    },
+                    {
+                        "en": "can be entertaining,",
+                        "vn": "có thể mang tính giải trí,"
+                    },
+                    {
+                        "en": "they may also",
+                        "vn": "chúng cũng có thể"
+                    },
+                    {
+                        "en": "have some negative effects on|have some negative impacts on",
+                        "vn": "gây ra một số ảnh hưởng tiêu cực đến"
+                    },
+                    {
+                        "en": "children's behavior.",
+                        "vn": "hành vi của trẻ."
+                    },
+                    {
+                        "en": "This essay will",
+                        "vn": "Bài luận này sẽ"
+                    },
+                    {
+                        "en": "discuss",
+                        "vn": "thảo luận về"
+                    },
+                    {
+                        "en": "the harmful impacts of computer games|the harmful effects of computer games",
+                        "vn": "những tác động có hại của trò chơi điện tử"
+                    },
+                    {
+                        "en": "on children",
+                        "vn": "đối với trẻ em"
+                    },
+                    {
+                        "en": "and",
+                        "vn": "và"
+                    },
+                    {
+                        "en": "suggest|propose",
+                        "vn": "đề xuất"
+                    },
+                    {
+                        "en": "some possible solutions",
+                        "vn": "một số giải pháp khả thi"
+                    },
+                    {
+                        "en": "to tackle these problems.",
+                        "vn": "để giải quyết những vấn đề này."
+                    }
+                ],
+                "introVn": "Ngày nay, nhiều trẻ em dành rất nhiều thời gian để chơi trò chơi điện tử. Mặc dù những trò chơi này có thể mang tính giải trí, chúng cũng có thể gây ra một số ảnh hưởng tiêu cực đến hành vi của trẻ. Bài luận này sẽ thảo luận về những tác động có hại của trò chơi điện tử đối với trẻ em và đề xuất một số giải pháp khả thi để giải quyết những vấn đề này.",
+                "bodyParagraphs": [
+                    {
+                        "title": "Đoạn 1: Hậu quả tiêu cực của việc chơi game quá mức",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "To begin with, excessive gaming can lead to a wide range of consequences.",
+                                        "vn": "Trước hết, việc chơi game quá mức có thể dẫn đến nhiều hậu quả tiêu cực.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "hung hăng hơn (More aggressive)",
+                                "hints": [
+                                    {
+                                        "en": "more aggressive",
+                                        "vn": "trở nên hung hăng hơn"
+                                    },
+                                    {
+                                        "en": "fighting, violence, and competition",
+                                        "vn": "đánh nhau, bạo lực và sự cạnh tranh"
+                                    },
+                                    {
+                                        "en": "copy the behavior they see in the games",
+                                        "vn": "bắt chước hành vi thấy trong trò chơi"
+                                    },
+                                    {
+                                        "en": "argue or fight with others",
+                                        "vn": "tranh cãi hoặc đánh nhau với người khác"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "ít hòa đồng hơn (Less social)",
+                                "hints": [
+                                    {
+                                        "en": "less social",
+                                        "vn": "ít hòa đồng hơn"
+                                    },
+                                    {
+                                        "en": "staying at home + playing games",
+                                        "vn": "ở nhà + chơi game"
+                                    },
+                                    {
+                                        "en": "weaker communication skills",
+                                        "vn": "kỹ năng giao tiếp kém hơn"
+                                    },
+                                    {
+                                        "en": "difficult to build relationships with other people",
+                                        "vn": "khó xây dựng các mối quan hệ với người khác"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Đoạn 2: Các giải pháp giảm thiểu (Possible Solutions)",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "In order to address these problems, several measures should be implemented.",
+                                        "vn": "Để giải quyết những vấn đề trên, một số biện pháp cần phải được thực hiện.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Vai trò của cha mẹ (Parents)",
+                                "hints": [
+                                    {
+                                        "en": "limit the amount of time their children spend on computer games",
+                                        "vn": "giới hạn lượng thời gian con cái dành cho trò chơi điện tử"
+                                    },
+                                    {
+                                        "en": "play only after finishing their homework + play for a certain number of hours each day",
+                                        "vn": "chỉ chơi sau khi hoàn thành bài tập về nhà + chơi trong một số giờ nhất định mỗi ngày"
+                                    },
+                                    {
+                                        "en": "develop healthier habits",
+                                        "vn": "phát triển các thói quen lành mạnh hơn"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Vai trò của nhà trường (Schools)",
+                                "hints": [
+                                    {
+                                        "en": "participate in extracurricular activities",
+                                        "vn": "tham gia các hoạt động ngoại khóa"
+                                    },
+                                    {
+                                        "en": "improve physical health",
+                                        "vn": "cải thiện sức khỏe thể chất"
+                                    },
+                                    {
+                                        "en": "learn teamwork, communication, and social skills",
+                                        "vn": "học làm việc nhóm, giao tiếp và kỹ năng xã hội"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "conclusionChunks": [
+                    {
+                        "en": "In conclusion,",
+                        "vn": "Tóm lại,"
+                    },
+                    {
+                        "en": "although|while",
+                        "vn": "mặc dù"
+                    },
+                    {
+                        "en": "computer games",
+                        "vn": "trò chơi điện tử"
+                    },
+                    {
+                        "en": "can provide",
+                        "vn": "có thể mang lại"
+                    },
+                    {
+                        "en": "entertainment",
+                        "vn": "sự giải trí"
+                    },
+                    {
+                        "en": "for children,",
+                        "vn": "cho trẻ em,"
+                    },
+                    {
+                        "en": "they also come with",
+                        "vn": "chúng cũng đi kèm với"
+                    },
+                    {
+                        "en": "some negative impacts.|some negative effects.",
+                        "vn": "một số tác động tiêu cực."
+                    },
+                    {
+                        "en": "They might lead to",
+                        "vn": "Chúng có thể dẫn đến"
+                    },
+                    {
+                        "en": "aggressive behaviors",
+                        "vn": "hành vi hung hăng"
+                    },
+                    {
+                        "en": "and poor social skills.",
+                        "vn": "và kỹ năng xã hội kém."
+                    },
+                    {
+                        "en": "However,",
+                        "vn": "Tuy nhiên,"
+                    },
+                    {
+                        "en": "these issues",
+                        "vn": "những vấn đề này"
+                    },
+                    {
+                        "en": "can be reduced",
+                        "vn": "có thể được giảm bớt"
+                    },
+                    {
+                        "en": "if",
+                        "vn": "nếu"
+                    },
+                    {
+                        "en": "parents",
+                        "vn": "cha mẹ"
+                    },
+                    {
+                        "en": "control gaming time",
+                        "vn": "kiểm soát thời gian chơi game"
+                    },
+                    {
+                        "en": "and encourage their children",
+                        "vn": "và khuyến khích con"
+                    },
+                    {
+                        "en": "to participate in",
+                        "vn": "tham gia"
+                    },
+                    {
+                        "en": "other beneficial activities.",
+                        "vn": "các hoạt động bổ ích khác."
+                    }
+                ],
+                "conclusionVn": "Tóm lại, mặc dù trò chơi điện tử có thể mang lại sự giải trí cho trẻ em, chúng cũng đi kèm với một số tác động tiêu cực. Chúng có thể dẫn đến hành vi hung hăng và kỹ năng xã hội kém. Tuy nhiên, những vấn đề này có thể được giảm bớt nếu cha mẹ kiểm soát thời gian chơi game và khuyến khích con tham gia các hoạt động bổ ích khác.",
+                "sampleEssay": {
+                    "paragraphs": [
+                        [
+                            {
+                                "en": "Nowadays, many children spend a lot of time playing computer games.",
+                                "vn": "Ngày nay, nhiều trẻ em dành rất nhiều thời gian để chơi trò chơi điện tử.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "While these games can be entertaining, they may also have some negative effects on children's behavior.",
+                                "vn": "Mặc dù những trò chơi này có thể mang tính giải trí, chúng cũng có thể gây ra một số ảnh hưởng tiêu cực đến hành vi của trẻ em.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This essay will discuss the harmful impacts of computer games on children and {suggest some possible solutions|suggest some possible solutions to address these issues}.",
+                                "vn": "Bài luận này sẽ thảo luận về những tác động có hại của trò chơi điện tử đối với trẻ em và {đề xuất một số giải pháp khả thi|đề xuất một số giải pháp khả thi để giải quyết các vấn đề này}.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "To begin with, {playing games too much|excessive gaming} can lead to {a lot of|a wide range of} consequences.",
+                                "vn": "Trước hết, {việc chơi game quá nhiều|việc chơi game quá mức} có thể dẫn đến {rất nhiều|một loạt các} hậu quả.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "One negative effect is that computer games can make children more aggressive.",
+                                "vn": "Một tác động tiêu cực là trò chơi điện tử có thể khiến trẻ em trở nên hung hăng hơn.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This is because many games contain fighting, violence, and competition.",
+                                "vn": "Điều này là do nhiều trò chơi có chứa yếu tố đánh nhau, bạo lực và cạnh tranh.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "When children are exposed to this content for a long time, they may {copy|imitate} the behavior they see in the games and become more likely to argue or fight with others.",
+                                "vn": "Khi trẻ em tiếp xúc với nội dung này trong một thời gian dài, chúng có thể {bắt chước|mô phỏng} hành vi mà chúng thấy trong trò chơi và dễ có xu hướng tranh cãi hoặc đánh nhau với người khác hơn.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Another problem is that children may become less social.",
+                                "vn": "Một vấn đề khác là trẻ em có thể trở nên ít hòa đồng hơn.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Some children prefer staying at home and playing games instead of {playing with their friends|spending time with friends or family members}.",
+                                "vn": "Một số trẻ thích ở nhà và chơi game hơn là {chơi với bạn bè|dành thời gian cho bạn bè hoặc người thân trong gia đình}.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "As a result, they may have weaker communication skills and {cannot|find it difficult to} build relationships with other people.",
+                                "vn": "Kết quả là, chúng có thể có kỹ năng giao tiếp kém hơn và {không thể|cảm thấy khó khăn trong việc} xây dựng các mối quan hệ với người khác.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "{To|In order to} address these problems, several measures should be implemented.",
+                                "vn": "{Để|Nhằm mục đích} giải quyết những vấn đề trên, một số biện pháp cần phải được thực hiện.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Firstly, parents should limit the amount of time their children spend on computer games.",
+                                "vn": "Trước tiên, cha mẹ nên giới hạn lượng thời gian con cái dành cho trò chơi điện tử.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "For example, {parents only allow children to play after|children can be allowed to play only after} finishing their homework and for {a few hours|a certain number of hours} each day.",
+                                "vn": "Ví dụ, {cha mẹ chỉ cho phép trẻ chơi sau khi|trẻ em có thể chỉ được phép chơi sau khi} đã hoàn thành bài tập về nhà và trong {một vài giờ|một số giờ nhất định} mỗi ngày.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This can help them {develop healthier habits|play games in moderation}.",
+                                "vn": "Điều này có thể giúp chúng {hình thành các thói quen lành mạnh hơn|chơi game một cách điều độ}.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "In addition, schools can encourage students to participate in extracurricular activities such as playing sports or joining clubs.",
+                                "vn": "Ngoài ra, nhà trường có thể khuyến khích học sinh tham gia vào các hoạt động ngoại khóa như chơi thể thao hoặc tham gia các câu lạc bộ.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "{These activities can help children improve physical health and learn teamwork, communication, and social skills.|These activities not only improve physical health but also help children learn teamwork, communication, and social skills.}",
+                                "vn": "{Những hoạt động này có thể giúp trẻ cải thiện sức khỏe thể chất và học được kỹ năng làm việc nhóm, giao tiếp cùng kỹ năng xã hội.|Những hoạt động này không chỉ cải thiện sức khỏe thể chất mà còn giúp trẻ học được kỹ năng làm việc nhóm, giao tiếp và kỹ năng xã hội.}",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "In conclusion, although computer games {can be entertaining|can provide entertainment} for children, they also come with some negative impacts.",
+                                "vn": "Tóm lại, mặc dù trò chơi điện tử {có thể mang tính giải trí|có thể mang lại sự giải trí} cho trẻ em, chúng cũng đi kèm với một số tác động tiêu cực.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "They might lead to aggressive behaviors and poor social skills.",
+                                "vn": "Chúng có thể dẫn đến hành vi hung hăng và kỹ năng xã hội kém.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "However, these issues can be reduced if parents control gaming time and encourage their children to participate in other {useful|beneficial} activities.",
+                                "vn": "Tuy nhiên, những vấn đề này có thể được giảm bớt nếu cha mẹ kiểm soát thời gian chơi game và khuyến khích con tham gia các hoạt động {có ích|bổ ích} khác.",
+                                "isRed": false
+                            }
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "historical-places-interest",
+        "title": "15. Giới trẻ và địa điểm lịch sử",
+        "summary": "Bài luận về nguyên nhân người trẻ ít quan tâm đến các địa điểm lịch sử và những tác động tiêu cực của xu hướng này.",
+        "isMatchingVocab": true,
+        "meta": {
+            "category": "Văn hóa - Xã hội",
+            "taskType": "Causes - Problems - Solutions",
+            "level": "B1-B2",
+            "estimatedMinutes": 40
+        },
+        "prompt": [
+            {
+                "en": "Historical places are important parts of a country’s culture.",
+                "vn": "Các địa điểm lịch sử là phần quan trọng trong văn hóa của một quốc gia."
+            },
+            {
+                "en": "However, fewer young people are interested in visiting them.",
+                "vn": "Tuy nhiên, ngày càng ít người trẻ quan tâm đến việc tham quan chúng."
+            },
+            {
+                "en": "Why are young people losing interest in historical places?",
+                "vn": "Tại sao người trẻ lại mất hứng thú với các địa điểm lịch sử?"
+            },
+            {
+                "en": "What impact might this have?",
+                "vn": "Điều này có thể gây ra tác động gì?"
+            },
+            {
+                "en": "Explain your points with examples.",
+                "vn": "Giải thích các luận điểm của bạn bằng ví dụ."
+            }
+        ],
+        "introEnExpectedLength": 45,
+        "conclusionEnExpectedLength": 45,
+        "currentVariantIndex": 0,
+        "variants": [
+            {
+                "name": "Level B1-B2",
+                "vocab": [
+                    {
+                        "en": "historical places",
+                        "vn": "các địa điểm lịch sử"
+                    },
+                    {
+                        "en": "heritage",
+                        "vn": "di sản"
+                    },
+                    {
+                        "en": "be interested in",
+                        "vn": "quan tâm đến"
+                    },
+                    {
+                        "en": "forms of entertainment",
+                        "vn": "các hình thức giải trí"
+                    },
+                    {
+                        "en": "historical sites",
+                        "vn": "các di tích lịch sử"
+                    },
+                    {
+                        "en": "have little interest in",
+                        "vn": "ít quan tâm đến"
+                    },
+                    {
+                        "en": "memorize",
+                        "vn": "ghi nhớ"
+                    },
+                    {
+                        "en": "recognize",
+                        "vn": "nhận ra"
+                    },
+                    {
+                        "en": "the importance",
+                        "vn": "tầm quan trọng"
+                    },
+                    {
+                        "en": "a poor understanding of history",
+                        "vn": "hiểu biết kém về lịch sử"
+                    },
+                    {
+                        "en": "source of historical knowledge",
+                        "vn": "nguồn kiến thức lịch sử"
+                    },
+                    {
+                        "en": "a sense of national pride",
+                        "vn": "lòng tự hào dân tộc"
+                    },
+                    {
+                        "en": "highlight",
+                        "vn": "nêu bật / tôn vinh"
+                    },
+                    {
+                        "en": "achievements",
+                        "vn": "thành tựu"
+                    },
+                    {
+                        "en": "sacrifices",
+                        "vn": "sự hy sinh"
+                    },
+                    {
+                        "en": "previous generations",
+                        "vn": "các thế hệ đi trước"
+                    },
+                    {
+                        "en": "a sense of national identity",
+                        "vn": "ý thức về bản sắc dân tộc"
+                    }
+                ],
+                "introChunks": [
+                    {
+                        "en": "Historical places",
+                        "vn": "Các địa điểm lịch sử"
+                    },
+                    {
+                        "en": "are",
+                        "vn": "là"
+                    },
+                    {
+                        "en": "important parts",
+                        "vn": "những phần quan trọng"
+                    },
+                    {
+                        "en": "of a country's culture and heritage.",
+                        "vn": "của văn hóa và di sản của một quốc gia."
+                    },
+                    {
+                        "en": "However,|Nevertheless,",
+                        "vn": "Tuy nhiên,"
+                    },
+                    {
+                        "en": "fewer young people",
+                        "vn": "ngày càng ít người trẻ"
+                    },
+                    {
+                        "en": "are interested in",
+                        "vn": "quan tâm đến việc"
+                    },
+                    {
+                        "en": "visiting these places",
+                        "vn": "tham quan những địa điểm này"
+                    },
+                    {
+                        "en": "nowadays.",
+                        "vn": "ngày nay."
+                    },
+                    {
+                        "en": "This essay will",
+                        "vn": "Bài luận này sẽ"
+                    },
+                    {
+                        "en": "discuss",
+                        "vn": "thảo luận về"
+                    },
+                    {
+                        "en": "the reasons behind this trend",
+                        "vn": "những nguyên nhân đằng sau xu hướng này"
+                    },
+                    {
+                        "en": "and",
+                        "vn": "và"
+                    },
+                    {
+                        "en": "its possible impacts on|its possible effects on",
+                        "vn": "những tác động có thể có của nó đối với"
+                    },
+                    {
+                        "en": "individuals and society.",
+                        "vn": "cá nhân và xã hội."
+                    }
+                ],
+                "introVn": "Các địa điểm lịch sử là những phần quan trọng của văn hóa và di sản của một quốc gia. Tuy nhiên, ngày càng ít người trẻ quan tâm đến việc tham quan những địa điểm này ngày nay. Bài luận này sẽ thảo luận về những nguyên nhân đằng sau xu hướng này và những tác động có thể có của nó đối với cá nhân và xã hội.",
+                "bodyParagraphs": [
+                    {
+                        "title": "Đoạn 1: Nguyên nhân khiến người trẻ ít quan tâm (Causes)",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "In terms of the causes, several factors can account for this issue.",
+                                        "vn": "Về khía cạnh nguyên nhân, vấn đề này bắt nguồn từ một số yếu tố.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "giải trí hiện đại hấp dẫn hơn (Modern forms of entertainment)",
+                                "hints": [
+                                    {
+                                        "en": "modern forms of entertainment (more attractive)",
+                                        "vn": "các hình thức giải trí hiện đại (hấp dẫn hơn)"
+                                    },
+                                    {
+                                        "en": "social media, online videos, and computer games",
+                                        "vn": "mạng xã hội, video trực tuyến và trò chơi điện tử"
+                                    },
+                                    {
+                                        "en": "visiting historical sites (less exciting)",
+                                        "vn": "tham quan các di tích lịch sử (ít thú vị hơn)"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "ít quan tâm đến lịch sử (Little interest in history)",
+                                "hints": [
+                                    {
+                                        "en": "little interest in history",
+                                        "vn": "ít quan tâm đến lịch sử"
+                                    },
+                                    {
+                                        "en": "memorizing dates + events",
+                                        "vn": "ghi nhớ các ngày tháng + sự kiện"
+                                    },
+                                    {
+                                        "en": "consider history a boring subject",
+                                        "vn": "coi lịch sử là một môn học nhàm chán"
+                                    },
+                                    {
+                                        "en": "not recognize the importance of historical places + feel less motivated to visit them",
+                                        "vn": "không nhận ra tầm quan trọng của các địa điểm lịch sử + cảm thấy ít động lực để tham quan chúng"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Đoạn 2: Những hậu quả tiêu cực (Negative Consequences)",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "Because of these factors, this issue can lead to a range of negative consequences.",
+                                        "vn": "Do những yếu tố trên, vấn đề này có thể dẫn đến một số hậu quả tiêu cực.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "hiểu biết kém về lịch sử (Poorer understanding of history)",
+                                "hints": [
+                                    {
+                                        "en": "a poorer understanding of history",
+                                        "vn": "hiểu biết kém hơn về lịch sử"
+                                    },
+                                    {
+                                        "en": "historical places (learn about important events + people from the past)",
+                                        "vn": "các địa điểm lịch sử (học về các sự kiện quan trọng + nhân vật trong quá khứ)"
+                                    },
+                                    {
+                                        "en": "miss an important source of historical knowledge",
+                                        "vn": "bỏ lỡ một nguồn kiến thức lịch sử quan trọng"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "suy giảm tự hào dân tộc (Weaker sense of national pride)",
+                                "hints": [
+                                    {
+                                        "en": "a weaker sense of national pride",
+                                        "vn": "lòng tự hào dân tộc kém hơn"
+                                    },
+                                    {
+                                        "en": "historical places (the achievements + sacrifices of previous generations)",
+                                        "vn": "các địa điểm lịch sử (thành tựu + sự hy sinh của các thế hệ đi trước)"
+                                    },
+                                    {
+                                        "en": "rarely visit them",
+                                        "vn": "hiếm khi tham quan chúng"
+                                    },
+                                    {
+                                        "en": "feel less connected to their country's culture and heritage",
+                                        "vn": "cảm thấy ít kết nối hơn với văn hóa và di sản của đất nước mình"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "conclusionChunks": [
+                    {
+                        "en": "In conclusion,",
+                        "vn": "Tóm lại,"
+                    },
+                    {
+                        "en": "young people's declining interest in historical places",
+                        "vn": "việc người trẻ ngày càng ít quan tâm đến các địa điểm lịch sử"
+                    },
+                    {
+                        "en": "can be attributed to|can stem from",
+                        "vn": "có thể bắt nguồn từ"
+                    },
+                    {
+                        "en": "the attraction of modern entertainment",
+                        "vn": "sức hấp dẫn của các hình thức giải trí hiện đại"
+                    },
+                    {
+                        "en": "and",
+                        "vn": "và"
+                    },
+                    {
+                        "en": "a lack of interest in history.",
+                        "vn": "sự thiếu hứng thú đối với môn lịch sử."
+                    },
+                    {
+                        "en": "This trend",
+                        "vn": "Xu hướng này"
+                    },
+                    {
+                        "en": "may result in|may lead to",
+                        "vn": "có thể dẫn đến"
+                    },
+                    {
+                        "en": "limited historical knowledge",
+                        "vn": "sự hạn chế trong hiểu biết về lịch sử"
+                    },
+                    {
+                        "en": "and",
+                        "vn": "cũng như"
+                    },
+                    {
+                        "en": "a weaker sense of national identity.",
+                        "vn": "làm suy giảm ý thức về bản sắc dân tộc."
+                    },
+                    {
+                        "en": "Therefore,",
+                        "vn": "Vì vậy,"
+                    },
+                    {
+                        "en": "greater efforts should be made",
+                        "vn": "cần có nhiều nỗ lực hơn"
+                    },
+                    {
+                        "en": "to encourage young people to",
+                        "vn": "để khuyến khích người trẻ"
+                    },
+                    {
+                        "en": "visit",
+                        "vn": "tham quan"
+                    },
+                    {
+                        "en": "these important cultural sites.",
+                        "vn": "những địa điểm văn hóa quan trọng này."
+                    }
+                ],
+                "conclusionVn": "Tóm lại, việc người trẻ ngày càng ít quan tâm đến các địa điểm lịch sử có thể bắt nguồn từ sức hấp dẫn của các hình thức giải trí hiện đại và sự thiếu hứng thú đối với môn lịch sử. Xu hướng này có thể dẫn đến sự hạn chế trong hiểu biết về lịch sử cũng như làm suy giảm ý thức về bản sắc dân tộc. Vì vậy, cần có nhiều nỗ lực hơn để khuyến khích người trẻ tham quan những địa điểm văn hóa quan trọng này.",
+                "sampleEssay": {
+                    "paragraphs": [
+                        [
+                            {
+                                "en": "Historical places are important parts of {a country's culture|a country's culture and heritage}.",
+                                "vn": "Các địa điểm lịch sử là phần quan trọng trong {văn hóa|văn hóa và di sản} của một quốc gia.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "However, {not many|fewer} young people are interested in visiting these places nowadays.",
+                                "vn": "Tuy nhiên, ngày nay {không có nhiều|ngày càng ít} bạn trẻ quan tâm đến việc tham quan những địa điểm này.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This essay will discuss the reasons behind this trend and its possible impacts on individuals and society.",
+                                "vn": "Bài luận này sẽ thảo luận về nguyên nhân đằng sau xu hướng này và các tác động có thể có của nó đối với cá nhân và xã hội.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "{There are several reasons for this trend.|In terms of the causes, several factors can account for this issue.}",
+                                "vn": "{Có nhiều nguyên nhân dẫn đến xu hướng này.|Về mặt nguyên nhân, có nhiều yếu tố có thể giải thích cho vấn đề này.}",
+                                "isRed": false
+                            },
+                            {
+                                "en": "First of all, modern forms of entertainment are much more attractive to young people.",
+                                "vn": "Trước hết, các hình thức giải trí hiện đại có sức hút lớn hơn nhiều đối với giới trẻ.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Many of them prefer spending their free time on social media, online videos, and computer games rather than visiting historical sites {because they are not very interesting|, which may seem less exciting}.",
+                                "vn": "Nhiều bạn trẻ thích dành thời gian rảnh rỗi cho mạng xã hội, video trực tuyến và trò chơi điện tử hơn là ghé thăm các địa điểm lịch sử {vì chúng không mấy thú vị|, nơi có vẻ ít hấp dẫn hơn}.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Moreover, many young people these days {are not very interested in|have little interest in} history.",
+                                "vn": "Hơn nữa, nhiều người trẻ ngày nay {không hứng thú lắm với|có rất ít sự quan tâm đối với} lịch sử.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Since it often {requires them to memorize|involves memorizing} dates and events, some students consider history a boring subject.",
+                                "vn": "Vì môn học này thường {đòi hỏi họ phải học thuộc lòng|liên quan đến việc ghi nhớ} các ngày tháng và sự kiện, một số học sinh coi lịch sử là một môn học nhàm chán.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "As a result, they may not recognize the importance of historical places and feel less motivated to visit them.",
+                                "vn": "Kết quả là, họ có thể không nhận ra tầm quan trọng của các địa điểm lịch sử và cảm thấy ít có động lực để ghé thăm chúng hơn.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "Because of these factors, this issue can lead to {several|a wide range of} {negative effects|negative consequences}.",
+                                "vn": "Bởi vì những yếu tố này, vấn đề có thể dẫn đến {nhiều|một loạt các} {tác động tiêu cực|hậu quả tiêu cực}.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "One major impact is that young people may have a poorer understanding of history.",
+                                "vn": "Một tác động lớn là người trẻ có thể có hiểu biết kém hơn về lịch sử.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Historical places {give people opportunities to|provide valuable opportunities to} learn about important events and people from the past.",
+                                "vn": "Các địa điểm lịch sử {cho mọi người cơ hội để|mang lại những cơ hội quý giá để} tìm hiểu về các sự kiện và nhân vật quan trọng trong quá khứ.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Without visiting these sites, they may miss an important source of historical knowledge.",
+                                "vn": "Nếu không tham quan những địa điểm này, họ có thể bỏ lỡ một nguồn kiến thức lịch sử quan trọng.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Another consequence is a weaker sense of national pride.",
+                                "vn": "Một hệ quả khác là suy giảm niềm tự hào dân tộc.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Historical places often {teach people about|highlight} the achievements and sacrifices of previous generations.",
+                                "vn": "Các địa điểm lịch sử thường {dạy cho mọi người biết về|làm nổi bật} những thành tựu và sự hy sinh của các thế hệ đi trước.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "If young people rarely visit them, they may feel less connected to their country's culture and heritage.",
+                                "vn": "Nếu người trẻ hiếm khi ghé thăm, họ có thể cảm thấy ít gắn kết hơn với văn hóa và di sản của đất nước mình.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "In conclusion, {young people are less interested in historical places because modern entertainment is more attractive and many of them are not interested in history|young people's declining interest in historical places can be attributed to the attraction of modern entertainment and a lack of interest in history}.",
+                                "vn": "Tóm lại, {người trẻ ít quan tâm đến các địa điểm lịch sử hơn vì giải trí hiện đại hấp dẫn hơn và nhiều người trong số họ không hứng thú với lịch sử|sự suy giảm mối quan tâm của giới trẻ đối với các địa điểm lịch sử có thể bắt nguồn từ sức hấp dẫn của các hình thức giải trí hiện đại và sự thiếu hứng thú đối với lịch sử}.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This trend may result in limited historical knowledge and a weaker sense of national identity.",
+                                "vn": "Xu hướng này có thể dẫn đến kiến thức lịch sử bị hạn chế và ý thức về bản sắc dân tộc suy yếu.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Therefore, greater efforts should be made to encourage young people to visit these important cultural sites.",
+                                "vn": "Do đó, cần có nhiều nỗ lực hơn nữa để khuyến khích giới trẻ tham quan những địa điểm văn hóa quan trọng này.",
+                                "isRed": false
+                            }
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "museums-historical-places-increase",
+        "title": "16. Tham quan bảo tàng & di tích",
+        "meta": {
+            "taskType": "Causes - Problems - Solutions",
+            "difficulty": "B1 - B2",
+            "estimatedMinutes": 40
+        },
+        "prompt": [
+            {
+                "en": "In recent years, there has been a growing trend that more young people are visiting museums, historical buildings, and cultural heritage sites.",
+                "vn": "Trong những năm gần đây, có một xu hướng ngày càng tăng là nhiều bạn trẻ đến tham quan các bảo tàng, công trình lịch sử và các khu di sản văn hóa."
+            },
+            {
+                "en": "What are the reasons for this trend?",
+                "vn": "Những nguyên nhân nào dẫn đến xu hướng này?"
+            },
+            {
+                "en": "What positive impacts does it have on individuals and society?",
+                "vn": "Xu hướng này mang lại những tác động tích cực gì cho cá nhân và xã hội?"
+            }
+        ],
+        "isMatchingVocab": true,
+        "vocab": [
+            {
+                "en": "historical buildings",
+                "vn": "công trình lịch sử",
+                "level": "B1"
+            },
+            {
+                "en": "heritage sites",
+                "vn": "các khu di sản",
+                "level": "B1"
+            },
+            {
+                "en": "pay more attention to",
+                "vn": "chú ý nhiều hơn đến",
+                "level": "B1"
+            },
+            {
+                "en": "field trips",
+                "vn": "chuyến tham quan thực tế / dã ngoại",
+                "level": "B1"
+            },
+            {
+                "en": "historical sites",
+                "vn": "di tích lịch sử",
+                "level": "B1"
+            },
+            {
+                "en": "attractive",
+                "vn": "thu hút, hấp dẫn",
+                "level": "B1"
+            },
+            {
+                "en": "gain knowledge",
+                "vn": "thu nhận kiến thức",
+                "level": "B1"
+            },
+            {
+                "en": "real experiences",
+                "vn": "trải nghiệm thực tế",
+                "level": "B1"
+            },
+            {
+                "en": "future generations",
+                "vn": "các thế hệ tương lai",
+                "level": "B1"
+            },
+            {
+                "en": "phenomenon",
+                "vn": "hiện tượng",
+                "level": "B2"
+            },
+            {
+                "en": "educational institutions",
+                "vn": "cơ sở / tổ chức giáo dục",
+                "level": "B2"
+            },
+            {
+                "en": "engaging",
+                "vn": "hấp dẫn, lôi cuốn",
+                "level": "B2"
+            },
+            {
+                "en": "appealing",
+                "vn": "thu hút, lôi cuốn hơn",
+                "level": "B2"
+            },
+            {
+                "en": "first-hand knowledge",
+                "vn": "kiến thức thực tế / mắt thấy tai nghe",
+                "level": "B2"
+            },
+            {
+                "en": "sense of national identity",
+                "vn": "ý thức về bản sắc dân tộc",
+                "level": "B2"
+            },
+            {
+                "en": "preserve",
+                "vn": "bảo tồn, gìn giữ",
+                "level": "B2"
+            },
+            {
+                "en": "appreciate",
+                "vn": "trân trọng, đánh giá cao",
+                "level": "B2"
+            },
+            {
+                "en": "local communities",
+                "vn": "cộng đồng địa phương",
+                "level": "B2"
+            },
+            {
+                "en": "in good condition",
+                "vn": "trong tình trạng tốt",
+                "level": "B2"
+            },
+            {
+                "en": "neglect",
+                "vn": "bỏ ngỏ, thờ ơ, sao nhãng",
+                "level": "B2"
+            },
+            {
+                "en": "Influence",
+                "vn": "sức ảnh hưởng / tác động",
+                "level": "B2"
+            }
+        ],
+        "variants": [
+            {
+                "name": "Level B1-B2",
+                "introVn": "Trong những năm gần đây, đã có một sự gia tăng đáng kể về số lượng người trẻ đến tham quan các bảo tàng, công trình lịch sử, và các địa điểm di sản văn hóa. Bài luận này sẽ thảo luận về {những nguyên nhân đằng sau xu hướng này|hiện tượng này} và những tác động tích cực mà nó mang lại cho cá nhân và xã hội.",
+                "introEnExpectedLength": 45,
+                "introChunks": [
+                    {
+                        "en": "In recent years,",
+                        "vn": "Trong những năm gần đây,"
+                    },
+                    {
+                        "en": "there has been a significant increase in",
+                        "vn": "đã có một sự gia tăng đáng kể về"
+                    },
+                    {
+                        "en": "the number of young people who visit museums,",
+                        "vn": "số lượng người trẻ đến tham quan các bảo tàng,"
+                    },
+                    {
+                        "en": "historical buildings,",
+                        "vn": "công trình lịch sử,"
+                    },
+                    {
+                        "en": "and cultural heritage sites.",
+                        "vn": "và các địa điểm di sản văn hóa."
+                    },
+                    {
+                        "en": "This essay will discuss",
+                        "vn": "Bài luận này sẽ thảo luận về"
+                    },
+                    {
+                        "en": "{the reason behind this trend|this phenomenon}",
+                        "vn": "{những nguyên nhân đằng sau xu hướng này|hiện tượng này}"
+                    },
+                    {
+                        "en": "and its positive impacts on",
+                        "vn": "và những tác động tích cực mà nó mang lại cho"
+                    },
+                    {
+                        "en": "individuals and society.",
+                        "vn": "cá nhân và xã hội."
+                    }
+                ],
+                "bodyParagraphs": [
+                    {
+                        "title": "Đoạn 1: Nguyên nhân khiến giới trẻ thích tham quan (Causes)",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "{There are several reasons for this trend.|In terms of the causes, several factors can account for this issue.}",
+                                        "vn": "{Có một số nguyên nhân của xu hướng này.|Về nguyên nhân, có một số yếu tố giải thích cho xu hướng này.}",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "{Sự chú ý từ trường học (Attention from schools)|Sự chú ý từ cơ sở giáo dục (Attention from educational institutions)}",
+                                "hints": [
+                                    {
+                                        "en": "pay more attention to (history + cultural education)",
+                                        "vn": "chú ý nhiều hơn đến (lịch sử + giáo dục văn hóa)"
+                                    },
+                                    {
+                                        "en": "organize field trips",
+                                        "vn": "tổ chức các chuyến tham quan thực tế / dã ngoại"
+                                    },
+                                    {
+                                        "en": "learn about the past {in an interesting way|in a more engaging way}",
+                                        "vn": "học về quá khứ {theo cách thú vị|theo cách hấp dẫn và lôi cuốn hơn}"
+                                    },
+                                    {
+                                        "en": "{+|more interested in exploring these places}",
+                                        "vn": "{+|➜ Thêm ý Level B2: hào hứng hơn trong việc khám phá những địa điểm này}"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Sức ảnh hưởng của mạng xã hội (The influence of social media)",
+                                "hints": [
+                                    {
+                                        "en": "social media",
+                                        "vn": "mạng xã hội"
+                                    },
+                                    {
+                                        "en": "make (historical + cultural sites) more {attractive|appealing}",
+                                        "vn": "khiến (các địa điểm lịch sử + văn hóa) trở nên {hấp dẫn|thu hút} hơn"
+                                    },
+                                    {
+                                        "en": "sharing (photos + videos + travel experiences) online",
+                                        "vn": "chia sẻ (hình ảnh + video + trải nghiệm du lịch) trực tuyến"
+                                    },
+                                    {
+                                        "en": "encourage others to visit these sites",
+                                        "vn": "khuyến khích những người khác đến thăm các địa điểm này"
+                                    },
+                                    {
+                                        "en": "motivated to learn about their cultural heritage",
+                                        "vn": "có động lực tìm hiểu về di sản văn hóa của họ"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Đoạn 2: Những tác động tích cực đối với cá nhân & xã hội (Positive Impacts)",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "Regarding its positive impacts, this trend definitely offers several benefits.",
+                                        "vn": "Còn về các tác động tích cực, xu hướng này tất nhiên mang lại nhiều lợi ích.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Nâng cao kiến thức & tự hào dân tộc (Better knowledge & national pride)",
+                                "hints": [
+                                    {
+                                        "en": "improve their understanding of history and culture",
+                                        "vn": "cải thiện sự hiểu biết về lịch sử và văn hóa"
+                                    },
+                                    {
+                                        "en": "gain knowledge through real experiences",
+                                        "vn": "thu nhận kiến thức thông qua những trải nghiệm thực tế"
+                                    },
+                                    {
+                                        "en": "{improve national pride|strengthen (national identity + national pride)}",
+                                        "vn": "{nâng cao lòng tự hào dân tộc|củng cố (bản sắc + lòng tự hào dân tộc)}"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "{Bảo vệ di tích & hỗ trợ chính phủ (Protecting sites & government efforts)|Bảo tồn di sản & hỗ trợ cộng đồng (Preserving heritage & supporting communities)}",
+                                "hints": [
+                                    {
+                                        "en": "more historical sites (be {protected|preserved})",
+                                        "vn": "nhiều địa điểm lịch sử hơn (được {bảo vệ|bảo tồn})"
+                                    },
+                                    {
+                                        "en": "{see the value of these places|appreciate the value of these places}",
+                                        "vn": "{thấy được giá trị của những địa điểm này|trân trọng giá trị của những địa điểm này}"
+                                    },
+                                    {
+                                        "en": "{governments (protect them for future generations)|governments + local communities (protect them for future generations)}",
+                                        "vn": "{chính phủ (bảo vệ chúng cho các thế hệ tương lai)|chính phủ + cộng đồng địa phương (bảo vệ chúng cho các thế hệ tương lai)}"
+                                    },
+                                    {
+                                        "en": "{+|these cultural sites (be maintained in good condition)}",
+                                        "vn": "{+|➜ Thêm ý Level B2: những địa điểm văn hóa này (được duy trì trong tình trạng tốt)}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "conclusionVn": "Tóm lại, {ngày càng nhiều người trẻ tham quan bảo tàng và các địa điểm lịch sử vì trường học khuyến khích họ tìm hiểu về lịch sử và mạng xã hội khiến những địa điểm này trở nên hấp dẫn hơn.|số lượng người trẻ tham quan bảo tàng và các di tích lịch sử ngày càng tăng có thể bắt nguồn từ các cơ hội giáo dục tốt hơn và sức ảnh hưởng của mạng xã hội.} Xu hướng này nâng cao kiến thức lịch sử và lòng tự hào dân tộc ở mỗi cá nhân. Nó cũng giúp bảo tồn di sản văn hóa trong xã hội.",
+                "conclusionEnExpectedLength": 56,
+                "conclusionChunks": [
+                    {
+                        "en": "In conclusion,",
+                        "vn": "Tóm lại,"
+                    },
+                    {
+                        "en": "{more young people visit museums and historical places because schools encourage them to learn about history and social media makes these places more attractive.|the increasing number of young people visiting museums and historical sites can be attributed to better educational opportunities and the influence of social media.}",
+                        "vn": "{ngày càng nhiều người trẻ tham quan bảo tàng và các địa điểm lịch sử vì trường học khuyến khích họ tìm hiểu về lịch sử và mạng xã hội khiến những địa điểm này trở nên hấp dẫn hơn.|số lượng người trẻ tham quan bảo tàng và các di tích lịch sử ngày càng tăng có thể bắt nguồn từ các cơ hội giáo dục tốt hơn và sức ảnh hưởng của mạng xã hội.}"
+                    },
+                    {
+                        "en": "This trend improves historical knowledge and national pride among individuals.",
+                        "vn": "Xu hướng này nâng cao kiến thức lịch sử và lòng tự hào dân tộc ở mỗi cá nhân."
+                    },
+                    {
+                        "en": "It also helps preserve cultural heritage in society.",
+                        "vn": "Nó cũng giúp bảo tồn di sản văn hóa trong xã hội."
+                    }
+                ],
+                "sampleEssay": {
+                    "paragraphs": [
+                        [
+                            {
+                                "en": "In recent years, there has been a significant increase in the number of young people who visit museums, historical buildings, and cultural heritage sites.",
+                                "vn": "Trong những năm gần đây, đã có một sự gia tăng đáng kể về số lượng người trẻ đến tham quan các bảo tàng, công trình lịch sử, và các địa điểm di sản văn hóa.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This essay will discuss {the reason behind this trend|this phenomenon} and its positive impacts on individuals and society.",
+                                "vn": "Bài luận này sẽ thảo luận về {những nguyên nhân đằng sau xu hướng này|hiện tượng này} và những tác động tích cực mà nó mang lại cho cá nhân và xã hội.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "{There are several reasons for this trend.|In terms of the causes, several factors can account for this issue.}",
+                                "vn": "{Có nhiều nguyên nhân dẫn đến xu hướng này.|Về mặt nguyên nhân, có nhiều yếu tố có thể giải thích cho vấn đề này.}",
+                                "isRed": false
+                            },
+                            {
+                                "en": "First of all, {schools|educational institutions} are now paying more attention to history and cultural education.",
+                                "vn": "Trước hết, {trường học|các cơ sở giáo dục} hiện đang chú ý nhiều hơn đến giáo dục lịch sử và văn hóa.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Many schools organize field trips to museums and historical sites.",
+                                "vn": "Nhiều trường học tổ chức các chuyến dã ngoại đến các bảo tàng và di tích lịch sử.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This {helps students|allows students to} learn about the past {in an interesting way|in a more engaging way}.",
+                                "vn": "Điều này {giúp học sinh|cho phép học sinh} học về quá khứ {theo một cách thú vị|theo một cách hấp dẫn và lôi cuốn hơn}.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "{+Thêm ý|As a result, young people become more interested in exploring these places.}",
+                                "vn": "{+Thêm ý|Kết quả là, người trẻ trở nên hào hứng hơn trong việc khám phá những địa điểm này.}",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Moreover, social media helps make {historical and cultural sites|historical and cultural attractions} more {attractive|appealing}.",
+                                "vn": "Hơn nữa, mạng xã hội giúp khiến {các địa điểm lịch sử và văn hóa|các điểm đến thu hút về lịch sử và văn hóa} trở nên {hấp dẫn|thu hút} hơn.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "By sharing photos, videos, and travel experiences online, many visitors encourage others to visit these sites as well.",
+                                "vn": "Bằng cách chia sẻ hình ảnh, video và trải nghiệm du lịch trực tuyến, nhiều du khách khuyến khích những người khác cũng đến thăm các địa điểm này.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Consequently, more young people are motivated to learn about their cultural heritage.",
+                                "vn": "Hệ quả là, ngày càng có nhiều bạn trẻ có động lực tìm hiểu về di sản văn hóa của mình.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "Regarding its positive impacts, this trend definitely offers several benefits.",
+                                "vn": "Về các tác động tích cực của nó, xu hướng này chắc chắn mang lại nhiều lợi ích.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "{One positive effect|One major positive effect} is that it helps improve their understanding of history and culture.",
+                                "vn": "{Một tác động tích cực|Một tác động tích cực lớn} là nó giúp cải thiện sự hiểu biết của họ về lịch sử và văn hóa.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Instead of learning only from textbooks, they can {gain knowledge|gain first-hand knowledge} through real experiences.",
+                                "vn": "Thay vì chỉ học từ sách giáo khoa, họ có thể {thu nhận kiến thức|thu nhận kiến thức thực tế} thông qua những trải nghiệm thực tế.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "{+Thêm ý|In addition, these visits can strengthen their sense of national identity and national pride.}",
+                                "vn": "{+Thêm ý|Ngoài ra, những chuyến tham quan này có thể củng cố ý thức về bản sắc và lòng tự hào dân tộc của họ.}",
+                                "isRed": false
+                            },
+                            {
+                                "en": "{Another advantage is that|Another significant advantage is that} more historical sites can be {protected|preserved} for future generations.",
+                                "vn": "{Một lợi thế khác là|Một lợi thế đáng kể khác là} nhiều địa điểm lịch sử hơn có thể được {bảo vệ|bảo tồn} cho các thế hệ tương lai.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "When more people {see|appreciate} the value of these places, {governments|governments and local communities} will try to protect them for future generations.",
+                                "vn": "Khi ngày càng nhiều người {thấy được|trân trọng} giá trị của những địa điểm này, {chính phủ|chính phủ và cộng đồng địa phương} sẽ nỗ lực bảo vệ chúng cho các thế hệ tương lai.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "{+Thêm ý|As a result, these cultural sites can be maintained in good condition instead of being neglected.}",
+                                "vn": "{+Thêm ý|Kết quả là, những địa điểm văn hóa này có thể được duy trì trong tình trạng tốt thay vì bị bỏ ngỏ.}",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "In conclusion, {more young people visit museums and historical places because schools encourage them to learn about history and social media makes these places more attractive.|the increasing number of young people visiting museums and historical sites can be attributed to better educational opportunities and the influence of social media.}",
+                                "vn": "Tóm lại, {ngày càng nhiều người trẻ tham quan bảo tàng và các địa điểm lịch sử vì trường học khuyến khích họ tìm hiểu về lịch sử và mạng xã hội khiến những địa điểm này trở nên hấp dẫn hơn.|số lượng người trẻ tham quan bảo tàng và các di tích lịch sử ngày càng tăng có thể bắt nguồn từ các cơ hội giáo dục tốt hơn và sức ảnh hưởng của mạng xã hội.}",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This trend improves historical knowledge and national pride among individuals.",
+                                "vn": "Xu hướng này nâng cao kiến thức lịch sử và lòng tự hào dân tộc ở mỗi cá nhân.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "It also helps preserve cultural heritage in society.",
+                                "vn": "Nó cũng giúp bảo tồn di sản văn hóa trong xã hội.",
+                                "isRed": false
+                            }
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "famous-celebrity-advantages-disadvantages",
+        "title": "17. Sự nổi tiếng",
+        "summary": "Bài luận về những ưu điểm và nhược điểm của việc trở thành một người nổi tiếng thành công.",
+        "isMatchingVocab": true,
+        "meta": {
+            "category": "Đời sống & Xã hội",
+            "taskType": "Opinion",
+            "level": "B1-B2",
+            "estimatedMinutes": 40
+        },
+        "prompt": [
+            {
+                "en": "Being a successful celebrity such as a film star or singer brings many benefits, but also some disadvantages.",
+                "vn": "Trở thành một người nổi tiếng thành công như một ngôi sao điện ảnh hoặc ca sĩ mang lại nhiều lợi ích, nhưng cũng có một số bất lợi."
+            },
+            {
+                "en": "Do the advantages of being famous outweigh the disadvantages?",
+                "vn": "Liệu những lợi ích của việc nổi tiếng có lấn át những bất lợi không?"
+            }
+        ],
+        "introEnExpectedLength": 40,
+        "conclusionEnExpectedLength": 40,
+        "currentVariantIndex": 0,
+        "variants": [
+            {
+                "name": "Level B1-B2",
+                "vocab": [
+                    {
+                        "en": "successful",
+                        "vn": "thành công"
+                    },
+                    {
+                        "en": "celebrity",
+                        "vn": "người nổi tiếng"
+                    },
+                    {
+                        "en": "a high income",
+                        "vn": "thu nhập cao"
+                    },
+                    {
+                        "en": "make money",
+                        "vn": "kiếm tiền"
+                    },
+                    {
+                        "en": "advertisements",
+                        "vn": "quảng cáo"
+                    },
+                    {
+                        "en": "brand partnerships",
+                        "vn": "hợp tác thương hiệu"
+                    },
+                    {
+                        "en": "career opportunities",
+                        "vn": "cơ hội nghề nghiệp"
+                    },
+                    {
+                        "en": "popularity",
+                        "vn": "sự nổi tiếng"
+                    },
+                    {
+                        "en": "privacy",
+                        "vn": "sự riêng tư"
+                    },
+                    {
+                        "en": "follow",
+                        "vn": "theo dõi"
+                    },
+                    {
+                        "en": "the media",
+                        "vn": "truyền thông"
+                    },
+                    {
+                        "en": "personal life",
+                        "vn": "cuộc sống cá nhân"
+                    },
+                    {
+                        "en": "the heavy pressure",
+                        "vn": "áp lực nặng nề"
+                    },
+                    {
+                        "en": "expect",
+                        "vn": "mong đợi"
+                    },
+                    {
+                        "en": "behave",
+                        "vn": "cư xử"
+                    },
+                    {
+                        "en": "all the time",
+                        "vn": "mọi lúc"
+                    },
+                    {
+                        "en": "anxiety",
+                        "vn": "sự lo lắng"
+                    },
+                    {
+                        "en": "financial rewards",
+                        "vn": "phần thưởng tài chính"
+                    },
+                    {
+                        "en": "constant",
+                        "vn": "liên tục"
+                    },
+                    {
+                        "en": "outweigh",
+                        "vn": "lớn hơn, lấn át"
+                    },
+                    {
+                        "en": "public pressure",
+                        "vn": "áp lực dư luận"
+                    }
+                ],
+                "introChunks": [
+                    {
+                        "en": "In recent years,",
+                        "vn": "Trong những năm gần đây,"
+                    },
+                    {
+                        "en": "there has been",
+                        "vn": "đã có"
+                    },
+                    {
+                        "en": "a significant increase",
+                        "vn": "sự gia tăng đáng kể"
+                    },
+                    {
+                        "en": "in the number of people",
+                        "vn": "về số lượng người"
+                    },
+                    {
+                        "en": "who wish to become",
+                        "vn": "mong muốn trở thành"
+                    },
+                    {
+                        "en": "a successful celebrity.",
+                        "vn": "một người nổi tiếng thành công."
+                    },
+                    {
+                        "en": "Although",
+                        "vn": "Mặc dù"
+                    },
+                    {
+                        "en": "being famous",
+                        "vn": "việc nổi tiếng"
+                    },
+                    {
+                        "en": "brings some benefits,",
+                        "vn": "mang lại một số lợi ích,"
+                    },
+                    {
+                        "en": "I believe",
+                        "vn": "tôi tin rằng"
+                    },
+                    {
+                        "en": "its disadvantages are more serious.",
+                        "vn": "những bất lợi của nó nghiêm trọng hơn."
+                    }
+                ],
+                "introVn": "Trong những năm gần đây, đã có sự gia tăng đáng kể về số lượng người mong muốn trở thành một người nổi tiếng thành công. Mặc dù việc nổi tiếng mang lại một số lợi ích, tôi tin rằng những bất lợi của nó nghiêm trọng hơn.",
+                "bodyParagraphs": [
+                    {
+                        "title": "Đoạn 1: Lợi ích (Advantages)",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "On the one hand, becoming a famous actor or singer offers many advantages.",
+                                        "vn": "Một mặt, việc trở thành một diễn viên hay ca sĩ nổi tiếng mang lại nhiều lợi ích.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lợi ích 1",
+                                "hints": [
+                                    {
+                                        "en": "{earn a high income|Firstly, celebrities usually earn a high income.}",
+                                        "vn": "{kiếm được thu nhập cao|Đầu tiên, những người nổi tiếng thường kiếm được thu nhập cao.}"
+                                    },
+                                    {
+                                        "en": "{make money (from their main job + from advertisement + from brand partnerships)|They can make money not only from their main job but also from advertisements or brand partnerships.}",
+                                        "vn": "{kiếm tiền (từ công việc chính + từ quảng cáo + từ hợp tác thương hiệu)|Họ có thể kiếm tiền không chỉ từ công việc chính mà còn từ các quảng cáo hoặc quan hệ đối tác thương hiệu.}"
+                                    },
+                                    {
+                                        "en": "{enjoy a comfortable lifestyle + travel + buy expensive things|As a result, they can enjoy a comfortable lifestyle and have more opportunities to travel or buy expensive things.}",
+                                        "vn": "{tận hưởng một lối sống thoải mái + đi du lịch + mua những món đồ đắt tiền|Kết quả là, họ có thể tận hưởng một lối sống thoải mái và có nhiều cơ hội đi du lịch hoặc mua những món đồ đắt tiền.}"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lợi ích 2",
+                                "hints": [
+                                    {
+                                        "en": "{have more career opportunities|In addition, celebrities often have more career opportunities.}",
+                                        "vn": "{có nhiều cơ hội nghề nghiệp hơn|Ngoài ra, những người nổi tiếng thường có nhiều cơ hội nghề nghiệp hơn.}"
+                                    },
+                                    {
+                                        "en": "{popular ➜ receive invitations to (act in movies + appear in television)|Their popularity helps them receive invitations to act in movies or appear on television.}",
+                                        "vn": "{nổi tiếng ➜ nhận lời mời (đóng phim + xuất hiện trên truyền hình)|Sự nổi tiếng của họ giúp họ nhận được các lời mời đóng phim hoặc xuất hiện trên truyền hình.}"
+                                    },
+                                    {
+                                        "en": "{work with international companies|They can even have the opportunities to work with international companies.}",
+                                        "vn": "{làm việc với các công ty quốc tế|Họ thậm chí có cơ hội làm việc với các công ty quốc tế.}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Đoạn 2: Bất lợi (Disadvantages)",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "However, I believe the disadvantages are greater.",
+                                        "vn": "Tuy nhiên, tôi tin rằng những bất lợi lớn hơn.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Bất lợi 1",
+                                "hints": [
+                                    {
+                                        "en": "{the lack of privacy|One major drawback is the lack of privacy.}",
+                                        "vn": "{sự thiếu riêng tư|Một nhược điểm chính là sự thiếu riêng tư.}"
+                                    },
+                                    {
+                                        "en": "{followed by the media and fans ➜ cannot enjoy a normal personal life|Celebrities are often followed by the media and fans, so they cannot enjoy a normal personal life.}",
+                                        "vn": "{bị truyền thông và người hâm mộ theo dõi ➜ không thể tận hưởng một cuộc sống cá nhân bình thường|Những người nổi tiếng thường bị truyền thông và người hâm mộ theo dõi, vì vậy họ không thể tận hưởng một cuộc sống cá nhân bình thường.}"
+                                    },
+                                    {
+                                        "en": "{simple activities ➜ attract public attention|Even simple activities, such as eating at a restaurant or spending time with family, may attract public attention.}",
+                                        "vn": "{những hoạt động đơn giản ➜ thu hút sự chú ý của công chúng|Thậm chí những hoạt động đơn giản, chẳng hạn như ăn tại nhà hàng hoặc dành thời gian cho gia đình, cũng có thể thu hút sự chú ý của công chúng.}"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Bất lợi 2",
+                                "hints": [
+                                    {
+                                        "en": "{the heavy pressure of being famous|Another disadvantage is the heavy pressure of being famous.}",
+                                        "vn": "{áp lực nặng nề của việc nổi tiếng|Một nhược điểm khác là áp lực nặng nề của việc nổi tiếng.}"
+                                    },
+                                    {
+                                        "en": "{expected to look perfect + behave carefully all the time|They are expected to look perfect and behave carefully all the time}",
+                                        "vn": "{được kỳ vọng sẽ có vẻ ngoài hoàn hảo + cư xử cẩn thận mọi lúc|Họ được kỳ vọng sẽ có vẻ ngoài hoàn hảo và cư xử cẩn thận mọi lúc}"
+                                    },
+                                    {
+                                        "en": "{a small mistake ➜ big news online|because even a small mistake can become big news online.}",
+                                        "vn": "{một sai lầm nhỏ ➜ tin tức lớn trên mạng|bởi vì ngay cả một sai lầm nhỏ cũng có thể trở thành tin tức lớn trên mạng.}"
+                                    },
+                                    {
+                                        "en": "{stress, anxiety, mental health problems|This pressure may lead to stress, anxiety, or even mental health problems.}",
+                                        "vn": "{căng thẳng, lo lắng, các vấn đề sức khỏe tinh thần|Áp lực này có thể dẫn đến căng thẳng, lo lắng, hoặc thậm chí là các vấn đề sức khỏe tinh thần.}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "conclusionChunks": [
+                    {
+                        "en": "In conclusion,",
+                        "vn": "Tóm lại,"
+                    },
+                    {
+                        "en": "although",
+                        "vn": "mặc dù"
+                    },
+                    {
+                        "en": "being a successful celebrity",
+                        "vn": "việc trở thành một người nổi tiếng thành công"
+                    },
+                    {
+                        "en": "provides financial rewards",
+                        "vn": "mang lại phần thưởng về tài chính"
+                    },
+                    {
+                        "en": "and",
+                        "vn": "và"
+                    },
+                    {
+                        "en": "more career opportunities,",
+                        "vn": "nhiều cơ hội nghề nghiệp hơn,"
+                    },
+                    {
+                        "en": "I believe",
+                        "vn": "tôi tin rằng"
+                    },
+                    {
+                        "en": "these benefits are outweighed",
+                        "vn": "những lợi ích này bị lấn át"
+                    },
+                    {
+                        "en": "by the disadvantages."
+                    },
+                    {
+                        "en": "Losing privacy",
+                        "vn": "Việc mất đi sự riêng tư"
+                    },
+                    {
+                        "en": "and",
+                        "vn": "và"
+                    },
+                    {
+                        "en": "facing constant public pressure",
+                        "vn": "phải đối mặt với áp lực liên tục từ công chúng"
+                    },
+                    {
+                        "en": "make a famous life",
+                        "vn": "khiến cuộc sống của một người nổi tiếng"
+                    },
+                    {
+                        "en": "much more difficult",
+                        "vn": "trở nên khó khăn hơn nhiều"
+                    },
+                    {
+                        "en": "than it appears.",
+                        "vn": "so với vẻ bề ngoài của nó."
+                    }
+                ],
+                "conclusionVn": "Tóm lại, mặc dù việc trở thành một người nổi tiếng thành công mang lại phần thưởng về tài chính và nhiều cơ hội nghề nghiệp hơn, tôi tin rằng những lợi ích này bị lấn át bởi những bất lợi. Việc mất đi sự riêng tư và phải đối mặt với áp lực liên tục từ công chúng khiến cuộc sống của một người nổi tiếng trở nên khó khăn hơn nhiều so với vẻ bề ngoài của nó.",
+                "essayEn": [
+                    {
+                        "type": "intro",
+                        "sentences": [
+                            {
+                                "en": "In recent years, there has been a significant increase in the number of people who wish to become a successful celebrity.",
+                                "vn": "Trong những năm gần đây, đã có sự gia tăng đáng kể về số lượng người mong muốn trở thành một người nổi tiếng thành công."
+                            },
+                            {
+                                "en": "Although being famous brings some benefits, I believe its disadvantages are more serious.",
+                                "vn": "Mặc dù việc nổi tiếng mang lại một số lợi ích, tôi tin rằng những bất lợi của nó nghiêm trọng hơn."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "body",
+                        "sentences": [
+                            {
+                                "en": "On the one hand, becoming a famous actor or singer offers many advantages.",
+                                "vn": "Một mặt, việc trở thành một diễn viên hay ca sĩ nổi tiếng mang lại nhiều lợi ích."
+                            },
+                            {
+                                "en": "Firstly, celebrities usually earn a high income.",
+                                "vn": "Đầu tiên, những người nổi tiếng thường kiếm được thu nhập cao."
+                            },
+                            {
+                                "en": "They can make money not only from their main job but also from advertisements or brand partnerships.",
+                                "vn": "Họ có thể kiếm tiền không chỉ từ công việc chính mà còn từ các quảng cáo hoặc quan hệ đối tác thương hiệu."
+                            },
+                            {
+                                "en": "As a result, they can enjoy a comfortable lifestyle and have more opportunities to travel or buy expensive things.",
+                                "vn": "Kết quả là, họ có thể tận hưởng một lối sống thoải mái và có nhiều cơ hội đi du lịch hoặc mua những món đồ đắt tiền."
+                            },
+                            {
+                                "en": "In addition, celebrities often have more career opportunities.",
+                                "vn": "Ngoài ra, những người nổi tiếng thường có nhiều cơ hội nghề nghiệp hơn."
+                            },
+                            {
+                                "en": "Their popularity helps them receive invitations to act in movies or appear on television.",
+                                "vn": "Sự nổi tiếng của họ giúp họ nhận được các lời mời đóng phim hoặc xuất hiện trên truyền hình."
+                            },
+                            {
+                                "en": "They can even have the opportunities to work with international companies.",
+                                "vn": "Họ thậm chí có cơ hội làm việc với các công ty quốc tế."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "body",
+                        "sentences": [
+                            {
+                                "en": "However, I believe the disadvantages are greater.",
+                                "vn": "Tuy nhiên, tôi tin rằng những bất lợi lớn hơn."
+                            },
+                            {
+                                "en": "One major drawback is the lack of privacy.",
+                                "vn": "Một nhược điểm chính là sự thiếu riêng tư."
+                            },
+                            {
+                                "en": "Celebrities are often followed by the media and fans, so they cannot enjoy a normal personal life.",
+                                "vn": "Những người nổi tiếng thường bị truyền thông và người hâm mộ theo dõi, vì vậy họ không thể tận hưởng một cuộc sống cá nhân bình thường."
+                            },
+                            {
+                                "en": "Even simple activities, such as eating at a restaurant or spending time with family, may attract public attention.",
+                                "vn": "Thậm chí những hoạt động đơn giản, chẳng hạn như ăn tại nhà hàng hoặc dành thời gian cho gia đình, cũng có thể thu hút sự chú ý của công chúng."
+                            },
+                            {
+                                "en": "Another disadvantage is the heavy pressure of being famous.",
+                                "vn": "Một nhược điểm khác là áp lực nặng nề của việc nổi tiếng."
+                            },
+                            {
+                                "en": "They are expected to look perfect and behave carefully all the time because even a small mistake can become big news online.",
+                                "vn": "Họ được kỳ vọng sẽ có vẻ ngoài hoàn hảo và cư xử cẩn thận mọi lúc bởi vì ngay cả một sai lầm nhỏ cũng có thể trở thành tin tức lớn trên mạng."
+                            },
+                            {
+                                "en": "This pressure may lead to stress, anxiety, or even mental health problems.",
+                                "vn": "Áp lực này có thể dẫn đến căng thẳng, lo lắng, hoặc thậm chí là các vấn đề sức khỏe tinh thần."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "conclusion",
+                        "sentences": [
+                            {
+                                "en": "In conclusion, although being a successful celebrity provides financial rewards and more career opportunities, I believe these benefits are outweighed by the disadvantages.",
+                                "vn": "Tóm lại, mặc dù việc trở thành một người nổi tiếng thành công mang lại phần thưởng về tài chính và nhiều cơ hội nghề nghiệp hơn, tôi tin rằng những lợi ích này bị lấn át bởi những bất lợi."
+                            },
+                            {
+                                "en": "Losing privacy and facing constant public pressure make a famous life much more difficult than it appears.",
+                                "vn": "Việc mất đi sự riêng tư và phải đối mặt với áp lực liên tục từ công chúng khiến cuộc sống của một người nổi tiếng trở nên khó khăn hơn nhiều so với vẻ bề ngoài của nó."
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     }

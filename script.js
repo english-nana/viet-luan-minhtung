@@ -1,16 +1,3 @@
-const DEFAULT_ANALYSIS_FIELDS = [
-    { id: "audience", label: "Đối tượng" },
-    { id: "issue", label: "Vấn đề được đặt ra" },
-    { id: "task", label: "Yêu cầu đề bài" }
-];
-
-const DISCUSS_BOTH_VIEWS_ANALYSIS_FIELDS = [
-    { id: "audience", label: "Đối tượng" },
-    { id: "view1", label: "Quan điểm 1" },
-    { id: "view2", label: "Quan điểm 2" },
-    { id: "task", label: "Yêu cầu đề bài" }
-];
-
 const GENERAL_THEORY_CATEGORY = "general-theory";
 
 const ESSAY_TYPE_THEORY_TABS = [
@@ -759,6 +746,7 @@ function flattenEssays(list, parentId = null) {
     });
 }
 flattenEssays(rawEssays);
+window.essays = essays;
 
 const state = {
     currentEssayIndex: 0,
@@ -795,18 +783,24 @@ function normalizeEssay(essay, index) {
             { name: "Level B1" },
             {
                 name: "Level B2",
-                vocab: essay.vocab || [],
+                vocab: essay.vocab || essay.vocabulary || [],
                 introChunks: essay.introChunks || [],
                 introVn: essay.introVn || "",
                 bodyParagraphs: essay.bodyParagraphs || [],
                 conclusionChunks: essay.conclusionChunks || [],
                 conclusionVn: essay.conclusionVn || "",
-                sampleEssay: essay.sampleEssay || null
+                sampleEssay: essay.sampleEssay || essay.sample || null
             }
         ];
         currentVariantIndex = 1;
-    } else if (currentVariantIndex === undefined) {
-        currentVariantIndex = 1;
+    } else {
+        if (currentVariantIndex === undefined || currentVariantIndex >= variants.length) {
+            currentVariantIndex = variants.length > 1 ? 1 : 0;
+        }
+        variants = variants.map(v => ({
+            ...v,
+            sampleEssay: v.sampleEssay || v.sample || null
+        }));
     }
 
     return {
@@ -821,13 +815,8 @@ function normalizeEssay(essay, index) {
             estimatedMinutes: meta.estimatedMinutes || 40
         },
         prompt: essay.prompt || [],
-        vocab: essay.vocab || [],
+        vocab: essay.vocab || essay.vocabulary || [],
         bodyParagraphs: essay.bodyParagraphs || [],
-        analysisFields: essay.analysisFields || (
-            (meta.taskType || "Writing Task").toLowerCase() === "discuss both views" 
-            ? DISCUSS_BOTH_VIEWS_ANALYSIS_FIELDS 
-            : DEFAULT_ANALYSIS_FIELDS
-        ),
         variants,
         currentVariantIndex
     };
@@ -848,6 +837,20 @@ function slugify(value) {
 function bindGlobalActions() {
     const btnSample = document.getElementById("btn-sample");
     btnSample?.addEventListener("click", toggleSampleMode);
+
+    // btnClearDraft binding moved to renderTopicOverview
+
+    window.addEventListener("storage", (e) => {
+        if (e.key && e.key.startsWith(`${STORAGE_PREFIX}:`)) {
+            syncDraftsFromStorage();
+        }
+    });
+    window.addEventListener("focus", syncDraftsFromStorage);
+    document.addEventListener("visibilitychange", () => {
+        if (document.visibilityState === "visible") {
+            syncDraftsFromStorage();
+        }
+    });
 
     const mobileMenuBtn = document.getElementById("mobile-menu-btn");
     const sidebar = document.getElementById("sidebar");
@@ -1199,7 +1202,7 @@ function getVisibleEssays() {
             essay.summary,
             essay.meta.category,
             essay.meta.taskType,
-            ...essay.vocab.map((item) => `${item.en} ${item.vn}`)
+            ...(essay.vocab || essay.vocabulary || []).map((item) => `${item.en} ${item.vn}`)
         ].join(" ").toLowerCase();
         const matchesQuery = !state.query || haystack.includes(state.query);
         
@@ -2031,7 +2034,7 @@ function loadEssay(index) {
 
     let dataToRender = originalData;
     if (originalData.variants && originalData.variants.length > 0) {
-        const vIndex = originalData.currentVariantIndex || 0;
+        const vIndex = (originalData.currentVariantIndex !== undefined && originalData.currentVariantIndex < originalData.variants.length) ? originalData.currentVariantIndex : (originalData.variants.length > 1 ? 1 : 0);
         dataToRender = { ...originalData, ...originalData.variants[vIndex] };
     }
 
@@ -2039,7 +2042,6 @@ function loadEssay(index) {
     renderSidebar();
     renderTopicOverview(dataToRender, originalData);
     renderPrompt(dataToRender);
-    renderAnalysis(dataToRender);
     renderVocab(dataToRender);
     renderFontControls(); // Re-render to update color toggles for current essay
     setupTranslationWorkspace("intro", dataToRender);
@@ -2056,6 +2058,18 @@ function loadEssay(index) {
     btnSample?.classList.remove("active");
     sampleSection?.classList.add("hidden");
     practiceSections.forEach(sec => sec.classList.remove("hidden"));
+}
+
+function resolveLevelText(textStr, level = "B1") {
+    if (!textStr || typeof textStr !== "string") return textStr || "";
+    return textStr.replace(/\{([^{|}]+)\|([^{|}]+)\}/g, (match, b1, b2) => {
+        const cleanB1 = b1.trim();
+        const cleanB2 = b2.trim();
+        if (cleanB1.startsWith("+") || cleanB1.includes("Thêm ý")) {
+            return level === "B2" ? cleanB2 : "";
+        }
+        return level === "B2" ? cleanB2 : cleanB1;
+    });
 }
 
 function renderTopicOverview(data, originalData = data) {
@@ -2079,7 +2093,79 @@ function renderTopicOverview(data, originalData = data) {
     }
     variantContainer.innerHTML = "";
     
-    if (originalData.variants && originalData.variants.length > 0) {
+    let levelContainer = document.getElementById("topic-level-switcher");
+    if (!levelContainer) {
+        levelContainer = document.createElement("div");
+        levelContainer.id = "topic-level-switcher";
+        heroCopy.appendChild(levelContainer);
+    }
+    levelContainer.innerHTML = "";
+    levelContainer.style.display = "none"; // Hide separate container to avoid duplicate box above level switcher
+
+    const hasLevels = (data.vocab || data.vocabulary || []).some(v => v.level) || 
+                      JSON.stringify(data.sampleEssay || "").includes("{") || 
+                      JSON.stringify(data.variants || "").includes("{") ||
+                      (originalData.variants && originalData.variants.some(v => v.name && (v.name.includes("B1") || v.name.includes("B2"))));
+
+        variantContainer.className = "variant-buttons level-switcher-bar";
+    variantContainer.style.display = "flex";
+    variantContainer.style.flexWrap = "wrap";
+    variantContainer.style.alignItems = "center";
+    variantContainer.style.gap = "10px";
+
+    let htmlStr = "";
+    if (hasLevels) {
+        const activeLevel = originalData.currentLevel || "B1";
+        htmlStr += `
+            <button type="button" class="btn-level-tab ${activeLevel === 'B1' ? 'active' : ''}" data-level="B1">
+                <i class="fa-solid fa-seedling"></i> Level B1
+            </button>
+            <button type="button" class="btn-level-tab ${activeLevel === 'B2' ? 'active' : ''}" data-level="B2">
+                <i class="fa-solid fa-wand-magic-sparkles"></i> Level B2
+            </button>
+        `;
+    }
+    htmlStr += `
+        <button id="btn-clear-draft-dynamic" class="btn-level-tab" type="button" aria-label="Xóa nháp bài này" title="Xóa toàn bộ nội dung nháp của bài luận này">
+            <i class="fa-solid fa-trash-can"></i> Xóa nháp
+        </button>
+    `;
+    variantContainer.innerHTML = htmlStr;
+
+    const dynamicClearBtn = document.getElementById("btn-clear-draft-dynamic");
+    if (dynamicClearBtn) {
+        dynamicClearBtn.addEventListener("click", clearCurrentDraft);
+    }
+
+    if (hasLevels) {
+        variantContainer.querySelectorAll(".btn-level-tab[data-level]").forEach(btn => {
+            btn.addEventListener("click", () => {
+                const lvl = btn.dataset.level;
+                originalData.currentLevel = lvl;
+                if (originalData.variants && originalData.variants.length > 1) {
+                    const idx = originalData.variants.findIndex(v => v.name && v.name.includes(lvl));
+                    if (idx !== -1) {
+                        originalData.currentVariantIndex = idx;
+                    } else {
+                        originalData.currentVariantIndex = lvl === "B2" ? 1 : 0;
+                    }
+                }
+                loadEssay(state.currentEssayIndex);
+            });
+        });
+
+        const btnSampleMobile = document.createElement("button");
+        btnSampleMobile.id = "btn-variant-sample";
+        btnSampleMobile.className = "btn-variant btn-variant-sample" + (state.isSampleMode ? " active" : "");
+        btnSampleMobile.style.marginLeft = "auto";
+        btnSampleMobile.textContent = "Xem bài mẫu";
+        btnSampleMobile.onclick = () => {
+            toggleSampleMode();
+        };
+        variantContainer.appendChild(btnSampleMobile);
+    } else if (originalData.variants && originalData.variants.length > 1) {
+        variantContainer.className = "variant-buttons";
+        variantContainer.style.display = "flex";
         originalData.variants.forEach((variant, idx) => {
             const btn = document.createElement("button");
             btn.className = "btn-variant " + (idx === (originalData.currentVariantIndex || 0) ? "active" : "");
@@ -2091,7 +2177,6 @@ function renderTopicOverview(data, originalData = data) {
             variantContainer.appendChild(btn);
         });
 
-        // Append "Xem bài mẫu" button next to Level B2
         const btnSampleMobile = document.createElement("button");
         btnSampleMobile.id = "btn-variant-sample";
         btnSampleMobile.className = "btn-variant btn-variant-sample" + (state.isSampleMode ? " active" : "");
@@ -2100,6 +2185,8 @@ function renderTopicOverview(data, originalData = data) {
             toggleSampleMode();
         };
         variantContainer.appendChild(btnSampleMobile);
+    } else {
+        variantContainer.style.display = "none";
     }
 
     setText("metric-body", data.bodyParagraphs.length);
@@ -2149,62 +2236,43 @@ function renderPrompt(data) {
     });
 }
 
-function renderAnalysis(data) {
-    const container = document.getElementById("analysis-fields");
-    if (!container) return;
-
-    container.innerHTML = "";
-
-    data.analysisFields.forEach((field, index) => {
-        const row = document.createElement("div");
-        row.className = "analysis-row";
-
-        const label = document.createElement("label");
-        label.className = "analysis-label";
-        label.htmlFor = `analysis-${field.id}`;
-        label.textContent = `${String(index + 1).padStart(2, "0")}. ${field.label}`;
-
-        const textarea = document.createElement("div");
-        textarea.contentEditable = "true";
-        textarea.id = `analysis-${field.id}`;
-        textarea.className = "analysis-input-compact";
-        textarea.setAttribute("placeholder", "Ghi chú nhanh");
-        textarea.innerHTML = getSavedValue(data.id, `analysis-${field.id}`);
-        textarea.addEventListener("input", () => {
-            saveValue(data.id, `analysis-${field.id}`, textarea.innerHTML);
-            autosizeTextarea(textarea);
-        });
-
-        row.append(label, textarea);
-
-        container.appendChild(row);
-        autosizeTextarea(textarea);
-    });
-}
-
 function renderVocab(data) {
     const container = document.getElementById("vocab-grid");
     if (!container) return;
 
     container.innerHTML = "";
+
+    const activeLevel = (window.essays?.[state?.currentEssayIndex]?.currentLevel) || data.currentLevel || "B1";
+    const rawVocab = data.vocab || data.vocabulary || [];
+    const activeVocab = rawVocab.filter(item => {
+        if (!item.level) return true;
+        if (activeLevel === "B1") {
+            return item.level === "B1" || item.level === "all";
+        }
+        return true;
+    });
     
     // Check if it's the matching game
-    if (data.isMatchingVocab && window.innerWidth > 860) {
+    if (data.isMatchingVocab) {
         container.className = ""; // Reset container class
         
         // Matching game logic
         const gameContainer = document.createElement("div");
         gameContainer.className = "matching-game-container";
-
+        
         const grid = document.createElement("div");
-        grid.className = "matching-grid vocab-word-cloud"; // Apply word cloud spacing
-
+        grid.className = "matching-grid";
+        
         const completedContainer = document.createElement("div");
-        completedContainer.className = "matched-pairs-container";
-        const completedTitle = document.createElement("h3");
-        completedTitle.textContent = "Danh sách từ vựng";
+        completedContainer.className = "matching-completed";
+        
+        const completedTitle = document.createElement("div");
+        completedTitle.className = "matching-completed-title";
+        completedTitle.innerHTML = `<i class="fa-solid fa-circle-check"></i> Từ vựng đã ghép đúng:`;
+        
         const completedList = document.createElement("div");
-        completedList.className = "matched-pairs-list";
+        completedList.className = "matching-completed-list";
+        
         completedContainer.append(completedTitle, completedList);
 
         const colors = [
@@ -2219,7 +2287,8 @@ function renderVocab(data) {
 
         // Prepare buttons
         let buttons = [];
-        data.vocab.forEach((item, index) => {
+        const vocabList = activeVocab;
+        vocabList.forEach((item, index) => {
             const fontSize = Math.floor(Math.random() * 5) + 12; // 12px to 16px
             const fontWeight = [500, 600, 700][Math.floor(Math.random() * 3)];
             
@@ -2284,19 +2353,35 @@ function renderVocab(data) {
                 btn.classList.add("matched");
                 selectedBtn.classList.add("matched");
                 
-                const itemData = data.vocab[btn.dataset.id];
+                const itemData = activeVocab[btn.dataset.id];
                 const pairEl = document.createElement("div");
                 pairEl.className = "cloud-chip";
                 pairEl.style.animation = "slideIn 0.3s ease forwards";
+                pairEl.style.flexDirection = "column";
+                pairEl.style.gap = "4px";
+                pairEl.style.margin = "0 5px 10px 5px";
                 
                 // Assign a random color to the completed matched chip
                 const matchedColor = colors[Math.floor(Math.random() * colors.length)];
                 pairEl.style.backgroundColor = matchedColor.bg;
                 pairEl.style.color = matchedColor.text;
-                pairEl.style.fontSize = `${Math.floor(Math.random() * 5) + 12}px`;
+                
+                // Generate a random base font size
+                const baseFontSize = Math.floor(Math.random() * 5) + 15; 
+                
+                // Set English and Vietnamese font sizes relative to base
+                const enFontSize = `${baseFontSize}px`;
+                const vnFontSize = `${Math.floor(baseFontSize * 0.75)}px`;
+                
                 pairEl.style.fontWeight = [500, 600, 700][Math.floor(Math.random() * 3)];
                 
-                pairEl.innerHTML = `<span class="cloud-en">${itemData.en}</span><span class="cloud-vn">${itemData.vn}</span>`;
+                pairEl.innerHTML = `<span class="cloud-en" style="font-size: ${enFontSize}; line-height: 1.1;">${itemData.en}</span><span class="cloud-vn" style="font-size: ${vnFontSize}; opacity: 0.85; line-height: 1.1;">${itemData.vn}</span>`;
+                
+                // Ensure the completedList is centered
+                completedList.style.display = "flex";
+                completedList.style.flexWrap = "wrap";
+                completedList.style.justifyContent = "center";
+                
                 completedList.appendChild(pairEl);
                 completedContainer.classList.add("has-items");
 
@@ -2340,7 +2425,7 @@ function renderVocab(data) {
         { bg: "#ebf5eb", text: "#1b5e20" }
     ];
 
-    const shuffledVocab = [...data.vocab];
+    const shuffledVocab = [...activeVocab];
     for (let i = shuffledVocab.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [shuffledVocab[i], shuffledVocab[j]] = [shuffledVocab[j], shuffledVocab[i]];
@@ -2370,7 +2455,9 @@ function setupTranslationWorkspace(type, data) {
     const enLayer = document.getElementById(`${type}-en`);
     if (!workspace || !vnLayer || !enLayer) return;
 
-    const vnText = (type === "intro" ? data.introVn : data.conclusionVn) || "";
+    const activeLevel = (window.essays?.[state?.currentEssayIndex]?.currentLevel) || data.currentLevel || "B1";
+    const rawVnText = (type === "intro" ? data.introVn : data.conclusionVn) || "";
+    const vnText = resolveLevelText(rawVnText, activeLevel);
     const expectedLength = type === "intro" ? data.introEnExpectedLength : data.conclusionEnExpectedLength;
     const savedValue = getSavedValue(data.id, type);
 
@@ -2391,7 +2478,11 @@ function setupTranslationWorkspace(type, data) {
         saveValue(data.id, type, enLayer.innerHTML);
 
         const completedText = enLayer.innerText.replace(/[^\s.,!?;:()[\]"“”]+$/, "");
-        const chunks = type === "intro" ? data.introChunks : data.conclusionChunks;
+        const rawChunks = type === "intro" ? data.introChunks : data.conclusionChunks;
+        const chunks = rawChunks ? rawChunks.map(c => ({
+            en: resolveLevelText(c.en, activeLevel),
+            vn: resolveLevelText(c.vn, activeLevel)
+        })) : null;
         
         let hiddenWordCount = 0;
         let finalVnWordRanges = vnWordRanges;
@@ -2512,6 +2603,9 @@ function setupTranslationWorkspace(type, data) {
     });
 
     enLayer.oninput = updateOverlay;
+    enLayer.addEventListener("blur", () => {
+        saveValue(data.id, type, enLayer.innerHTML);
+    });
     enLayer.addEventListener("scroll", () => {
         vnLayer.scrollTop = enLayer.scrollTop;
     });
@@ -2542,7 +2636,8 @@ function renderBodyParagraphs(data) {
 
         const ideaList = document.createElement("div");
         ideaList.className = "idea-list";
-        renderIdeaGroups(ideaList, paragraph, data.id, paragraphIndex);
+        const activeLevel = data.currentLevel || (window.essays?.[state?.currentEssayIndex]?.currentLevel) || "B1";
+        renderIdeaGroups(ideaList, paragraph, data.id, paragraphIndex, activeLevel);
 
         item.id = `body-group-${paragraphIndex}`;
         item.append(header, ideaList);
@@ -2550,7 +2645,7 @@ function renderBodyParagraphs(data) {
     });
 }
 
-function renderIdeaGroups(container, paragraph, essayId, paragraphIndex) {
+function renderIdeaGroups(container, paragraph, essayId, paragraphIndex, passedLevel) {
     const hasMultipleIdeas = Array.isArray(paragraph.hintGroups) && paragraph.hintGroups.length > 0;
     const groups = hasMultipleIdeas ? paragraph.hintGroups : [{ label: "Ý chính", hints: paragraph.hints || [] }];
 
@@ -2570,7 +2665,8 @@ function renderIdeaGroups(container, paragraph, essayId, paragraphIndex) {
             if (group.label.toLowerCase() === "topic sentence") {
                 label.classList.add("label-topic-sentence");
             }
-            label.textContent = group.label;
+            const activeLevel = passedLevel || (window.essays?.[state?.currentEssayIndex]?.currentLevel) || "B1";
+            label.textContent = typeof resolveLevelText === "function" ? resolveLevelText(group.label, activeLevel) : group.label;
             ideaHeader.appendChild(label);
         }
 
@@ -2599,6 +2695,13 @@ function renderIdeaGroups(container, paragraph, essayId, paragraphIndex) {
             const wrapper = document.createElement("div");
             wrapper.className = "hint-wrapper";
 
+            const vnRegex = /[àáãạảăắằẳẵặâấầẩẫậèéẹẻẽêềếểễệđìíĩỉịòóõọỏôốồổỗộơớờởỡợùúũụủưứừửữựỳỵỷỹý]/i;
+            const enIsVn = vnRegex.test(hint.en || "");
+            const rawVn = typeof hint === "string" ? hint : (enIsVn ? hint.en : (hint.vn || hint.en || ""));
+            const rawEn = typeof hint === "string" ? hint : (enIsVn ? hint.vn : (hint.en || hint.vn || ""));
+
+            const activeLevel = passedLevel || (window.essays?.[state?.currentEssayIndex]?.currentLevel) || "B1";
+
             const button = document.createElement("button");
             button.type = "button";
             button.className = hint.level === "advanced" ? "hint-box hint-advanced" : "hint-box";
@@ -2611,8 +2714,6 @@ function renderIdeaGroups(container, paragraph, essayId, paragraphIndex) {
             if (hint.color === "red") {
                 button.classList.add("is-red");
             }
-            button.textContent = hint.en;
-            button.setAttribute("aria-expanded", "false");
 
             const translation = document.createElement("div");
             translation.className = "h-vn hidden";
@@ -2625,11 +2726,23 @@ function renderIdeaGroups(container, paragraph, essayId, paragraphIndex) {
             if (hint.color === "red") {
                 translation.classList.add("h-vn-red");
             }
-            // Advanced hints (amber) translation color match
             if (hint.level === "advanced") {
                 translation.style.color = "var(--amber)";
             }
-            translation.textContent = hint.vn;
+
+            const primaryText = hint.isTopic ? rawVn : rawEn;
+            const secondaryText = hint.isTopic ? rawEn : rawVn;
+
+            const resolvedPrimary = resolveLevelText(primaryText, activeLevel);
+            const resolvedSecondary = resolveLevelText(secondaryText, activeLevel);
+
+            if (!resolvedPrimary || resolvedPrimary.trim() === "" || resolvedPrimary.trim() === "+") {
+                return;
+            }
+
+            button.textContent = resolvedPrimary;
+            translation.textContent = resolvedSecondary;
+            button.setAttribute("aria-expanded", "false");
 
             button.addEventListener("click", () => {
                 const isHidden = translation.classList.toggle("hidden");
@@ -2647,44 +2760,67 @@ function renderIdeaGroups(container, paragraph, essayId, paragraphIndex) {
             }
         });
 
+        while (row.lastElementChild && row.lastElementChild.classList.contains("hint-arrow")) {
+            row.removeChild(row.lastElementChild);
+        }
+
+        const isTopicGroup = (group.label && group.label.toLowerCase() === "topic sentence") || (group.hints && group.hints.some(h => h.isTopic));
+
         const textareaWrapper = document.createElement("div");
         textareaWrapper.className = "body-textarea-split-wrapper";
-        if (group.label && group.label.toLowerCase() === "topic sentence") {
+        if (isTopicGroup) {
             textareaWrapper.classList.add("textarea-topic-sentence-wrapper");
         }
 
         const topTa = document.createElement("div");
-        topTa.contentEditable = "true";
-        topTa.id = `body-ta-vn-${paragraphIndex}-${ideaIndex}`;
-        topTa.className = "body-textarea-compact split-top";
-        topTa.setAttribute("placeholder", "Nhập tiếng Việt...");
+        if (!isTopicGroup) {
+            topTa.contentEditable = "true";
+            topTa.id = `body-ta-vn-${paragraphIndex}-${ideaIndex}`;
+            topTa.className = "body-textarea-compact split-top";
+            topTa.setAttribute("placeholder", "Nhập tiếng Việt...");
+        }
 
         const botTa = document.createElement("div");
         botTa.contentEditable = "true";
         botTa.id = `body-ta-en-${paragraphIndex}-${ideaIndex}`;
         botTa.className = "body-textarea-compact split-bottom";
-        botTa.setAttribute("placeholder", hasMultipleIdeas ? "Viết đoạn tiếng Anh cho idea này..." : "Chuyển gợi ý thành đoạn tiếng Anh...");
+        if (isTopicGroup) {
+            botTa.setAttribute("placeholder", "Viết câu tiếng Anh cho Topic sentence...");
+        } else {
+            botTa.setAttribute("placeholder", hasMultipleIdeas ? "Viết đoạn tiếng Anh cho idea này..." : "Chuyển gợi ý thành đoạn tiếng Anh...");
+        }
 
-        // Load saved values (disabled by earlier requirement, but keep logic in case we re-enable)
         const storageKeyVn = `body-vn-${paragraphIndex}-idea-${ideaIndex}`;
         const storageKeyEn = `body-en-${paragraphIndex}-idea-${ideaIndex}`;
-        topTa.innerHTML = getSavedValue(essayId, storageKeyVn);
+        if (!isTopicGroup) {
+            topTa.innerHTML = getSavedValue(essayId, storageKeyVn);
+            topTa.addEventListener("input", () => {
+                saveValue(essayId, storageKeyVn, topTa.innerHTML);
+                autosizeTextarea(topTa);
+            });
+            topTa.addEventListener("blur", () => {
+                saveValue(essayId, storageKeyVn, topTa.innerHTML);
+            });
+        }
         botTa.innerHTML = getSavedValue(essayId, storageKeyEn);
-
-        topTa.addEventListener("input", () => {
-            saveValue(essayId, storageKeyVn, topTa.innerHTML);
-            autosizeTextarea(topTa);
-        });
-
         botTa.addEventListener("input", () => {
             saveValue(essayId, storageKeyEn, botTa.innerHTML);
             autosizeTextarea(botTa);
         });
+        botTa.addEventListener("blur", () => {
+            saveValue(essayId, storageKeyEn, botTa.innerHTML);
+        });
 
-        textareaWrapper.append(topTa, botTa);
+        if (!isTopicGroup) {
+            textareaWrapper.append(topTa, botTa);
+        } else {
+            textareaWrapper.append(botTa);
+        }
         idea.append(ideaHeader, row, textareaWrapper);
         container.appendChild(idea);
-        autosizeTextarea(topTa);
+        if (!isTopicGroup) {
+            autosizeTextarea(topTa);
+        }
         autosizeTextarea(botTa);
     });
 }
@@ -2725,12 +2861,6 @@ function changeLocalFontSize(elementId, step) {
         });
         element.querySelectorAll(".body-textarea-compact").forEach((textarea) => {
             textarea.style.fontSize = element.style.fontSize;
-            autosizeTextarea(textarea);
-        });
-    }
-
-    if (elementId === "analysis-fields") {
-        element.querySelectorAll("textarea").forEach((textarea) => {
             autosizeTextarea(textarea);
         });
     }
@@ -2846,11 +2976,29 @@ function fitTranslationWorkspace(workspace, vnLayer, enLayer) {
 }
 
 function getSavedValue(essayId, field) {
-    return "";
+    if (!essayId || !field) return "";
+    try {
+        const key = getStorageKey(essayId, field);
+        return localStorage.getItem(key) || "";
+    } catch (e) {
+        console.error("Error reading from localStorage:", e);
+        return "";
+    }
 }
 
 function saveValue(essayId, field, value) {
-    // Disabled to prevent notes from persisting on refresh
+    if (!essayId || !field) return;
+    try {
+        const key = getStorageKey(essayId, field);
+        const cleanText = (value || "").replace(/<[^>]*>/g, "").trim();
+        if (cleanText !== "") {
+            localStorage.setItem(key, value);
+        } else {
+            localStorage.removeItem(key);
+        }
+    } catch (e) {
+        console.error("Error writing to localStorage:", e);
+    }
 }
 
 function getStorageKey(essayId, field) {
@@ -2864,6 +3012,10 @@ function clearCurrentDraft() {
     const confirmed = window.confirm(`Xóa toàn bộ nháp đang lưu cho "${essay.title}"?`);
     if (!confirmed) return;
 
+    if (document.activeElement && typeof document.activeElement.blur === "function") {
+        document.activeElement.blur();
+    }
+
     const prefix = `${STORAGE_PREFIX}:${essay.id}:`;
     Object.keys(localStorage).forEach((key) => {
         if (key.startsWith(prefix)) {
@@ -2872,6 +3024,61 @@ function clearCurrentDraft() {
     });
 
     loadEssay(state.currentEssayIndex);
+}
+
+function syncDraftsFromStorage() {
+    if (state.currentView !== "essay" || typeof state.currentEssayIndex !== "number") return;
+    const essay = essays[state.currentEssayIndex];
+    if (!essay) return;
+    const essayId = essay.id;
+
+    const introEn = document.getElementById("intro-en");
+    if (introEn && document.activeElement !== introEn) {
+        const savedIntro = getSavedValue(essayId, "intro");
+        if (introEn.innerHTML !== savedIntro) {
+            introEn.innerHTML = savedIntro;
+            if (typeof fitTranslationWorkspace === "function") {
+                const ws = introEn.closest(".translation-workspace");
+                const introVn = document.getElementById("intro-vn");
+                if (ws && introVn) fitTranslationWorkspace(ws, introVn, introEn);
+            }
+            if (typeof updateOverlay === "function" && introEn.oninput) {
+                introEn.oninput();
+            }
+        }
+    }
+
+    const conclusionEn = document.getElementById("conclusion-en");
+    if (conclusionEn && document.activeElement !== conclusionEn) {
+        const savedConclusion = getSavedValue(essayId, "conclusion");
+        if (conclusionEn.innerHTML !== savedConclusion) {
+            conclusionEn.innerHTML = savedConclusion;
+            if (typeof fitTranslationWorkspace === "function") {
+                const ws = conclusionEn.closest(".translation-workspace");
+                const conclusionVn = document.getElementById("conclusion-vn");
+                if (ws && conclusionVn) fitTranslationWorkspace(ws, conclusionVn, conclusionEn);
+            }
+            if (typeof updateOverlay === "function" && conclusionEn.oninput) {
+                conclusionEn.oninput();
+            }
+        }
+    }
+
+    document.querySelectorAll(".body-textarea-compact").forEach(ta => {
+        if (document.activeElement === ta) return;
+        const idParts = ta.id.match(/^body-ta-(vn|en)-(\d+)-(\d+)$/);
+        if (idParts) {
+            const lang = idParts[1];
+            const pIdx = idParts[2];
+            const iIdx = idParts[3];
+            const storageKey = `body-${lang}-${pIdx}-idea-${iIdx}`;
+            const savedVal = getSavedValue(essayId, storageKey);
+            if (ta.innerHTML !== savedVal) {
+                ta.innerHTML = savedVal;
+                if (typeof autosizeTextarea === "function") autosizeTextarea(ta);
+            }
+        }
+    });
 }
 
 function renderEmptyState() {
@@ -2927,25 +3134,204 @@ function renderSampleEssay(data) {
     
     container.innerHTML = "";
 
-    if (!data.sampleEssay) {
+    const sampleData = data.sampleEssay || data.sample;
+    if (!sampleData || !sampleData.paragraphs) {
         container.innerHTML = "<p><i>Chưa có bài mẫu cho đề này.</i></p>";
         return;
     }
 
-    data.sampleEssay.paragraphs.forEach(para => {
+    // Check if any sentence has {B1|B2} upgrades
+    let hasUpgrades = false;
+    sampleData.paragraphs.forEach(para => {
+        para.forEach(s => {
+            if (s.en && s.en.includes("{") && s.en.includes("|")) {
+                hasUpgrades = true;
+            }
+        });
+    });
+
+    if (hasUpgrades) {
+        const guideBox = document.createElement("div");
+        guideBox.className = "sample-upgrade-guide";
+        guideBox.innerHTML = `
+            <div class="sample-guide-header">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <span>Hướng dẫn nâng cấp bài viết từ Level B1 lên Level B2</span>
+            </div>
+            <p class="sample-guide-desc">
+                • Bài mẫu gốc bên dưới được viết ở <b>Level B1</b> (từ vựng rõ ràng, mạch lạc, dễ học thuộc).<br/>
+                • Các cụm từ có màu cam nổi bật là điểm có thể nâng cấp. Khi anh/chị <b>bấm vào các cụm từ màu cam này</b>, từ vựng và cấu trúc sẽ tự động đổi sang cách viết cao cấp hơn ở <b>Level B2</b> (đổi sang màu xanh dương).
+            </p>
+            <div class="sample-guide-actions">
+                <button type="button" class="btn-upgrade-all" id="btn-toggle-all-b2">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i> <span>Nâng cấp toàn bộ lên Level B2</span>
+                </button>
+            </div>
+        `;
+        container.appendChild(guideBox);
+
+        setTimeout(() => {
+            const btnToggle = document.getElementById("btn-toggle-all-b2");
+            let isAllB2 = false;
+            
+            const doToggleToB2 = () => {
+                if (isAllB2) return;
+                isAllB2 = true;
+                if (btnToggle) {
+                    btnToggle.innerHTML = `<i class="fa-solid fa-rotate-left"></i> <span>Trở về bài mẫu gốc Level B1</span>`;
+                    btnToggle.classList.add("is-b2");
+                }
+                container.querySelectorAll(".sample-upgrade-chip.en-chip").forEach(chip => {
+                    if (chip.dataset.level === "B1") {
+                        chip.click();
+                    }
+                });
+            };
+
+            const doToggleToB1 = () => {
+                if (!isAllB2) return;
+                isAllB2 = false;
+                if (btnToggle) {
+                    btnToggle.innerHTML = `<i class="fa-solid fa-wand-magic-sparkles"></i> <span>Nâng cấp toàn bộ lên Level B2</span>`;
+                    btnToggle.classList.remove("is-b2");
+                }
+                container.querySelectorAll(".sample-upgrade-chip.en-chip").forEach(chip => {
+                    if (chip.dataset.level === "B2") {
+                        chip.click();
+                    }
+                });
+            };
+
+            const activeLevel = (window.essays?.[state?.currentEssayIndex]?.currentLevel) || "B1";
+            if (activeLevel === "B2") {
+                doToggleToB2();
+            }
+
+            if (btnToggle) {
+                btnToggle.addEventListener("click", () => {
+                    if (!isAllB2) {
+                        doToggleToB2();
+                    } else {
+                        doToggleToB1();
+                    }
+                });
+            }
+        }, 10);
+    }
+
+    function renderUpgradeChips(textStr, isVn = false, sentenceWrapper = null) {
+        const fragment = document.createDocumentFragment();
+        const regex = /\{([^{|}]+)\|([^{|}]+)\}/g;
+        let lastIndex = 0;
+        let match;
+        let chipIndex = 0;
+
+        while ((match = regex.exec(textStr)) !== null) {
+            if (match.index > lastIndex) {
+                fragment.appendChild(document.createTextNode(textStr.substring(lastIndex, match.index)));
+            }
+            const b1Text = match[1].trim();
+            const b2Text = match[2].trim();
+            const isAddIdea = b1Text.startsWith("+") || b1Text.includes("Thêm ý");
+
+            const chip = document.createElement("span");
+            chip.className = `sample-upgrade-chip ${isVn ? "vn-chip" : "en-chip"}`;
+            chip.dataset.b1 = b1Text;
+            chip.dataset.b2 = b2Text;
+            chip.dataset.level = "B1";
+            chip.dataset.chipIndex = chipIndex;
+
+            if (isAddIdea && !isVn) {
+                chip.innerHTML = '<span class="add-idea-btn"><i class="fa-solid fa-circle-plus"></i> Thêm ý (Level B2)</span>';
+                chip.setAttribute("title", `Bấm để mở rộng ý (Level B2): ${b2Text}`);
+            } else if (isAddIdea && isVn) {
+                chip.innerHTML = '<span class="add-idea-btn-vn">(Ý bổ sung Level B2)</span>';
+                chip.setAttribute("title", "Ý bổ sung khi chọn Level B2");
+            } else {
+                chip.textContent = b1Text;
+                if (!isVn) {
+                    chip.setAttribute("title", `Bấm để đổi thành (Level B2): ${b2Text}`);
+                } else {
+                    chip.setAttribute("title", "Bản dịch thay đổi theo cấp độ");
+                }
+            }
+
+            if (!isVn) {
+                chip.addEventListener("click", (e) => {
+                    e.stopPropagation();
+                    const currentLevel = chip.dataset.level;
+                    const nextLevel = currentLevel === "B1" ? "B2" : "B1";
+                    chip.dataset.level = nextLevel;
+
+                    if (nextLevel === "B1") {
+                        if (isAddIdea) {
+                            chip.innerHTML = '<span class="add-idea-btn"><i class="fa-solid fa-circle-plus"></i> Thêm ý (Level B2)</span>';
+                            chip.setAttribute("title", `Bấm để mở rộng ý (Level B2): ${chip.dataset.b2}`);
+                        } else {
+                            chip.textContent = chip.dataset.b1;
+                            chip.setAttribute("title", `Bấm để đổi thành (Level B2): ${chip.dataset.b2}`);
+                        }
+                    } else {
+                        chip.textContent = chip.dataset.b2;
+                        chip.setAttribute("title", isAddIdea ? "Bấm để thu gọn ý (Level B1)" : `Bấm để quay về (Level B1): ${chip.dataset.b1}`);
+                    }
+
+                    if (sentenceWrapper) {
+                        const vnChip = sentenceWrapper.querySelector(`.vn-chip[data-chip-index="${chip.dataset.chipIndex}"]`);
+                        if (vnChip) {
+                            vnChip.dataset.level = nextLevel;
+                            if (nextLevel === "B1") {
+                                if (isAddIdea) {
+                                    vnChip.innerHTML = '<span class="add-idea-btn-vn">(Ý bổ sung Level B2)</span>';
+                                } else {
+                                    vnChip.textContent = vnChip.dataset.b1;
+                                }
+                            } else {
+                                vnChip.textContent = vnChip.dataset.b2;
+                            }
+                        }
+                    }
+                });
+            }
+
+            fragment.appendChild(chip);
+            lastIndex = regex.lastIndex;
+            chipIndex++;
+        }
+
+        if (lastIndex < textStr.length) {
+            fragment.appendChild(document.createTextNode(textStr.substring(lastIndex)));
+        }
+        return fragment;
+    }
+
+    sampleData.paragraphs.forEach(para => {
         const p = document.createElement("p");
-        p.style.marginBottom = "1rem";
-        p.style.lineHeight = "1.8";
+        p.style.marginBottom = "1.2rem";
+        p.style.lineHeight = "1.9";
         
         para.forEach(sentence => {
+            const wrapper = document.createElement("span");
+            wrapper.className = "prompt-sentence-wrapper";
+
             const span = document.createElement("span");
             span.className = "prompt-sentence";
             if (sentence.isRed) span.classList.add("text-blue");
-            span.textContent = sentence.en + " ";
+
+            if (sentence.en && sentence.en.includes("{") && sentence.en.includes("|")) {
+                span.appendChild(renderUpgradeChips(sentence.en, false, wrapper));
+            } else {
+                span.textContent = sentence.en;
+            }
 
             const translation = document.createElement("span");
             translation.className = "prompt-vn hidden";
-            translation.textContent = ` ${sentence.vn}`;
+            translation.appendChild(document.createTextNode(" "));
+            if (sentence.vn && sentence.vn.includes("{") && sentence.vn.includes("|")) {
+                translation.appendChild(renderUpgradeChips(sentence.vn, true, wrapper));
+            } else {
+                translation.appendChild(document.createTextNode(sentence.vn));
+            }
 
             span.addEventListener("click", () => {
                 const isHidden = translation.classList.toggle("hidden");
@@ -2956,8 +3342,6 @@ function renderSampleEssay(data) {
                 }
             });
 
-            const wrapper = document.createElement("span");
-            wrapper.className = "prompt-sentence-wrapper";
             wrapper.appendChild(span);
             wrapper.appendChild(translation);
             p.appendChild(wrapper);
