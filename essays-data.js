@@ -8243,100 +8243,108 @@ window.ESSAY_TOPICS = [
                     }
                 ],
                 "conclusionVn": "Tóm lại, mặc dù việc trở thành một người nổi tiếng thành công mang lại phần thưởng về tài chính và nhiều cơ hội nghề nghiệp hơn, tôi tin rằng những lợi ích này bị lấn át bởi những bất lợi. Việc mất đi sự riêng tư và phải đối mặt với áp lực liên tục từ công chúng khiến cuộc sống của một người nổi tiếng trở nên khó khăn hơn nhiều so với vẻ bề ngoài của nó.",
-                "essayEn": [
-                    {
-                        "type": "intro",
-                        "sentences": [
+                "sampleEssay": {
+                    "paragraphs": [
+                        [
                             {
                                 "en": "In recent years, there has been a significant increase in the number of people who wish to become a successful celebrity.",
-                                "vn": "Trong những năm gần đây, đã có sự gia tăng đáng kể về số lượng người mong muốn trở thành một người nổi tiếng thành công."
+                                "vn": "Trong những năm gần đây, đã có sự gia tăng đáng kể về số lượng người mong muốn trở thành một người nổi tiếng thành công.",
+                                "isRed": false
                             },
                             {
                                 "en": "Although being famous brings some benefits, I believe its disadvantages are more serious.",
-                                "vn": "Mặc dù việc nổi tiếng mang lại một số lợi ích, tôi tin rằng những bất lợi của nó nghiêm trọng hơn."
+                                "vn": "Mặc dù việc nổi tiếng mang lại một số lợi ích, tôi tin rằng những bất lợi của nó nghiêm trọng hơn.",
+                                "isRed": true
                             }
-                        ]
-                    },
-                    {
-                        "type": "body",
-                        "sentences": [
+                        ],
+                        [
                             {
                                 "en": "On the one hand, becoming a famous actor or singer offers many advantages.",
-                                "vn": "Một mặt, việc trở thành một diễn viên hay ca sĩ nổi tiếng mang lại nhiều lợi ích."
+                                "vn": "Một mặt, việc trở thành một diễn viên hay ca sĩ nổi tiếng mang lại nhiều lợi ích.",
+                                "isRed": true
                             },
                             {
                                 "en": "Firstly, celebrities usually earn a high income.",
-                                "vn": "Đầu tiên, những người nổi tiếng thường kiếm được thu nhập cao."
+                                "vn": "Đầu tiên, những người nổi tiếng thường kiếm được thu nhập cao.",
+                                "isRed": false
                             },
                             {
                                 "en": "They can make money not only from their main job but also from advertisements or brand partnerships.",
-                                "vn": "Họ có thể kiếm tiền không chỉ từ công việc chính mà còn từ các quảng cáo hoặc quan hệ đối tác thương hiệu."
+                                "vn": "Họ có thể kiếm tiền không chỉ từ công việc chính mà còn từ các quảng cáo hoặc quan hệ đối tác thương hiệu.",
+                                "isRed": false
                             },
                             {
                                 "en": "As a result, they can enjoy a comfortable lifestyle and have more opportunities to travel or buy expensive things.",
-                                "vn": "Kết quả là, họ có thể tận hưởng một lối sống thoải mái và có nhiều cơ hội đi du lịch hoặc mua những món đồ đắt tiền."
+                                "vn": "Kết quả là, họ có thể tận hưởng một lối sống thoải mái và có nhiều cơ hội đi du lịch hoặc mua những món đồ đắt tiền.",
+                                "isRed": false
                             },
                             {
                                 "en": "In addition, celebrities often have more career opportunities.",
-                                "vn": "Ngoài ra, những người nổi tiếng thường có nhiều cơ hội nghề nghiệp hơn."
+                                "vn": "Ngoài ra, những người nổi tiếng thường có nhiều cơ hội nghề nghiệp hơn.",
+                                "isRed": false
                             },
                             {
                                 "en": "Their popularity helps them receive invitations to act in movies or appear on television.",
-                                "vn": "Sự nổi tiếng của họ giúp họ nhận được các lời mời đóng phim hoặc xuất hiện trên truyền hình."
+                                "vn": "Sự nổi tiếng của họ giúp họ nhận được các lời mời đóng phim hoặc xuất hiện trên truyền hình.",
+                                "isRed": false
                             },
                             {
                                 "en": "They can even have the opportunities to work with international companies.",
-                                "vn": "Họ thậm chí có cơ hội làm việc với các công ty quốc tế."
+                                "vn": "Họ thậm chí có cơ hội làm việc với các công ty quốc tế.",
+                                "isRed": false
                             }
-                        ]
-                    },
-                    {
-                        "type": "body",
-                        "sentences": [
+                        ],
+                        [
                             {
                                 "en": "However, I believe the disadvantages are greater.",
-                                "vn": "Tuy nhiên, tôi tin rằng những bất lợi lớn hơn."
+                                "vn": "Tuy nhiên, tôi tin rằng những bất lợi lớn hơn.",
+                                "isRed": true
                             },
                             {
                                 "en": "One major drawback is the lack of privacy.",
-                                "vn": "Một nhược điểm chính là sự thiếu riêng tư."
+                                "vn": "Một nhược điểm chính là sự thiếu riêng tư.",
+                                "isRed": false
                             },
                             {
                                 "en": "Celebrities are often followed by the media and fans, so they cannot enjoy a normal personal life.",
-                                "vn": "Những người nổi tiếng thường bị truyền thông và người hâm mộ theo dõi, vì vậy họ không thể tận hưởng một cuộc sống cá nhân bình thường."
+                                "vn": "Những người nổi tiếng thường bị truyền thông và người hâm mộ theo dõi, vì vậy họ không thể tận hưởng một cuộc sống cá nhân bình thường.",
+                                "isRed": false
                             },
                             {
                                 "en": "Even simple activities, such as eating at a restaurant or spending time with family, may attract public attention.",
-                                "vn": "Thậm chí những hoạt động đơn giản, chẳng hạn như ăn tại nhà hàng hoặc dành thời gian cho gia đình, cũng có thể thu hút sự chú ý của công chúng."
+                                "vn": "Thậm chí những hoạt động đơn giản, chẳng hạn như ăn tại nhà hàng hoặc dành thời gian cho gia đình, cũng có thể thu hút sự chú ý của công chúng.",
+                                "isRed": false
                             },
                             {
                                 "en": "Another disadvantage is the heavy pressure of being famous.",
-                                "vn": "Một nhược điểm khác là áp lực nặng nề của việc nổi tiếng."
+                                "vn": "Một nhược điểm khác là áp lực nặng nề của việc nổi tiếng.",
+                                "isRed": false
                             },
                             {
                                 "en": "They are expected to look perfect and behave carefully all the time because even a small mistake can become big news online.",
-                                "vn": "Họ được kỳ vọng sẽ có vẻ ngoài hoàn hảo và cư xử cẩn thận mọi lúc bởi vì ngay cả một sai lầm nhỏ cũng có thể trở thành tin tức lớn trên mạng."
+                                "vn": "Họ được kỳ vọng sẽ có vẻ ngoài hoàn hảo và cư xử cẩn thận mọi lúc bởi vì ngay cả một sai lầm nhỏ cũng có thể trở thành tin tức lớn trên mạng.",
+                                "isRed": false
                             },
                             {
                                 "en": "This pressure may lead to stress, anxiety, or even mental health problems.",
-                                "vn": "Áp lực này có thể dẫn đến căng thẳng, lo lắng, hoặc thậm chí là các vấn đề sức khỏe tinh thần."
+                                "vn": "Áp lực này có thể dẫn đến căng thẳng, lo lắng, hoặc thậm chí là các vấn đề sức khỏe tinh thần.",
+                                "isRed": false
                             }
-                        ]
-                    },
-                    {
-                        "type": "conclusion",
-                        "sentences": [
+                        ],
+                        [
                             {
                                 "en": "In conclusion, although being a successful celebrity provides financial rewards and more career opportunities, I believe these benefits are outweighed by the disadvantages.",
-                                "vn": "Tóm lại, mặc dù việc trở thành một người nổi tiếng thành công mang lại phần thưởng về tài chính và nhiều cơ hội nghề nghiệp hơn, tôi tin rằng những lợi ích này bị lấn át bởi những bất lợi."
+                                "vn": "Tóm lại, mặc dù việc trở thành một người nổi tiếng thành công mang lại phần thưởng về tài chính và nhiều cơ hội nghề nghiệp hơn, tôi tin rằng những lợi ích này bị lấn át bởi những bất lợi.",
+                                "isRed": true
                             },
                             {
                                 "en": "Losing privacy and facing constant public pressure make a famous life much more difficult than it appears.",
-                                "vn": "Việc mất đi sự riêng tư và phải đối mặt với áp lực liên tục từ công chúng khiến cuộc sống của một người nổi tiếng trở nên khó khăn hơn nhiều so với vẻ bề ngoài của nó."
+                                "vn": "Việc mất đi sự riêng tư và phải đối mặt với áp lực liên tục từ công chúng khiến cuộc sống của một người nổi tiếng trở nên khó khăn hơn nhiều so với vẻ bề ngoài của nó.",
+                                "isRed": false
                             }
                         ]
-                    }
-                ]
+                    ]
+                }
             }
         ]
     }
