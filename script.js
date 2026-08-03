@@ -2268,7 +2268,7 @@ function renderVocab(data) {
         
         const completedTitle = document.createElement("div");
         completedTitle.className = "matching-completed-title";
-        completedTitle.innerHTML = `<i class="fa-solid fa-circle-check"></i> Từ vựng đã ghép đúng:`;
+        completedTitle.innerHTML = `<i class="fa-solid fa-circle-check"></i>`;
         
         const completedList = document.createElement("div");
         completedList.className = "matching-completed-list";
@@ -2760,14 +2760,14 @@ function renderIdeaGroups(container, paragraph, essayId, paragraphIndex, passedL
             if (hint.prefix) {
                 const prefixSpan = document.createElement("span");
                 prefixSpan.className = "hint-arrow";
-                prefixSpan.innerHTML = `<b style="color: black;">${hint.prefix}</b>`;
+                prefixSpan.innerHTML = `<b style="color: black; font-size: 1.4em; padding: 0 4px;">${hint.prefix}</b>`;
                 row.insertBefore(prefixSpan, wrapper);
             }
 
             if (hint.suffix) {
                 const suffixSpan = document.createElement("span");
                 suffixSpan.className = "hint-arrow";
-                suffixSpan.innerHTML = `<b style="color: black;">${hint.suffix}</b>`;
+                suffixSpan.innerHTML = `<b style="color: black; font-size: 1.4em; padding: 0 4px;">${hint.suffix}</b>`;
                 row.appendChild(suffixSpan);
             }
 
@@ -2775,8 +2775,10 @@ function renderIdeaGroups(container, paragraph, essayId, paragraphIndex, passedL
                 const arrow = document.createElement("span");
                 arrow.className = "hint-arrow";
                 const connectorText = hint.connector !== undefined ? hint.connector : '<i class="fa-solid fa-arrow-right"></i>';
-                if (['+', ':', '➜', '=>'].includes(connectorText)) {
-                    arrow.innerHTML = `<b style="color: black;">${connectorText}</b>`;
+                if (connectorText === ':') {
+                    arrow.innerHTML = `<b style="color: black; font-size: 1.4em; padding: 0 4px;">${connectorText}</b>`;
+                } else if (['+', '➜', '=>'].includes(connectorText)) {
+                    arrow.innerHTML = `<b style="color: black; padding: 0 4px;">${connectorText}</b>`;
                 } else if (connectorText !== '') {
                     arrow.innerHTML = connectorText;
                 }

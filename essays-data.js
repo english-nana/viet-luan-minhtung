@@ -8097,7 +8097,8 @@ window.ESSAY_TOPICS = [
                                     {
                                         "en": "earn a high income",
                                         "vn": "kiếm được thu nhập cao",
-                                        "connector": "➜"
+                                        "connector": "➜",
+                                        "isRed": true
                                     },
                                     {
                                         "en": "make money",
@@ -8143,7 +8144,8 @@ window.ESSAY_TOPICS = [
                                     {
                                         "en": "have more career opportunities",
                                         "vn": "có nhiều cơ hội nghề nghiệp hơn",
-                                        "connector": "➜"
+                                        "connector": "➜",
+                                        "isRed": true
                                     },
                                     {
                                         "en": "popular",
@@ -8194,7 +8196,8 @@ window.ESSAY_TOPICS = [
                                     {
                                         "en": "the lack of privacy",
                                         "vn": "sự thiếu riêng tư",
-                                        "connector": "➜"
+                                        "connector": "➜",
+                                        "isRed": true
                                     },
                                     {
                                         "en": "followed by the media and fans",
@@ -8223,7 +8226,8 @@ window.ESSAY_TOPICS = [
                                     {
                                         "en": "the heavy pressure of being famous",
                                         "vn": "áp lực nặng nề của việc nổi tiếng",
-                                        "connector": "➜"
+                                        "connector": "➜",
+                                        "isRed": true
                                     },
                                     {
                                         "en": "expected to look perfect",
@@ -8642,7 +8646,8 @@ window.ESSAY_TOPICS = [
                                     {
                                         "en": "earn a high income",
                                         "vn": "kiếm được thu nhập cao",
-                                        "connector": ":"
+                                        "connector": ":",
+                                        "isRed": true
                                     },
                                     {
                                         "en": "receive additional income",
@@ -8683,7 +8688,8 @@ window.ESSAY_TOPICS = [
                                     {
                                         "en": "a wide range of career opportunities",
                                         "vn": "một loạt các cơ hội nghề nghiệp",
-                                        "connector": ":"
+                                        "connector": ":",
+                                        "isRed": true
                                     },
                                     {
                                         "en": "act in movies",
@@ -8698,7 +8704,7 @@ window.ESSAY_TOPICS = [
                                     {
                                         "en": "collaborate with international companies",
                                         "vn": "hợp tác với các công ty quốc tế",
-                                        "connector": "➜"
+                                        "connector": ""
                                     },
                                     {
                                         "en": "their reputation grows",
@@ -8744,7 +8750,8 @@ window.ESSAY_TOPICS = [
                                     {
                                         "en": "the loss of privacy",
                                         "vn": "sự mất đi tính riêng tư",
-                                        "connector": ":"
+                                        "connector": ":",
+                                        "isRed": true
                                     },
                                     {
                                         "en": "followed by the media",
@@ -8759,7 +8766,7 @@ window.ESSAY_TOPICS = [
                                     {
                                         "en": "difficult to enjoy ordinary life",
                                         "vn": "khó khăn để tận hưởng cuộc sống bình thường",
-                                        "connector": "➜"
+                                        "connector": ""
                                     },
                                     {
                                         "en": "personal relationships",
@@ -8783,7 +8790,8 @@ window.ESSAY_TOPICS = [
                                     {
                                         "en": "the pressure to maintain a perfect public image",
                                         "vn": "áp lực duy trì một hình ảnh công chúng hoàn hảo",
-                                        "connector": ":"
+                                        "connector": ":",
+                                        "isRed": true
                                     },
                                     {
                                         "en": "millions of people watch their actions",
