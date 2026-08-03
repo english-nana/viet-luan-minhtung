@@ -8098,7 +8098,7 @@ window.ESSAY_TOPICS = [
                                         "en": "earn a high income",
                                         "vn": "kiếm được thu nhập cao",
                                         "connector": "➜",
-                                        "isRed": true
+                                        "isBoldRed": true
                                     },
                                     {
                                         "en": "make money",
@@ -8145,7 +8145,7 @@ window.ESSAY_TOPICS = [
                                         "en": "have more career opportunities",
                                         "vn": "có nhiều cơ hội nghề nghiệp hơn",
                                         "connector": "➜",
-                                        "isRed": true
+                                        "isBoldRed": true
                                     },
                                     {
                                         "en": "popular",
@@ -8197,7 +8197,7 @@ window.ESSAY_TOPICS = [
                                         "en": "the lack of privacy",
                                         "vn": "sự thiếu riêng tư",
                                         "connector": "➜",
-                                        "isRed": true
+                                        "isBoldRed": true
                                     },
                                     {
                                         "en": "followed by the media and fans",
@@ -8227,7 +8227,7 @@ window.ESSAY_TOPICS = [
                                         "en": "the heavy pressure of being famous",
                                         "vn": "áp lực nặng nề của việc nổi tiếng",
                                         "connector": "➜",
-                                        "isRed": true
+                                        "isBoldRed": true
                                     },
                                     {
                                         "en": "expected to look perfect",
@@ -8647,7 +8647,7 @@ window.ESSAY_TOPICS = [
                                         "en": "earn a high income",
                                         "vn": "kiếm được thu nhập cao",
                                         "connector": ":",
-                                        "isRed": true
+                                        "isBoldRed": true
                                     },
                                     {
                                         "en": "receive additional income",
@@ -8689,7 +8689,7 @@ window.ESSAY_TOPICS = [
                                         "en": "a wide range of career opportunities",
                                         "vn": "một loạt các cơ hội nghề nghiệp",
                                         "connector": ":",
-                                        "isRed": true
+                                        "isBoldRed": true
                                     },
                                     {
                                         "en": "act in movies",
@@ -8751,7 +8751,7 @@ window.ESSAY_TOPICS = [
                                         "en": "the loss of privacy",
                                         "vn": "sự mất đi tính riêng tư",
                                         "connector": ":",
-                                        "isRed": true
+                                        "isBoldRed": true
                                     },
                                     {
                                         "en": "followed by the media",
@@ -8791,7 +8791,7 @@ window.ESSAY_TOPICS = [
                                         "en": "the pressure to maintain a perfect public image",
                                         "vn": "áp lực duy trì một hình ảnh công chúng hoàn hảo",
                                         "connector": ":",
-                                        "isRed": true
+                                        "isBoldRed": true
                                     },
                                     {
                                         "en": "millions of people watch their actions",

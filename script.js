@@ -2268,7 +2268,8 @@ function renderVocab(data) {
         
         const completedTitle = document.createElement("div");
         completedTitle.className = "matching-completed-title";
-        completedTitle.innerHTML = `<i class="fa-solid fa-circle-check"></i>`;
+        completedTitle.innerHTML = ``;
+        completedTitle.style.display = "none";
         
         const completedList = document.createElement("div");
         completedList.className = "matching-completed-list";
@@ -2713,6 +2714,9 @@ function renderIdeaGroups(container, paragraph, essayId, paragraphIndex, passedL
             }
             if (hint.color === "red") {
                 button.classList.add("is-red");
+            }
+            if (hint.isBoldRed) {
+                button.classList.add("is-bold-red");
             }
 
             const translation = document.createElement("div");
