@@ -989,367 +989,961 @@ window.ESSAY_TOPICS = [
                 "vn": "Bạn nên: nêu rõ quan điểm của bạn, đưa ra lý do và ví dụ, xem xét các quan điểm trái chiều có thể có (tùy chọn)."
             }
         ],
-        "vocab": [
-            {
-                "en": "countdown timers",
-                "type": "(n)",
-                "vn": "đồng hồ đếm ngược"
-            },
-            {
-                "en": "cross the road",
-                "type": "(v.phr)",
-                "vn": "qua đường"
-            },
-            {
-                "en": "driving behavior",
-                "type": "(n)",
-                "vn": "hành vi lái xe"
-            },
-            {
-                "en": "driving habits",
-                "type": "(n)",
-                "vn": "thói quen lái xe"
-            },
-            {
-                "en": "ignore",
-                "type": "(v)",
-                "vn": "phớt lờ"
-            },
-            {
-                "en": "pay more attention to",
-                "type": "(v.phr)",
-                "vn": "chú ý nhiều hơn đến"
-            },
-            {
-                "en": "pedestrians",
-                "type": "(n)",
-                "vn": "người đi bộ"
-            },
-            {
-                "en": "predict",
-                "type": "(v)",
-                "vn": "dự đoán"
-            },
-            {
-                "en": "reckless driving",
-                "type": "(n)",
-                "vn": "lái xe ẩu"
-            },
-            {
-                "en": "speed up",
-                "type": "(v)",
-                "vn": "tăng tốc"
-            },
-            {
-                "en": "the intersection",
-                "type": "(n)",
-                "vn": "ngã tư, giao lộ"
-            },
-            {
-                "en": "traffic accidents",
-                "type": "(n)",
-                "vn": "tai nạn giao thông"
-            },
-            {
-                "en": "traffic discipline",
-                "type": "(n)",
-                "vn": "kỷ luật giao thông"
-            },
-            {
-                "en": "traffic lights",
-                "type": "(n)",
-                "vn": "đèn giao thông"
-            },
-            {
-                "en": "traffic rules",
-                "type": "(n)",
-                "vn": "luật giao thông"
-            },
-            {
-                "en": "traffic signals",
-                "type": "(n)",
-                "vn": "tín hiệu giao thông"
-            },
-            {
-                "en": "vehicles",
-                "type": "(n)",
-                "vn": "phương tiện"
-            }
-        ],
-        "introChunks": [
-            {
-                "en": "Traffic lights with countdown timers|Countdown timers at traffic lights",
-                "vn": "Đèn giao thông có đồng hồ đếm ngược"
-            },
-            {
-                "en": "are very popular|are common",
-                "vn": "rất phổ biến"
-            },
-            {
-                "en": "in many cities",
-                "vn": "ở nhiều thành phố"
-            },
-            {
-                "en": "because they help",
-                "vn": "vì chúng giúp"
-            },
-            {
-                "en": "drivers know",
-                "vn": "người lái xe biết"
-            },
-            {
-                "en": "how much time remains|how much time is left",
-                "vn": "còn bao nhiêu thời gian"
-            },
-            {
-                "en": "before the light changes.|before the lights change.",
-                "vn": "trước khi đèn chuyển màu."
-            },
-            {
-                "en": "However,",
-                "vn": "Tuy nhiên,"
-            },
-            {
-                "en": "some people believe that|some believe that",
-                "vn": "một số người tin rằng"
-            },
-            {
-                "en": "these timers",
-                "vn": "những đồng hồ này"
-            },
-            {
-                "en": "should be removed.",
-                "vn": "nên bị dỡ bỏ."
-            },
-            {
-                "en": "I completely agree|I strongly agree|I totally agree",
-                "vn": "Tôi hoàn toàn đồng ý"
-            },
-            {
-                "en": "with this view|with this opinion",
-                "vn": "với quan điểm này"
-            },
-            {
-                "en": "because|since",
-                "vn": "vì"
-            },
-            {
-                "en": "countdown timers|these timers",
-                "vn": "đồng hồ đếm ngược"
-            },
-            {
-                "en": "can encourage|may encourage",
-                "vn": "có thể khuyến khích"
-            },
-            {
-                "en": "dangerous driving behavior|reckless driving|dangerous driving",
-                "vn": "hành vi lái xe nguy hiểm"
-            },
-            {
-                "en": "and increase",
-                "vn": "và làm tăng"
-            },
-            {
-                "en": "the risk of",
-                "vn": "nguy cơ"
-            },
-            {
-                "en": "traffic accidents.|accidents.",
-                "vn": "tai nạn giao thông."
-            }
-        ],
-        "introVn": "Đèn giao thông có đồng hồ đếm ngược rất phổ biến ở nhiều thành phố vì chúng giúp người lái xe biết còn bao nhiêu thời gian trước khi đèn chuyển màu. Tuy nhiên, một số người tin rằng những đồng hồ này nên bị dỡ bỏ. Tôi hoàn toàn đồng ý với quan điểm này vì đồng hồ đếm ngược có thể khuyến khích hành vi lái xe nguy hiểm và làm tăng nguy cơ tai nạn giao thông.",
         "introEnExpectedLength": 347,
-        "conclusionChunks": [
-            {
-                "en": "In conclusion,|To sum up,",
-                "vn": "Tóm lại,"
-            },
-            {
-                "en": "I strongly believe that|I firmly believe that",
-                "vn": "tôi tin tưởng mạnh mẽ rằng"
-            },
-            {
-                "en": "countdown timers",
-                "vn": "đồng hồ đếm ngược"
-            },
-            {
-                "en": "at traffic lights",
-                "vn": "tại các đèn giao thông"
-            },
-            {
-                "en": "should be removed",
-                "vn": "nên bị dỡ bỏ"
-            },
-            {
-                "en": "because they can encourage|since they can encourage",
-                "vn": "vì chúng có thể khuyến khích"
-            },
-            {
-                "en": "reckless driving,|careless driving,",
-                "vn": "lái xe ẩu,"
-            },
-            {
-                "en": "create stress|create unnecessary stress|cause stress",
-                "vn": "tạo ra căng thẳng"
-            },
-            {
-                "en": "for road users|for drivers and pedestrians",
-                "vn": "cho người tham gia giao thông"
-            },
-            {
-                "en": "and reduce",
-                "vn": "và làm giảm"
-            },
-            {
-                "en": "traffic discipline.",
-                "vn": "kỷ luật giao thông."
-            },
-            {
-                "en": "Therefore,|Thus,",
-                "vn": "Do đó,"
-            },
-            {
-                "en": "the government should consider|governments should consider",
-                "vn": "chính phủ nên xem xét"
-            },
-            {
-                "en": "removing them",
-                "vn": "việc dỡ bỏ chúng"
-            },
-            {
-                "en": "to minimize|to reduce",
-                "vn": "để giảm thiểu"
-            },
-            {
-                "en": "accidents|traffic accidents",
-                "vn": "tai nạn"
-            },
-            {
-                "en": "and make roads",
-                "vn": "và làm cho đường xá"
-            },
-            {
-                "en": "safer",
-                "vn": "an toàn hơn"
-            },
-            {
-                "en": "for everyone.|for all people.",
-                "vn": "cho mọi người."
-            }
-        ],
-        "conclusionVn": "Tóm lại, tôi tin tưởng mạnh mẽ rằng đồng hồ đếm ngược tại các đèn giao thông nên bị dỡ bỏ vì chúng có thể khuyến khích lái xe ẩu, tạo ra căng thẳng cho người tham gia giao thông và làm giảm kỷ luật giao thông. Do đó, chính phủ nên xem xét việc dỡ bỏ chúng để giảm thiểu tai nạn và làm cho đường xá an toàn hơn cho mọi người.",
         "conclusionEnExpectedLength": 307,
-        "bodyParagraphs": [
+        "variants": [
             {
-                "title": "Lý do 01 (Reason 1)",
-                "hints": [
+                "name": "Level B1",
+                "vocab": [
                     {
-                        "en": "Có một số lý do tại sao / tôi đồng ý rằng / đồng hồ đếm ngược tại các đèn giao thông / nên bị gỡ bỏ.",
-                        "vn": "There are several reasons why / I agree that / countdown timers at traffic lights / should be removed.",
-                        "isTopic": true
+                        "en": "traffic lights",
+                        "type": "(n)",
+                        "vn": "đèn giao thông"
                     },
                     {
-                        "en": "make drivers impatient and careless",
-                        "vn": "làm cho người lái xe mất kiên nhẫn và bất cẩn"
+                        "en": "countdown timers",
+                        "type": "(n)",
+                        "vn": "đồng hồ đếm ngược"
                     },
                     {
-                        "en": "only a few seconds remain before the light turns red",
-                        "vn": "chỉ còn vài giây trước khi đèn chuyển sang màu đỏ"
+                        "en": "remove",
+                        "type": "(v)",
+                        "vn": "dỡ bỏ"
                     },
                     {
-                        "en": "speed up instead of slowing down",
-                        "vn": "tăng tốc thay vì giảm tốc độ"
+                        "en": "traffic accidents",
+                        "type": "(n)",
+                        "vn": "tai nạn giao thông"
                     },
                     {
-                        "en": "drive too fast + ignore traffic rules",
-                        "vn": "lái xe quá nhanh + phớt lờ luật giao thông",
-                        "level": "advanced",
-                        "color": "brown"
+                        "en": "impatient",
+                        "type": "(adj)",
+                        "vn": "thiếu kiên nhẫn"
                     },
                     {
-                        "en": "pass the intersection in time",
-                        "vn": "vượt qua giao lộ kịp lúc",
-                        "level": "advanced",
-                        "color": "brown"
+                        "en": "turn",
+                        "type": "(v)",
+                        "vn": "chuyển (màu đèn)"
                     },
                     {
-                        "en": "very dangerous",
-                        "vn": "rất nguy hiểm"
-                    }
-                ]
-            },
-            {
-                "title": "Lý do 02 (Reason 2)",
-                "hints": [
-                    {
-                        "en": "create unnecessary pressure for both drivers and pedestrians",
-                        "vn": "tạo áp lực không cần thiết cho cả người lái xe và người đi bộ"
+                        "en": "speed up",
+                        "type": "(v.phr)",
+                        "vn": "tăng tốc"
                     },
                     {
-                        "en": "become nervous when they see the timer decreasing quickly",
-                        "vn": "trở nên lo lắng khi thấy đồng hồ giảm nhanh"
+                        "en": "slow down",
+                        "type": "(v.phr)",
+                        "vn": "giảm tốc độ"
                     },
                     {
-                        "en": "make poor decisions",
-                        "vn": "đưa ra những quyết định tồi tệ"
+                        "en": "cross the road",
+                        "type": "(v.phr)",
+                        "vn": "qua đường"
+                    },
+                    {
+                        "en": "cause",
+                        "type": "(v)",
+                        "vn": "gây ra"
+                    },
+                    {
+                        "en": "drivers",
+                        "type": "(n)",
+                        "vn": "người lái xe"
                     },
                     {
                         "en": "pedestrians",
-                        "vn": "người đi bộ",
-                        "level": "advanced",
-                        "color": "brown"
+                        "type": "(n)",
+                        "vn": "người đi bộ"
                     },
                     {
-                        "en": "cross the road too quickly before the timer ends",
-                        "vn": "qua đường quá nhanh trước khi đồng hồ kết thúc",
-                        "level": "advanced",
-                        "color": "brown"
+                        "en": "stay calm",
+                        "type": "(v.phr)",
+                        "vn": "giữ bình tĩnh"
                     },
                     {
-                        "en": "increase the possibility of accidents",
-                        "vn": "làm tăng khả năng xảy ra tai nạn",
-                        "level": "advanced",
-                        "color": "brown"
+                        "en": "green light",
+                        "type": "(n)",
+                        "vn": "đèn xanh"
                     },
                     {
-                        "en": "without countdown timers",
-                        "vn": "nếu không có đồng hồ đếm ngược",
-                        "level": "advanced",
-                        "color": "brown"
+                        "en": "roads",
+                        "type": "(n)",
+                        "vn": "đường phố"
                     },
                     {
-                        "en": "behave more calmly + carefully on traffic signals",
-                        "vn": "cư xử bình tĩnh + cẩn thận hơn với tín hiệu giao thông",
-                        "level": "advanced",
-                        "color": "brown"
+                        "en": "traffic behavior",
+                        "type": "(n)",
+                        "vn": "ý thức giao thông"
+                    },
+                    {
+                        "en": "exact",
+                        "type": "(adj)",
+                        "vn": "chính xác"
+                    },
+                    {
+                        "en": "patiently",
+                        "type": "(adv)",
+                        "vn": "một cách kiên nhẫn"
+                    },
+                    {
+                        "en": "driving habits",
+                        "type": "(n)",
+                        "vn": "thói quen lái xe"
+                    },
+                    {
+                        "en": "follow the traffic rules",
+                        "type": "(v.phr)",
+                        "vn": "tuân thủ luật giao thông"
                     }
-                ]
+                ],
+                "introVn": "Ở nhiều thành phố, các đèn giao thông có đồng hồ đếm ngược rất phổ biến vì chúng giúp người lái xe biết khi nào đèn sẽ chuyển màu. Tuy nhiên, một số người nghĩ rằng những đồng hồ này nên bị dỡ bỏ. Tôi đồng ý với quan điểm này vì chúng có thể khiến mọi người lái xe kém an toàn hơn và gây ra nhiều tai nạn giao thông hơn.",
+                "introChunks": [
+                    {
+                        "en": "In many cities,",
+                        "vn": "Ở nhiều thành phố,"
+                    },
+                    {
+                        "en": "traffic lights with countdown timers",
+                        "vn": "các đèn giao thông có đồng hồ đếm ngược"
+                    },
+                    {
+                        "en": "are very common",
+                        "vn": "rất phổ biến"
+                    },
+                    {
+                        "en": "because",
+                        "vn": "vì"
+                    },
+                    {
+                        "en": "they help drivers",
+                        "vn": "chúng giúp người lái xe"
+                    },
+                    {
+                        "en": "know",
+                        "vn": "biết"
+                    },
+                    {
+                        "en": "when the lights will change.",
+                        "vn": "khi nào đèn sẽ chuyển màu."
+                    },
+                    {
+                        "en": "However,",
+                        "vn": "Tuy nhiên,"
+                    },
+                    {
+                        "en": "some people think",
+                        "vn": "một số người nghĩ rằng"
+                    },
+                    {
+                        "en": "these timers",
+                        "vn": "những đồng hồ này"
+                    },
+                    {
+                        "en": "should be removed.",
+                        "vn": "nên bị dỡ bỏ."
+                    },
+                    {
+                        "en": "I agree with this opinion",
+                        "vn": "Tôi đồng ý với quan điểm này"
+                    },
+                    {
+                        "en": "because",
+                        "vn": "vì"
+                    },
+                    {
+                        "en": "they can make people",
+                        "vn": "chúng có thể khiến mọi người"
+                    },
+                    {
+                        "en": "drive less safely",
+                        "vn": "lái xe kém an toàn hơn"
+                    },
+                    {
+                        "en": "and",
+                        "vn": "và"
+                    },
+                    {
+                        "en": "cause more traffic accidents.",
+                        "vn": "gây ra nhiều tai nạn giao thông hơn."
+                    }
+                ],
+                "bodyParagraphs": [
+                    {
+                        "title": "Đoạn 1: Make drivers impatient",
+                        "hintGroups": [
+                            {
+                                "label": "Lý do 1",
+                                "hints": [
+                                    {
+                                        "en": "impatient",
+                                        "vn": "thiếu kiên nhẫn",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "a few seconds are left",
+                                        "vn": "chỉ còn lại vài giây",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "speed up",
+                                        "vn": "tăng tốc",
+                                        "connector": ""
+                                    },
+                                    {
+                                        "en": "not slowing down",
+                                        "vn": "không giảm tốc độ",
+                                        "prefix": "(",
+                                        "suffix": ")",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "drive too fast",
+                                        "vn": "lái xe quá nhanh",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "cross the road before the light changes",
+                                        "vn": "qua đường trước khi đèn chuyển màu",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "dangerous",
+                                        "vn": "nguy hiểm",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "accidents",
+                                        "vn": "tai nạn"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Đoạn 2: Cause stress",
+                        "hintGroups": [
+                            {
+                                "label": "Lý do 2",
+                                "hints": [
+                                    {
+                                        "en": "drivers",
+                                        "vn": "người lái xe",
+                                        "connector": "+",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "pedestrians",
+                                        "vn": "người đi bộ",
+                                        "connector": "",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "feel stressed",
+                                        "vn": "cảm thấy căng thẳng",
+                                        "prefix": "(",
+                                        "suffix": "):",
+                                        "connector": "",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "the number",
+                                        "vn": "con số",
+                                        "connector": ""
+                                    },
+                                    {
+                                        "en": "go down quickly",
+                                        "vn": "giảm nhanh",
+                                        "prefix": "(",
+                                        "suffix": ")",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "nervous",
+                                        "vn": "lo lắng",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "make bad decisions",
+                                        "vn": "đưa ra những quyết định tồi",
+                                        "connector": ""
+                                    },
+                                    {
+                                        "en": "pedestrians",
+                                        "vn": "người đi bộ",
+                                        "connector": "",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "hurry to cross the road when it is not safe",
+                                        "vn": "vội vã qua đường khi không an toàn",
+                                        "prefix": "(",
+                                        "suffix": ")",
+                                        "connector": ""
+                                    },
+                                    {
+                                        "en": "without countdown timers",
+                                        "vn": "nếu không có đồng hồ đếm ngược",
+                                        "connector": "➜",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "stay calm",
+                                        "vn": "giữ bình tĩnh",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "wait for the next green light",
+                                        "vn": "chờ đèn xanh tiếp theo",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "safer",
+                                        "vn": "an toàn hơn"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Đoạn 3: Improve traffic behavior",
+                        "hintGroups": [
+                            {
+                                "label": "Lý do 3",
+                                "hints": [
+                                    {
+                                        "en": "improve traffic behavior",
+                                        "vn": "cải thiện ý thức giao thông",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "not know the exact time when the light will change",
+                                        "vn": "không biết thời gian chính xác khi nào đèn sẽ chuyển màu",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "slow down",
+                                        "vn": "giảm tốc độ",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "wait patiently",
+                                        "vn": "chờ đợi một cách kiên nhẫn",
+                                        "connector": "➜",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "better drive habits",
+                                        "vn": "thói quen lái xe tốt hơn",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "follow the traffic rules",
+                                        "vn": "tuân thủ luật giao thông"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "conclusionVn": "Kết luận lại, tôi tin rằng đồng hồ đếm ngược tại các đèn giao thông nên bị dỡ bỏ. Chúng có thể khiến mọi người lái xe quá nhanh, tạo ra áp lực và dẫn đến hành vi không an toàn. Việc dỡ bỏ chúng có thể giúp làm cho các con đường an toàn hơn đối với cả người lái xe và người đi bộ.",
+                "conclusionChunks": [
+                    {
+                        "en": "In conclusion,",
+                        "vn": "Kết luận lại,"
+                    },
+                    {
+                        "en": "I believe that",
+                        "vn": "tôi tin rằng"
+                    },
+                    {
+                        "en": "countdown timers",
+                        "vn": "đồng hồ đếm ngược"
+                    },
+                    {
+                        "en": "at traffic lights",
+                        "vn": "tại các đèn giao thông"
+                    },
+                    {
+                        "en": "should be removed.",
+                        "vn": "nên bị dỡ bỏ."
+                    },
+                    {
+                        "en": "They can make people",
+                        "vn": "Chúng có thể khiến mọi người"
+                    },
+                    {
+                        "en": "drive too fast,",
+                        "vn": "lái xe quá nhanh,"
+                    },
+                    {
+                        "en": "create stress,",
+                        "vn": "tạo ra áp lực"
+                    },
+                    {
+                        "en": "and",
+                        "vn": "và"
+                    },
+                    {
+                        "en": "lead to",
+                        "vn": "dẫn đến"
+                    },
+                    {
+                        "en": "unsafe behavior.",
+                        "vn": "hành vi không an toàn."
+                    },
+                    {
+                        "en": "Removing them",
+                        "vn": "Việc dỡ bỏ chúng"
+                    },
+                    {
+                        "en": "can help",
+                        "vn": "có thể giúp"
+                    },
+                    {
+                        "en": "make the roads",
+                        "vn": "làm cho các con đường"
+                    },
+                    {
+                        "en": "safer",
+                        "vn": "an toàn hơn"
+                    },
+                    {
+                        "en": "for both drivers and pedestrians.",
+                        "vn": "đối với cả người lái xe và người đi bộ."
+                    }
+                ],
+                "sampleEssay": {
+                    "paragraphs": [
+                        [
+                            {
+                                "en": "In many cities, traffic lights with countdown timers are very common because they help drivers know when the lights will change.",
+                                "vn": "Ở nhiều thành phố, các đèn giao thông có đồng hồ đếm ngược rất phổ biến vì chúng giúp người lái xe biết khi nào đèn sẽ chuyển màu."
+                            },
+                            {
+                                "en": "However, some people think these timers should be removed.",
+                                "vn": "Tuy nhiên, một số người nghĩ rằng những đồng hồ này nên bị dỡ bỏ."
+                            },
+                            {
+                                "en": "I agree with this opinion because they can make people drive less safely and cause more traffic accidents.",
+                                "vn": "Tôi đồng ý với quan điểm này vì chúng có thể khiến mọi người lái xe kém an toàn hơn và gây ra nhiều tai nạn giao thông hơn."
+                            }
+                        ],
+                        [
+                            {
+                                "en": "The first reason is that countdown timers can make drivers impatient.",
+                                "vn": "Lý do đầu tiên là đồng hồ đếm ngược có thể làm cho người lái xe thiếu kiên nhẫn."
+                            },
+                            {
+                                "en": "When they see that only a few seconds are left before the light turns red, they often speed up instead of slowing down.",
+                                "vn": "Khi thấy chỉ còn vài giây trước khi đèn chuyển sang màu đỏ, họ thường tăng tốc thay vì giảm tốc độ."
+                            },
+                            {
+                                "en": "Some drivers even drive too fast and try to cross the road before the light changes.",
+                                "vn": "Một số người lái xe thậm chí còn chạy quá nhanh và cố gắng qua đường trước khi đèn chuyển màu."
+                            },
+                            {
+                                "en": "This is very dangerous and can easily cause accidents.",
+                                "vn": "Điều này rất nguy hiểm và có thể dễ dàng gây ra tai nạn."
+                            }
+                        ],
+                        [
+                            {
+                                "en": "Another reason is that countdown timers can make both drivers and pedestrians feel stressed.",
+                                "vn": "Một lý do khác là đồng hồ đếm ngược có thể khiến cả người lái xe và người đi bộ cảm thấy căng thẳng."
+                            },
+                            {
+                                "en": "When they see the numbers going down quickly, they may become nervous and make bad decisions.",
+                                "vn": "Khi thấy các con số giảm nhanh, họ có thể trở nên lo lắng và đưa ra những quyết định tồi."
+                            },
+                            {
+                                "en": "For example, some pedestrians may hurry to cross the road even when it is not safe.",
+                                "vn": "Ví dụ, một số người đi bộ có thể vội vã qua đường ngay cả khi không an toàn."
+                            },
+                            {
+                                "en": "Without countdown timers, people are more likely to stay calm and wait for the next green light.",
+                                "vn": "Nếu không có đồng hồ đếm ngược, mọi người có nhiều khả năng giữ bình tĩnh và chờ đợi đèn xanh tiếp theo hơn."
+                            },
+                            {
+                                "en": "This can make the roads safer for everyone.",
+                                "vn": "Điều này có thể làm cho đường sá an toàn hơn cho mọi người."
+                            }
+                        ],
+                        [
+                            {
+                                "en": "Finally, removing countdown timers can help improve traffic behavior.",
+                                "vn": "Cuối cùng, việc dỡ bỏ đồng hồ đếm ngược có thể giúp cải thiện ý thức giao thông."
+                            },
+                            {
+                                "en": "If drivers do not know the exact time when the lights will change, they are more likely to slow down and wait patiently.",
+                                "vn": "Nếu người lái xe không biết chính xác thời gian khi nào đèn sẽ chuyển màu, họ có nhiều khả năng sẽ giảm tốc độ và kiên nhẫn chờ đợi hơn."
+                            },
+                            {
+                                "en": "After some time, they can develop better driving habits and follow the traffic rules more carefully.",
+                                "vn": "Sau một thời gian, họ có thể hình thành thói quen lái xe tốt hơn và tuân thủ luật giao thông cẩn thận hơn."
+                            }
+                        ],
+                        [
+                            {
+                                "en": "In conclusion, I believe that countdown timers at traffic lights should be removed.",
+                                "vn": "Kết luận lại, tôi tin rằng đồng hồ đếm ngược tại các đèn giao thông nên bị dỡ bỏ."
+                            },
+                            {
+                                "en": "They can make people drive too fast, create stress, and lead to unsafe behavior.",
+                                "vn": "Chúng có thể khiến mọi người lái xe quá nhanh, tạo ra áp lực và dẫn đến hành vi không an toàn."
+                            },
+                            {
+                                "en": "Removing them can help make the roads safer for both drivers and pedestrians.",
+                                "vn": "Việc dỡ bỏ chúng có thể giúp làm cho các con đường an toàn hơn đối với cả người lái xe và người đi bộ."
+                            }
+                        ]
+                    ]
+                }
             },
             {
-                "title": "Lý do 03 (Reason 3)",
-                "hints": [
+                "name": "Level B2",
+                "vocab": [
                     {
-                        "en": "improve overall traffic discipline",
-                        "vn": "cải thiện kỷ luật giao thông nói chung"
+                        "en": "traffic lights",
+                        "type": "(n)",
+                        "vn": "đèn giao thông"
                     },
                     {
-                        "en": "slow down naturally + wait patiently for the next signal change",
-                        "vn": "giảm tốc độ một cách tự nhiên + kiên nhẫn chờ đợi tín hiệu thay đổi"
+                        "en": "countdown timers",
+                        "type": "(n)",
+                        "vn": "đồng hồ đếm ngược"
                     },
                     {
-                        "en": "cannot predict the exact moment when the lights would change",
-                        "vn": "không thể dự đoán thời điểm chính xác khi đèn thay đổi",
-                        "level": "advanced",
-                        "color": "brown"
+                        "en": "widely",
+                        "type": "(adv)",
+                        "vn": "rộng rãi"
                     },
                     {
-                        "en": "encourage safer driving habits in the long term",
-                        "vn": "khuyến khích thói quen lái xe an toàn hơn trong dài hạn"
+                        "en": "encourage",
+                        "type": "(v)",
+                        "vn": "khuyến khích"
+                    },
+                    {
+                        "en": "driving behavior",
+                        "type": "(n)",
+                        "vn": "hành vi lái xe"
+                    },
+                    {
+                        "en": "traffic accidents",
+                        "type": "(n)",
+                        "vn": "tai nạn giao thông"
+                    },
+                    {
+                        "en": "remove",
+                        "type": "(v)",
+                        "vn": "dỡ bỏ"
+                    },
+                    {
+                        "en": "impatient",
+                        "type": "(adj)",
+                        "vn": "thiếu kiên nhẫn"
+                    },
+                    {
+                        "en": "careless",
+                        "type": "(adj)",
+                        "vn": "bất cẩn"
+                    },
+                    {
+                        "en": "speed up",
+                        "type": "(v.phr)",
+                        "vn": "tăng tốc"
+                    },
+                    {
+                        "en": "slow down",
+                        "type": "(v.phr)",
+                        "vn": "giảm tốc độ"
+                    },
+                    {
+                        "en": "ignore",
+                        "type": "(v)",
+                        "vn": "phớt lờ"
+                    },
+                    {
+                        "en": "traffic rules",
+                        "type": "(n)",
+                        "vn": "luật giao thông"
+                    },
+                    {
+                        "en": "pass",
+                        "type": "(v)",
+                        "vn": "vượt qua"
+                    },
+                    {
+                        "en": "intersection",
+                        "type": "(n)",
+                        "vn": "giao lộ"
                     }
-                ]
+                ],
+                "introVn": "Ở nhiều thành phố, các đèn giao thông có đồng hồ đếm ngược được sử dụng rộng rãi vì chúng giúp người lái xe biết còn bao nhiêu thời gian trước khi đèn chuyển màu. Tuy nhiên, một số người tin rằng những đồng hồ này nên bị dỡ bỏ. Tôi hoàn toàn đồng ý với quan điểm này vì đồng hồ đếm ngược có thể khuyến khích hành vi lái xe nguy hiểm và làm tăng nguy cơ xảy ra tai nạn giao thông.",
+                "introChunks": [
+                    {
+                        "en": "In many cities,",
+                        "vn": "Ở nhiều thành phố,"
+                    },
+                    {
+                        "en": "traffic lights with countdown timers",
+                        "vn": "các đèn giao thông có đồng hồ đếm ngược"
+                    },
+                    {
+                        "en": "are widely used",
+                        "vn": "được sử dụng rộng rãi"
+                    },
+                    {
+                        "en": "because",
+                        "vn": "vì"
+                    },
+                    {
+                        "en": "they help drivers",
+                        "vn": "chúng giúp người lái xe"
+                    },
+                    {
+                        "en": "know",
+                        "vn": "biết"
+                    },
+                    {
+                        "en": "how much time is left",
+                        "vn": "còn bao nhiêu thời gian"
+                    },
+                    {
+                        "en": "before the lights change.",
+                        "vn": "trước khi đèn chuyển màu."
+                    },
+                    {
+                        "en": "However,",
+                        "vn": "Tuy nhiên,"
+                    },
+                    {
+                        "en": "some people believe",
+                        "vn": "một số người tin rằng"
+                    },
+                    {
+                        "en": "these timers",
+                        "vn": "những đồng hồ này"
+                    },
+                    {
+                        "en": "should be removed.",
+                        "vn": "nên bị dỡ bỏ."
+                    },
+                    {
+                        "en": "I completely agree with",
+                        "vn": "Tôi hoàn toàn đồng ý với"
+                    },
+                    {
+                        "en": "this opinion",
+                        "vn": "quan điểm này"
+                    },
+                    {
+                        "en": "because",
+                        "vn": "vì"
+                    },
+                    {
+                        "en": "countdown timers",
+                        "vn": "đồng hồ đếm ngược"
+                    },
+                    {
+                        "en": "can encourage",
+                        "vn": "có thể khuyến khích"
+                    },
+                    {
+                        "en": "dangerous driving behavior",
+                        "vn": "hành vi lái xe nguy hiểm"
+                    },
+                    {
+                        "en": "and",
+                        "vn": "và"
+                    },
+                    {
+                        "en": "increase",
+                        "vn": "làm tăng"
+                    },
+                    {
+                        "en": "the risk of traffic accidents.",
+                        "vn": "nguy cơ xảy ra tai nạn giao thông."
+                    }
+                ],
+                "bodyParagraphs": [
+                    {
+                        "title": "Đoạn 1: Make drivers impatient and careless",
+                        "hintGroups": [
+                            {
+                                "label": "Lý do 1",
+                                "hints": [
+                                    {
+                                        "en": "impatient",
+                                        "vn": "thiếu kiên nhẫn",
+                                        "connector": "+",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "careless",
+                                        "vn": "bất cẩn",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "only a few seconds remain before the light turns red",
+                                        "vn": "chỉ còn lại vài giây trước khi đèn chuyển sang màu đỏ",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "speed up instead of slowing down",
+                                        "vn": "tăng tốc thay vì giảm tốc độ",
+                                        "connector": "➜",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "drive too fast",
+                                        "vn": "lái xe quá nhanh",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "ignore traffic rules",
+                                        "vn": "phớt lờ luật giao thông",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "pass the intersection before the light changes",
+                                        "vn": "vượt qua giao lộ trước khi đèn chuyển màu"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Đoạn 2: Create unnecessary pressure",
+                        "hintGroups": [
+                            {
+                                "label": "Lý do 2",
+                                "hints": [
+                                    {
+                                        "en": "unnecessary pressure",
+                                        "vn": "áp lực không cần thiết",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "the timer decrease quickly",
+                                        "vn": "đồng hồ đếm ngược giảm nhanh",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "feel nervous",
+                                        "vn": "cảm thấy lo lắng",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "make poor decisions",
+                                        "vn": "đưa ra những quyết định tồi",
+                                        "connector": ""
+                                    },
+                                    {
+                                        "en": "Without countdown timers",
+                                        "vn": "Nếu không có đồng hồ đếm ngược",
+                                        "connector": "➜",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "stay calm",
+                                        "vn": "giữ bình tĩnh",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "wait for the traffic signals",
+                                        "vn": "chờ đợi tín hiệu giao thông",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "reduce accidents",
+                                        "vn": "giảm thiểu tai nạn",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "make the roads safer",
+                                        "vn": "làm cho đường sá an toàn hơn"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Đoạn 3: Improve traffic discipline",
+                        "hintGroups": [
+                            {
+                                "label": "Lý do 3",
+                                "hints": [
+                                    {
+                                        "en": "improve traffic discipline",
+                                        "vn": "cải thiện ý thức giao thông",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "cannot predict the exact moment when the lights will change",
+                                        "vn": "không thể đoán trước thời điểm chính xác khi nào đèn sẽ chuyển màu",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "slow down naturally",
+                                        "vn": "giảm tốc độ một cách tự nhiên",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "wait patiently",
+                                        "vn": "chờ đợi một cách kiên nhẫn",
+                                        "connector": "➜",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "safer driving behavior",
+                                        "vn": "hành vi lái xe an toàn hơn"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "conclusionVn": "Kết luận, tôi hoàn toàn tin rằng đồng hồ đếm ngược tại các đèn giao thông nên bị dỡ bỏ. Chúng thường khuyến khích hành vi nguy hiểm, tạo ra áp lực không cần thiết và làm giảm ý thức chấp hành giao thông. Việc dỡ bỏ chúng có thể giúp làm cho các con đường an toàn hơn đối với cả người lái xe và người đi bộ.",
+                "conclusionChunks": [
+                    {
+                        "en": "In conclusion,",
+                        "vn": "Kết luận,"
+                    },
+                    {
+                        "en": "I strongly believe that",
+                        "vn": "tôi hoàn toàn tin rằng"
+                    },
+                    {
+                        "en": "countdown timers at traffic lights",
+                        "vn": "đồng hồ đếm ngược tại các đèn giao thông"
+                    },
+                    {
+                        "en": "should be removed.",
+                        "vn": "nên bị dỡ bỏ."
+                    },
+                    {
+                        "en": "They often encourage",
+                        "vn": "Chúng thường khuyến khích"
+                    },
+                    {
+                        "en": "risky behavior,",
+                        "vn": "hành vi nguy hiểm,"
+                    },
+                    {
+                        "en": "create unnecessary stress,",
+                        "vn": "tạo ra áp lực không cần thiết"
+                    },
+                    {
+                        "en": "and",
+                        "vn": "và"
+                    },
+                    {
+                        "en": "reduce traffic discipline.",
+                        "vn": "làm giảm ý thức chấp hành giao thông."
+                    },
+                    {
+                        "en": "Removing them",
+                        "vn": "Việc dỡ bỏ chúng"
+                    },
+                    {
+                        "en": "can help",
+                        "vn": "có thể giúp"
+                    },
+                    {
+                        "en": "make the roads safer",
+                        "vn": "làm cho các con đường an toàn hơn"
+                    },
+                    {
+                        "en": "for both drivers and pedestrians.",
+                        "vn": "đối với cả người lái xe và người đi bộ."
+                    }
+                ],
+                "sampleEssay": {
+                    "paragraphs": [
+                        [
+                            {
+                                "en": "In many cities, traffic lights with countdown timers are widely used because they help drivers know how much time is left before the lights change.",
+                                "vn": "Ở nhiều thành phố, các đèn giao thông có đồng hồ đếm ngược được sử dụng rộng rãi vì chúng giúp người lái xe biết còn bao nhiêu thời gian trước khi đèn chuyển màu."
+                            },
+                            {
+                                "en": "However, some people believe these timers should be removed.",
+                                "vn": "Tuy nhiên, một số người tin rằng những đồng hồ này nên bị dỡ bỏ."
+                            },
+                            {
+                                "en": "I completely agree with this opinion because countdown timers can encourage dangerous driving behavior and increase the risk of traffic accidents.",
+                                "vn": "Tôi hoàn toàn đồng ý với quan điểm này vì đồng hồ đếm ngược có thể khuyến khích hành vi lái xe nguy hiểm và làm tăng nguy cơ xảy ra tai nạn giao thông."
+                            }
+                        ],
+                        [
+                            {
+                                "en": "The first reason why countdown timers should be removed is that they often make drivers impatient and careless.",
+                                "vn": "Lý do đầu tiên khiến đồng hồ đếm ngược nên bị dỡ bỏ là chúng thường làm cho người lái xe thiếu kiên nhẫn và bất cẩn."
+                            },
+                            {
+                                "en": "When drivers see that only a few seconds remain before the light turns red, many of them choose to speed up instead of slowing down.",
+                                "vn": "Khi người lái xe thấy chỉ còn lại vài giây trước khi đèn chuyển sang màu đỏ, nhiều người trong số họ chọn tăng tốc thay vì giảm tốc độ."
+                            },
+                            {
+                                "en": "As a result, they may drive too fast, ignore traffic rules, and try to pass the intersection before the light changes.",
+                                "vn": "Hậu quả là, họ có thể lái xe quá nhanh, phớt lờ luật giao thông và cố gắng vượt qua giao lộ trước khi đèn chuyển màu."
+                            }
+                        ],
+                        [
+                            {
+                                "en": "Another reason is that countdown timers create unnecessary pressure for both drivers and pedestrians.",
+                                "vn": "Một lý do khác là đồng hồ đếm ngược tạo ra áp lực không cần thiết cho cả người lái xe và người đi bộ."
+                            },
+                            {
+                                "en": "In fact, seeing the timer decrease quickly can make people feel nervous, leading them to make poor decisions.",
+                                "vn": "Trên thực tế, việc nhìn thấy đồng hồ giảm nhanh có thể khiến mọi người cảm thấy lo lắng, dẫn đến việc họ đưa ra những quyết định tồi."
+                            },
+                            {
+                                "en": "Without countdown timers, both drivers and pedestrians would be more likely to stay calm and simply wait for the traffic signals.",
+                                "vn": "Nếu không có đồng hồ đếm ngược, cả người lái xe và người đi bộ sẽ có nhiều khả năng giữ bình tĩnh và chỉ đơn giản là chờ đợi tín hiệu giao thông."
+                            },
+                            {
+                                "en": "This could reduce accidents and make the roads safer for everyone.",
+                                "vn": "Điều này có thể giảm thiểu tai nạn và làm cho đường sá an toàn hơn cho mọi người."
+                            }
+                        ],
+                        [
+                            {
+                                "en": "Finally, removing countdown timers could improve traffic discipline in the long term.",
+                                "vn": "Cuối cùng, việc dỡ bỏ đồng hồ đếm ngược có thể cải thiện ý thức giao thông trong dài hạn."
+                            },
+                            {
+                                "en": "If drivers cannot predict the exact moment when the lights will change, they are more likely to slow down naturally and wait patiently for the next signal instead of trying to pass the red light.",
+                                "vn": "Nếu người lái xe không thể đoán trước thời điểm chính xác khi nào đèn sẽ chuyển màu, họ có nhiều khả năng sẽ giảm tốc độ một cách tự nhiên và kiên nhẫn chờ đợi tín hiệu tiếp theo thay vì cố gắng vượt đèn đỏ."
+                            },
+                            {
+                                "en": "Over time, this habit can encourage safer driving behavior for everyone.",
+                                "vn": "Theo thời gian, thói quen này có thể khuyến khích hành vi lái xe an toàn hơn cho mọi người."
+                            }
+                        ],
+                        [
+                            {
+                                "en": "In conclusion, I strongly believe that countdown timers at traffic lights should be removed.",
+                                "vn": "Kết luận, tôi hoàn toàn tin rằng đồng hồ đếm ngược tại các đèn giao thông nên bị dỡ bỏ."
+                            },
+                            {
+                                "en": "They often encourage risky behavior, create unnecessary stress, and reduce traffic discipline.",
+                                "vn": "Chúng thường khuyến khích hành vi nguy hiểm, tạo ra áp lực không cần thiết và làm giảm ý thức chấp hành giao thông."
+                            },
+                            {
+                                "en": "Removing them can help make the roads safer for both drivers and pedestrians.",
+                                "vn": "Việc dỡ bỏ chúng có thể giúp làm cho các con đường an toàn hơn đối với cả người lái xe và người đi bộ."
+                            }
+                        ]
+                    ]
+                }
             }
-        ]
+        ],
+        "currentVariantIndex": 0
     },
     {
         "id": "sharing-lives-online",

@@ -2286,10 +2286,43 @@ function renderVocab(data) {
             { bg: "#ebf5eb", text: "#1b5e20" }
         ];
 
+        // Load saved matched indices
+        let savedMatchedIndices = [];
+        const essayId = data.id || (window.essays?.[state?.currentEssayIndex]?.id);
+        const storageKey = getStorageKey(essayId, 'matchedVocab');
+        try {
+            const savedStr = localStorage.getItem(storageKey);
+            if (savedStr) {
+                savedMatchedIndices = JSON.parse(savedStr);
+            }
+        } catch (e) { console.error(e); }
+
         // Prepare buttons
         let buttons = [];
         const vocabList = activeVocab;
         vocabList.forEach((item, index) => {
+            if (savedMatchedIndices.includes(index)) {
+                const pairEl = document.createElement("div");
+                pairEl.className = "cloud-chip";
+                pairEl.style.animation = "slideIn 0.3s ease forwards";
+                pairEl.style.flexDirection = "column";
+                pairEl.style.gap = "4px";
+                pairEl.style.margin = "0 5px 10px 5px";
+                const matchedColor = colors[Math.floor(Math.random() * colors.length)];
+                pairEl.style.backgroundColor = matchedColor.bg;
+                pairEl.style.color = matchedColor.text;
+                const baseFontSize = Math.floor(Math.random() * 5) + 15; 
+                const enFontSize = `${baseFontSize}px`;
+                const vnFontSize = `${Math.floor(baseFontSize * 0.75)}px`;
+                pairEl.style.fontWeight = [500, 600, 700][Math.floor(Math.random() * 3)];
+                pairEl.innerHTML = `<span class="cloud-en" style="font-size: ${enFontSize}; line-height: 1.1;">${item.en}</span><span class="cloud-vn" style="font-size: ${vnFontSize}; opacity: 0.85; line-height: 1.1;">${item.vn}</span>`;
+                completedList.style.display = "flex";
+                completedList.style.flexWrap = "wrap";
+                completedList.style.justifyContent = "center";
+                completedList.appendChild(pairEl);
+                completedContainer.classList.add("has-items");
+                return;
+            }
             const fontSize = Math.floor(Math.random() * 5) + 12; // 12px to 16px
             const fontWeight = [500, 600, 700][Math.floor(Math.random() * 3)];
             
@@ -2325,6 +2358,9 @@ function renderVocab(data) {
             [buttons[i], buttons[j]] = [buttons[j], buttons[i]];
         }
         buttons.forEach(btn => grid.appendChild(btn));
+        if (buttons.length === 0) {
+            grid.style.display = "none";
+        }
 
         gameContainer.append(grid, completedContainer);
         container.appendChild(gameContainer);
@@ -2354,6 +2390,14 @@ function renderVocab(data) {
                 btn.classList.add("matched");
                 selectedBtn.classList.add("matched");
                 
+                const matchedId = parseInt(btn.dataset.id, 10);
+                if (!savedMatchedIndices.includes(matchedId)) {
+                    savedMatchedIndices.push(matchedId);
+                    try {
+                        localStorage.setItem(storageKey, JSON.stringify(savedMatchedIndices));
+                    } catch(e) {}
+                }
+
                 const itemData = activeVocab[btn.dataset.id];
                 const pairEl = document.createElement("div");
                 pairEl.className = "cloud-chip";
@@ -2489,8 +2533,8 @@ function setupTranslationWorkspace(type, data) {
         let finalVnWordRanges = vnWordRanges;
 
         if (chunks) {
-            // New strict token-based matching logic (includes punctuation)
-            const extractTokens = (str) => str.trim().toLowerCase().split(/\s+/).filter(t => t.length > 0);
+            // Robust token-based matching logic (ignores punctuation for better UX)
+            const extractTokens = (str) => str.replace(/[.,!?;:()[\]"“”]/g, "").trim().toLowerCase().split(/\s+/).filter(t => t.length > 0);
             const userWords = extractTokens(completedText);
             let userWordIdx = 0;
             
@@ -2788,8 +2832,10 @@ function renderIdeaGroups(container, paragraph, essayId, paragraphIndex, passedL
                 const connectorText = hint.connector !== undefined ? hint.connector : '<i class="fa-solid fa-arrow-right"></i>';
                 if (connectorText === ':') {
                     arrow.innerHTML = `<b style="color: black; font-size: 1.4em; padding: 0 4px;">${connectorText}</b>`;
-                } else if (['+', '➜', '=>'].includes(connectorText)) {
-                    arrow.innerHTML = `<b style="color: black; padding: 0 4px;">${connectorText}</b>`;
+                } else if (connectorText === '+') {
+                    arrow.innerHTML = `<b style="color: black; font-size: 1.6em; padding: 0 4px; line-height: 1;">+</b>`;
+                } else if (['➜', '=>'].includes(connectorText)) {
+                    arrow.innerHTML = `<b style="color: black; font-size: 1.3em; padding: 0 4px;">${connectorText}</b>`;
                 } else if (connectorText !== '') {
                     arrow.innerHTML = connectorText;
                 }
