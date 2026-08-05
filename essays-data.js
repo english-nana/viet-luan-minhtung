@@ -1334,7 +1334,7 @@ window.ESSAY_TOPICS = [
                                         "newLine": true
                                     },
                                     {
-                                        "en": "better drive habits",
+                                        "en": "better driving habits",
                                         "vn": "thói quen lái xe tốt hơn",
                                         "connector": "+"
                                     },
