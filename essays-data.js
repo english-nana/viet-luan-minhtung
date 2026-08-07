@@ -10262,7 +10262,8 @@ window.ESSAY_TOPICS = [
                                     {
                                         "en": "after months of hard work or study",
                                         "vn": "sau những tháng làm việc hoặc học tập chăm chỉ",
-                                        "connector": "–"
+                                        "connector": "–",
+                                        "isBoldRed": true
                                     },
                                     {
                                         "en": "take a break",
@@ -10283,7 +10284,7 @@ window.ESSAY_TOPICS = [
                                     {
                                         "en": "return to work",
                                         "vn": "quay trở lại làm việc",
-                                        "connector": "➜"
+                                        "connector": ""
                                     },
                                     {
                                         "en": "more positive attitude",
@@ -10339,13 +10340,13 @@ window.ESSAY_TOPICS = [
                                     {
                                         "en": "the most important traditional holiday",
                                         "vn": "kỳ nghỉ truyền thống quan trọng nhất",
-                                        "connector": ":"
+                                        "connector": ":",
+                                        "isBoldRed": true
                                     },
                                     {
                                         "en": "bring family members together",
                                         "vn": "gắn kết các thành viên trong gia đình lại với nhau",
-                                        "connector": "➜",
-                                        "isBoldRed": true
+                                        "connector": "➜"
                                     },
                                     {
                                         "en": "visiting relatives",
