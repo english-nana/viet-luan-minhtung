@@ -10236,12 +10236,12 @@ window.ESSAY_TOPICS = [
                         "vn": "đón Tết cùng gia đình"
                     },
                     {
-                        "en": "is more important.",
-                        "vn": "quan trọng hơn."
+                        "en": "is the better choice.",
+                        "vn": "là lựa chọn tốt hơn."
                     }
                 ],
-                "introVn": "Mọi người có những quan điểm khác nhau về việc nên dành kỳ nghỉ Tết như thế nào. Trong khi một số người tin rằng đi du lịch trong dịp đặc biệt này là một cách tốt để thư giãn và có những trải nghiệm mới, những người khác cho rằng Tết nên là một dịp đặc biệt để các thành viên trong gia đình sum họp. Bài luận này sẽ thảo luận cả hai quan điểm trước khi giải thích tại sao tôi tin rằng đón Tết cùng gia đình quan trọng hơn.",
-                "introEnExpectedLength": 381,
+                "introVn": "Mọi người có những quan điểm khác nhau về việc nên dành kỳ nghỉ Tết như thế nào. Trong khi một số người tin rằng đi du lịch trong dịp đặc biệt này là một cách tốt để thư giãn và có những trải nghiệm mới, những người khác cho rằng Tết nên là một dịp đặc biệt để các thành viên trong gia đình sum họp. Bài luận này sẽ thảo luận cả hai quan điểm trước khi giải thích tại sao tôi tin rằng đón Tết cùng gia đình là lựa chọn tốt hơn.",
+                "introEnExpectedLength": 378,
                 "bodyParagraphs": [
                     {
                         "title": "Thân bài 01",
@@ -10488,8 +10488,8 @@ window.ESSAY_TOPICS = [
                                 "isRed": false
                             },
                             {
-                                "en": "This essay will discuss both views before explaining why I believe celebrating Tet with family is more important.",
-                                "vn": "Bài luận này sẽ thảo luận cả hai quan điểm trước khi giải thích tại sao tôi tin rằng đón Tết cùng gia đình quan trọng hơn.",
+                                "en": "This essay will discuss both views before explaining why I believe celebrating Tet with family is the better choice.",
+                                "vn": "Bài luận này sẽ thảo luận cả hai quan điểm trước khi giải thích tại sao tôi tin rằng đón Tết cùng gia đình là lựa chọn tốt hơn.",
                                 "isRed": true
                             }
                         ],
