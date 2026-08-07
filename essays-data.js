@@ -3577,480 +3577,1026 @@ window.ESSAY_TOPICS = [
                 "vn": "Thảo luận cả hai quan điểm và đưa ra ý kiến của bạn."
             }
         ],
-        "vocab": [
+        "currentVariantIndex": 0,
+        "variants": [
             {
-                "en": "play important roles",
-                "type": "(v.phr)",
-                "vn": "đóng vai trò quan trọng"
-            },
-            {
-                "en": "temporary",
-                "type": "(adj)",
-                "vn": "tạm thời"
-            },
-            {
-                "en": "reliable",
-                "type": "(adj)",
-                "vn": "đáng tin cậy"
-            },
-            {
-                "en": "personal thoughts",
-                "type": "(n)",
-                "vn": "những suy nghĩ cá nhân"
-            },
-            {
-                "en": "emotional connections",
-                "type": "(n)",
-                "vn": "sự kết nối về mặt cảm xúc"
-            },
-            {
-                "en": "similar interests",
-                "type": "(n)",
-                "vn": "những sở thích tương đồng"
-            },
-            {
-                "en": "feel understood",
-                "type": "(v.phr)",
-                "vn": "cảm thấy được thấu hiểu"
-            },
-            {
-                "en": "study pressure",
-                "type": "(n)",
-                "vn": "áp lực học tập"
-            },
-            {
-                "en": "relationship problems",
-                "type": "(n)",
-                "vn": "những vấn đề về các mối quan hệ"
-            },
-            {
-                "en": "emotional support",
-                "type": "(n)",
-                "vn": "sự hỗ trợ về mặt tinh thần"
-            },
-            {
-                "en": "difficult times",
-                "type": "(n)",
-                "vn": "những khoảng thời gian khó khăn"
-            },
-            {
-                "en": "permanent",
-                "type": "(adj)",
-                "vn": "mãi mãi"
-            },
-            {
-                "en": "over time",
-                "type": "(adv.phr)",
-                "vn": "theo thời gian"
-            },
-            {
-                "en": "grow older",
-                "type": "(v.phr)",
-                "vn": "trưởng thành"
-            },
-            {
-                "en": "develop different priorities",
-                "type": "(v.phr)",
-                "vn": "phát triển những ưu tiên khác nhau"
-            },
-            {
-                "en": "gradually",
-                "type": "(adv)",
-                "vn": "dần dần"
-            },
-            {
-                "en": "unconditional support",
-                "type": "(n)",
-                "vn": "sự hỗ trợ vô điều kiện"
-            },
-            {
-                "en": "experiences",
-                "type": "(n)",
-                "vn": "những trải nghiệm"
-            },
-            {
-                "en": "financial difficulties",
-                "type": "(n)",
-                "vn": "những khó khăn về tài chính"
-            },
-            {
-                "en": "emotional difficulties",
-                "type": "(n)",
-                "vn": "những khó khăn về mặt cảm xúc"
-            },
-            {
-                "en": "stable",
-                "type": "(adj)",
-                "vn": "ổn định"
-            },
-            {
-                "en": "shared responsibilities",
-                "type": "(n)",
-                "vn": "những trách nhiệm chung"
-            },
-            {
-                "en": "throughout",
-                "type": "(prep)",
-                "vn": "trong suốt"
-            },
-            {
-                "en": "long-lasting",
-                "type": "(adj)",
-                "vn": "bền vững"
-            }
-        ],
-        "introChunks": [
-            {
-                "en": "Family and friendship",
-                "vn": "Gia đình và tình bạn"
-            },
-            {
-                "en": "both",
-                "vn": "đều"
-            },
-            {
-                "en": "play important roles",
-                "vn": "đóng vai trò quan trọng"
-            },
-            {
-                "en": "in people’s lives.",
-                "vn": "trong cuộc sống của con người."
-            },
-            {
-                "en": "While",
-                "vn": "Trong khi"
-            },
-            {
-                "en": "some people believe that",
-                "vn": "một số người tin rằng"
-            },
-            {
-                "en": "friendship",
-                "vn": "tình bạn"
-            },
-            {
-                "en": "is more important,",
-                "vn": "quan trọng hơn,"
-            },
-            {
-                "en": "others argue that",
-                "vn": "những người khác lại cho rằng"
-            },
-            {
-                "en": "friendship",
-                "vn": "tình bạn"
-            },
-            {
-                "en": "is temporary",
-                "vn": "chỉ mang tính tạm thời"
-            },
-            {
-                "en": "and that",
-                "vn": "và"
-            },
-            {
-                "en": "family relationships",
-                "vn": "các mối quan hệ gia đình"
-            },
-            {
-                "en": "are more reliable.",
-                "vn": "đáng tin cậy hơn."
-            },
-            {
-                "en": "This essay will",
-                "vn": "Bài luận này sẽ"
-            },
-            {
-                "en": "discuss",
-                "vn": "thảo luận"
-            },
-            {
-                "en": "both views",
-                "vn": "cả hai quan điểm"
-            },
-            {
-                "en": "before",
-                "vn": "trước khi"
-            },
-            {
-                "en": "explaining",
-                "vn": "giải thích"
-            },
-            {
-                "en": "why I believe",
-                "vn": "vì sao tôi tin rằng"
-            },
-            {
-                "en": "family is more important.",
-                "vn": "gia đình quan trọng hơn."
-            }
-        ],
-        "introVn": "Gia đình và tình bạn đều đóng vai trò quan trọng trong cuộc sống của con người. Trong khi một số người tin rằng tình bạn quan trọng hơn, những người khác lại cho rằng tình bạn chỉ mang tính tạm thời và các mối quan hệ gia đình đáng tin cậy hơn. Bài luận này sẽ thảo luận cả hai quan điểm trước khi giải thích vì sao tôi tin rằng gia đình quan trọng hơn.",
-        "introEnExpectedLength": 312,
-        "bodyParagraphs": [
-            {
-                "title": "Thân bài 01",
-                "hintGroups": [
+                "name": "Level B1",
+                "vocab": [
                     {
-                        "label": "Topic sentence",
-                        "hints": [
+                        "en": "play important roles",
+                        "type": "(v.phr)",
+                        "vn": "đóng vai trò quan trọng"
+                    },
+                    {
+                        "en": "temporary",
+                        "type": "(adj)",
+                        "vn": "tạm thời"
+                    },
+                    {
+                        "en": "reliable",
+                        "type": "(adj)",
+                        "vn": "đáng tin cậy"
+                    },
+                    {
+                        "en": "personal thoughts",
+                        "type": "(n)",
+                        "vn": "những suy nghĩ cá nhân"
+                    },
+                    {
+                        "en": "emotional connections",
+                        "type": "(n)",
+                        "vn": "sự kết nối về mặt cảm xúc"
+                    },
+                    {
+                        "en": "similar interests",
+                        "type": "(n)",
+                        "vn": "những sở thích tương đồng"
+                    },
+                    {
+                        "en": "feel understood",
+                        "type": "(v.phr)",
+                        "vn": "cảm thấy được thấu hiểu"
+                    },
+                    {
+                        "en": "study pressure",
+                        "type": "(n)",
+                        "vn": "áp lực học tập"
+                    },
+                    {
+                        "en": "relationship problems",
+                        "type": "(n)",
+                        "vn": "những vấn đề về các mối quan hệ"
+                    },
+                    {
+                        "en": "emotional support",
+                        "type": "(n)",
+                        "vn": "sự hỗ trợ về mặt tinh thần"
+                    },
+                    {
+                        "en": "difficult times",
+                        "type": "(n)",
+                        "vn": "những khoảng thời gian khó khăn"
+                    },
+                    {
+                        "en": "permanent",
+                        "type": "(adj)",
+                        "vn": "mãi mãi"
+                    },
+                    {
+                        "en": "over time",
+                        "type": "(adv.phr)",
+                        "vn": "theo thời gian"
+                    },
+                    {
+                        "en": "grow older",
+                        "type": "(v.phr)",
+                        "vn": "trưởng thành"
+                    },
+                    {
+                        "en": "develop different priorities",
+                        "type": "(v.phr)",
+                        "vn": "phát triển những ưu tiên khác nhau"
+                    },
+                    {
+                        "en": "gradually",
+                        "type": "(adv)",
+                        "vn": "dần dần"
+                    },
+                    {
+                        "en": "unconditional support",
+                        "type": "(n)",
+                        "vn": "sự hỗ trợ vô điều kiện"
+                    },
+                    {
+                        "en": "experiences",
+                        "type": "(n)",
+                        "vn": "những trải nghiệm"
+                    },
+                    {
+                        "en": "financial difficulties",
+                        "type": "(n)",
+                        "vn": "những khó khăn về tài chính"
+                    },
+                    {
+                        "en": "emotional difficulties",
+                        "type": "(n)",
+                        "vn": "những khó khăn về mặt cảm xúc"
+                    },
+                    {
+                        "en": "stable",
+                        "type": "(adj)",
+                        "vn": "ổn định"
+                    },
+                    {
+                        "en": "shared responsibilities",
+                        "type": "(n)",
+                        "vn": "những trách nhiệm chung"
+                    },
+                    {
+                        "en": "throughout",
+                        "type": "(prep)",
+                        "vn": "trong suốt"
+                    },
+                    {
+                        "en": "long-lasting",
+                        "type": "(adj)",
+                        "vn": "bền vững"
+                    }
+                ],
+                "introChunks": [
+                    {
+                        "en": "Family and friendship",
+                        "vn": "Gia đình và tình bạn"
+                    },
+                    {
+                        "en": "both",
+                        "vn": "đều"
+                    },
+                    {
+                        "en": "play important roles",
+                        "vn": "đóng vai trò quan trọng"
+                    },
+                    {
+                        "en": "in people’s lives.",
+                        "vn": "trong cuộc sống của con người."
+                    },
+                    {
+                        "en": "While",
+                        "vn": "Trong khi"
+                    },
+                    {
+                        "en": "some people believe that",
+                        "vn": "một số người tin rằng"
+                    },
+                    {
+                        "en": "friendship",
+                        "vn": "tình bạn"
+                    },
+                    {
+                        "en": "is more important,",
+                        "vn": "quan trọng hơn,"
+                    },
+                    {
+                        "en": "others argue that",
+                        "vn": "những người khác lại cho rằng"
+                    },
+                    {
+                        "en": "friendship",
+                        "vn": "tình bạn"
+                    },
+                    {
+                        "en": "is temporary",
+                        "vn": "chỉ mang tính tạm thời"
+                    },
+                    {
+                        "en": "and that",
+                        "vn": "và"
+                    },
+                    {
+                        "en": "family relationships",
+                        "vn": "các mối quan hệ gia đình"
+                    },
+                    {
+                        "en": "are more reliable.",
+                        "vn": "đáng tin cậy hơn."
+                    },
+                    {
+                        "en": "This essay will",
+                        "vn": "Bài luận này sẽ"
+                    },
+                    {
+                        "en": "discuss",
+                        "vn": "thảo luận"
+                    },
+                    {
+                        "en": "both views",
+                        "vn": "cả hai quan điểm"
+                    },
+                    {
+                        "en": "before",
+                        "vn": "trước khi"
+                    },
+                    {
+                        "en": "explaining",
+                        "vn": "giải thích"
+                    },
+                    {
+                        "en": "why I believe",
+                        "vn": "vì sao tôi tin rằng"
+                    },
+                    {
+                        "en": "family is more important.",
+                        "vn": "gia đình quan trọng hơn."
+                    }
+                ],
+                "introVn": "Gia đình và tình bạn đều đóng vai trò quan trọng trong cuộc sống của con người. Trong khi một số người tin rằng tình bạn quan trọng hơn, những người khác lại cho rằng tình bạn chỉ mang tính tạm thời và các mối quan hệ gia đình đáng tin cậy hơn. Bài luận này sẽ thảo luận cả hai quan điểm trước khi giải thích vì sao tôi tin rằng gia đình quan trọng hơn.",
+                "introEnExpectedLength": 312,
+                "bodyParagraphs": [
+                    {
+                        "title": "Thân bài 01",
+                        "hintGroups": [
                             {
-                                "en": "Một mặt, / tôi hiểu tại sao / một số người lập luận rằng / tình bạn / thì quan trọng hơn / gia đình.",
-                                "vn": "On the one hand, / I understand why / some people argue that / friendship / is more important than / family.",
-                                "isTopic": true
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "Một mặt, / tôi hiểu tại sao / một số người lập luận rằng / tình bạn / thì quan trọng hơn / gia đình.",
+                                        "vn": "On the one hand, / I understand why / some people argue that / friendship / is more important than / family.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lý do 01",
+                                "hints": [
+                                    {
+                                        "en": "easier to share personal thoughts and feelings",
+                                        "vn": "dễ dàng chia sẻ những suy nghĩ và cảm xúc cá nhân hơn",
+                                        "color": "red"
+                                    },
+                                    {
+                                        "en": "young people",
+                                        "vn": "những người trẻ",
+                                        "color": "brown"
+                                    },
+                                    {
+                                        "en": "spend a lot of time with their friends",
+                                        "vn": "dành nhiều thời gian với bạn bè của họ"
+                                    },
+                                    {
+                                        "en": "develop strong emotional connections",
+                                        "vn": "phát triển sự kết nối mạnh mẽ về mặt cảm xúc"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lý do 02",
+                                "hints": [
+                                    {
+                                        "en": "have similar interests and lifestyles",
+                                        "vn": "có những sở thích và lối sống tương đồng",
+                                        "color": "red"
+                                    },
+                                    {
+                                        "en": "feel understood and comfortable",
+                                        "vn": "cảm thấy được thấu hiểu và thoải mái"
+                                    },
+                                    {
+                                        "en": "prefer discussing study pressure or relationship problems",
+                                        "vn": "thích thảo luận về áp lực học tập hoặc những vấn đề về các mối quan hệ hơn"
+                                    },
+                                    {
+                                        "en": "with close friends",
+                                        "vn": "với những người bạn thân"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lý do 03",
+                                "hints": [
+                                    {
+                                        "en": "provide emotional support during difficult times",
+                                        "vn": "cung cấp sự hỗ trợ về mặt tinh thần trong những khoảng thời gian khó khăn",
+                                        "color": "red"
+                                    },
+                                    {
+                                        "en": "encourage people",
+                                        "vn": "khuyến khích mọi người"
+                                    },
+                                    {
+                                        "en": "more confident and independent",
+                                        "vn": "tự tin và độc lập hơn"
+                                    }
+                                ]
                             }
                         ]
                     },
                     {
-                        "label": "Lý do 01",
-                        "hints": [
+                        "title": "Thân bài 02",
+                        "hintGroups": [
                             {
-                                "en": "easier to share personal thoughts and feelings",
-                                "vn": "dễ dàng chia sẻ những suy nghĩ và cảm xúc cá nhân hơn",
-                                "color": "red"
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "Tuy nhiên, / tôi vẫn nghiêng về phía / những người với quan điểm rằng / tình bạn / không phải lúc nào cũng / mãi mãi.",
+                                        "vn": "However, / I still lean towards / those with the view that / friendship / is not always / permanent.",
+                                        "isTopic": true
+                                    }
+                                ]
                             },
                             {
-                                "en": "young people",
-                                "vn": "những người trẻ",
-                                "color": "brown"
+                                "label": "Lý do 01",
+                                "hints": [
+                                    {
+                                        "en": "leave or change over time",
+                                        "vn": "rời đi hoặc thay đổi theo thời gian",
+                                        "color": "red"
+                                    },
+                                    {
+                                        "en": "grow older",
+                                        "vn": "lớn lên"
+                                    },
+                                    {
+                                        "en": "move to different cities and become busy with work",
+                                        "vn": "chuyển đến các thành phố khác nhau và trở nên bận rộn với công việc"
+                                    },
+                                    {
+                                        "en": "develop different priorities",
+                                        "vn": "phát triển những ưu tiên khác nhau"
+                                    },
+                                    {
+                                        "en": "gradually become weaker",
+                                        "vn": "dần dần trở nên yếu đi"
+                                    }
+                                ]
                             },
                             {
-                                "en": "spend a lot of time with their friends",
-                                "vn": "dành nhiều thời gian với bạn bè của họ"
+                                "label": "Lý do 02",
+                                "hints": [
+                                    {
+                                        "en": "family members provide unconditional support",
+                                        "vn": "các thành viên trong gia đình cung cấp sự hỗ trợ vô điều kiện",
+                                        "color": "red"
+                                    },
+                                    {
+                                        "en": "friendships",
+                                        "vn": "tình bạn",
+                                        "color": "brown"
+                                    },
+                                    {
+                                        "en": "depend on personal interests and benefits",
+                                        "vn": "phụ thuộc vào những sở thích cá nhân và lợi ích",
+                                        "color": "brown"
+                                    },
+                                    {
+                                        "en": "some friends may disappear",
+                                        "vn": "một số người bạn có thể biến mất"
+                                    },
+                                    {
+                                        "en": "financial or emotional difficulties",
+                                        "vn": "những khó khăn về tài chính hoặc cảm xúc"
+                                    },
+                                    {
+                                        "en": "family members",
+                                        "vn": "các thành viên gia đình"
+                                    },
+                                    {
+                                        "en": "stay beside them",
+                                        "vn": "ở bên cạnh họ"
+                                    }
+                                ]
                             },
                             {
-                                "en": "develop strong emotional connections",
-                                "vn": "phát triển sự kết nối mạnh mẽ về mặt cảm xúc"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "Lý do 02",
-                        "hints": [
-                            {
-                                "en": "have similar interests and lifestyles",
-                                "vn": "có những sở thích và lối sống tương đồng",
-                                "color": "red"
-                            },
-                            {
-                                "en": "feel understood and comfortable",
-                                "vn": "cảm thấy được thấu hiểu và thoải mái"
-                            },
-                            {
-                                "en": "prefer discussing study pressure or relationship problems",
-                                "vn": "thích thảo luận về áp lực học tập hoặc những vấn đề về các mối quan hệ hơn"
-                            },
-                            {
-                                "en": "with close friends",
-                                "vn": "với những người bạn thân"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "Lý do 03",
-                        "hints": [
-                            {
-                                "en": "provide emotional support during difficult times",
-                                "vn": "cung cấp sự hỗ trợ về mặt tinh thần trong những khoảng thời gian khó khăn",
-                                "color": "red"
-                            },
-                            {
-                                "en": "encourage people",
-                                "vn": "khuyến khích mọi người"
-                            },
-                            {
-                                "en": "more confident and independent",
-                                "vn": "tự tin và độc lập hơn"
+                                "label": "Lý do 03",
+                                "hints": [
+                                    {
+                                        "en": "connected by blood and shared responsibilities",
+                                        "vn": "được kết nối bởi máu mủ và những trách nhiệm chung",
+                                        "color": "red"
+                                    },
+                                    {
+                                        "en": "parents and siblings",
+                                        "vn": "cha mẹ và anh chị em",
+                                        "color": "brown"
+                                    },
+                                    {
+                                        "en": "care for each other",
+                                        "vn": "quan tâm lẫn nhau"
+                                    },
+                                    {
+                                        "en": "even after arguments or disagreements",
+                                        "vn": "ngay cả sau những cuộc cãi vã hoặc bất đồng"
+                                    }
+                                ]
                             }
                         ]
                     }
-                ]
+                ],
+                "conclusionChunks": [
+                    {
+                        "en": "In conclusion,",
+                        "vn": "Tóm lại,"
+                    },
+                    {
+                        "en": "although",
+                        "vn": "mặc dù"
+                    },
+                    {
+                        "en": "friendship",
+                        "vn": "tình bạn"
+                    },
+                    {
+                        "en": "can provide",
+                        "vn": "có thể mang lại"
+                    },
+                    {
+                        "en": "emotional support",
+                        "vn": "sự đồng cảm"
+                    },
+                    {
+                        "en": "and understanding,",
+                        "vn": "và hỗ trợ về mặt tinh thần,"
+                    },
+                    {
+                        "en": "I believe",
+                        "vn": "tôi tin rằng"
+                    },
+                    {
+                        "en": "family",
+                        "vn": "gia đình"
+                    },
+                    {
+                        "en": "is more important",
+                        "vn": "quan trọng hơn"
+                    },
+                    {
+                        "en": "because",
+                        "vn": "vì"
+                    },
+                    {
+                        "en": "family members",
+                        "vn": "các thành viên trong gia đình"
+                    },
+                    {
+                        "en": "usually",
+                        "vn": "thường"
+                    },
+                    {
+                        "en": "stay together",
+                        "vn": "luôn gắn bó"
+                    },
+                    {
+                        "en": "and support each other",
+                        "vn": "và hỗ trợ nhau"
+                    },
+                    {
+                        "en": "throughout life.",
+                        "vn": "suốt cuộc đời."
+                    },
+                    {
+                        "en": "Therefore,",
+                        "vn": "Vì vậy,"
+                    },
+                    {
+                        "en": "family relationships",
+                        "vn": "các mối quan hệ gia đình"
+                    },
+                    {
+                        "en": "are definitely more reliable",
+                        "vn": "chắc chắn đáng tin cậy"
+                    },
+                    {
+                        "en": "and long-lasting",
+                        "vn": "và bền vững"
+                    },
+                    {
+                        "en": "than friendships.",
+                        "vn": "hơn tình bạn."
+                    }
+                ],
+                "conclusionVn": "Tóm lại, mặc dù tình bạn có thể mang lại sự đồng cảm và hỗ trợ về mặt tinh thần, tôi tin rằng gia đình quan trọng hơn vì các thành viên trong gia đình thường luôn gắn bó và hỗ trợ nhau suốt cuộc đời. Vì vậy, các mối quan hệ gia đình chắc chắn đáng tin cậy và bền vững hơn tình bạn.",
+                "conclusionEnExpectedLength": 299
             },
             {
-                "title": "Thân bài 02",
-                "hintGroups": [
+                "name": "Level B2",
+                "vocab": [
                     {
-                        "label": "Topic sentence",
-                        "hints": [
+                        "en": "friendship",
+                        "vn": "tình bạn"
+                    },
+                    {
+                        "en": "a greater influence",
+                        "vn": "một ảnh hưởng lớn hơn"
+                    },
+                    {
+                        "en": "people’s lives",
+                        "vn": "cuộc sống của mọi người"
+                    },
+                    {
+                        "en": "temporary",
+                        "vn": "tạm thời"
+                    },
+                    {
+                        "en": "family relationships",
+                        "vn": "các mối quan hệ gia đình"
+                    },
+                    {
+                        "en": "reliable",
+                        "vn": "đáng tin cậy"
+                    },
+                    {
+                        "en": "concerns",
+                        "vn": "những mối quan tâm"
+                    },
+                    {
+                        "en": "an important part",
+                        "vn": "một phần quan trọng"
+                    },
+                    {
+                        "en": "similar",
+                        "vn": "tương đồng"
+                    },
+                    {
+                        "en": "interests",
+                        "vn": "những sở thích"
+                    },
+                    {
+                        "en": "personalities",
+                        "vn": "tính cách"
+                    },
+                    {
+                        "en": "personal thoughts",
+                        "vn": "những suy nghĩ cá nhân"
+                    },
+                    {
+                        "en": "teenagers",
+                        "vn": "thanh thiếu niên"
+                    },
+                    {
+                        "en": "consider",
+                        "vn": "coi"
+                    },
+                    {
+                        "en": "unconditional",
+                        "vn": "vô điều kiện"
+                    },
+                    {
+                        "en": "support",
+                        "vn": "sự hỗ trợ"
+                    },
+                    {
+                        "en": "make mistakes",
+                        "vn": "mắc sai lầm"
+                    },
+                    {
+                        "en": "face difficulties",
+                        "vn": "đối mặt với những khó khăn"
+                    },
+                    {
+                        "en": "offer help",
+                        "vn": "đề nghị giúp đỡ"
+                    },
+                    {
+                        "en": "last",
+                        "vn": "kéo dài"
+                    },
+                    {
+                        "en": "move away",
+                        "vn": "chuyển đi nơi khác"
+                    },
+                    {
+                        "en": "stay connected",
+                        "vn": "vẫn kết nối"
+                    },
+                    {
+                        "en": "dependable",
+                        "vn": "đáng tin cậy"
+                    },
+                    {
+                        "en": "source of support",
+                        "vn": "nguồn hỗ trợ"
+                    }
+                ],
+                "introChunks": [
+                    {
+                        "en": "People have different opinions about",
+                        "vn": "Mọi người có những quan điểm khác nhau về việc"
+                    },
+                    {
+                        "en": "whether friendship or family",
+                        "vn": "tình bạn hay gia đình"
+                    },
+                    {
+                        "en": "is more important.",
+                        "vn": "quan trọng hơn."
+                    },
+                    {
+                        "en": "While some people believe that",
+                        "vn": "Trong khi một số người tin rằng"
+                    },
+                    {
+                        "en": "friends",
+                        "vn": "bạn bè"
+                    },
+                    {
+                        "en": "have a greater influence on",
+                        "vn": "có ảnh hưởng lớn hơn đến"
+                    },
+                    {
+                        "en": "people’s lives,",
+                        "vn": "cuộc sống của mọi người,"
+                    },
+                    {
+                        "en": "others argue that",
+                        "vn": "những người khác cho rằng"
+                    },
+                    {
+                        "en": "friendships are temporary",
+                        "vn": "tình bạn chỉ mang tính tạm thời"
+                    },
+                    {
+                        "en": "and",
+                        "vn": "và"
+                    },
+                    {
+                        "en": "family relationships",
+                        "vn": "các mối quan hệ gia đình"
+                    },
+                    {
+                        "en": "are more reliable.",
+                        "vn": "đáng tin cậy hơn."
+                    },
+                    {
+                        "en": "This essay will",
+                        "vn": "Bài luận này sẽ"
+                    },
+                    {
+                        "en": "discuss both views",
+                        "vn": "thảo luận cả hai quan điểm"
+                    },
+                    {
+                        "en": "before explaining why",
+                        "vn": "trước khi giải thích tại sao"
+                    },
+                    {
+                        "en": "I believe",
+                        "vn": "tôi tin rằng"
+                    },
+                    {
+                        "en": "family is more important.",
+                        "vn": "gia đình quan trọng hơn."
+                    }
+                ],
+                "introVn": "Mọi người có những quan điểm khác nhau về việc tình bạn hay gia đình quan trọng hơn. Trong khi một số người tin rằng bạn bè có ảnh hưởng lớn hơn đến cuộc sống của mọi người, những người khác cho rằng tình bạn chỉ mang tính tạm thời và các mối quan hệ gia đình đáng tin cậy hơn. Bài luận này sẽ thảo luận cả hai quan điểm trước khi giải thích tại sao tôi tin rằng gia đình quan trọng hơn.",
+                "bodyParagraphs": [
+                    {
+                        "title": "Thân bài 01",
+                        "hintGroups": [
                             {
-                                "en": "Tuy nhiên, / tôi vẫn nghiêng về phía / những người với quan điểm rằng / tình bạn / không phải lúc nào cũng / mãi mãi.",
-                                "vn": "However, / I still lean towards / those with the view that / friendship / is not always / permanent.",
-                                "isTopic": true
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "On the one hand, it is understandable why some people argue that friendship is more important than family.",
+                                        "vn": "Một mặt, có thể hiểu được tại sao một số người cho rằng tình bạn quan trọng hơn gia đình.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lợi ích 1",
+                                "hints": [
+                                    {
+                                        "en": "spend more time with their friends",
+                                        "vn": "dành nhiều thời gian hơn với bạn bè",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "talk about",
+                                        "vn": "nói về",
+                                        "connector": ""
+                                    },
+                                    {
+                                        "en": "studies",
+                                        "vn": "việc học",
+                                        "prefix": "(",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "jobs",
+                                        "vn": "công việc",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "concerns",
+                                        "vn": "những mối quan tâm",
+                                        "suffix": ")",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "an important part of their daily life",
+                                        "vn": "một phần quan trọng trong cuộc sống hàng ngày của họ"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lợi ích 2",
+                                "hints": [
+                                    {
+                                        "en": "similar interests and personalities",
+                                        "vn": "những sở thích và tính cách tương đồng",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "easier to share",
+                                        "vn": "dễ dàng chia sẻ hơn",
+                                        "connector": ""
+                                    },
+                                    {
+                                        "en": "personal thoughts",
+                                        "vn": "những suy nghĩ cá nhân",
+                                        "prefix": "(",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "problems",
+                                        "vn": "những vấn đề",
+                                        "suffix": ")"
+                                    },
+                                    {
+                                        "en": "Teenagers",
+                                        "vn": "Thanh thiếu niên",
+                                        "connector": ":",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "more comfortable",
+                                        "vn": "thoải mái hơn",
+                                        "connector": ""
+                                    },
+                                    {
+                                        "en": "asking close friends for advice",
+                                        "vn": "xin lời khuyên từ những người bạn thân",
+                                        "prefix": "(",
+                                        "suffix": ")",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "consider friendship more important than family",
+                                        "vn": "coi tình bạn quan trọng hơn gia đình"
+                                    }
+                                ]
                             }
                         ]
                     },
                     {
-                        "label": "Lý do 01",
-                        "hints": [
+                        "title": "Thân bài 02",
+                        "hintGroups": [
                             {
-                                "en": "leave or change over time",
-                                "vn": "rời đi hoặc thay đổi theo thời gian",
-                                "color": "red"
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "However, I would side with those who are of the opinion that family is more important.",
+                                        "vn": "Tuy nhiên, tôi nghiêng về phía những người có quan điểm rằng gia đình quan trọng hơn.",
+                                        "isTopic": true
+                                    }
+                                ]
                             },
                             {
-                                "en": "grow older",
-                                "vn": "lớn lên"
+                                "label": "Lý do 1",
+                                "hints": [
+                                    {
+                                        "en": "unconditional love and support",
+                                        "vn": "tình yêu thương và sự hỗ trợ vô điều kiện",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "care for us",
+                                        "vn": "quan tâm chúng ta",
+                                        "connector": ""
+                                    },
+                                    {
+                                        "en": "make mistakes",
+                                        "vn": "mắc sai lầm",
+                                        "prefix": "(",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "face difficulties",
+                                        "vn": "đối mặt với khó khăn",
+                                        "suffix": ")"
+                                    },
+                                    {
+                                        "en": "lose a job",
+                                        "vn": "mất việc",
+                                        "prefix": "(",
+                                        "connector": "+",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "become seriously sick",
+                                        "vn": "trở nên ốm nặng",
+                                        "suffix": ")",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "parents",
+                                        "vn": "cha mẹ",
+                                        "connector": ":"
+                                    },
+                                    {
+                                        "en": "the first people to offer help",
+                                        "vn": "những người đầu tiên đề nghị giúp đỡ"
+                                    }
+                                ]
                             },
                             {
-                                "en": "move to different cities and become busy with work",
-                                "vn": "chuyển đến các thành phố khác nhau và trở nên bận rộn với công việc"
-                            },
-                            {
-                                "en": "develop different priorities",
-                                "vn": "phát triển những ưu tiên khác nhau"
-                            },
-                            {
-                                "en": "gradually become weaker",
-                                "vn": "dần dần trở nên yếu đi"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "Lý do 02",
-                        "hints": [
-                            {
-                                "en": "family members provide unconditional support",
-                                "vn": "các thành viên trong gia đình cung cấp sự hỗ trợ vô điều kiện",
-                                "color": "red"
-                            },
-                            {
-                                "en": "friendships",
-                                "vn": "tình bạn",
-                                "color": "brown"
-                            },
-                            {
-                                "en": "depend on personal interests and benefits",
-                                "vn": "phụ thuộc vào những sở thích cá nhân và lợi ích",
-                                "color": "brown"
-                            },
-                            {
-                                "en": "some friends may disappear",
-                                "vn": "một số người bạn có thể biến mất"
-                            },
-                            {
-                                "en": "financial or emotional difficulties",
-                                "vn": "những khó khăn về tài chính hoặc cảm xúc"
-                            },
-                            {
-                                "en": "family members",
-                                "vn": "các thành viên gia đình"
-                            },
-                            {
-                                "en": "stay beside them",
-                                "vn": "ở bên cạnh họ"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "Lý do 03",
-                        "hints": [
-                            {
-                                "en": "connected by blood and shared responsibilities",
-                                "vn": "được kết nối bởi máu mủ và những trách nhiệm chung",
-                                "color": "red"
-                            },
-                            {
-                                "en": "parents and siblings",
-                                "vn": "cha mẹ và anh chị em",
-                                "color": "brown"
-                            },
-                            {
-                                "en": "care for each other",
-                                "vn": "quan tâm lẫn nhau"
-                            },
-                            {
-                                "en": "even after arguments or disagreements",
-                                "vn": "ngay cả sau những cuộc cãi vã hoặc bất đồng"
+                                "label": "Lý do 2",
+                                "hints": [
+                                    {
+                                        "en": "family relationships last longer",
+                                        "vn": "các mối quan hệ gia đình kéo dài lâu hơn",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "friends",
+                                        "vn": "bạn bè",
+                                        "connector": ":"
+                                    },
+                                    {
+                                        "en": "move away",
+                                        "vn": "chuyển đi nơi khác",
+                                        "prefix": "(",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "become busy",
+                                        "vn": "trở nên bận rộn",
+                                        "suffix": ")",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "family",
+                                        "vn": "gia đình",
+                                        "connector": ":"
+                                    },
+                                    {
+                                        "en": "continue to support one another",
+                                        "vn": "tiếp tục hỗ trợ lẫn nhau",
+                                        "prefix": "(",
+                                        "suffix": ")",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "a more dependable source of support",
+                                        "vn": "một nguồn hỗ trợ đáng tin cậy hơn"
+                                    }
+                                ]
                             }
                         ]
                     }
-                ]
+                ],
+                "conclusionChunks": [
+                    {
+                        "en": "In conclusion,",
+                        "vn": "Tóm lại,"
+                    },
+                    {
+                        "en": "although",
+                        "vn": "mặc dù"
+                    },
+                    {
+                        "en": "friends can",
+                        "vn": "bạn bè có thể"
+                    },
+                    {
+                        "en": "play an important role in",
+                        "vn": "đóng một vai trò quan trọng trong"
+                    },
+                    {
+                        "en": "people's lives,",
+                        "vn": "cuộc sống của mọi người,"
+                    },
+                    {
+                        "en": "I believe that",
+                        "vn": "tôi tin rằng"
+                    },
+                    {
+                        "en": "family is more important",
+                        "vn": "gia đình quan trọng hơn"
+                    },
+                    {
+                        "en": "because",
+                        "vn": "vì"
+                    },
+                    {
+                        "en": "family members",
+                        "vn": "các thành viên trong gia đình"
+                    },
+                    {
+                        "en": "always provide unconditional love",
+                        "vn": "luôn dành tình yêu thương vô điều kiện"
+                    },
+                    {
+                        "en": "and",
+                        "vn": "và"
+                    },
+                    {
+                        "en": "family relationships",
+                        "vn": "các mối quan hệ gia đình"
+                    },
+                    {
+                        "en": "usually last longer than friendships.",
+                        "vn": "thường kéo dài lâu hơn tình bạn."
+                    }
+                ],
+                "conclusionVn": "Tóm lại, mặc dù bạn bè có thể đóng một vai trò quan trọng trong cuộc sống của mọi người, tôi tin rằng gia đình quan trọng hơn vì các thành viên trong gia đình luôn dành tình yêu thương vô điều kiện và các mối quan hệ gia đình thường kéo dài lâu hơn tình bạn.",
+                "sampleEssay": {
+                    "paragraphs": [
+                        [
+                            {
+                                "en": "People have different opinions about whether friendship or family is more important.",
+                                "vn": "Mọi người có những quan điểm khác nhau về việc tình bạn hay gia đình quan trọng hơn.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "While some people believe that friends have a greater influence on people’s lives, others argue that friendships are temporary and family relationships are more reliable.",
+                                "vn": "Trong khi một số người tin rằng bạn bè có ảnh hưởng lớn hơn đến cuộc sống của mọi người, những người khác lại cho rằng tình bạn chỉ mang tính tạm thời và các mối quan hệ gia đình đáng tin cậy hơn.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This essay will discuss both views before explaining why I believe family is more important.",
+                                "vn": "Bài luận này sẽ thảo luận cả hai quan điểm trước khi giải thích tại sao tôi tin rằng gia đình quan trọng hơn.",
+                                "isRed": true
+                            }
+                        ],
+                        [
+                            {
+                                "en": "On the one hand, it is understandable why some people argue that friendship is more important than family.",
+                                "vn": "Một mặt, có thể hiểu được tại sao một số người cho rằng tình bạn quan trọng hơn gia đình.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "One reason is that people often spend more time with their friends, especially at school or at work.",
+                                "vn": "Một lý do là mọi người thường dành nhiều thời gian hơn với bạn bè của mình, đặc biệt là ở trường học hoặc nơi làm việc.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "They talk about their studies, jobs, and concerns, so friends become an important part of their daily life.",
+                                "vn": "Họ nói về việc học, công việc và các mối bận tâm của họ, vì vậy bạn bè trở thành một phần quan trọng trong cuộc sống hàng ngày của họ.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Another reason is that friends are usually chosen because they have similar interests and personalities.",
+                                "vn": "Một lý do khác là bạn bè thường được lựa chọn vì họ có những sở thích và tính cách tương đồng.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This makes it easier to share personal thoughts and problems.",
+                                "vn": "Điều này giúp dễ dàng chia sẻ các suy nghĩ và vấn đề cá nhân hơn.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "For example, many teenagers feel more comfortable asking close friends for advice than talking to their parents.",
+                                "vn": "Ví dụ, nhiều thanh thiếu niên cảm thấy thoải mái hơn khi xin lời khuyên từ bạn thân hơn là nói chuyện với cha mẹ.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Therefore, some people consider friendship more important than family.",
+                                "vn": "Vì vậy, một số người coi tình bạn quan trọng hơn gia đình.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "However, I would side with those who are of the opinion that family is more important.",
+                                "vn": "Tuy nhiên, tôi nghiêng về phía những người có quan điểm rằng gia đình quan trọng hơn.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "One reason is that family members give unconditional love and support.",
+                                "vn": "Một lý do là các thành viên trong gia đình dành cho chúng ta tình yêu thương và sự hỗ trợ vô điều kiện.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "They continue to care for us even when we make mistakes or face difficulties.",
+                                "vn": "Họ tiếp tục quan tâm đến chúng ta ngay cả khi chúng ta mắc sai lầm hoặc đối mặt với khó khăn.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "For example, if someone loses a job or becomes seriously sick, parents are often the first people to offer help.",
+                                "vn": "Ví dụ, nếu ai đó mất việc hoặc ốm nặng, cha mẹ thường là những người đầu tiên đề nghị giúp đỡ.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Moreover, family relationships usually last longer than friendships.",
+                                "vn": "Hơn nữa, các mối quan hệ gia đình thường kéo dài lâu hơn tình bạn.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Friends may move away or become busy with their own lives, but family members usually stay connected and continue to support one another.",
+                                "vn": "Bạn bè có thể chuyển đi nơi khác hoặc trở nên bận rộn với cuộc sống riêng, nhưng các thành viên trong gia đình thường vẫn giữ kết nối và tiếp tục hỗ trợ lẫn nhau.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Therefore, family is often a more dependable source of support.",
+                                "vn": "Vì vậy, gia đình thường là một nguồn hỗ trợ đáng tin cậy hơn.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "In conclusion, although friends can play an important role in people's lives, I believe that family is more important because family members always provide unconditional love and family relationships usually last longer than friendships.",
+                                "vn": "Tóm lại, mặc dù bạn bè có thể đóng một vai trò quan trọng trong cuộc sống của mọi người, tôi tin rằng gia đình quan trọng hơn vì các thành viên trong gia đình luôn dành tình yêu thương vô điều kiện và các mối quan hệ gia đình thường kéo dài lâu hơn tình bạn.",
+                                "isRed": false
+                            }
+                        ]
+                    ]
+                }
             }
-        ],
-        "conclusionChunks": [
-            {
-                "en": "In conclusion,",
-                "vn": "Tóm lại,"
-            },
-            {
-                "en": "although",
-                "vn": "mặc dù"
-            },
-            {
-                "en": "friendship",
-                "vn": "tình bạn"
-            },
-            {
-                "en": "can provide",
-                "vn": "có thể mang lại"
-            },
-            {
-                "en": "emotional support",
-                "vn": "sự đồng cảm"
-            },
-            {
-                "en": "and understanding,",
-                "vn": "và hỗ trợ về mặt tinh thần,"
-            },
-            {
-                "en": "I believe",
-                "vn": "tôi tin rằng"
-            },
-            {
-                "en": "family",
-                "vn": "gia đình"
-            },
-            {
-                "en": "is more important",
-                "vn": "quan trọng hơn"
-            },
-            {
-                "en": "because",
-                "vn": "vì"
-            },
-            {
-                "en": "family members",
-                "vn": "các thành viên trong gia đình"
-            },
-            {
-                "en": "usually",
-                "vn": "thường"
-            },
-            {
-                "en": "stay together",
-                "vn": "luôn gắn bó"
-            },
-            {
-                "en": "and support each other",
-                "vn": "và hỗ trợ nhau"
-            },
-            {
-                "en": "throughout life.",
-                "vn": "suốt cuộc đời."
-            },
-            {
-                "en": "Therefore,",
-                "vn": "Vì vậy,"
-            },
-            {
-                "en": "family relationships",
-                "vn": "các mối quan hệ gia đình"
-            },
-            {
-                "en": "are definitely more reliable",
-                "vn": "chắc chắn đáng tin cậy"
-            },
-            {
-                "en": "and long-lasting",
-                "vn": "và bền vững"
-            },
-            {
-                "en": "than friendships.",
-                "vn": "hơn tình bạn."
-            }
-        ],
-        "conclusionVn": "Tóm lại, mặc dù tình bạn có thể mang lại sự đồng cảm và hỗ trợ về mặt tinh thần, tôi tin rằng gia đình quan trọng hơn vì các thành viên trong gia đình thường luôn gắn bó và hỗ trợ nhau suốt cuộc đời. Vì vậy, các mối quan hệ gia đình chắc chắn đáng tin cậy và bền vững hơn tình bạn.",
-        "conclusionEnExpectedLength": 299
+        ]
     },
     {
         "id": "smoking-ban-public-places",
