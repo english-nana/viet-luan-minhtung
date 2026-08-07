@@ -4815,13 +4815,13 @@ window.ESSAY_TOPICS = [
                                     {
                                         "en": "relax",
                                         "vn": "thư giãn",
-                                        "connector": "➜",
-                                        "newLine": true
+                                        "connector": "➜"
                                     },
                                     {
                                         "en": "do not want other people to stop them from smoking",
                                         "vn": "không muốn người khác ngăn cấm họ hút thuốc",
-                                        "connector": "➜"
+                                        "connector": "➜",
+                                        "newLine": true
                                     },
                                     {
                                         "en": "their right",
@@ -4888,9 +4888,7 @@ window.ESSAY_TOPICS = [
                                     },
                                     {
                                         "en": "around cigarette smoke",
-                                        "vn": "ở xung quanh khói thuốc lá",
-                                        "prefix": "(",
-                                        "suffix": ")"
+                                        "vn": "ở xung quanh khói thuốc lá"
                                     }
                                 ]
                             },
