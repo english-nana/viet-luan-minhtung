@@ -5154,142 +5154,130 @@ window.ESSAY_TOPICS = [
                 "name": "Level B2",
                 "vocab": [
                     {
-                        "en": "smokers",
-                        "type": "(n)",
-                        "vn": "người hút thuốc"
+                        "en": "smoking",
+                        "vn": "hút thuốc"
                     },
                     {
-                        "en": "have the freedom to",
-                        "type": "(v.phr)",
-                        "vn": "có quyền tự do"
-                    },
-                    {
-                        "en": "a legal activity",
-                        "type": "(n.phr)",
-                        "vn": "một hoạt động hợp pháp"
+                        "en": "public places",
+                        "vn": "những nơi công cộng"
                     },
                     {
                         "en": "have the right to",
-                        "type": "(v.phr)",
                         "vn": "có quyền"
                     },
                     {
-                        "en": "lifestyle choices",
-                        "type": "(n.phr)",
-                        "vn": "những lựa chọn lối sống"
-                    },
-                    {
-                        "en": "personal choice",
-                        "type": "(n.phr)",
-                        "vn": "lựa chọn cá nhân"
-                    },
-                    {
-                        "en": "personal freedom",
-                        "type": "(n.phr)",
-                        "vn": "tự do cá nhân"
-                    },
-                    {
                         "en": "ban = prohibit",
-                        "type": "(v)",
-                        "vn": "cấm"
+                        "vn": "cấm = nghiêm cấm"
                     },
                     {
-                        "en": "second-hand smoke",
-                        "type": "(n.phr)",
-                        "vn": "khói thuốc thụ động"
+                        "en": "have negative effects on",
+                        "vn": "có những tác động tiêu cực đến"
+                    },
+                    {
+                        "en": "smokers",
+                        "vn": "người hút thuốc"
                     },
                     {
                         "en": "non-smokers",
-                        "type": "(n)",
                         "vn": "người không hút thuốc"
                     },
                     {
-                        "en": "exposed to",
-                        "type": "(adj/v.p)",
-                        "vn": "tiếp xúc với"
+                        "en": "have the freedom to",
+                        "vn": "có quyền tự do"
+                    },
+                    {
+                        "en": "personal choice",
+                        "vn": "lựa chọn cá nhân"
+                    },
+                    {
+                        "en": "become dependent on",
+                        "vn": "trở nên phụ thuộc vào"
+                    },
+                    {
+                        "en": "cigarettes",
+                        "vn": "thuốc lá"
+                    },
+                    {
+                        "en": "immediately",
+                        "vn": "ngay lập tức"
+                    },
+                    {
+                        "en": "restrict",
+                        "vn": "hạn chế"
+                    },
+                    {
+                        "en": "personal right",
+                        "vn": "quyền cá nhân"
                     },
                     {
                         "en": "cigarette smoke",
-                        "type": "(n.phr)",
                         "vn": "khói thuốc lá"
                     },
                     {
+                        "en": "affect",
+                        "vn": "ảnh hưởng đến"
+                    },
+                    {
+                        "en": "people nearby",
+                        "vn": "những người xung quanh"
+                    },
+                    {
+                        "en": "be exposed to",
+                        "vn": "tiếp xúc với"
+                    },
+                    {
+                        "en": "second-hand smoke",
+                        "vn": "khói thuốc thụ động"
+                    },
+                    {
+                        "en": "pregnant women",
+                        "vn": "phụ nữ mang thai"
+                    },
+                    {
                         "en": "suffer from",
-                        "type": "(v)",
-                        "vn": "chịu đựng, mắc phải"
+                        "vn": "gánh chịu / mắc phải"
                     },
                     {
-                        "en": "respiratory diseases",
-                        "type": "(n.phr)",
-                        "vn": "các bệnh về đường hô hấp"
+                        "en": "breathe in",
+                        "vn": "hít phải"
                     },
                     {
-                        "en": "an unpleasant environment",
-                        "type": "(n.phr)",
-                        "vn": "một môi trường khó chịu"
+                        "en": "smoking habits",
+                        "vn": "thói quen hút thuốc"
                     },
                     {
-                        "en": "the smell of cigarettes",
-                        "type": "(n.phr)",
-                        "vn": "mùi thuốc lá"
+                        "en": "gradually",
+                        "vn": "dần dần"
                     },
                     {
                         "en": "public health",
-                        "type": "(n.phr)",
                         "vn": "sức khỏe cộng đồng"
-                    },
-                    {
-                        "en": "lower smoking rates",
-                        "type": "(v.phr)",
-                        "vn": "làm giảm tỷ lệ hút thuốc"
-                    },
-                    {
-                        "en": "strict",
-                        "type": "(adj)",
-                        "vn": "nghiêm ngặt"
-                    },
-                    {
-                        "en": "smoking regulations",
-                        "type": "(n.phr)",
-                        "vn": "các quy định về hút thuốc"
                     }
                 ],
                 "introChunks": [
                     {
-                        "en": "Some people believe that",
-                        "vn": "Một số người cho rằng"
+                        "en": "People have different opinions about",
+                        "vn": "Mọi người có những quan điểm khác nhau về việc"
                     },
                     {
-                        "en": "smoking is",
-                        "vn": "hút thuốc là"
+                        "en": "whether smoking in public places should be allowed.",
+                        "vn": "có nên cho phép hút thuốc ở những nơi công cộng hay không."
                     },
                     {
-                        "en": "a personal choice",
-                        "vn": "lựa chọn cá nhân"
+                        "en": "While",
+                        "vn": "Trong khi"
                     },
                     {
-                        "en": "and",
-                        "vn": "và"
+                        "en": "some people believe that",
+                        "vn": "một số người tin rằng"
                     },
                     {
                         "en": "smokers",
                         "vn": "người hút thuốc"
                     },
                     {
-                        "en": "should have the right to",
-                        "vn": "nên có quyền"
-                    },
-                    {
-                        "en": "smoke",
-                        "vn": "hút"
-                    },
-                    {
-                        "en": "if they wish.",
-                        "vn": "nếu họ muốn."
-                    },
-                    {
-                        "en": "However,",
-                        "vn": "Tuy nhiên,"
+                        "en": "have the right to smoke,",
+                        "vn": "có quyền hút thuốc,"
                     },
                     {
                         "en": "others argue that",
@@ -5300,7 +5288,7 @@ window.ESSAY_TOPICS = [
                         "vn": "việc hút thuốc ở nơi công cộng"
                     },
                     {
-                        "en": "should be prohibited",
+                        "en": "should be banned",
                         "vn": "nên bị cấm"
                     },
                     {
@@ -5308,8 +5296,8 @@ window.ESSAY_TOPICS = [
                         "vn": "vì"
                     },
                     {
-                        "en": "it can harm",
-                        "vn": "nó có thể gây hại cho"
+                        "en": "it has negative effects on",
+                        "vn": "nó có những tác động tiêu cực đến"
                     },
                     {
                         "en": "both smokers and non-smokers.",
@@ -5324,27 +5312,24 @@ window.ESSAY_TOPICS = [
                         "vn": "thảo luận cả hai quan điểm"
                     },
                     {
-                        "en": "before",
-                        "vn": "trước khi"
+                        "en": "before explaining why",
+                        "vn": "trước khi giải thích tại sao"
                     },
                     {
-                        "en": "explaining why",
-                        "vn": "giải thích lý do tại sao"
+                        "en": "I believe",
+                        "vn": "tôi tin rằng"
                     },
                     {
-                        "en": "I support",
-                        "vn": "tôi ủng hộ"
+                        "en": "smoking in public places",
+                        "vn": "việc hút thuốc ở nơi công cộng"
                     },
                     {
-                        "en": "banning smoking",
-                        "vn": "việc cấm hút thuốc"
-                    },
-                    {
-                        "en": "in public areas.",
-                        "vn": "ở những khu vực công cộng."
+                        "en": "should be prohibited.",
+                        "vn": "nên bị cấm."
                     }
                 ],
-                "introVn": "Một số người cho rằng hút thuốc là lựa chọn cá nhân và người hút thuốc nên có quyền hút nếu họ muốn. Tuy nhiên, những người khác cho rằng việc hút thuốc ở nơi công cộng nên bị cấm vì nó có thể gây hại cho cả người hút thuốc và người không hút thuốc. Bài luận này sẽ thảo luận cả hai quan điểm trước khi giải thích lý do tại sao tôi ủng hộ việc cấm hút thuốc ở những khu vực công cộng.",
+                "introVn": "Mọi người có những quan điểm khác nhau về việc có nên cho phép hút thuốc ở những nơi công cộng hay không. Trong khi một số người tin rằng người hút thuốc có quyền hút thuốc, những người khác cho rằng việc hút thuốc ở nơi công cộng nên bị cấm vì nó có những tác động tiêu cực đến cả người hút thuốc và người không hút thuốc. Bài luận này sẽ thảo luận cả hai quan điểm trước khi giải thích tại sao tôi tin rằng việc hút thuốc ở nơi công cộng nên bị cấm.",
+                "introEnExpectedLength": 395,
                 "bodyParagraphs": [
                     {
                         "title": "Thân bài 01",
@@ -5353,59 +5338,60 @@ window.ESSAY_TOPICS = [
                                 "label": "Topic sentence",
                                 "hints": [
                                     {
-                                        "en": "Một mặt, tôi hiểu tại sao một số người tranh cãi rằng người hút thuốc nên có quyền hút.",
-                                        "vn": "On the one hand, I understand why some people argue that smokers should have the right to smoke.",
+                                        "en": "On the one hand, it is understandable why some people argue that smokers should have the right to smoke in public places.",
+                                        "vn": "Một mặt, cũng dễ hiểu tại sao một số người lại cho rằng những người hút thuốc nên có quyền hút thuốc ở những nơi công cộng.",
                                         "isTopic": true
                                     }
                                 ]
                             },
                             {
-                                "label": "Lý do 01",
+                                "label": "Lý do 1",
                                 "hints": [
                                     {
-                                        "en": "smoking is a legal activity",
-                                        "vn": "hút thuốc là một hoạt động hợp pháp",
-                                        "color": "red"
+                                        "en": "a personal choice",
+                                        "vn": "một lựa chọn cá nhân",
+                                        "connector": ":",
+                                        "isBoldRed": true
                                     },
                                     {
-                                        "en": "have the right to make their own lifestyle choices",
-                                        "vn": "có quyền đưa ra những lựa chọn lối sống của riêng họ"
+                                        "en": "everyone",
+                                        "vn": "mọi người",
+                                        "connector": "–"
+                                    },
+                                    {
+                                        "en": "the right to decide what they do with their own lives",
+                                        "vn": "quyền quyết định những gì họ làm với cuộc sống của chính mình"
                                     }
                                 ]
                             },
                             {
-                                "label": "Lý do 02",
+                                "label": "Lý do 2",
                                 "hints": [
                                     {
-                                        "en": "adults are responsible for their own health",
-                                        "vn": "người lớn phải chịu trách nhiệm về sức khỏe của chính mình",
-                                        "color": "red"
+                                        "en": "dependent on cigarettes",
+                                        "vn": "phụ thuộc vào thuốc lá",
+                                        "connector": "+",
+                                        "isBoldRed": true
                                     },
                                     {
-                                        "en": "decide whether they want to smoke or not",
-                                        "vn": "quyết định xem họ có muốn hút thuốc hay không"
+                                        "en": "difficult to stop smoking immediately",
+                                        "vn": "khó dừng hút thuốc ngay lập tức",
+                                        "connector": ""
                                     },
                                     {
-                                        "en": "understand the health risks of smoking",
-                                        "vn": "hiểu rõ các nguy cơ về sức khỏe của việc hút thuốc"
+                                        "en": "relax after a stressful day at work",
+                                        "vn": "thư giãn sau một ngày làm việc căng thẳng",
+                                        "connector": "➜",
+                                        "newLine": true
                                     },
                                     {
-                                        "en": "still choose to continue the habit",
-                                        "vn": "vẫn chọn tiếp tục thói quen này"
-                                    }
-                                ]
-                            },
-                            {
-                                "label": "Lý do 03",
-                                "hints": [
-                                    {
-                                        "en": "relax and reduce stress",
-                                        "vn": "thư giãn và giảm căng thẳng",
-                                        "color": "red"
+                                        "en": "should not be restricted",
+                                        "vn": "không nên bị hạn chế",
+                                        "connector": "➜"
                                     },
                                     {
-                                        "en": "their personal freedom should be respected",
-                                        "vn": "tự do cá nhân của họ nên được tôn trọng"
+                                        "en": "a personal right",
+                                        "vn": "quyền cá nhân"
                                     }
                                 ]
                             }
@@ -5418,71 +5404,89 @@ window.ESSAY_TOPICS = [
                                 "label": "Topic sentence",
                                 "hints": [
                                     {
-                                        "en": "Tuy nhiên, tôi vẫn nghiêng về phía những người với quan điểm rằng việc hút thuốc ở nơi công cộng nên bị cấm.",
-                                        "vn": "However, I still lean towards those with the view that smoking in public places should be banned.",
+                                        "en": "However, I would side with those who are of the opinion that smoking in public places should be banned.",
+                                        "vn": "Tuy nhiên, tôi nghiêng về phía những người với quan điểm rằng hút thuốc ở những nơi công cộng nên bị cấm.",
                                         "isTopic": true
                                     }
                                 ]
                             },
                             {
-                                "label": "Lý do 01",
+                                "label": "Lý do 1",
                                 "hints": [
                                     {
-                                        "en": "second-hand smoke",
-                                        "vn": "khói thuốc thụ động",
-                                        "color": "red"
+                                        "en": "the health of people nearby",
+                                        "vn": "sức khỏe của những người xung quanh",
+                                        "connector": ":",
+                                        "isBoldRed": true
                                     },
                                     {
-                                        "en": "affect the health of non-smokers",
-                                        "vn": "ảnh hưởng đến sức khỏe của những người không hút thuốc"
+                                        "en": "non-smokers",
+                                        "vn": "người không hút thuốc",
+                                        "connector": "➜"
                                     },
                                     {
-                                        "en": "People who are exposed to cigarette smoke",
-                                        "vn": "Những người tiếp xúc với khói thuốc lá"
+                                        "en": "exposed to second-hand smoke",
+                                        "vn": "tiếp xúc với khói thuốc thụ động",
+                                        "connector": ""
                                     },
                                     {
-                                        "en": "suffer from respiratory diseases and other health problems",
-                                        "vn": "chịu đựng các bệnh về đường hô hấp và các vấn đề sức khỏe khác"
+                                        "en": "children",
+                                        "vn": "trẻ em",
+                                        "prefix": "(",
+                                        "connector": "+",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "older people",
+                                        "vn": "người cao tuổi",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "pregnant women",
+                                        "vn": "phụ nữ mang thai",
+                                        "suffix": ")",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "health problems",
+                                        "vn": "các vấn đề sức khỏe",
+                                        "connector": ""
+                                    },
+                                    {
+                                        "en": "breathe in cigarette smoke",
+                                        "vn": "hít phải khói thuốc lá",
+                                        "prefix": "(",
+                                        "suffix": ")"
                                     }
                                 ]
                             },
                             {
-                                "label": "Lý do 02",
+                                "label": "Lý do 2",
                                 "hints": [
                                     {
-                                        "en": "create an unpleasant environment",
-                                        "vn": "tạo ra một môi trường khó chịu",
-                                        "color": "red"
+                                        "en": "reduce their smoking habits",
+                                        "vn": "giảm thói quen hút thuốc của họ",
+                                        "connector": ":",
+                                        "isBoldRed": true
                                     },
                                     {
-                                        "en": "Many people",
-                                        "vn": "Nhiều người"
+                                        "en": "not allowed to smoke freely",
+                                        "vn": "không được phép hút thuốc tự do",
+                                        "connector": "➜"
                                     },
                                     {
-                                        "en": "dislike the smell of cigarettes",
-                                        "vn": "không thích mùi thuốc lá"
-                                    }
-                                ]
-                            },
-                            {
-                                "label": "Lý do 03",
-                                "hints": [
-                                    {
-                                        "en": "encourage smokers to reduce or quit smoking",
-                                        "vn": "khuyến khích người hút thuốc giảm hoặc bỏ hút thuốc",
-                                        "color": "red"
+                                        "en": "smoke fewer cigarettes each day",
+                                        "vn": "hút ít thuốc lá hơn mỗi ngày",
+                                        "connector": "➜"
                                     },
                                     {
-                                        "en": "improve public health overall",
-                                        "vn": "cải thiện sức khỏe cộng đồng nói chung"
+                                        "en": "improve public health",
+                                        "vn": "cải thiện sức khỏe cộng đồng",
+                                        "connector": "+"
                                     },
                                     {
-                                        "en": "introduce strict smoking regulations",
-                                        "vn": "đưa ra các quy định nghiêm ngặt về hút thuốc"
-                                    },
-                                    {
-                                        "en": "lower smoking rates",
-                                        "vn": "làm giảm tỷ lệ hút thuốc"
+                                        "en": "create a healthier environment",
+                                        "vn": "tạo ra một môi trường lành mạnh hơn"
                                     }
                                 ]
                             }
@@ -5499,10 +5503,6 @@ window.ESSAY_TOPICS = [
                         "vn": "mặc dù"
                     },
                     {
-                        "en": "some people believe that",
-                        "vn": "một số người cho rằng"
-                    },
-                    {
                         "en": "smokers",
                         "vn": "người hút thuốc"
                     },
@@ -5511,193 +5511,120 @@ window.ESSAY_TOPICS = [
                         "vn": "có quyền"
                     },
                     {
-                        "en": "smoke",
-                        "vn": "hút"
+                        "en": "make their own choices,",
+                        "vn": "đưa ra lựa chọn của riêng mình,"
+                    },
+                    {
+                        "en": "I believe that",
+                        "vn": "tôi tin rằng"
+                    },
+                    {
+                        "en": "smoking in public places",
+                        "vn": "việc hút thuốc ở nơi công cộng"
+                    },
+                    {
+                        "en": "should be banned",
+                        "vn": "nên bị cấm"
                     },
                     {
                         "en": "because",
                         "vn": "vì"
                     },
                     {
-                        "en": "it is a personal choice,",
-                        "vn": "đó là lựa chọn cá nhân,"
-                    },
-                    {
-                        "en": "I believe",
-                        "vn": "tôi tin rằng"
-                    },
-                    {
-                        "en": "smoking",
-                        "vn": "việc hút thuốc"
-                    },
-                    {
-                        "en": "should be prohibited",
-                        "vn": "nên bị cấm"
-                    },
-                    {
-                        "en": "in public places.",
-                        "vn": "ở nơi công cộng."
-                    },
-                    {
-                        "en": "This is because",
-                        "vn": "Điều này là do"
+                        "en": "it protects non-smokers from",
+                        "vn": "điều này bảo vệ người không hút thuốc khỏi"
                     },
                     {
                         "en": "second-hand smoke",
                         "vn": "khói thuốc thụ động"
                     },
                     {
-                        "en": "can harm",
-                        "vn": "có thể gây hại cho"
-                    },
-                    {
-                        "en": "others,",
-                        "vn": "người khác,"
-                    },
-                    {
-                        "en": "reduce the quality of public environments,",
-                        "vn": "làm giảm chất lượng môi trường công cộng"
-                    },
-                    {
                         "en": "and",
                         "vn": "và"
                     },
                     {
-                        "en": "negatively affect",
-                        "vn": "ảnh hưởng tiêu cực đến"
+                        "en": "encourages smokers to",
+                        "vn": "khuyến khích người hút thuốc"
                     },
                     {
-                        "en": "public health.",
-                        "vn": "sức khỏe cộng đồng."
-                    },
-                    {
-                        "en": "Therefore,",
-                        "vn": "Vì vậy,"
-                    },
-                    {
-                        "en": "governments",
-                        "vn": "chính phủ"
-                    },
-                    {
-                        "en": "should continue to",
-                        "vn": "nên tiếp tục"
-                    },
-                    {
-                        "en": "enforce",
-                        "vn": "thực thi"
-                    },
-                    {
-                        "en": "smoking bans",
-                        "vn": "lệnh cấm hút thuốc"
-                    },
-                    {
-                        "en": "in public areas.",
-                        "vn": "tại các khu vực công cộng."
+                        "en": "reduce their smoking habits.",
+                        "vn": "giảm thói quen hút thuốc của họ."
                     }
                 ],
-                "conclusionVn": "Tóm lại, mặc dù một số người cho rằng người hút thuốc có quyền hút vì đó là lựa chọn cá nhân, tôi tin rằng việc hút thuốc nên bị cấm ở nơi công cộng. Điều này là do khói thuốc thụ động có thể gây hại cho người khác, làm giảm chất lượng môi trường công cộng và ảnh hưởng tiêu cực đến sức khỏe cộng đồng. Vì vậy, chính phủ nên tiếp tục thực thi lệnh cấm hút thuốc tại các khu vực công cộng.",
+                "conclusionVn": "Tóm lại, mặc dù người hút thuốc có quyền đưa ra lựa chọn của riêng mình, tôi tin rằng việc hút thuốc ở nơi công cộng nên bị cấm vì điều này bảo vệ người không hút thuốc khỏi khói thuốc thụ động và khuyến khích người hút thuốc giảm thói quen hút thuốc của họ.",
+                "conclusionEnExpectedLength": 247,
                 "sampleEssay": {
                     "paragraphs": [
                         [
                             {
-                                "en": "Some people believe that smoking is a personal choice and smokers should have the right to smoke if they wish.",
-                                "vn": "Một số người tin rằng hút thuốc là một lựa chọn cá nhân và người hút thuốc nên có quyền hút thuốc nếu họ muốn.",
+                                "en": "People have different opinions about whether smoking in public places should be allowed.",
+                                "vn": "Mọi người có những quan điểm khác nhau về việc có nên cho phép hút thuốc ở những nơi công cộng hay không.",
                                 "isRed": false
                             },
                             {
-                                "en": "However, others argue that smoking in public places should be prohibited because it can harm both smokers and non-smokers.",
-                                "vn": "Tuy nhiên, những người khác lập luận rằng nên cấm hút thuốc ở những nơi công cộng vì nó có thể gây hại cho cả người hút thuốc và người không hút thuốc.",
+                                "en": "While some people believe that smokers have the right to smoke, others argue that smoking in public places should be banned because it has negative effects on both smokers and non-smokers.",
+                                "vn": "Trong khi một số người tin rằng người hút thuốc có quyền hút thuốc, những người khác cho rằng việc hút thuốc ở nơi công cộng nên bị cấm vì nó có những tác động tiêu cực đến cả người hút thuốc và người không hút thuốc.",
                                 "isRed": false
                             },
                             {
-                                "en": "This essay will discuss both views before explaining why I support banning smoking in public areas.",
-                                "vn": "Bài luận này sẽ thảo luận về cả hai quan điểm trước khi giải thích lý do tại sao tôi ủng hộ việc cấm hút thuốc ở các khu vực công cộng.",
+                                "en": "This essay will discuss both views before explaining why I believe smoking in public places should be prohibited.",
+                                "vn": "Bài luận này sẽ thảo luận cả hai quan điểm trước khi giải thích tại sao tôi tin rằng việc hút thuốc ở nơi công cộng nên bị cấm.",
                                 "isRed": true
                             }
                         ],
                         [
                             {
-                                "en": "On the one hand, I understand why some people argue that smokers should have the freedom to smoke.",
-                                "vn": "Một mặt, tôi hiểu tại sao một số người lập luận rằng người hút thuốc nên có quyền tự do hút thuốc.",
+                                "en": "On the one hand, it is understandable why some people argue that smokers should have the right to smoke in public places.",
+                                "vn": "Một mặt, cũng dễ hiểu tại sao một số người lại cho rằng những người hút thuốc nên có quyền hút thuốc ở những nơi công cộng.",
                                 "isRed": true
                             },
                             {
-                                "en": "Firstly, smoking is a legal activity in many countries, so smokers believe they have the right to make their own lifestyle choices.",
-                                "vn": "Thứ nhất, hút thuốc là một hoạt động hợp pháp ở nhiều quốc gia, vì vậy người hút thuốc tin rằng họ có quyền đưa ra những lựa chọn lối sống của riêng mình.",
+                                "en": "Firstly, smoking is seen as a personal choice because everyone has the right to decide what they do with their own lives.",
+                                "vn": "Thứ nhất, hút thuốc được coi là một lựa chọn cá nhân vì mọi người có quyền quyết định những gì họ làm với cuộc sống của chính mình.",
                                 "isRed": false
                             },
                             {
-                                "en": "Secondly, adults are responsible for their own health and should be free to decide whether they want to smoke or not.",
-                                "vn": "Thứ hai, người lớn phải chịu trách nhiệm về sức khỏe của chính họ và nên được tự do quyết định xem họ có muốn hút thuốc hay không.",
+                                "en": "Secondly, many people become dependent on cigarettes and find it difficult to stop smoking immediately.",
+                                "vn": "Thứ hai, nhiều người trở nên phụ thuộc vào thuốc lá và cảm thấy khó ngừng hút thuốc ngay lập tức.",
                                 "isRed": false
                             },
                             {
-                                "en": "For example, many people understand the health risks of smoking but still choose to continue the habit.",
-                                "vn": "Ví dụ, nhiều người hiểu những rủi ro sức khỏe của việc hút thuốc nhưng vẫn chọn tiếp tục thói quen này.",
-                                "isRed": false
-                            },
-                            {
-                                "en": "Finally, some smokers argue that smoking helps them relax and reduce stress, especially after a long day of work.",
-                                "vn": "Cuối cùng, một số người hút thuốc cho rằng hút thuốc giúp họ thư giãn và giảm căng thẳng, đặc biệt là sau một ngày dài làm việc.",
-                                "isRed": false
-                            },
-                            {
-                                "en": "Therefore, they believe their personal freedom should be respected.",
-                                "vn": "Vì vậy, họ tin rằng tự do cá nhân của họ nên được tôn trọng.",
+                                "en": "Smoking helps them relax after a stressful day at work, so they believe this personal right should not be restricted.",
+                                "vn": "Hút thuốc giúp họ thư giãn sau một ngày làm việc căng thẳng, vì vậy họ tin rằng quyền cá nhân này không nên bị hạn chế.",
                                 "isRed": false
                             }
                         ],
                         [
                             {
                                 "en": "However, I would side with those who are of the opinion that smoking in public places should be banned.",
-                                "vn": "Tuy nhiên, tôi đứng về phía những người cho rằng nên cấm hút thuốc ở những nơi công cộng.",
+                                "vn": "Tuy nhiên, tôi nghiêng về phía những người với quan điểm rằng hút thuốc ở những nơi công cộng nên bị cấm.",
                                 "isRed": true
                             },
                             {
-                                "en": "One important reason is that second-hand smoke can seriously affect the health of non-smokers.",
-                                "vn": "Một lý do quan trọng là khói thuốc thụ động có thể ảnh hưởng nghiêm trọng đến sức khỏe của những người không hút thuốc.",
+                                "en": "First of all, smoking directly affects the health of people nearby, as non-smokers are exposed to second-hand smoke.",
+                                "vn": "Đầu tiên, hút thuốc ảnh hưởng trực tiếp đến sức khỏe của những người xung quanh, vì người không hút thuốc bị tiếp xúc với khói thuốc thụ động.",
                                 "isRed": false
                             },
                             {
-                                "en": "People who are exposed to cigarette smoke may suffer from respiratory diseases and other health problems even if they do not smoke themselves.",
-                                "vn": "Những người tiếp xúc với khói thuốc lá có thể mắc các bệnh về đường hô hấp và các vấn đề sức khỏe khác ngay cả khi bản thân họ không hút thuốc.",
+                                "en": "Vulnerable groups such as children, older people, and pregnant women can suffer from severe health problems when they breathe in cigarette smoke.",
+                                "vn": "Các nhóm dễ bị tổn thương như trẻ em, người cao tuổi và phụ nữ mang thai có thể gặp phải các vấn đề sức khỏe nghiêm trọng khi hít phải khói thuốc lá.",
                                 "isRed": false
                             },
                             {
-                                "en": "Another reason is that smoking in public areas can create an unpleasant environment.",
-                                "vn": "Một lý do khác là việc hút thuốc ở các khu vực công cộng có thể tạo ra một môi trường khó chịu.",
+                                "en": "In addition, banning public smoking helps smokers reduce their smoking habits.",
+                                "vn": "Ngoài ra, việc cấm hút thuốc ở nơi công cộng giúp người hút thuốc giảm thói quen hút thuốc của họ.",
                                 "isRed": false
                             },
                             {
-                                "en": "Many people dislike the smell of cigarettes, particularly in restaurants, parks, and public transport.",
-                                "vn": "Nhiều người không thích mùi thuốc lá, đặc biệt là ở các nhà hàng, công viên và các phương tiện giao thông công cộng.",
-                                "isRed": false
-                            },
-                            {
-                                "en": "Finally, banning smoking in public places may encourage smokers to reduce or quit smoking, which can improve public health overall.",
-                                "vn": "Cuối cùng, việc cấm hút thuốc ở những nơi công cộng có thể khuyến khích người hút thuốc giảm bớt hoặc bỏ hút thuốc, điều này có thể cải thiện sức khỏe cộng đồng nói chung.",
-                                "isRed": false
-                            },
-                            {
-                                "en": "For instance, several countries have reported lower smoking rates after introducing strict smoking regulations.",
-                                "vn": "Ví dụ, một số quốc gia đã báo cáo tỷ lệ hút thuốc thấp hơn sau khi ban hành các quy định nghiêm ngặt về hút thuốc.",
+                                "en": "When they are not allowed to smoke freely, they tend to smoke fewer cigarettes each day, which helps improve public health and create a healthier environment.",
+                                "vn": "Khi họ không được phép hút thuốc tự do, họ có xu hướng hút ít thuốc lá hơn mỗi ngày, điều này giúp cải thiện sức khỏe cộng đồng và tạo ra một môi trường lành mạnh hơn.",
                                 "isRed": false
                             }
                         ],
                         [
                             {
-                                "en": "In conclusion, although some people believe that smokers have the right to smoke because it is a personal choice, I believe smoking should be prohibited in public places.",
-                                "vn": "Tóm lại, mặc dù một số người cho rằng người hút thuốc có quyền hút vì đó là một lựa chọn cá nhân, tôi tin rằng nên cấm hút thuốc ở những nơi công cộng.",
-                                "isRed": false
-                            },
-                            {
-                                "en": "This is because second-hand smoke can harm others, reduce the quality of public environments, and negatively affect public health.",
-                                "vn": "Điều này là do khói thuốc thụ động có thể gây hại cho những người khác, làm giảm chất lượng môi trường công cộng và ảnh hưởng tiêu cực đến sức khỏe cộng đồng.",
-                                "isRed": false
-                            },
-                            {
-                                "en": "Therefore, governments should continue to enforce smoking bans in public areas.",
-                                "vn": "Vì vậy, các chính phủ nên tiếp tục thực thi lệnh cấm hút thuốc tại các khu vực công cộng.",
+                                "en": "In conclusion, although smokers have the right to make their own choices, I believe that smoking in public places should be banned because it protects non-smokers from second-hand smoke and encourages smokers to reduce their smoking habits.",
+                                "vn": "Tóm lại, mặc dù người hút thuốc có quyền đưa ra lựa chọn của riêng mình, tôi tin rằng việc hút thuốc ở nơi công cộng nên bị cấm vì điều này bảo vệ người không hút thuốc khỏi khói thuốc thụ động và khuyến khích người hút thuốc giảm thói quen hút thuốc của họ.",
                                 "isRed": false
                             }
                         ]
