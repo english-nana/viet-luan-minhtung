@@ -2828,7 +2828,7 @@ function renderIdeaGroups(container, paragraph, essayId, paragraphIndex, passedL
 
             if (hintIndex < group.hints.length - 1) {
                 const arrow = document.createElement("span");
-                arrow.className = "hint-arrow";
+                arrow.className = "hint-arrow hint-connector";
                 const connectorText = hint.connector !== undefined ? hint.connector : '<i class="fa-solid fa-arrow-right"></i>';
                 if (connectorText === ':') {
                     arrow.innerHTML = `<b style="color: black; font-size: 1.4em; padding: 0 4px;">${connectorText}</b>`;
@@ -2845,7 +2845,7 @@ function renderIdeaGroups(container, paragraph, essayId, paragraphIndex, passedL
             }
         });
 
-        while (row.lastElementChild && row.lastElementChild.classList.contains("hint-arrow")) {
+        while (row.lastElementChild && row.lastElementChild.classList.contains("hint-connector")) {
             row.removeChild(row.lastElementChild);
         }
 
