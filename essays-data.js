@@ -5376,7 +5376,8 @@ window.ESSAY_TOPICS = [
                                     {
                                         "en": "difficult to stop smoking immediately",
                                         "vn": "khó dừng hút thuốc ngay lập tức",
-                                        "connector": ""
+                                        "connector": "",
+                                        "isBoldRed": true
                                     },
                                     {
                                         "en": "relax after a stressful day at work",
