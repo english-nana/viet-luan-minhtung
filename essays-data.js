@@ -10041,5 +10041,521 @@ window.ESSAY_TOPICS = [
                 }
             }
         ]
+    },
+    {
+        "id": "traveling-during-tet-holiday",
+        "title": "18. Du lịch dịp Tết hay sum họp gia đình",
+        "summary": "Bài luận về việc nên đi du lịch trong dịp Tết để thư giãn hay dành thời gian sum họp cùng gia đình.",
+        "isMatchingVocab": true,
+        "meta": {
+            "category": "Văn hóa - Xã hội",
+            "taskType": "Discuss both views",
+            "level": "B2",
+            "estimatedMinutes": 40
+        },
+        "prompt": [
+            {
+                "en": "Nowadays, more people choose to travel during the Tet holiday instead of spending time with their families.",
+                "vn": "Ngày nay, ngày càng có nhiều người chọn đi du lịch trong dịp nghỉ Tết thay vì dành thời gian cho gia đình."
+            },
+            {
+                "en": "Some people believe this is a good way to relax and have new experiences, while others think Tet should be a time for family reunions.",
+                "vn": "Một số người tin rằng đây là một cách tốt để thư giãn và có những trải nghiệm mới, trong khi những người khác cho rằng Tết nên là thời gian dành cho các thành viên trong gia đình sum họp."
+            },
+            {
+                "en": "Discuss both views and give your own opinion.",
+                "vn": "Thảo luận cả hai quan điểm và đưa ra ý kiến của riêng bạn."
+            }
+        ],
+        "introEnExpectedLength": 381,
+        "conclusionEnExpectedLength": 242,
+        "variants": [
+            {
+                "name": "Level B2",
+                "vocab": [
+                    {
+                        "en": "Tet holiday",
+                        "vn": "dịp Tết / kỳ nghỉ Tết"
+                    },
+                    {
+                        "en": "special occasion",
+                        "vn": "dịp đặc biệt"
+                    },
+                    {
+                        "en": "gain",
+                        "vn": "có được / gặt hái"
+                    },
+                    {
+                        "en": "family reunions = family gatherings",
+                        "vn": "các cuộc đoàn tụ gia đình = các buổi tụ họp gia đình"
+                    },
+                    {
+                        "en": "celebrate",
+                        "vn": "đón Tết / ăn mừng"
+                    },
+                    {
+                        "en": "opportunities",
+                        "vn": "những cơ hội"
+                    },
+                    {
+                        "en": "take a break",
+                        "vn": "nghỉ ngơi"
+                    },
+                    {
+                        "en": "attitude",
+                        "vn": "thái độ"
+                    },
+                    {
+                        "en": "daily routine",
+                        "vn": "thói quen hàng ngày"
+                    },
+                    {
+                        "en": "unforgettable memories",
+                        "vn": "những kỷ niệm khó quên"
+                    },
+                    {
+                        "en": "loved ones",
+                        "vn": "những người thân yêu"
+                    },
+                    {
+                        "en": "relatives",
+                        "vn": "họ hàng"
+                    },
+                    {
+                        "en": "strengthen",
+                        "vn": "gắn kết / củng cố"
+                    },
+                    {
+                        "en": "family bonds",
+                        "vn": "tình cảm gia đình"
+                    },
+                    {
+                        "en": "sense of belonging",
+                        "vn": "cảm giác thuộc về gia đình"
+                    },
+                    {
+                        "en": "preserve",
+                        "vn": "gìn giữ / bảo tồn"
+                    },
+                    {
+                        "en": "traditional values",
+                        "vn": "những giá trị truyền thống"
+                    },
+                    {
+                        "en": "customs",
+                        "vn": "các phong tục"
+                    },
+                    {
+                        "en": "lucky money",
+                        "vn": "tiền lì xì"
+                    },
+                    {
+                        "en": "show respect to",
+                        "vn": "bày tỏ lòng kính trọng đối với"
+                    },
+                    {
+                        "en": "older generations",
+                        "vn": "các thế hệ đi trước"
+                    },
+                    {
+                        "en": "traditions",
+                        "vn": "các truyền thống"
+                    },
+                    {
+                        "en": "pass on to",
+                        "vn": "truyền lại cho"
+                    },
+                    {
+                        "en": "future generations",
+                        "vn": "các thế hệ tương lai"
+                    }
+                ],
+                "introChunks": [
+                    {
+                        "en": "People have different opinions about",
+                        "vn": "Mọi người có những quan điểm khác nhau về việc"
+                    },
+                    {
+                        "en": "how the Tet holiday should be spent.",
+                        "vn": "nếu dành kỳ nghỉ Tết như thế nào."
+                    },
+                    {
+                        "en": "While",
+                        "vn": "Trong khi"
+                    },
+                    {
+                        "en": "some people believe that",
+                        "vn": "một số người tin rằng"
+                    },
+                    {
+                        "en": "travelling during this special occasion",
+                        "vn": "đi du lịch trong dịp đặc biệt này"
+                    },
+                    {
+                        "en": "is a good way to",
+                        "vn": "là một cách tốt để"
+                    },
+                    {
+                        "en": "relax and gain new experiences,",
+                        "vn": "thư giãn và có những trải nghiệm mới,"
+                    },
+                    {
+                        "en": "others argue that",
+                        "vn": "những người khác cho rằng"
+                    },
+                    {
+                        "en": "Tet should be",
+                        "vn": "Tết nên là"
+                    },
+                    {
+                        "en": "a special time",
+                        "vn": "một dịp đặc biệt để"
+                    },
+                    {
+                        "en": "for family reunions.",
+                        "vn": "các thành viên trong gia đình sum họp."
+                    },
+                    {
+                        "en": "This essay will",
+                        "vn": "Bài luận này sẽ"
+                    },
+                    {
+                        "en": "discuss both views",
+                        "vn": "thảo luận cả hai quan điểm"
+                    },
+                    {
+                        "en": "before explaining why",
+                        "vn": "trước khi giải thích tại sao"
+                    },
+                    {
+                        "en": "I believe",
+                        "vn": "tôi tin rằng"
+                    },
+                    {
+                        "en": "celebrating Tet with family",
+                        "vn": "đón Tết cùng gia đình"
+                    },
+                    {
+                        "en": "is more important.",
+                        "vn": "quan trọng hơn."
+                    }
+                ],
+                "introVn": "Mọi người có những quan điểm khác nhau về việc nên dành kỳ nghỉ Tết như thế nào. Trong khi một số người tin rằng đi du lịch trong dịp đặc biệt này là một cách tốt để thư giãn và có những trải nghiệm mới, những người khác cho rằng Tết nên là một dịp đặc biệt để các thành viên trong gia đình sum họp. Bài luận này sẽ thảo luận cả hai quan điểm trước khi giải thích tại sao tôi tin rằng đón Tết cùng gia đình quan trọng hơn.",
+                "introEnExpectedLength": 381,
+                "bodyParagraphs": [
+                    {
+                        "title": "Thân bài 01",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "On the one hand, it is understandable why some people prefer travelling during the Tet holiday.",
+                                        "vn": "Một mặt, cũng dễ hiểu tại sao một số người thích đi du lịch vào dịp Tết hơn.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lý do 1",
+                                "hints": [
+                                    {
+                                        "en": "after months of hard work or study",
+                                        "vn": "sau những tháng làm việc hoặc học tập chăm chỉ",
+                                        "connector": "–"
+                                    },
+                                    {
+                                        "en": "take a break",
+                                        "vn": "nghỉ ngơi",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "relax",
+                                        "vn": "thư giãn",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "recharge their energy",
+                                        "vn": "nạp lại năng lượng",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "return to work",
+                                        "vn": "quay trở lại làm việc",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "more positive attitude",
+                                        "vn": "thái độ tích cực hơn",
+                                        "prefix": "(",
+                                        "suffix": ")"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lý do 2",
+                                "hints": [
+                                    {
+                                        "en": "new experiences",
+                                        "vn": "những trải nghiệm mới",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "learn about different cultures",
+                                        "vn": "tìm hiểu về các nền văn hóa khác nhau",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "create unforgettable memories",
+                                        "vn": "tạo ra những kỷ niệm khó quên",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "a great way to spend the Tet holiday",
+                                        "vn": "một cách tuyệt vời để đón kỳ nghỉ Tết"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Thân bài 02",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "However, I still lean towards those with the view that Tet should be a time for family reunions.",
+                                        "vn": "Tuy nhiên, tôi vẫn nghiêng về phía những người với quan điểm rằng Tết nên là dịp để cho gia đình sum họp.",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lý do 1",
+                                "hints": [
+                                    {
+                                        "en": "the most important traditional holiday",
+                                        "vn": "kỳ nghỉ truyền thống quan trọng nhất",
+                                        "connector": ":"
+                                    },
+                                    {
+                                        "en": "bring family members together",
+                                        "vn": "gắn kết các thành viên trong gia đình lại với nhau",
+                                        "connector": "➜",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "visiting relatives",
+                                        "vn": "thăm họ hàng",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "celebrating together",
+                                        "vn": "ăn mừng cùng nhau",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "strengthen family bonds",
+                                        "vn": "gắn kết tình cảm gia đình",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "create a sense of belonging",
+                                        "vn": "tạo cảm giác thuộc về gia đình"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lý do 2",
+                                "hints": [
+                                    {
+                                        "en": "preserve traditional values",
+                                        "vn": "gìn giữ các giá trị truyền thống",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "young people",
+                                        "vn": "những người trẻ",
+                                        "connector": "–"
+                                    },
+                                    {
+                                        "en": "learn customs",
+                                        "vn": "học hỏi các phong tục",
+                                        "connector": ""
+                                    },
+                                    {
+                                        "en": "preparing traditional dishes",
+                                        "vn": "chuẩn bị các món ăn truyền thống",
+                                        "prefix": "(",
+                                        "connector": "+",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "giving lucky money",
+                                        "vn": "trao tiền lì xì",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "showing respect to older generations",
+                                        "vn": "bày tỏ lòng kính trọng đối với các thế hệ đi trước",
+                                        "suffix": ")",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "Vietnamese traditions",
+                                        "vn": "các truyền thống Việt Nam",
+                                        "connector": ""
+                                    },
+                                    {
+                                        "en": "pass on to future generations",
+                                        "vn": "truyền lại cho các thế hệ tương lai",
+                                        "prefix": "(",
+                                        "suffix": ")"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "conclusionChunks": [
+                    {
+                        "en": "In conclusion,",
+                        "vn": "Tóm lại,"
+                    },
+                    {
+                        "en": "although",
+                        "vn": "mặc dù"
+                    },
+                    {
+                        "en": "travelling during the Tet holiday",
+                        "vn": "đi du lịch trong dịp Tết"
+                    },
+                    {
+                        "en": "can help people",
+                        "vn": "có thể giúp mọi người"
+                    },
+                    {
+                        "en": "relax and gain new experiences,",
+                        "vn": "thư giãn và có những trải nghiệm mới,"
+                    },
+                    {
+                        "en": "I believe that",
+                        "vn": "tôi tin rằng"
+                    },
+                    {
+                        "en": "spending Tet with family",
+                        "vn": "đón Tết cùng gia đình"
+                    },
+                    {
+                        "en": "is more important",
+                        "vn": "quan trọng hơn"
+                    },
+                    {
+                        "en": "because",
+                        "vn": "vì"
+                    },
+                    {
+                        "en": "it strengthens family relationships",
+                        "vn": "điều đó giúp gắn kết các mối quan hệ gia đình"
+                    },
+                    {
+                        "en": "and",
+                        "vn": "và"
+                    },
+                    {
+                        "en": "helps preserve traditional cultural values.",
+                        "vn": "góp phần gìn giữ những giá trị văn hóa truyền thống."
+                    }
+                ],
+                "conclusionVn": "Tóm lại, mặc dù đi du lịch trong dịp Tết có thể giúp mọi người thư giãn và có những trải nghiệm mới, tôi tin rằng đón Tết cùng gia đình quan trọng hơn vì điều đó giúp gắn kết các mối quan hệ gia đình và góp phần gìn giữ những giá trị văn hóa truyền thống.",
+                "conclusionEnExpectedLength": 242,
+                "sampleEssay": {
+                    "paragraphs": [
+                        [
+                            {
+                                "en": "People have different opinions about how the Tet holiday should be spent.",
+                                "vn": "Mọi người có những quan điểm khác nhau về việc nên dành kỳ nghỉ Tết như thế nào.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "While some people believe that travelling during this special occasion is a good way to relax and gain new experiences, others argue that Tet should be a special time for family reunions.",
+                                "vn": "Trong khi một số người tin rằng đi du lịch trong dịp đặc biệt này là một cách tốt để thư giãn và có những trải nghiệm mới, những người khác cho rằng Tết nên là một dịp đặc biệt để các thành viên trong gia đình sum họp.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This essay will discuss both views before explaining why I believe celebrating Tet with family is more important.",
+                                "vn": "Bài luận này sẽ thảo luận cả hai quan điểm trước khi giải thích tại sao tôi tin rằng đón Tết cùng gia đình quan trọng hơn.",
+                                "isRed": true
+                            }
+                        ],
+                        [
+                            {
+                                "en": "On the one hand, it is understandable why some people prefer travelling during the Tet holiday.",
+                                "vn": "Một mặt, cũng dễ hiểu tại sao một số người thích đi du lịch vào dịp Tết hơn.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "First of all, after months of hard work or study, taking a break allows people to relax and recharge their energy.",
+                                "vn": "Trước hết, sau những tháng làm việc hoặc học tập chăm chỉ, việc nghỉ ngơi cho phép mọi người thư giãn và nạp lại năng lượng.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This helps them return to work with a more positive attitude.",
+                                "vn": "Điều này giúp họ quay trở lại làm việc với một thái độ tích cực hơn.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "In addition, travelling offers opportunities to gain new experiences, learn about different cultures, and create unforgettable memories with loved ones.",
+                                "vn": "Ngoài ra, đi du lịch mang lại cơ hội để có những trải nghiệm mới, tìm hiểu về các nền văn hóa khác nhau và tạo ra những kỷ niệm khó quên với những người thân yêu.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Therefore, many consider travelling a great way to spend the Tet holiday.",
+                                "vn": "Vì vậy, nhiều người coi đi du lịch là một cách tuyệt vời để đón kỳ nghỉ Tết.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "However, I still lean towards those with the view that Tet should be a time for family reunions.",
+                                "vn": "Tuy nhiên, tôi vẫn nghiêng về phía những người với quan điểm rằng Tết nên là dịp để cho gia đình sum họp.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "Firstly, as Tet is the most important traditional holiday, it plays a vital role in bringing family members together.",
+                                "vn": "Thứ nhất, vì Tết là kỳ nghỉ truyền thống quan trọng nhất, nó đóng một vai trò thiết yếu trong việc gắn kết các thành viên trong gia đình lại với nhau.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Activities such as visiting relatives and celebrating together help strengthen family bonds and create a strong sense of belonging.",
+                                "vn": "Các hoạt động như thăm họ hàng và ăn mừng cùng nhau giúp gắn kết tình cảm gia đình và tạo ra cảm giác thuộc về gia đình sâu sắc.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Moreover, family gatherings help preserve traditional values.",
+                                "vn": "Hơn nữa, các buổi tụ họp gia đình giúp gìn giữ các giá trị truyền thống.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "By taking part in customs like preparing traditional dishes, giving lucky money, and showing respect to older generations, young people can learn valuable lessons so that Vietnamese traditions are passed on to future generations.",
+                                "vn": "Bằng cách tham gia vào các phong tục như chuẩn bị các món ăn truyền thống, mừng tuổi và bày tỏ lòng kính trọng đối với các thế hệ đi trước, những người trẻ có thể học hỏi các bài học có giá trị để các truyền thống Việt Nam được truyền lại cho các thế hệ tương lai.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "In conclusion, although travelling during the Tet holiday can help people relax and gain new experiences, I believe that spending Tet with family is more important because it strengthens family relationships and helps preserve traditional cultural values.",
+                                "vn": "Tóm lại, mặc dù đi du lịch trong dịp Tết có thể giúp mọi người thư giãn và có những trải nghiệm mới, tôi tin rằng đón Tết cùng gia đình quan trọng hơn vì điều đó giúp gắn kết các mối quan hệ gia đình và góp phần gìn giữ những giá trị văn hóa truyền thống.",
+                                "isRed": false
+                            }
+                        ]
+                    ]
+                }
+            }
+        ]
     }
 ];
