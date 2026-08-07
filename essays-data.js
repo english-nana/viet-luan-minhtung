@@ -4999,62 +4999,77 @@ window.ESSAY_TOPICS = [
                                 "isRed": false
                             },
                             {
-                                "en": "While some people believe that smokers have the right to smoke, others argue that smoking in public places should be banned.",
-                                "vn": "Trong khi một số người tin rằng người hút thuốc có quyền hút thuốc, những người khác cho rằng việc hút thuốc ở nơi công cộng nên bị cấm.",
+                                "en": "Some people believe that smokers have the right to smoke, while others argue that smoking in public places should be banned.",
+                                "vn": "Một số người tin rằng người hút thuốc có quyền hút thuốc, trong khi những người khác cho rằng việc hút thuốc ở nơi công cộng nên bị cấm.",
                                 "isRed": false
                             },
                             {
-                                "en": "This essay will discuss both views before explaining why I believe smoking in public places should be banned.",
-                                "vn": "Bài luận này sẽ thảo luận cả hai quan điểm trước khi giải thích tại sao tôi tin rằng việc hút thuốc ở nơi công cộng nên bị cấm.",
+                                "en": "This essay will discuss both views before explaining why I think smoking in public places should be banned.",
+                                "vn": "Bài luận này sẽ thảo luận cả hai quan điểm trước khi giải thích tại sao tôi nghĩ rằng việc hút thuốc ở nơi công cộng nên bị cấm.",
                                 "isRed": true
                             }
                         ],
                         [
                             {
-                                "en": "On the one hand, it is understandable why some people think that smokers should be allowed to smoke in public places.",
-                                "vn": "Một mặt, cũng dễ hiểu tại sao một số người nghĩ rằng những người hút thuốc nên được phép hút ở những nơi công cộng.",
+                                "en": "On the one hand, it is easy to understand why some people think smokers should be allowed to smoke in public places.",
+                                "vn": "Một mặt, rất dễ hiểu tại sao một số người nghĩ rằng người hút thuốc nên được phép hút ở những nơi công cộng.",
                                 "isRed": true
                             },
                             {
-                                "en": "One reason is that smoking is a personal choice, and everyone has the right to make their own decisions.",
-                                "vn": "Một lý do là việc hút thuốc là một lựa chọn cá nhân, và mọi người đều có quyền đưa ra quyết định của riêng họ.",
+                                "en": "One reason is that smoking is a personal choice, and everyone should have the right to make their own decisions.",
+                                "vn": "Một lý do là việc hút thuốc là một lựa chọn cá nhân, và mọi người nên có quyền đưa ra quyết định của riêng mình.",
                                 "isRed": false
                             },
                             {
-                                "en": "Another reason is that it is hard to stop smoking, so many people smoke after work to relax.",
-                                "vn": "Một lý do khác là rất khó để ngừng hút thuốc, vì vậy nhiều người hút thuốc sau khi làm việc để thư giãn.",
+                                "en": "Another reason is that many smokers find it hard to stop smoking.",
+                                "vn": "Một lý do khác là nhiều người hút thuốc cảm thấy khó ngừng hút thuốc.",
                                 "isRed": false
                             },
                             {
-                                "en": "They do not want other people to stop them from smoking because they consider it their right.",
-                                "vn": "Họ không muốn người khác ngăn cấm họ hút thuốc vì họ coi đó là quyền của họ.",
+                                "en": "For example, some people smoke after work to help them relax, so they do not want other people to stop them from smoking.",
+                                "vn": "Ví dụ, một số người hút thuốc sau khi làm việc để giúp họ thư giãn, vì vậy họ không muốn người khác ngăn cấm họ hút thuốc.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Therefore, some people believe that smoking in public is their right.",
+                                "vn": "Vì vậy, một số người tin rằng việc hút thuốc ở nơi công cộng là quyền của họ.",
                                 "isRed": false
                             }
                         ],
                         [
                             {
-                                "en": "However, I still lean towards those with the view that smoking should be banned in public places.",
-                                "vn": "Tuy nhiên, tôi vẫn nghiêng về phía những người với quan điểm rằng hút thuốc nên bị cấm ở những nơi công cộng.",
+                                "en": "However, I would side with those who are of the opinion that smoking in public places should be banned.",
+                                "vn": "Tuy nhiên, tôi nghiêng về phía những người có quan điểm rằng việc hút thuốc ở nơi công cộng nên bị cấm.",
                                 "isRed": true
                             },
                             {
-                                "en": "First of all, smoking harms the health of people nearby because people who do not smoke have to breathe in the smoke.",
-                                "vn": "Đầu tiên, hút thuốc gây hại cho sức khỏe của những người xung quanh vì những người không hút thuốc phải hít phải khói thuốc.",
+                                "en": "First of all, cigarette smoke is bad for the health of people nearby.",
+                                "vn": "Đầu tiên, khói thuốc lá có hại cho sức khỏe của những người xung quanh.",
                                 "isRed": false
                             },
                             {
-                                "en": "For example, children, old people, and pregnant women can become sick when they are around cigarette smoke.",
-                                "vn": "Ví dụ, trẻ em, người già và phụ nữ mang thai có thể bị ốm khi họ ở xung quanh khói thuốc lá.",
+                                "en": "People who do not smoke can still breathe in the smoke.",
+                                "vn": "Những người không hút thuốc vẫn có thể hít phải khói thuốc.",
                                 "isRed": false
                             },
                             {
-                                "en": "In addition, banning smoking helps smokers smoke less.",
-                                "vn": "Ngoài ra, việc cấm hút thuốc giúp người hút thuốc hút ít hơn.",
+                                "en": "For example, children, old people, and pregnant women can become sick if they are around cigarette smoke for a long time.",
+                                "vn": "Ví dụ, trẻ em, người già và phụ nữ mang thai có thể bị ốm nếu họ ở xung quanh khói thuốc lá trong một thời gian dài.",
                                 "isRed": false
                             },
                             {
-                                "en": "When they cannot smoke everywhere, they will smoke fewer cigarettes, which makes public places cleaner and healthier.",
-                                "vn": "Khi họ không thể hút thuốc ở khắp mọi nơi, họ sẽ hút ít thuốc lá hơn, điều này làm cho những nơi công cộng trở nên sạch sẽ và lành mạnh hơn.",
+                                "en": "Moreover, banning smoking in public places can help smokers smoke less.",
+                                "vn": "Hơn nữa, việc cấm hút thuốc ở nơi công cộng có thể giúp người hút thuốc hút ít hơn.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "If they cannot smoke everywhere, they may smoke fewer cigarettes each day.",
+                                "vn": "Nếu họ không thể hút thuốc ở khắp mọi nơi, họ có thể hút ít thuốc lá hơn mỗi ngày.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Therefore, banning smoking in public places can make public places cleaner and healthier for everyone.",
+                                "vn": "Vì vậy, việc cấm hút thuốc ở nơi công cộng có thể làm cho những nơi công cộng trở nên sạch sẽ và lành mạnh hơn cho mọi người.",
                                 "isRed": false
                             }
                         ],
