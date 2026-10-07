@@ -12,7 +12,7 @@ const newEssay = {
     "meta": {
         "category": "Công nghệ & Xã hội",
         "taskType": "Causes - Problems - Solutions",
-        "level": "B1-B2",
+        "level": "B1-B2-C1",
         "estimatedMinutes": 40
     },
     "prompt": [
@@ -61,10 +61,6 @@ const newEssay = {
                     "vn": "thông tin tài khoản ngân hàng"
                 },
                 {
-                    "en": "passwords",
-                    "vn": "mật khẩu"
-                },
-                {
                     "en": "victims",
                     "vn": "các nạn nhân"
                 },
@@ -103,10 +99,6 @@ const newEssay = {
                 {
                     "en": "online security systems",
                     "vn": "các hệ thống an ninh trực tuyến"
-                },
-                {
-                    "en": "common online scams",
-                    "vn": "các trò lừa đảo trực tuyến phổ biến"
                 },
                 {
                     "en": "online attacks",
@@ -293,9 +285,14 @@ const newEssay = {
                                     "connector": "➜"
                                 },
                                 {
+                                    "en": "be careful when",
+                                    "vn": "cẩn thận khi",
+                                    "prefix": "(",
+                                    "connector": ":"
+                                },
+                                {
                                     "en": "clicking on unknown links",
                                     "vn": "nhấp vào các liên kết lạ",
-                                    "prefix": "(cẩn thận:",
                                     "connector": "+"
                                 },
                                 {
@@ -515,21 +512,602 @@ const newEssay = {
             "sampleEssay": {
                 "paragraphs": []
             }
+        },
+        {
+            "name": "Level C1",
+            "vocab": [
+                {
+                    "en": "growing concern",
+                    "vn": "mối lo ngại ngày càng tăng"
+                },
+                {
+                    "en": "conduct daily activities",
+                    "vn": "thực hiện các hoạt động hàng ngày"
+                },
+                {
+                    "en": "exposed to",
+                    "vn": "tiếp xúc với"
+                },
+                {
+                    "en": "financial damage",
+                    "vn": "thiệt hại về tài chính"
+                },
+                {
+                    "en": "commit fraud",
+                    "vn": "thực hiện hành vi gian lận"
+                },
+                {
+                    "en": "confidential information",
+                    "vn": "thông tin bí mật / bảo mật"
+                },
+                {
+                    "en": "loss of trust and privacy",
+                    "vn": "sự mất mát niềm tin và quyền riêng tư"
+                },
+                {
+                    "en": "leaked",
+                    "vn": "bị rò rỉ"
+                },
+                {
+                    "en": "lose confidence in",
+                    "vn": "mất niềm tin vào"
+                },
+                {
+                    "en": "in the long term",
+                    "vn": "về lâu dài"
+                },
+                {
+                    "en": "tackle this issue",
+                    "vn": "giải quyết vấn đề này"
+                },
+                {
+                    "en": "strengthen cybercrime laws",
+                    "vn": "tăng cường luật về tội phạm mạng"
+                },
+                {
+                    "en": "stricter punishments",
+                    "vn": "các hình phạt nghiêm khắc hơn"
+                },
+                {
+                    "en": "discourage criminals",
+                    "vn": "ngăn chặn / răn đe tội phạm"
+                },
+                {
+                    "en": "cybersecurity systems",
+                    "vn": "các hệ thống an ninh mạng"
+                },
+                {
+                    "en": "multi-factor authentication",
+                    "vn": "xác thực đa yếu tố"
+                },
+                {
+                    "en": "sensitive information",
+                    "vn": "thông tin nhạy cảm"
+                },
+                {
+                    "en": "eliminate cybercrime completely",
+                    "vn": "loại bỏ hoàn toàn tội phạm mạng"
+                },
+                {
+                    "en": "public awareness",
+                    "vn": "nhận thức cộng đồng"
+                },
+                {
+                    "en": "combined effort",
+                    "vn": "sự nỗ lực chung / phối hợp"
+                }
+            ],
+            "introChunks": [
+                {
+                    "en": "In today's digital world,",
+                    "vn": "Trong thế giới kỹ thuật số ngày nay,"
+                },
+                {
+                    "en": "cybercrime has become",
+                    "vn": "tội phạm mạng đã trở thành"
+                },
+                {
+                    "en": "a growing concern for",
+                    "vn": "một mối lo ngại ngày càng tăng đối với"
+                },
+                {
+                    "en": "individuals, businesses, and governments.",
+                    "vn": "các cá nhân, doanh nghiệp và chính phủ."
+                },
+                {
+                    "en": "Since people rely more on the Internet",
+                    "vn": "Vì mọi người phụ thuộc nhiều hơn vào Internet"
+                },
+                {
+                    "en": "to store information",
+                    "vn": "để lưu trữ thông tin"
+                },
+                {
+                    "en": "and conduct daily activities,",
+                    "vn": "và thực hiện các hoạt động hàng ngày,"
+                },
+                {
+                    "en": "they are also more exposed to",
+                    "vn": "họ cũng tiếp xúc nhiều hơn với"
+                },
+                {
+                    "en": "online attacks.",
+                    "vn": "các cuộc tấn công trực tuyến."
+                },
+                {
+                    "en": "This essay will discuss",
+                    "vn": "Bài luận này sẽ thảo luận về"
+                },
+                {
+                    "en": "some major impacts of cybercrime",
+                    "vn": "một số tác động lớn của tội phạm mạng"
+                },
+                {
+                    "en": "and suggest possible solutions",
+                    "vn": "và đề xuất các giải pháp khả thi"
+                },
+                {
+                    "en": "to address this issue.",
+                    "vn": "để giải quyết vấn đề này."
+                }
+            ],
+            "introVn": "Trong thế giới kỹ thuật số ngày nay, tội phạm mạng đã trở thành một mối lo ngại ngày càng tăng đối với các cá nhân, doanh nghiệp và chính phủ. Vì mọi người phụ thuộc nhiều hơn vào Internet để lưu trữ thông tin và thực hiện các hoạt động hàng ngày, họ cũng tiếp xúc nhiều hơn với các cuộc tấn công trực tuyến. Bài luận này sẽ thảo luận về một số tác động lớn của tội phạm mạng và đề xuất các giải pháp khả thi để giải quyết vấn đề này.",
+            "introEnExpectedLength": 340,
+            "conclusionEnExpectedLength": 390,
+            "bodyParagraphs": [
+                {
+                    "title": "Đoạn 1: Tác động của tội phạm mạng (Impacts of Cybercrime)",
+                    "hintGroups": [
+                        {
+                            "label": "Topic sentence",
+                            "hints": [
+                                {
+                                    "en": "have several negative effects on",
+                                    "vn": "gây ra một số ảnh hưởng tiêu cực đối với",
+                                    "connector": "➜",
+                                    "isTopic": true
+                                },
+                                {
+                                    "en": "individuals, businesses and governments",
+                                    "vn": "các cá nhân, doanh nghiệp và chính phủ",
+                                    "isTopic": true
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Tác động 1: Thiệt hại tài chính đối với cá nhân & tổ chức",
+                            "hints": [
+                                {
+                                    "en": "financial damage",
+                                    "vn": "thiệt hại tài chính",
+                                    "connector": "–",
+                                    "isBoldRed": true
+                                },
+                                {
+                                    "en": "both individuals and organizations",
+                                    "vn": "cả cá nhân và các tổ chức",
+                                    "connector": ":"
+                                },
+                                {
+                                    "en": "steal banking information, passwords, or credit card details",
+                                    "vn": "đánh cắp thông tin ngân hàng, mật khẩu hoặc thẻ tín dụng",
+                                    "connector": "➜",
+                                    "newLine": true
+                                },
+                                {
+                                    "en": "commit fraud",
+                                    "vn": "thực hiện hành vi gian lận",
+                                    "connector": ""
+                                },
+                                {
+                                    "en": "businesses",
+                                    "vn": "doanh nghiệp",
+                                    "connector": ":",
+                                    "newLine": true
+                                },
+                                {
+                                    "en": "lose large amounts of money",
+                                    "vn": "mất những khoản tiền lớn",
+                                    "connector": "➜"
+                                },
+                                {
+                                    "en": "systems are attacked",
+                                    "vn": "hệ thống bị tấn công",
+                                    "connector": "+"
+                                },
+                                {
+                                    "en": "confidential information is stolen",
+                                    "vn": "thông tin bí mật bị đánh cắp"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Tác động 2: Mất niềm tin và quyền riêng tư",
+                            "hints": [
+                                {
+                                    "en": "loss of trust and privacy",
+                                    "vn": "mất niềm tin và quyền riêng tư",
+                                    "connector": ":",
+                                    "isBoldRed": true
+                                },
+                                {
+                                    "en": "personal information is leaked",
+                                    "vn": "thông tin cá nhân bị rò rỉ",
+                                    "connector": "➜"
+                                },
+                                {
+                                    "en": "feel unsafe using online services",
+                                    "vn": "cảm thấy không an toàn khi dùng dịch vụ trực tuyến",
+                                    "connector": "➜"
+                                },
+                                {
+                                    "en": "lose confidence in companies",
+                                    "vn": "mất niềm tin vào các công ty",
+                                    "connector": "+",
+                                    "newLine": true
+                                },
+                                {
+                                    "en": "fail to protect their data",
+                                    "vn": "không bảo vệ được dữ liệu",
+                                    "connector": "➜"
+                                },
+                                {
+                                    "en": "in the long term",
+                                    "vn": "về lâu dài",
+                                    "connector": ":",
+                                    "prefix": "("
+                                },
+                                {
+                                    "en": "damage not only people's privacy",
+                                    "vn": "không chỉ tổn hại quyền riêng tư của mọi người",
+                                    "connector": "+"
+                                },
+                                {
+                                    "en": "reputation of businesses",
+                                    "vn": "danh tiếng của doanh nghiệp",
+                                    "suffix": ")"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Đoạn 2: Các biện pháp giải quyết (Proposed Solutions)",
+                    "hintGroups": [
+                        {
+                            "label": "Topic sentence",
+                            "hints": [
+                                {
+                                    "en": "several measures can be taken",
+                                    "vn": "một số biện pháp có thể được thực hiện",
+                                    "connector": "➜",
+                                    "isTopic": true
+                                },
+                                {
+                                    "en": "tackle this issue",
+                                    "vn": "giải quyết vấn đề này",
+                                    "isTopic": true
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Giải pháp 1: Chính phủ tăng cường luật pháp và chế tài",
+                            "hints": [
+                                {
+                                    "en": "governments",
+                                    "vn": "chính phủ",
+                                    "connector": ":",
+                                    "isBoldRed": true
+                                },
+                                {
+                                    "en": "strengthen cybercrime laws",
+                                    "vn": "tăng cường luật về tội phạm mạng",
+                                    "connector": "+"
+                                },
+                                {
+                                    "en": "introduce stricter punishments",
+                                    "vn": "đưa ra các hình phạt nghiêm khắc hơn",
+                                    "connector": "➜",
+                                    "newLine": true
+                                },
+                                {
+                                    "en": "discourage criminals",
+                                    "vn": "ngăn chặn / răn đe tội phạm",
+                                    "connector": "➜"
+                                },
+                                {
+                                    "en": "carrying out online attacks",
+                                    "vn": "thực hiện các cuộc tấn công trực tuyến"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Giải pháp 2: Doanh nghiệp nâng cấp an ninh mạng",
+                            "hints": [
+                                {
+                                    "en": "businesses",
+                                    "vn": "doanh nghiệp",
+                                    "connector": ":",
+                                    "isBoldRed": true
+                                },
+                                {
+                                    "en": "improve cybersecurity systems",
+                                    "vn": "cải thiện các hệ thống an ninh mạng",
+                                    "connector": "➜"
+                                },
+                                {
+                                    "en": "stronger passwords",
+                                    "vn": "mật khẩu mạnh hơn",
+                                    "connector": "+",
+                                    "newLine": true
+                                },
+                                {
+                                    "en": "multi-factor authentication",
+                                    "vn": "xác thực đa yếu tố",
+                                    "connector": "+"
+                                },
+                                {
+                                    "en": "regular software updates",
+                                    "vn": "cập nhật phần mềm thường xuyên",
+                                    "connector": "➜"
+                                },
+                                {
+                                    "en": "make it harder for hackers",
+                                    "vn": "khiến tin tặc khó khăn hơn",
+                                    "connector": "➜"
+                                },
+                                {
+                                    "en": "gain access to sensitive information",
+                                    "vn": "tiếp cận thông tin nhạy cảm"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Giải pháp 3: Nâng cao giáo dục an toàn trực tuyến cho cá nhân",
+                            "hints": [
+                                {
+                                    "en": "individuals",
+                                    "vn": "cá nhân",
+                                    "connector": ":",
+                                    "isBoldRed": true
+                                },
+                                {
+                                    "en": "receive better education about online safety",
+                                    "vn": "được giáo dục tốt hơn về an toàn trực tuyến",
+                                    "connector": "➜"
+                                },
+                                {
+                                    "en": "schools and workplaces provide guidance",
+                                    "vn": "trường học và nơi làm việc hướng dẫn",
+                                    "connector": ":",
+                                    "prefix": "(",
+                                    "newLine": true
+                                },
+                                {
+                                    "en": "recognizing suspicious emails",
+                                    "vn": "nhận diện các email đáng ngờ",
+                                    "connector": "+"
+                                },
+                                {
+                                    "en": "avoiding unsafe links",
+                                    "vn": "tránh các liên kết không an toàn",
+                                    "connector": "+"
+                                },
+                                {
+                                    "en": "protecting personal information",
+                                    "vn": "bảo vệ thông tin cá nhân",
+                                    "connector": "➜",
+                                    "suffix": ")"
+                                },
+                                {
+                                    "en": "more careful on the Internet",
+                                    "vn": "cẩn thận hơn trên Internet",
+                                    "connector": "➜"
+                                },
+                                {
+                                    "en": "reduce the number of successful cyberattacks",
+                                    "vn": "giảm số vụ tấn công mạng thành công"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "conclusionChunks": [
+                {
+                    "en": "In conclusion|In conclusion,",
+                    "vn": "Tóm lại,"
+                },
+                {
+                    "en": "cybercrime can cause",
+                    "vn": "tội phạm mạng có thể gây ra"
+                },
+                {
+                    "en": "serious financial losses",
+                    "vn": "những tổn thất tài chính nghiêm trọng"
+                },
+                {
+                    "en": "as well as damage",
+                    "vn": "cũng như làm tổn hại đến"
+                },
+                {
+                    "en": "people's privacy and trust",
+                    "vn": "quyền riêng tư và niềm tin của mọi người"
+                },
+                {
+                    "en": "in digital services.",
+                    "vn": "vào các dịch vụ kỹ thuật số."
+                },
+                {
+                    "en": "Although it is difficult to",
+                    "vn": "Mặc dù rất khó để"
+                },
+                {
+                    "en": "eliminate cybercrime completely|eliminate cybercrime completely,",
+                    "vn": "loại bỏ hoàn toàn tội phạm mạng,"
+                },
+                {
+                    "en": "stronger laws, better cybersecurity|stronger laws, better cybersecurity,",
+                    "vn": "nhưng luật pháp nghiêm minh hơn, an ninh mạng tốt hơn"
+                },
+                {
+                    "en": "and greater public awareness",
+                    "vn": "và nhận thức cộng đồng cao hơn"
+                },
+                {
+                    "en": "can significantly reduce its impact.",
+                    "vn": "có thể giảm đáng kể tác động của nó."
+                },
+                {
+                    "en": "A combined effort from",
+                    "vn": "Sự nỗ lực chung từ"
+                },
+                {
+                    "en": "governments, organisations, and individuals|governments, organizations, and individuals",
+                    "vn": "các chính phủ, tổ chức và cá nhân"
+                },
+                {
+                    "en": "is therefore essential",
+                    "vn": "do đó là điều cần thiết"
+                },
+                {
+                    "en": "to create a safer digital environment.",
+                    "vn": "để tạo ra một môi trường kỹ thuật số an toàn hơn."
+                }
+            ],
+            "conclusionVn": "Tóm lại, tội phạm mạng có thể gây ra những tổn thất tài chính nghiêm trọng cũng như làm tổn hại đến quyền riêng tư và niềm tin của mọi người vào các dịch vụ kỹ thuật số. Mặc dù rất khó để loại bỏ hoàn toàn tội phạm mạng, nhưng luật pháp nghiêm minh hơn, an ninh mạng tốt hơn và nhận thức cộng đồng cao hơn có thể giảm đáng kể tác động của nó. Sự nỗ lực chung từ các chính phủ, tổ chức và cá nhân do đó là điều cần thiết để tạo ra một môi trường kỹ thuật số an toàn hơn.",
+            "sampleEssay": {
+                "paragraphs": [
+                    [
+                        {
+                            "en": "In today's digital world, cybercrime has become a growing concern for individuals, businesses, and governments.",
+                            "vn": "Trong thế giới kỹ thuật số ngày nay, tội phạm mạng đã trở thành một mối lo ngại ngày càng tăng đối với các cá nhân, doanh nghiệp và chính phủ.",
+                            "isRed": false
+                        },
+                        {
+                            "en": "Since people rely more on the Internet to store information and conduct daily activities, they are also more exposed to online attacks.",
+                            "vn": "Vì mọi người phụ thuộc nhiều hơn vào Internet để lưu trữ thông tin và thực hiện các hoạt động hàng ngày, họ cũng tiếp xúc nhiều hơn với các cuộc tấn công trực tuyến.",
+                            "isRed": false
+                        },
+                        {
+                            "en": "This essay will discuss some major impacts of cybercrime and suggest possible solutions to address this issue.",
+                            "vn": "Bài luận này sẽ thảo luận về một số tác động lớn của tội phạm mạng và đề xuất các giải pháp khả thi để giải quyết vấn đề này.",
+                            "isRed": true
+                        }
+                    ],
+                    [
+                        {
+                            "en": "To begin with, cybercrime can have several negative effects on individuals, businesses and governments.",
+                            "vn": "Trước hết, tội phạm mạng có thể gây ra một số ảnh hưởng tiêu cực đối với các cá nhân, doanh nghiệp và chính phủ.",
+                            "isRed": true
+                        },
+                        {
+                            "en": "One major impact of cybercrime is the financial damage it causes to both individuals and organizations.",
+                            "vn": "Một tác động lớn của tội phạm mạng là thiệt hại tài chính mà nó gây ra cho cả cá nhân và các tổ chức.",
+                            "isRed": false
+                        },
+                        {
+                            "en": "Hackers can steal people's banking information, passwords, or credit card details and use them to commit fraud.",
+                            "vn": "Tin tặc có thể đánh cắp thông tin tài khoản ngân hàng, mật khẩu hoặc chi tiết thẻ tín dụng của mọi người và sử dụng chúng để thực hiện hành vi gian lận.",
+                            "isRed": false
+                        },
+                        {
+                            "en": "Businesses may also lose large amounts of money when their systems are attacked or when confidential information is stolen.",
+                            "vn": "Các doanh nghiệp cũng có thể mất những khoản tiền lớn khi hệ thống của họ bị tấn công hoặc khi thông tin bí mật bị đánh cắp.",
+                            "isRed": false
+                        },
+                        {
+                            "en": "Another serious impact is the loss of trust and privacy.",
+                            "vn": "Một tác động nghiêm trọng khác là sự mất mát về niềm tin và quyền riêng tư.",
+                            "isRed": false
+                        },
+                        {
+                            "en": "When personal information is leaked, victims may feel unsafe using online services, while customers may lose confidence in companies that fail to protect their data.",
+                            "vn": "Khi thông tin cá nhân bị rò rỉ, các nạn nhân có thể cảm thấy không an toàn khi sử dụng dịch vụ trực tuyến, trong khi khách hàng có thể mất niềm tin vào các công ty không bảo vệ được dữ liệu của họ.",
+                            "isRed": false
+                        },
+                        {
+                            "en": "In the long term, cyberattacks can damage not only people's privacy but also the reputation of businesses.",
+                            "vn": "Về lâu dài, các cuộc tấn công mạng không chỉ có thể làm tổn hại quyền riêng tư của mọi người mà còn cả danh tiếng của các doanh nghiệp.",
+                            "isRed": false
+                        }
+                    ],
+                    [
+                        {
+                            "en": "Several measures can be taken to tackle this issue.",
+                            "vn": "Một số biện pháp có thể được thực hiện để giải quyết vấn đề này.",
+                            "isRed": true
+                        },
+                        {
+                            "en": "Firstly, governments should strengthen cybercrime laws and introduce stricter punishments.",
+                            "vn": "Trước hết, các chính phủ nên tăng cường luật về tội phạm mạng và đưa ra các hình phạt nghiêm khắc hơn.",
+                            "isRed": false
+                        },
+                        {
+                            "en": "These measures can discourage criminals from carrying out online attacks.",
+                            "vn": "Những biện pháp này có thể ngăn chặn tội phạm thực hiện các cuộc tấn công trực tuyến.",
+                            "isRed": false
+                        },
+                        {
+                            "en": "Moreover, businesses should improve their cybersecurity systems.",
+                            "vn": "Hơn nữa, các doanh nghiệp nên cải thiện các hệ thống an ninh mạng của họ.",
+                            "isRed": false
+                        },
+                        {
+                            "en": "They can use stronger passwords, multi-factor authentication and regular software updates to make it harder for hackers to gain access to sensitive information.",
+                            "vn": "Họ có thể sử dụng mật khẩu mạnh hơn, xác thực đa yếu tố và cập nhật phần mềm thường xuyên để khiến tin tặc khó tiếp cận các thông tin nhạy cảm hơn.",
+                            "isRed": false
+                        },
+                        {
+                            "en": "Finally, individuals should receive better education about online safety.",
+                            "vn": "Cuối cùng, các cá nhân nên được giáo dục tốt hơn về an toàn trực tuyến.",
+                            "isRed": false
+                        },
+                        {
+                            "en": "Schools and workplaces can provide simple guidance on recognizing suspicious emails, avoiding unsafe links, and protecting personal information.",
+                            "vn": "Trường học và nơi làm việc có thể cung cấp những hướng dẫn đơn giản về việc nhận diện các email đáng ngờ, tránh các liên kết không an toàn và bảo vệ thông tin cá nhân.",
+                            "isRed": false
+                        },
+                        {
+                            "en": "These measures would help people become more careful on the Internet and reduce the number of successful cyberattacks.",
+                            "vn": "Những biện pháp này sẽ giúp mọi người trở nên cẩn thận hơn trên Internet và giảm số lượng các cuộc tấn công mạng thành công.",
+                            "isRed": false
+                        }
+                    ],
+                    [
+                        {
+                            "en": "In conclusion, cybercrime can cause serious financial losses as well as damage people's privacy and trust in digital services.",
+                            "vn": "Tóm lại, tội phạm mạng có thể gây ra những tổn thất tài chính nghiêm trọng cũng như làm tổn hại đến quyền riêng tư và niềm tin của mọi người vào các dịch vụ kỹ thuật số.",
+                            "isRed": false
+                        },
+                        {
+                            "en": "Although it is difficult to eliminate cybercrime completely, stronger laws, better cybersecurity, and greater public awareness can significantly reduce its impact.",
+                            "vn": "Mặc dù rất khó để loại bỏ hoàn toàn tội phạm mạng, nhưng luật pháp nghiêm minh hơn, an ninh mạng tốt hơn và nhận thức cộng đồng cao hơn có thể giảm đáng kể tác động của nó.",
+                            "isRed": false
+                        },
+                        {
+                            "en": "A combined effort from governments, organisations, and individuals is therefore essential to create a safer digital environment.",
+                            "vn": "Do đó, sự nỗ lực chung từ các chính phủ, tổ chức và cá nhân là điều cần thiết để tạo ra một môi trường kỹ thuật số an toàn hơn.",
+                            "isRed": false
+                        }
+                    ]
+                ]
+            }
         }
     ]
 };
 
 // Check if already exists
-const existingIndex = window.ESSAY_TOPICS.findIndex(e => e.id === "cybercrime");
+const existingIndex = window.ESSAY_TOPICS.findIndex(e => e.id === 'cybercrime');
 if (existingIndex !== -1) {
     window.ESSAY_TOPICS[existingIndex] = newEssay;
-    console.log("Updated existing essay 19");
+    console.log('Updated existing essay 19');
 } else {
     window.ESSAY_TOPICS.push(newEssay);
-    console.log("Added new essay 19");
+    console.log('Added new essay 19');
 }
 
 const jsonStr = JSON.stringify(window.ESSAY_TOPICS, null, 4);
 const output = `window.ESSAY_TOPICS = ${jsonStr};\n`;
 fs.writeFileSync('essays-data.js', output);
-console.log("essays-data.js updated successfully! Total topics:", window.ESSAY_TOPICS.length);
+console.log('essays-data.js updated successfully! Total topics:', window.ESSAY_TOPICS.length);

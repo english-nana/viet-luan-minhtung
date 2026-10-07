@@ -2105,7 +2105,7 @@ function renderTopicOverview(data, originalData = data) {
     const hasLevels = (data.vocab || data.vocabulary || []).some(v => v.level) || 
                       JSON.stringify(data.sampleEssay || "").includes("{") || 
                       JSON.stringify(data.variants || "").includes("{") ||
-                      (originalData.variants && originalData.variants.some(v => v.name && (v.name.includes("B1") || v.name.includes("B2"))));
+                      (originalData.variants && originalData.variants.some(v => v.name && (v.name.includes("B1") || v.name.includes("B2") || v.name.includes("C1"))));
 
         variantContainer.className = "variant-buttons level-switcher-bar";
     variantContainer.style.display = "flex";
@@ -2115,15 +2115,34 @@ function renderTopicOverview(data, originalData = data) {
 
     let htmlStr = "";
     if (hasLevels) {
-        const activeLevel = originalData.currentLevel || "B1";
-        htmlStr += `
-            <button type="button" class="btn-level-tab ${activeLevel === 'B1' ? 'active' : ''}" data-level="B1">
-                <i class="fa-solid fa-seedling"></i> Level B1
-            </button>
-            <button type="button" class="btn-level-tab ${activeLevel === 'B2' ? 'active' : ''}" data-level="B2">
-                <i class="fa-solid fa-wand-magic-sparkles"></i> Level B2
-            </button>
-        `;
+        const activeLevel = originalData.currentLevel || (originalData.variants && originalData.variants[originalData.currentVariantIndex || 0]?.name?.includes("C1") ? "C1" : (originalData.variants && originalData.variants[originalData.currentVariantIndex || 0]?.name?.includes("B2") ? "B2" : "B1"));
+        
+        const variantNames = (originalData.variants || []).map(v => v.name || "");
+        const hasB1 = variantNames.length === 0 || variantNames.some(n => n.includes("B1"));
+        const hasB2 = variantNames.length === 0 || variantNames.some(n => n.includes("B2"));
+        const hasC1 = variantNames.some(n => n.includes("C1"));
+
+        if (hasB1) {
+            htmlStr += `
+                <button type="button" class="btn-level-tab ${activeLevel === 'B1' ? 'active' : ''}" data-level="B1">
+                    <i class="fa-solid fa-seedling"></i> Level B1
+                </button>
+            `;
+        }
+        if (hasB2) {
+            htmlStr += `
+                <button type="button" class="btn-level-tab ${activeLevel === 'B2' ? 'active' : ''}" data-level="B2">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i> Level B2
+                </button>
+            `;
+        }
+        if (hasC1) {
+            htmlStr += `
+                <button type="button" class="btn-level-tab ${activeLevel === 'C1' ? 'active' : ''}" data-level="C1">
+                    <i class="fa-solid fa-graduation-cap"></i> Level C1
+                </button>
+            `;
+        }
     }
     htmlStr += `
         <button id="btn-clear-draft-dynamic" class="btn-level-tab" type="button" aria-label="Xóa nháp bài này" title="Xóa toàn bộ nội dung nháp của bài luận này">
@@ -2147,7 +2166,7 @@ function renderTopicOverview(data, originalData = data) {
                     if (idx !== -1) {
                         originalData.currentVariantIndex = idx;
                     } else {
-                        originalData.currentVariantIndex = lvl === "B2" ? 1 : 0;
+                        originalData.currentVariantIndex = lvl === "C1" ? 2 : (lvl === "B2" ? 1 : 0);
                     }
                 }
                 loadEssay(state.currentEssayIndex);
@@ -2289,9 +2308,13 @@ function renderVocab(data) {
         // Load saved matched indices
         let savedMatchedIndices = [];
         const essayId = data.id || (window.essays?.[state?.currentEssayIndex]?.id);
-        const storageKey = getStorageKey(essayId, 'matchedVocab');
+        const variantSuffix = data.name ? `_${data.name.replace(/\s+/g, '')}` : '';
+        const storageKey = getStorageKey(essayId, `matchedVocab${variantSuffix}`);
         try {
-            const savedStr = localStorage.getItem(storageKey);
+            let savedStr = localStorage.getItem(storageKey);
+            if (!savedStr && variantSuffix === '_LevelB1') {
+                savedStr = localStorage.getItem(getStorageKey(essayId, 'matchedVocab'));
+            }
             if (savedStr) {
                 savedMatchedIndices = JSON.parse(savedStr);
             }

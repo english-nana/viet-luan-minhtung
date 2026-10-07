@@ -10567,7 +10567,7 @@ window.ESSAY_TOPICS = [
         "meta": {
             "category": "Công nghệ & Xã hội",
             "taskType": "Causes - Problems - Solutions",
-            "level": "B1-B2",
+            "level": "B1-B2-C1",
             "estimatedMinutes": 40
         },
         "prompt": [
@@ -10616,10 +10616,6 @@ window.ESSAY_TOPICS = [
                         "vn": "thông tin tài khoản ngân hàng"
                     },
                     {
-                        "en": "passwords",
-                        "vn": "mật khẩu"
-                    },
-                    {
                         "en": "victims",
                         "vn": "các nạn nhân"
                     },
@@ -10658,10 +10654,6 @@ window.ESSAY_TOPICS = [
                     {
                         "en": "online security systems",
                         "vn": "các hệ thống an ninh trực tuyến"
-                    },
-                    {
-                        "en": "common online scams",
-                        "vn": "các trò lừa đảo trực tuyến phổ biến"
                     },
                     {
                         "en": "online attacks",
@@ -10848,9 +10840,14 @@ window.ESSAY_TOPICS = [
                                         "connector": "➜"
                                     },
                                     {
+                                        "en": "be careful when",
+                                        "vn": "cẩn thận khi",
+                                        "prefix": "(",
+                                        "connector": ":"
+                                    },
+                                    {
                                         "en": "clicking on unknown links",
                                         "vn": "nhấp vào các liên kết lạ",
-                                        "prefix": "(cẩn thận:",
                                         "connector": "+"
                                     },
                                     {
@@ -11069,6 +11066,2014 @@ window.ESSAY_TOPICS = [
                 "conclusionVn": "",
                 "sampleEssay": {
                     "paragraphs": []
+                }
+            },
+            {
+                "name": "Level C1",
+                "vocab": [
+                    {
+                        "en": "growing concern",
+                        "vn": "mối lo ngại ngày càng tăng"
+                    },
+                    {
+                        "en": "conduct daily activities",
+                        "vn": "thực hiện các hoạt động hàng ngày"
+                    },
+                    {
+                        "en": "exposed to",
+                        "vn": "tiếp xúc với"
+                    },
+                    {
+                        "en": "financial damage",
+                        "vn": "thiệt hại về tài chính"
+                    },
+                    {
+                        "en": "commit fraud",
+                        "vn": "thực hiện hành vi gian lận"
+                    },
+                    {
+                        "en": "confidential information",
+                        "vn": "thông tin bí mật / bảo mật"
+                    },
+                    {
+                        "en": "loss of trust and privacy",
+                        "vn": "sự mất mát niềm tin và quyền riêng tư"
+                    },
+                    {
+                        "en": "leaked",
+                        "vn": "bị rò rỉ"
+                    },
+                    {
+                        "en": "lose confidence in",
+                        "vn": "mất niềm tin vào"
+                    },
+                    {
+                        "en": "in the long term",
+                        "vn": "về lâu dài"
+                    },
+                    {
+                        "en": "tackle this issue",
+                        "vn": "giải quyết vấn đề này"
+                    },
+                    {
+                        "en": "strengthen cybercrime laws",
+                        "vn": "tăng cường luật về tội phạm mạng"
+                    },
+                    {
+                        "en": "stricter punishments",
+                        "vn": "các hình phạt nghiêm khắc hơn"
+                    },
+                    {
+                        "en": "discourage criminals",
+                        "vn": "ngăn chặn / răn đe tội phạm"
+                    },
+                    {
+                        "en": "cybersecurity systems",
+                        "vn": "các hệ thống an ninh mạng"
+                    },
+                    {
+                        "en": "multi-factor authentication",
+                        "vn": "xác thực đa yếu tố"
+                    },
+                    {
+                        "en": "sensitive information",
+                        "vn": "thông tin nhạy cảm"
+                    },
+                    {
+                        "en": "eliminate cybercrime completely",
+                        "vn": "loại bỏ hoàn toàn tội phạm mạng"
+                    },
+                    {
+                        "en": "public awareness",
+                        "vn": "nhận thức cộng đồng"
+                    },
+                    {
+                        "en": "combined effort",
+                        "vn": "sự nỗ lực chung / phối hợp"
+                    }
+                ],
+                "introChunks": [
+                    {
+                        "en": "In today's digital world,",
+                        "vn": "Trong thế giới kỹ thuật số ngày nay,"
+                    },
+                    {
+                        "en": "cybercrime has become",
+                        "vn": "tội phạm mạng đã trở thành"
+                    },
+                    {
+                        "en": "a growing concern for",
+                        "vn": "một mối lo ngại ngày càng tăng đối với"
+                    },
+                    {
+                        "en": "individuals, businesses, and governments.",
+                        "vn": "các cá nhân, doanh nghiệp và chính phủ."
+                    },
+                    {
+                        "en": "Since people rely more on the Internet",
+                        "vn": "Vì mọi người phụ thuộc nhiều hơn vào Internet"
+                    },
+                    {
+                        "en": "to store information",
+                        "vn": "để lưu trữ thông tin"
+                    },
+                    {
+                        "en": "and conduct daily activities,",
+                        "vn": "và thực hiện các hoạt động hàng ngày,"
+                    },
+                    {
+                        "en": "they are also more exposed to",
+                        "vn": "họ cũng tiếp xúc nhiều hơn với"
+                    },
+                    {
+                        "en": "online attacks.",
+                        "vn": "các cuộc tấn công trực tuyến."
+                    },
+                    {
+                        "en": "This essay will discuss",
+                        "vn": "Bài luận này sẽ thảo luận về"
+                    },
+                    {
+                        "en": "some major impacts of cybercrime",
+                        "vn": "một số tác động lớn của tội phạm mạng"
+                    },
+                    {
+                        "en": "and suggest possible solutions",
+                        "vn": "và đề xuất các giải pháp khả thi"
+                    },
+                    {
+                        "en": "to address this issue.",
+                        "vn": "để giải quyết vấn đề này."
+                    }
+                ],
+                "introVn": "Trong thế giới kỹ thuật số ngày nay, tội phạm mạng đã trở thành một mối lo ngại ngày càng tăng đối với các cá nhân, doanh nghiệp và chính phủ. Vì mọi người phụ thuộc nhiều hơn vào Internet để lưu trữ thông tin và thực hiện các hoạt động hàng ngày, họ cũng tiếp xúc nhiều hơn với các cuộc tấn công trực tuyến. Bài luận này sẽ thảo luận về một số tác động lớn của tội phạm mạng và đề xuất các giải pháp khả thi để giải quyết vấn đề này.",
+                "introEnExpectedLength": 340,
+                "conclusionEnExpectedLength": 390,
+                "bodyParagraphs": [
+                    {
+                        "title": "Đoạn 1: Tác động của tội phạm mạng (Impacts of Cybercrime)",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "have several negative effects on",
+                                        "vn": "gây ra một số ảnh hưởng tiêu cực đối với",
+                                        "connector": "➜",
+                                        "isTopic": true
+                                    },
+                                    {
+                                        "en": "individuals, businesses and governments",
+                                        "vn": "các cá nhân, doanh nghiệp và chính phủ",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Tác động 1: Thiệt hại tài chính đối với cá nhân & tổ chức",
+                                "hints": [
+                                    {
+                                        "en": "financial damage",
+                                        "vn": "thiệt hại tài chính",
+                                        "connector": "–",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "both individuals and organizations",
+                                        "vn": "cả cá nhân và các tổ chức",
+                                        "connector": ":"
+                                    },
+                                    {
+                                        "en": "steal banking information, passwords, or credit card details",
+                                        "vn": "đánh cắp thông tin ngân hàng, mật khẩu hoặc thẻ tín dụng",
+                                        "connector": "➜",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "commit fraud",
+                                        "vn": "thực hiện hành vi gian lận",
+                                        "connector": ""
+                                    },
+                                    {
+                                        "en": "businesses",
+                                        "vn": "doanh nghiệp",
+                                        "connector": ":",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "lose large amounts of money",
+                                        "vn": "mất những khoản tiền lớn",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "systems are attacked",
+                                        "vn": "hệ thống bị tấn công",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "confidential information is stolen",
+                                        "vn": "thông tin bí mật bị đánh cắp"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Tác động 2: Mất niềm tin và quyền riêng tư",
+                                "hints": [
+                                    {
+                                        "en": "loss of trust and privacy",
+                                        "vn": "mất niềm tin và quyền riêng tư",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "personal information is leaked",
+                                        "vn": "thông tin cá nhân bị rò rỉ",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "feel unsafe using online services",
+                                        "vn": "cảm thấy không an toàn khi dùng dịch vụ trực tuyến",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "lose confidence in companies",
+                                        "vn": "mất niềm tin vào các công ty",
+                                        "connector": "+",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "fail to protect their data",
+                                        "vn": "không bảo vệ được dữ liệu",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "in the long term",
+                                        "vn": "về lâu dài",
+                                        "connector": ":",
+                                        "prefix": "("
+                                    },
+                                    {
+                                        "en": "damage not only people's privacy",
+                                        "vn": "không chỉ tổn hại quyền riêng tư của mọi người",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "reputation of businesses",
+                                        "vn": "danh tiếng của doanh nghiệp",
+                                        "suffix": ")"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Đoạn 2: Các biện pháp giải quyết (Proposed Solutions)",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "several measures can be taken",
+                                        "vn": "một số biện pháp có thể được thực hiện",
+                                        "connector": "➜",
+                                        "isTopic": true
+                                    },
+                                    {
+                                        "en": "tackle this issue",
+                                        "vn": "giải quyết vấn đề này",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Giải pháp 1: Chính phủ tăng cường luật pháp và chế tài",
+                                "hints": [
+                                    {
+                                        "en": "governments",
+                                        "vn": "chính phủ",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "strengthen cybercrime laws",
+                                        "vn": "tăng cường luật về tội phạm mạng",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "introduce stricter punishments",
+                                        "vn": "đưa ra các hình phạt nghiêm khắc hơn",
+                                        "connector": "➜",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "discourage criminals",
+                                        "vn": "ngăn chặn / răn đe tội phạm",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "carrying out online attacks",
+                                        "vn": "thực hiện các cuộc tấn công trực tuyến"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Giải pháp 2: Doanh nghiệp nâng cấp an ninh mạng",
+                                "hints": [
+                                    {
+                                        "en": "businesses",
+                                        "vn": "doanh nghiệp",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "improve cybersecurity systems",
+                                        "vn": "cải thiện các hệ thống an ninh mạng",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "stronger passwords",
+                                        "vn": "mật khẩu mạnh hơn",
+                                        "connector": "+",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "multi-factor authentication",
+                                        "vn": "xác thực đa yếu tố",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "regular software updates",
+                                        "vn": "cập nhật phần mềm thường xuyên",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "make it harder for hackers",
+                                        "vn": "khiến tin tặc khó khăn hơn",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "gain access to sensitive information",
+                                        "vn": "tiếp cận thông tin nhạy cảm"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Giải pháp 3: Nâng cao giáo dục an toàn trực tuyến cho cá nhân",
+                                "hints": [
+                                    {
+                                        "en": "individuals",
+                                        "vn": "cá nhân",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "receive better education about online safety",
+                                        "vn": "được giáo dục tốt hơn về an toàn trực tuyến",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "schools and workplaces provide guidance",
+                                        "vn": "trường học và nơi làm việc hướng dẫn",
+                                        "connector": ":",
+                                        "prefix": "(",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "recognizing suspicious emails",
+                                        "vn": "nhận diện các email đáng ngờ",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "avoiding unsafe links",
+                                        "vn": "tránh các liên kết không an toàn",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "protecting personal information",
+                                        "vn": "bảo vệ thông tin cá nhân",
+                                        "connector": "➜",
+                                        "suffix": ")"
+                                    },
+                                    {
+                                        "en": "more careful on the Internet",
+                                        "vn": "cẩn thận hơn trên Internet",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "reduce the number of successful cyberattacks",
+                                        "vn": "giảm số vụ tấn công mạng thành công"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "conclusionChunks": [
+                    {
+                        "en": "In conclusion|In conclusion,",
+                        "vn": "Tóm lại,"
+                    },
+                    {
+                        "en": "cybercrime can cause",
+                        "vn": "tội phạm mạng có thể gây ra"
+                    },
+                    {
+                        "en": "serious financial losses",
+                        "vn": "những tổn thất tài chính nghiêm trọng"
+                    },
+                    {
+                        "en": "as well as damage",
+                        "vn": "cũng như làm tổn hại đến"
+                    },
+                    {
+                        "en": "people's privacy and trust",
+                        "vn": "quyền riêng tư và niềm tin của mọi người"
+                    },
+                    {
+                        "en": "in digital services.",
+                        "vn": "vào các dịch vụ kỹ thuật số."
+                    },
+                    {
+                        "en": "Although it is difficult to",
+                        "vn": "Mặc dù rất khó để"
+                    },
+                    {
+                        "en": "eliminate cybercrime completely|eliminate cybercrime completely,",
+                        "vn": "loại bỏ hoàn toàn tội phạm mạng,"
+                    },
+                    {
+                        "en": "stronger laws, better cybersecurity|stronger laws, better cybersecurity,",
+                        "vn": "nhưng luật pháp nghiêm minh hơn, an ninh mạng tốt hơn"
+                    },
+                    {
+                        "en": "and greater public awareness",
+                        "vn": "và nhận thức cộng đồng cao hơn"
+                    },
+                    {
+                        "en": "can significantly reduce its impact.",
+                        "vn": "có thể giảm đáng kể tác động của nó."
+                    },
+                    {
+                        "en": "A combined effort from",
+                        "vn": "Sự nỗ lực chung từ"
+                    },
+                    {
+                        "en": "governments, organisations, and individuals|governments, organizations, and individuals",
+                        "vn": "các chính phủ, tổ chức và cá nhân"
+                    },
+                    {
+                        "en": "is therefore essential",
+                        "vn": "do đó là điều cần thiết"
+                    },
+                    {
+                        "en": "to create a safer digital environment.",
+                        "vn": "để tạo ra một môi trường kỹ thuật số an toàn hơn."
+                    }
+                ],
+                "conclusionVn": "Tóm lại, tội phạm mạng có thể gây ra những tổn thất tài chính nghiêm trọng cũng như làm tổn hại đến quyền riêng tư và niềm tin của mọi người vào các dịch vụ kỹ thuật số. Mặc dù rất khó để loại bỏ hoàn toàn tội phạm mạng, nhưng luật pháp nghiêm minh hơn, an ninh mạng tốt hơn và nhận thức cộng đồng cao hơn có thể giảm đáng kể tác động của nó. Sự nỗ lực chung từ các chính phủ, tổ chức và cá nhân do đó là điều cần thiết để tạo ra một môi trường kỹ thuật số an toàn hơn.",
+                "sampleEssay": {
+                    "paragraphs": [
+                        [
+                            {
+                                "en": "In today's digital world, cybercrime has become a growing concern for individuals, businesses, and governments.",
+                                "vn": "Trong thế giới kỹ thuật số ngày nay, tội phạm mạng đã trở thành một mối lo ngại ngày càng tăng đối với các cá nhân, doanh nghiệp và chính phủ.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Since people rely more on the Internet to store information and conduct daily activities, they are also more exposed to online attacks.",
+                                "vn": "Vì mọi người phụ thuộc nhiều hơn vào Internet để lưu trữ thông tin và thực hiện các hoạt động hàng ngày, họ cũng tiếp xúc nhiều hơn với các cuộc tấn công trực tuyến.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This essay will discuss some major impacts of cybercrime and suggest possible solutions to address this issue.",
+                                "vn": "Bài luận này sẽ thảo luận về một số tác động lớn của tội phạm mạng và đề xuất các giải pháp khả thi để giải quyết vấn đề này.",
+                                "isRed": true
+                            }
+                        ],
+                        [
+                            {
+                                "en": "To begin with, cybercrime can have several negative effects on individuals, businesses and governments.",
+                                "vn": "Trước hết, tội phạm mạng có thể gây ra một số ảnh hưởng tiêu cực đối với các cá nhân, doanh nghiệp và chính phủ.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "One major impact of cybercrime is the financial damage it causes to both individuals and organizations.",
+                                "vn": "Một tác động lớn của tội phạm mạng là thiệt hại tài chính mà nó gây ra cho cả cá nhân và các tổ chức.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Hackers can steal people's banking information, passwords, or credit card details and use them to commit fraud.",
+                                "vn": "Tin tặc có thể đánh cắp thông tin tài khoản ngân hàng, mật khẩu hoặc chi tiết thẻ tín dụng của mọi người và sử dụng chúng để thực hiện hành vi gian lận.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Businesses may also lose large amounts of money when their systems are attacked or when confidential information is stolen.",
+                                "vn": "Các doanh nghiệp cũng có thể mất những khoản tiền lớn khi hệ thống của họ bị tấn công hoặc khi thông tin bí mật bị đánh cắp.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Another serious impact is the loss of trust and privacy.",
+                                "vn": "Một tác động nghiêm trọng khác là sự mất mát về niềm tin và quyền riêng tư.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "When personal information is leaked, victims may feel unsafe using online services, while customers may lose confidence in companies that fail to protect their data.",
+                                "vn": "Khi thông tin cá nhân bị rò rỉ, các nạn nhân có thể cảm thấy không an toàn khi sử dụng dịch vụ trực tuyến, trong khi khách hàng có thể mất niềm tin vào các công ty không bảo vệ được dữ liệu của họ.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "In the long term, cyberattacks can damage not only people's privacy but also the reputation of businesses.",
+                                "vn": "Về lâu dài, các cuộc tấn công mạng không chỉ có thể làm tổn hại quyền riêng tư của mọi người mà còn cả danh tiếng của các doanh nghiệp.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "Several measures can be taken to tackle this issue.",
+                                "vn": "Một số biện pháp có thể được thực hiện để giải quyết vấn đề này.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "Firstly, governments should strengthen cybercrime laws and introduce stricter punishments.",
+                                "vn": "Trước hết, các chính phủ nên tăng cường luật về tội phạm mạng và đưa ra các hình phạt nghiêm khắc hơn.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "These measures can discourage criminals from carrying out online attacks.",
+                                "vn": "Những biện pháp này có thể ngăn chặn tội phạm thực hiện các cuộc tấn công trực tuyến.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Moreover, businesses should improve their cybersecurity systems.",
+                                "vn": "Hơn nữa, các doanh nghiệp nên cải thiện các hệ thống an ninh mạng của họ.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "They can use stronger passwords, multi-factor authentication and regular software updates to make it harder for hackers to gain access to sensitive information.",
+                                "vn": "Họ có thể sử dụng mật khẩu mạnh hơn, xác thực đa yếu tố và cập nhật phần mềm thường xuyên để khiến tin tặc khó tiếp cận các thông tin nhạy cảm hơn.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Finally, individuals should receive better education about online safety.",
+                                "vn": "Cuối cùng, các cá nhân nên được giáo dục tốt hơn về an toàn trực tuyến.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Schools and workplaces can provide simple guidance on recognizing suspicious emails, avoiding unsafe links, and protecting personal information.",
+                                "vn": "Trường học và nơi làm việc có thể cung cấp những hướng dẫn đơn giản về việc nhận diện các email đáng ngờ, tránh các liên kết không an toàn và bảo vệ thông tin cá nhân.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "These measures would help people become more careful on the Internet and reduce the number of successful cyberattacks.",
+                                "vn": "Những biện pháp này sẽ giúp mọi người trở nên cẩn thận hơn trên Internet và giảm số lượng các cuộc tấn công mạng thành công.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "In conclusion, cybercrime can cause serious financial losses as well as damage people's privacy and trust in digital services.",
+                                "vn": "Tóm lại, tội phạm mạng có thể gây ra những tổn thất tài chính nghiêm trọng cũng như làm tổn hại đến quyền riêng tư và niềm tin của mọi người vào các dịch vụ kỹ thuật số.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Although it is difficult to eliminate cybercrime completely, stronger laws, better cybersecurity, and greater public awareness can significantly reduce its impact.",
+                                "vn": "Mặc dù rất khó để loại bỏ hoàn toàn tội phạm mạng, nhưng luật pháp nghiêm minh hơn, an ninh mạng tốt hơn và nhận thức cộng đồng cao hơn có thể giảm đáng kể tác động của nó.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "A combined effort from governments, organisations, and individuals is therefore essential to create a safer digital environment.",
+                                "vn": "Do đó, sự nỗ lực chung từ các chính phủ, tổ chức và cá nhân là điều cần thiết để tạo ra một môi trường kỹ thuật số an toàn hơn.",
+                                "isRed": false
+                            }
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "glass-office-buildings",
+        "title": "20. Tòa nhà văn phòng bằng kính",
+        "summary": "Bài luận về những ưu điểm và nhược điểm của xu hướng thiết kế các tòa nhà văn phòng bằng nhiều kính tại các thành phố hiện đại.",
+        "isMatchingVocab": true,
+        "meta": {
+            "category": "Đời sống & Xã hội",
+            "taskType": "Advantages / Disadvantages",
+            "level": "B1-C1",
+            "estimatedMinutes": 40
+        },
+        "prompt": [
+            {
+                "en": "In many modern cities, office buildings are increasingly designed with a large amount of glass.",
+                "vn": "Tại nhiều thành phố hiện đại, các tòa nhà văn phòng ngày càng được thiết kế với một lượng lớn kính."
+            },
+            {
+                "en": "Discuss the advantages and disadvantages of this trend.",
+                "vn": "Thảo luận về những ưu điểm và nhược điểm của xu hướng này."
+            }
+        ],
+        "introEnExpectedLength": 45,
+        "conclusionEnExpectedLength": 45,
+        "currentVariantIndex": 0,
+        "variants": [
+            {
+                "name": "Level B1",
+                "vocab": [
+                    {
+                        "en": "office building",
+                        "vn": "tòa nhà văn phòng"
+                    },
+                    {
+                        "en": "a large amount of glass",
+                        "vn": "một lượng lớn kính"
+                    },
+                    {
+                        "en": "natural light",
+                        "vn": "ánh sáng tự nhiên"
+                    },
+                    {
+                        "en": "enter the building",
+                        "vn": "chiếu vào bên trong tòa nhà"
+                    },
+                    {
+                        "en": "comfortable working environment",
+                        "vn": "môi trường làm việc thoải mái"
+                    },
+                    {
+                        "en": "electric lights",
+                        "vn": "đèn điện"
+                    },
+                    {
+                        "en": "save energy",
+                        "vn": "tiết kiệm năng lượng"
+                    },
+                    {
+                        "en": "modern and beautiful",
+                        "vn": "hiện đại và đẹp mắt"
+                    },
+                    {
+                        "en": "developed and attractive",
+                        "vn": "phát triển và thu hút"
+                    },
+                    {
+                        "en": "city centre",
+                        "vn": "trung tâm thành phố"
+                    },
+                    {
+                        "en": "modern appearance",
+                        "vn": "diện mạo hiện đại"
+                    },
+                    {
+                        "en": "hot weather",
+                        "vn": "thời tiết nắng nóng"
+                    },
+                    {
+                        "en": "increase temperature",
+                        "vn": "tăng nhiệt độ"
+                    },
+                    {
+                        "en": "air conditioner",
+                        "vn": "máy điều hòa"
+                    },
+                    {
+                        "en": "electricity costs",
+                        "vn": "chi phí tiền điện"
+                    },
+                    {
+                        "en": "provide privacy",
+                        "vn": "mang lại sự riêng tư"
+                    },
+                    {
+                        "en": "large windows",
+                        "vn": "những ô cửa sổ lớn"
+                    },
+                    {
+                        "en": "feel uncomfortable",
+                        "vn": "cảm thấy không thoải mái"
+                    },
+                    {
+                        "en": "architect",
+                        "vn": "kiến trúc sư"
+                    },
+                    {
+                        "en": "find a balance",
+                        "vn": "tìm kiếm sự cân bằng"
+                    },
+                    {
+                        "en": "drawback",
+                        "vn": "nhược điểm, bất lợi"
+                    }
+                ],
+                "introVn": "Tại nhiều thành phố hiện đại, ngày càng có nhiều tòa nhà văn phòng được thiết kế với một lượng lớn kính. Mặc dù xu hướng này mang lại nhiều lợi ích, nhưng nó cũng có một số bất lợi nhất định. Bài luận này sẽ thảo luận về cả những ưu điểm và nhược điểm của việc làm việc trong các tòa nhà kính.",
+                "introChunks": [
+                    {
+                        "en": "In many modern cities,",
+                        "vn": "Tại nhiều thành phố hiện đại,"
+                    },
+                    {
+                        "en": "more and more office buildings",
+                        "vn": "ngày càng có nhiều tòa nhà văn phòng"
+                    },
+                    {
+                        "en": "are designed with",
+                        "vn": "được thiết kế với"
+                    },
+                    {
+                        "en": "a large amount of glass.",
+                        "vn": "một lượng lớn kính."
+                    },
+                    {
+                        "en": "While this trend offers numerous benefits,",
+                        "vn": "Mặc dù xu hướng này mang lại nhiều lợi ích,"
+                    },
+                    {
+                        "en": "it also has certain drawbacks.",
+                        "vn": "nhưng nó cũng có một số bất lợi nhất định."
+                    },
+                    {
+                        "en": "This essay will discuss",
+                        "vn": "Bài luận này sẽ thảo luận về"
+                    },
+                    {
+                        "en": "both the advantages and disadvantages",
+                        "vn": "cả những ưu điểm và nhược điểm"
+                    },
+                    {
+                        "en": "of working in glass buildings.",
+                        "vn": "của việc làm việc trong các tòa nhà kính."
+                    }
+                ],
+                "bodyParagraphs": [
+                    {
+                        "title": "Đoạn 1: Lợi ích của tòa nhà văn phòng bằng kính (Advantages)",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "On the one hand",
+                                        "vn": "Một mặt",
+                                        "connector": ":"
+                                    },
+                                    {
+                                        "en": "several benefits",
+                                        "vn": "nhiều lợi ích",
+                                        "connector": "➜",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "using a lot of glass in office buildings",
+                                        "vn": "sử dụng nhiều kính trong các tòa nhà văn phòng"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lợi ích 1: Ánh sáng tự nhiên & Tiết kiệm điện",
+                                "hints": [
+                                    {
+                                        "en": "more natural light",
+                                        "vn": "nhiều ánh sáng tự nhiên hơn",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "allow light to enter the building",
+                                        "vn": "cho phép ánh sáng chiếu vào tòa nhà",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "brighter and more comfortable working environment",
+                                        "vn": "môi trường làm việc sáng sủa và thoải mái hơn",
+                                        "connector": "➜",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "reduce the need for electric lights",
+                                        "vn": "giảm nhu cầu dùng đèn điện",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "save energy",
+                                        "vn": "tiết kiệm năng lượng"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lợi ích 2: Thẩm mỹ hiện đại cho đô thị",
+                                "hints": [
+                                    {
+                                        "en": "modern and beautiful look",
+                                        "vn": "vẻ ngoài hiện đại và đẹp mắt",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "look more developed and attractive",
+                                        "vn": "trông phát triển và thu hút hơn",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "new buildings in the city centre",
+                                        "vn": "nhiều tòa nhà mới ở trung tâm thành phố",
+                                        "prefix": "(",
+                                        "suffix": ")",
+                                        "connector": "➜",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "give the city a modern appearance",
+                                        "vn": "mang lại cho thành phố một diện mạo hiện đại"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Đoạn 2: Bất lợi của tòa nhà văn phòng bằng kính (Disadvantages)",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "On the other hand",
+                                        "vn": "Mặt khác",
+                                        "connector": ":"
+                                    },
+                                    {
+                                        "en": "some drawbacks",
+                                        "vn": "một số bất lợi",
+                                        "connector": "➜",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "comes with this trend",
+                                        "vn": "đi kèm với xu hướng này"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Bất lợi 1: Tăng nhiệt độ & Tốn chi phí điện",
+                                "hints": [
+                                    {
+                                        "en": "make buildings very hot",
+                                        "vn": "làm cho các tòa nhà rất nóng",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "hot weather + a lot of sunlight",
+                                        "vn": "thời tiết nắng nóng + nhiều ánh nắng",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "temperature increases quickly",
+                                        "vn": "nhiệt độ tăng lên nhanh chóng",
+                                        "connector": "➜",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "use air conditioners more often",
+                                        "vn": "sử dụng máy điều hòa thường xuyên hơn",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "increase electricity costs",
+                                        "vn": "làm tăng chi phí tiền điện"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Bất lợi 2: Thiếu sự riêng tư cho nhân viên",
+                                "hints": [
+                                    {
+                                        "en": "lack of privacy",
+                                        "vn": "thiếu sự riêng tư",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "large windows",
+                                        "vn": "những ô cửa sổ lớn",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "people outside see workers inside",
+                                        "vn": "người bên ngoài nhìn thấy nhân viên bên trong",
+                                        "connector": "➜",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "feel uncomfortable while working",
+                                        "vn": "cảm thấy không thoải mái khi làm việc"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "conclusionVn": "Tóm lại, việc sử dụng một lượng lớn kính trong các tòa nhà văn phòng có thể cung cấp nhiều ánh sáng tự nhiên hơn và làm cho các thành phố trông hiện đại hơn. Tuy nhiên, nó cũng có thể khiến các tòa nhà nóng hơn và làm giảm sự riêng tư. Vì vậy, các kiến trúc sư nên tìm kiếm sự cân bằng hợp lý giữa vẻ ngoài, sự thoải mái và tính riêng tư khi thiết kế các tòa nhà văn phòng.",
+                "conclusionChunks": [
+                    {
+                        "en": "In conclusion,",
+                        "vn": "Tóm lại,"
+                    },
+                    {
+                        "en": "using a large amount of glass in office buildings",
+                        "vn": "việc sử dụng một lượng lớn kính trong các tòa nhà văn phòng"
+                    },
+                    {
+                        "en": "can provide more natural light",
+                        "vn": "có thể cung cấp nhiều ánh sáng tự nhiên hơn"
+                    },
+                    {
+                        "en": "and make cities look more modern.",
+                        "vn": "và làm cho các thành phố trông hiện đại hơn."
+                    },
+                    {
+                        "en": "However, it can also",
+                        "vn": "Tuy nhiên, nó cũng có thể"
+                    },
+                    {
+                        "en": "make buildings hotter and reduce privacy.",
+                        "vn": "khiến các tòa nhà nóng hơn và làm giảm sự riêng tư."
+                    },
+                    {
+                        "en": "Therefore, architects should",
+                        "vn": "Vì vậy, các kiến trúc sư nên"
+                    },
+                    {
+                        "en": "find a good balance between",
+                        "vn": "tìm kiếm sự cân bằng hợp lý giữa"
+                    },
+                    {
+                        "en": "appearance, comfort, and privacy",
+                        "vn": "vẻ ngoài, sự thoải mái và tính riêng tư"
+                    },
+                    {
+                        "en": "when designing office buildings.",
+                        "vn": "khi thiết kế các tòa nhà văn phòng."
+                    }
+                ],
+                "sampleEssay": {
+                    "paragraphs": [
+                        [
+                            {
+                                "en": "In many modern cities, more and more office buildings are designed with a large amount of glass.",
+                                "vn": "Tại nhiều thành phố hiện đại, ngày càng có nhiều tòa nhà văn phòng được thiết kế với một lượng lớn kính.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "While this trend offers numerous benefits, it also has certain drawbacks.",
+                                "vn": "Mặc dù xu hướng này mang lại nhiều lợi ích, nhưng nó cũng có một số bất lợi nhất định.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This essay will discuss both the advantages and disadvantages of working in glass buildings.",
+                                "vn": "Bài luận này sẽ thảo luận về cả những ưu điểm và nhược điểm của việc làm việc trong các tòa nhà kính.",
+                                "isRed": true
+                            }
+                        ],
+                        [
+                            {
+                                "en": "On the one hand, there are several benefits of using a lot of glass in office buildings.",
+                                "vn": "Một mặt, có một số lợi ích của việc sử dụng nhiều kính trong các tòa nhà văn phòng.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "First of all, glass allows more natural light to enter the building.",
+                                "vn": "Trước hết, kính cho phép nhiều ánh sáng tự nhiên hơn chiếu vào bên trong tòa nhà.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "As a result, workers can have a brighter and more comfortable working environment during the day.",
+                                "vn": "Kết quả là, người đi làm có thể có một môi trường làm việc sáng sủa và thoải mái hơn vào ban ngày.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "It can also reduce the need for electric lights, which may help save some energy.",
+                                "vn": "Nó cũng có thể giảm nhu cầu sử dụng đèn điện, điều này có thể giúp tiết kiệm một phần năng lượng.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Secondly, glass buildings often look modern and beautiful.",
+                                "vn": "Thứ hai, các tòa nhà bằng kính thường trông hiện đại và đẹp mắt.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "They can make a city look more developed and attractive, especially when there are many new buildings in the city centre.",
+                                "vn": "Chúng có thể làm cho một thành phố trông phát triển và thu hút hơn, đặc biệt là khi có nhiều tòa nhà mới ở trung tâm thành phố.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "As a result, large glass office buildings can give a city a more modern appearance.",
+                                "vn": "Do đó, các tòa nhà văn phòng lớn bằng kính có thể mang lại cho thành phố một diện mạo hiện đại hơn.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "On the other hand, this trend also comes with some drawbacks.",
+                                "vn": "Mặt khác, xu hướng này cũng đi kèm với một số bất lợi.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "One disadvantage is that glass can make buildings very hot, especially in countries with hot weather.",
+                                "vn": "Một nhược điểm là kính có thể làm cho các tòa nhà rất nóng, đặc biệt là ở những quốc gia có thời tiết nắng nóng.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "When there is a lot of sunlight, the temperature inside the building can increase quickly.",
+                                "vn": "Khi có nhiều ánh nắng mặt trời, nhiệt độ bên trong tòa nhà có thể tăng lên nhanh chóng.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Therefore, companies may need to use air conditioners more often, which can increase electricity costs.",
+                                "vn": "Vì vậy, các công ty có thể cần sử dụng máy điều hòa thường xuyên hơn, điều này có thể làm tăng chi phí tiền điện.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Another problem is that glass does not provide much privacy.",
+                                "vn": "Một vấn đề khác là kính không mang lại nhiều sự riêng tư.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "People outside the building may be able to see workers inside, especially when the windows are large.",
+                                "vn": "Người bên ngoài tòa nhà có thể nhìn thấy nhân viên bên trong, đặc biệt là khi cửa sổ lớn.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This can make some employees feel uncomfortable while working.",
+                                "vn": "Điều này có thể khiến một số nhân viên cảm thấy không thoải mái khi làm việc.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "In conclusion, using a large amount of glass in office buildings can provide more natural light and make cities look more modern.",
+                                "vn": "Tóm lại, việc sử dụng một lượng lớn kính trong các tòa nhà văn phòng có thể cung cấp nhiều ánh sáng tự nhiên hơn và làm cho các thành phố trông hiện đại hơn.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "However, it can also make buildings hotter and reduce privacy.",
+                                "vn": "Tuy nhiên, nó cũng có thể khiến các tòa nhà nóng hơn và làm giảm sự riêng tư.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Therefore, architects should find a good balance between appearance, comfort, and privacy when designing office buildings.",
+                                "vn": "Vì vậy, các kiến trúc sư nên tìm kiếm sự cân bằng hợp lý giữa vẻ ngoài, sự thoải mái và tính riêng tư khi thiết kế các tòa nhà văn phòng.",
+                                "isRed": false
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Level C1",
+                "vocab": [
+                    {
+                        "en": "contemporary appearance",
+                        "vn": "diện mạo đương đại, hiện đại"
+                    },
+                    {
+                        "en": "architectural trend",
+                        "vn": "xu hướng kiến trúc"
+                    },
+                    {
+                        "en": "positive effects",
+                        "vn": "những tác động tích cực"
+                    },
+                    {
+                        "en": "artificial lighting",
+                        "vn": "ánh sáng nhân tạo"
+                    },
+                    {
+                        "en": "electricity consumption",
+                        "vn": "lượng điện năng tiêu thụ"
+                    },
+                    {
+                        "en": "pleasant working atmosphere",
+                        "vn": "bầu không khí làm việc dễ chịu"
+                    },
+                    {
+                        "en": "constant exposure",
+                        "vn": "sự tiếp xúc liên tục"
+                    },
+                    {
+                        "en": "modern cityscape",
+                        "vn": "cảnh quan thành phố hiện đại"
+                    },
+                    {
+                        "en": "spacious and clean",
+                        "vn": "rộng rãi và sạch sẽ"
+                    },
+                    {
+                        "en": "extensive use of glass",
+                        "vn": "việc sử dụng kính trên diện rộng"
+                    },
+                    {
+                        "en": "excessively hot",
+                        "vn": "quá nóng, nóng bức quá mức"
+                    },
+                    {
+                        "en": "considerable heat",
+                        "vn": "lượng nhiệt đáng kể"
+                    },
+                    {
+                        "en": "cooling demands",
+                        "vn": "nhu cầu làm mát"
+                    },
+                    {
+                        "en": "privacy concerns",
+                        "vn": "mối lo ngại về quyền riêng tư"
+                    },
+                    {
+                        "en": "confidential information",
+                        "vn": "thông tin bảo mật"
+                    },
+                    {
+                        "en": "problematic",
+                        "vn": "gây rắc rối, nan giải"
+                    },
+                    {
+                        "en": "urban environment",
+                        "vn": "môi trường đô thị"
+                    },
+                    {
+                        "en": "protect people's privacy",
+                        "vn": "bảo vệ quyền riêng tư của mọi người"
+                    },
+                    {
+                        "en": "operate for longer periods",
+                        "vn": "vận hành trong thời gian dài hơn"
+                    },
+                    {
+                        "en": "natural light",
+                        "vn": "ánh sáng tự nhiên"
+                    }
+                ],
+                "introVn": "Tại nhiều thành phố hiện đại, các tòa nhà văn phòng được thiết kế với bề mặt kính lớn, mang lại cho chúng vẻ ngoài sáng sủa và đương đại. Mặc dù xu hướng kiến trúc này có thể mang lại nhiều lợi ích, nhưng nó cũng làm dấy lên những mối lo ngại. Bài luận này sẽ thảo luận về cả những ưu điểm và nhược điểm của sự phát triển này.",
+                "introChunks": [
+                    {
+                        "en": "In many modern cities,",
+                        "vn": "Tại nhiều thành phố hiện đại,"
+                    },
+                    {
+                        "en": "office buildings are designed with",
+                        "vn": "các tòa nhà văn phòng được thiết kế với"
+                    },
+                    {
+                        "en": "large glass surfaces,",
+                        "vn": "bề mặt kính lớn,"
+                    },
+                    {
+                        "en": "giving them a bright and contemporary appearance.",
+                        "vn": "mang lại cho chúng vẻ ngoài sáng sủa và đương đại."
+                    },
+                    {
+                        "en": "While this architectural trend",
+                        "vn": "Mặc dù xu hướng kiến trúc này"
+                    },
+                    {
+                        "en": "can bring several benefits,",
+                        "vn": "có thể mang lại nhiều lợi ích,"
+                    },
+                    {
+                        "en": "it also raises concerns.",
+                        "vn": "nhưng nó cũng làm dấy lên những mối lo ngại."
+                    },
+                    {
+                        "en": "This essay will discuss",
+                        "vn": "Bài luận này sẽ thảo luận về"
+                    },
+                    {
+                        "en": "both the advantages and disadvantages",
+                        "vn": "cả những ưu điểm và nhược điểm"
+                    },
+                    {
+                        "en": "of this development.",
+                        "vn": "của sự phát triển này."
+                    }
+                ],
+                "bodyParagraphs": [
+                    {
+                        "title": "Đoạn 1: Tác động tích cực của tòa nhà văn phòng bằng kính (Positive Effects)",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "On the one hand",
+                                        "vn": "Một mặt",
+                                        "connector": ":"
+                                    },
+                                    {
+                                        "en": "positive effects",
+                                        "vn": "những tác động tích cực",
+                                        "connector": "➜",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "glass office buildings definitely offer",
+                                        "vn": "các tòa nhà văn phòng bằng kính chắc chắn mang lại"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lợi ích 1: Ánh sáng tự nhiên & Giảm phụ thuộc ánh sáng nhân tạo",
+                                "hints": [
+                                    {
+                                        "en": "allow natural light into the workplace",
+                                        "vn": "cho phép ánh sáng tự nhiên đi vào nơi làm việc",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "work in a brighter environment",
+                                        "vn": "làm việc trong môi trường sáng sủa hơn",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "without relying heavily on artificial lighting",
+                                        "vn": "không phải phụ thuộc nhiều vào ánh sáng nhân tạo",
+                                        "connector": "➜",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "reduce electricity consumption",
+                                        "vn": "giảm lượng tiêu thụ điện",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "create a more pleasant working atmosphere",
+                                        "vn": "tạo ra bầu không khí làm việc dễ chịu hơn",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "prefer natural light over constant artificial light",
+                                        "vn": "thích ánh sáng tự nhiên hơn việc tiếp xúc liên tục với ánh sáng nhân tạo"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lợi ích 2: Cảnh quan đô thị hiện đại & Thu hút đầu tư",
+                                "hints": [
+                                    {
+                                        "en": "improve the appearance of office buildings",
+                                        "vn": "cải thiện diện mạo của các tòa nhà văn phòng",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "contribute to a modern cityscape",
+                                        "vn": "đóng góp vào cảnh quan đô thị hiện đại hơn",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "look spacious and clean",
+                                        "vn": "trông rộng rãi và sạch sẽ",
+                                        "prefix": "(",
+                                        "suffix": ")",
+                                        "connector": "➜",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "create a strong image for the city",
+                                        "vn": "tạo dựng hình ảnh mạnh mẽ cho thành phố",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "attract businesses and visitors",
+                                        "vn": "thu hút các doanh nghiệp và du khách"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Đoạn 2: Những bất lợi đáng kể của tòa nhà văn phòng bằng kính (Significant Drawbacks)",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "Despite these advantages",
+                                        "vn": "Bất chấp những lợi ích này",
+                                        "connector": ":"
+                                    },
+                                    {
+                                        "en": "significant drawbacks",
+                                        "vn": "những nhược điểm đáng kể",
+                                        "connector": "➜",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "extensive use of glass",
+                                        "vn": "việc sử dụng kính trên diện rộng"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Bất lợi 1: Tích tụ nhiệt & Gia tăng tiêu thụ năng lượng làm mát",
+                                "hints": [
+                                    {
+                                        "en": "cause offices to become excessively hot",
+                                        "vn": "khiến văn phòng trở nên quá nóng",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "cities with strong sunlight",
+                                        "vn": "những thành phố có ánh nắng gay gắt",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "allow considerable heat to enter",
+                                        "vn": "để một lượng nhiệt đáng kể xâm nhập vào",
+                                        "connector": "➜",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "air-conditioning systems operate for longer periods",
+                                        "vn": "hệ thống điều hòa phải hoạt động trong thời gian dài hơn",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "increase energy consumption",
+                                        "vn": "làm gia tăng mức tiêu thụ năng lượng"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Bất lợi 2: Mối lo ngại riêng tư & Nguy cơ rò rỉ thông tin mật",
+                                "hints": [
+                                    {
+                                        "en": "privacy concerns for employees",
+                                        "vn": "mối lo ngại về quyền riêng tư của nhân viên",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "employees working on lower floors",
+                                        "vn": "nhân viên làm việc ở các tầng thấp",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "people outside see into their workplace",
+                                        "vn": "người bên ngoài có thể nhìn vào nơi làm việc của họ",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "feel uncomfortable",
+                                        "vn": "cảm thấy không thoải mái",
+                                        "connector": "➜",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "companies dealing with confidential information",
+                                        "vn": "các công ty xử lý thông tin bảo mật",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "privacy is an essential requirement",
+                                        "vn": "tính riêng tư là một yêu cầu thiết yếu"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "conclusionVn": "Tóm lại, việc sử dụng kính ngày càng tăng trong các tòa nhà văn phòng có thể cung cấp nhiều ánh sáng tự nhiên hơn và đóng góp vào một môi trường đô thị hiện đại và hấp dẫn. Tuy nhiên, nó cũng có thể dẫn đến nhu cầu làm mát cao hơn và những lo ngại về quyền riêng tư. Do đó, các kiến trúc sư nên sử dụng kính một cách cẩn trọng và bổ sung rèm cửa hoặc các tính năng khác để giảm nhiệt và bảo vệ sự riêng tư của con người.",
+                "conclusionChunks": [
+                    {
+                        "en": "In conclusion,",
+                        "vn": "Tóm lại,"
+                    },
+                    {
+                        "en": "the growing use of glass in office buildings",
+                        "vn": "việc sử dụng kính ngày càng tăng trong các tòa nhà văn phòng"
+                    },
+                    {
+                        "en": "can provide more natural light",
+                        "vn": "có thể cung cấp nhiều ánh sáng tự nhiên hơn"
+                    },
+                    {
+                        "en": "and contribute to a modern and attractive urban environment.",
+                        "vn": "và đóng góp vào một môi trường đô thị hiện đại và hấp dẫn."
+                    },
+                    {
+                        "en": "However, it can also",
+                        "vn": "Tuy nhiên, nó cũng có thể"
+                    },
+                    {
+                        "en": "lead to higher cooling demands and privacy concerns.",
+                        "vn": "dẫn đến nhu cầu làm mát cao hơn và những lo ngại về quyền riêng tư."
+                    },
+                    {
+                        "en": "Therefore, architects should",
+                        "vn": "Do đó, các kiến trúc sư nên"
+                    },
+                    {
+                        "en": "use glass carefully",
+                        "vn": "sử dụng kính một cách cẩn trọng"
+                    },
+                    {
+                        "en": "and add curtains or other features",
+                        "vn": "và bổ sung rèm cửa hoặc các tính năng khác"
+                    },
+                    {
+                        "en": "to reduce heat and protect people's privacy.",
+                        "vn": "để giảm nhiệt và bảo vệ sự riêng tư của con người."
+                    }
+                ],
+                "sampleEssay": {
+                    "paragraphs": [
+                        [
+                            {
+                                "en": "In many modern cities, office buildings are designed with large glass surfaces, giving them a bright and contemporary appearance.",
+                                "vn": "Tại nhiều thành phố hiện đại, các tòa nhà văn phòng được thiết kế với bề mặt kính lớn, mang lại cho chúng vẻ ngoài sáng sủa và đương đại.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "While this architectural trend can bring several benefits, it also raises concerns.",
+                                "vn": "Mặc dù xu hướng kiến trúc này có thể mang lại nhiều lợi ích, nhưng nó cũng làm dấy lên những mối lo ngại.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This essay will discuss both the advantages and disadvantages of this development.",
+                                "vn": "Bài luận này sẽ thảo luận về cả những ưu điểm và nhược điểm của sự phát triển này.",
+                                "isRed": true
+                            }
+                        ],
+                        [
+                            {
+                                "en": "On the one hand, glass office buildings definitely offer some positive effects.",
+                                "vn": "Một mặt, các tòa nhà văn phòng bằng kính chắc chắn mang lại một số tác động tích cực.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "One major advantage is that they allow a large amount of natural light to enter the workplace.",
+                                "vn": "Một ưu điểm lớn là chúng cho phép một lượng lớn ánh sáng tự nhiên chiếu vào nơi làm việc.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Employees can therefore work in a brighter environment during the day without relying heavily on artificial lighting.",
+                                "vn": "Do đó, nhân viên có thể làm việc trong môi trường sáng sủa hơn vào ban ngày mà không phải phụ thuộc nhiều vào ánh sáng nhân tạo.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This can not only reduce electricity consumption but also create a more pleasant working atmosphere, as many people find natural light more comfortable than constant exposure to artificial light.",
+                                "vn": "Điều này không chỉ làm giảm tiêu thụ điện năng mà còn tạo ra bầu không khí làm việc dễ chịu hơn, vì nhiều người cảm thấy ánh sáng tự nhiên thoải mái hơn so với việc tiếp xúc liên tục với ánh sáng nhân tạo.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Another benefit is that glass can improve the appearance of office buildings and contribute to a more modern cityscape.",
+                                "vn": "Một lợi ích khác là kính có thể cải thiện diện mạo của các tòa nhà văn phòng và đóng góp vào một cảnh quan thành phố hiện đại hơn.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Large glass windows can make buildings look spacious and clean, which may help cities create a strong image and attract businesses and visitors.",
+                                "vn": "Các cửa sổ kính lớn có thể làm cho các tòa nhà trông rộng rãi và sạch sẽ, điều này có thể giúp các thành phố tạo dựng hình ảnh mạnh mẽ và thu hút các doanh nghiệp cũng như du khách.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "Despite these advantages, there are also some significant drawbacks.",
+                                "vn": "Bất chấp những lợi ích này, cũng có một số nhược điểm đáng kể.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "First of all, extensive use of glass can cause offices to become excessively hot, particularly in cities with strong sunlight.",
+                                "vn": "Trước hết, việc sử dụng kính rộng rãi có thể khiến văn phòng trở nên quá nóng, đặc biệt là ở những thành phố có ánh nắng gay gắt.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Although modern buildings may use special types of glass, large windows can still allow considerable heat to enter.",
+                                "vn": "Mặc dù các tòa nhà hiện đại có thể sử dụng các loại kính đặc biệt, các cửa sổ lớn vẫn có thể cho phép một lượng nhiệt đáng kể truyền vào.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "As a result, air-conditioning systems may have to operate for longer periods, which increases energy consumption.",
+                                "vn": "Kết quả là, các hệ thống điều hòa không khí có thể phải vận hành trong thời gian dài hơn, điều này làm tăng lượng tiêu thụ năng lượng.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Furthermore, large glass windows may cause privacy concerns for people working inside the building.",
+                                "vn": "Hơn nữa, các cửa sổ kính lớn có thể gây ra những lo ngại về quyền riêng tư cho những người làm việc bên trong tòa nhà.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Employees working on lower floors, for instance, may feel uncomfortable knowing that people outside can see into their workplace.",
+                                "vn": "Chẳng hạn, các nhân viên làm việc ở các tầng thấp hơn có thể cảm thấy không thoải mái khi biết rằng những người bên ngoài có thể nhìn vào nơi làm việc của họ.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This can be particularly problematic for companies that deal with confidential information, where privacy is an important part of their work.",
+                                "vn": "Điều này có thể đặc biệt nan giải đối với các công ty xử lý thông tin bảo mật, nơi mà tính riêng tư là một phần quan trọng trong công việc của họ.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "In conclusion, the growing use of glass in office buildings can provide more natural light and contribute to a modern and attractive urban environment.",
+                                "vn": "Tóm lại, việc sử dụng kính ngày càng tăng trong các tòa nhà văn phòng có thể cung cấp nhiều ánh sáng tự nhiên hơn và đóng góp vào một môi trường đô thị hiện đại và hấp dẫn.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "However, it can also lead to higher cooling demands and privacy concerns.",
+                                "vn": "Tuy nhiên, nó cũng có thể dẫn đến nhu cầu làm mát cao hơn và những lo ngại về quyền riêng tư.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Therefore, architects should use glass carefully and add curtains or other features to reduce heat and protect people's privacy.",
+                                "vn": "Do đó, các kiến trúc sư nên sử dụng kính một cách cẩn trọng và bổ sung rèm cửa hoặc các tính năng khác để giảm nhiệt và bảo vệ sự riêng tư của con người.",
+                                "isRed": false
+                            }
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "keeping-a-diary",
+        "title": "21. Thói quen viết nhật ký",
+        "summary": "Bài luận về những lợi ích của việc viết nhật ký đối với sức khỏe tinh thần, thấu hiểu bản thân và lưu giữ những khoảnh khắc quan trọng.",
+        "isMatchingVocab": true,
+        "meta": {
+            "category": "Đời sống & Xã hội",
+            "taskType": "Advantages / Disadvantages",
+            "level": "B1",
+            "estimatedMinutes": 40
+        },
+        "prompt": [
+            {
+                "en": "Many people keep a diary to write about their daily lives, thoughts and feelings.",
+                "vn": "Nhiều người viết nhật ký để ghi lại cuộc sống hàng ngày, suy nghĩ và cảm xúc của họ."
+            },
+            {
+                "en": "What are the benefits of keeping a diary?",
+                "vn": "Những lợi ích của việc viết nhật ký là gì?"
+            },
+            {
+                "en": "Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+                "vn": "Hãy đưa ra lý do cho câu trả lời của bạn và bao gồm các ví dụ liên quan từ kiến thức hoặc trải nghiệm của chính bạn."
+            }
+        ],
+        "introEnExpectedLength": 245,
+        "conclusionEnExpectedLength": 214,
+        "currentVariantIndex": 0,
+        "variants": [
+            {
+                "name": "Level B1",
+                "vocab": [
+                    {
+                        "en": "keep a diary",
+                        "vn": "viết nhật ký"
+                    },
+                    {
+                        "en": "daily lives",
+                        "vn": "cuộc sống hàng ngày"
+                    },
+                    {
+                        "en": "thoughts and feelings",
+                        "vn": "suy nghĩ và cảm xúc"
+                    },
+                    {
+                        "en": "a simple habit",
+                        "vn": "một thói quen đơn giản"
+                    },
+                    {
+                        "en": "reduce stress",
+                        "vn": "giảm căng thẳng"
+                    },
+                    {
+                        "en": "have problems",
+                        "vn": "gặp phải vấn đề"
+                    },
+                    {
+                        "en": "relationships",
+                        "vn": "các mối quan hệ"
+                    },
+                    {
+                        "en": "worried or upset",
+                        "vn": "lo lắng hoặc buồn bã"
+                    },
+                    {
+                        "en": "express their emotions",
+                        "vn": "bộc lộ, giải tỏa cảm xúc"
+                    },
+                    {
+                        "en": "keep everything inside",
+                        "vn": "kìm nén mọi thứ bên trong"
+                    },
+                    {
+                        "en": "feel calmer",
+                        "vn": "cảm thấy bình tĩnh hơn"
+                    },
+                    {
+                        "en": "relaxed",
+                        "vn": "thư thái, thoải mái"
+                    },
+                    {
+                        "en": "understand themselves better",
+                        "vn": "thấu hiểu bản thân tốt hơn"
+                    },
+                    {
+                        "en": "daily experiences",
+                        "vn": "những trải nghiệm hàng ngày"
+                    },
+                    {
+                        "en": "personal goals and plans",
+                        "vn": "các mục tiêu và kế hoạch cá nhân"
+                    },
+                    {
+                        "en": "make better decisions",
+                        "vn": "đưa ra những quyết định tốt hơn"
+                    },
+                    {
+                        "en": "remember important moments",
+                        "vn": "ghi nhớ những khoảnh khắc quan trọng"
+                    },
+                    {
+                        "en": "special events",
+                        "vn": "các sự kiện đặc biệt"
+                    },
+                    {
+                        "en": "difficult times",
+                        "vn": "những giai đoạn khó khăn"
+                    },
+                    {
+                        "en": "appreciate past experiences",
+                        "vn": "trân trọng những trải nghiệm trong quá khứ"
+                    },
+                    {
+                        "en": "positive effects",
+                        "vn": "những tác động tích cực"
+                    }
+                ],
+                "introVn": "Ngày nay, nhiều người dành thời gian viết về cuộc sống hàng ngày, suy nghĩ và cảm xúc của họ vào một cuốn nhật ký. Đây là một thói quen đơn giản, nhưng nó có thể mang lại một số lợi ích cho cuộc sống của con người. Bài luận này sẽ thảo luận về một số lợi ích chính của việc viết nhật ký.",
+                "introChunks": [
+                    {
+                        "en": "Nowadays,",
+                        "vn": "Ngày nay,"
+                    },
+                    {
+                        "en": "many people spend some time",
+                        "vn": "nhiều người dành thời gian"
+                    },
+                    {
+                        "en": "writing about their daily lives, thoughts and feelings",
+                        "vn": "viết về cuộc sống hàng ngày, suy nghĩ và cảm xúc của họ"
+                    },
+                    {
+                        "en": "in a diary.",
+                        "vn": "vào một cuốn nhật ký."
+                    },
+                    {
+                        "en": "This is a simple habit,",
+                        "vn": "Đây là một thói quen đơn giản,"
+                    },
+                    {
+                        "en": "but it can bring several benefits to people's lives.",
+                        "vn": "nhưng nó có thể mang lại một số lợi ích cho cuộc sống của con người."
+                    },
+                    {
+                        "en": "This essay will discuss",
+                        "vn": "Bài luận này sẽ thảo luận về"
+                    },
+                    {
+                        "en": "some of the main advantages",
+                        "vn": "một số lợi ích chính"
+                    },
+                    {
+                        "en": "of keeping a diary.",
+                        "vn": "của việc viết nhật ký."
+                    }
+                ],
+                "bodyParagraphs": [
+                    {
+                        "title": "Đoạn 1: Giảm căng thẳng (Reduce stress)",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "First of all",
+                                        "vn": "Trước hết",
+                                        "connector": ":"
+                                    },
+                                    {
+                                        "en": "one important benefit of this habit",
+                                        "vn": "một lợi ích quan trọng của thói quen này",
+                                        "connector": "➜",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "help people reduce stress",
+                                        "vn": "giúp con người giảm căng thẳng"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lợi ích 1: Giải tỏa áp lực và cảm xúc tiêu cực",
+                                "hints": [
+                                    {
+                                        "en": "problems at school, work, or relationships",
+                                        "vn": "các vấn đề ở trường học, nơi làm việc hoặc trong các mối quan hệ",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "feel worried or upset",
+                                        "vn": "cảm thấy lo lắng hoặc buồn bã",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "write down thoughts and feelings",
+                                        "vn": "viết ra những suy nghĩ và cảm xúc",
+                                        "connector": "➜",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "express their emotions",
+                                        "vn": "bộc lộ và giải tỏa cảm xúc của mình",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "instead of keeping everything inside",
+                                        "vn": "thay vì kìm nén mọi thứ bên trong",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "feel calmer and more relaxed after writing",
+                                        "vn": "cảm thấy bình tĩnh hơn và thư thái hơn sau khi viết"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Đoạn 2: Thấu hiểu bản thân tốt hơn (Understand themselves better)",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "Secondly",
+                                        "vn": "Thứ hai",
+                                        "connector": ":"
+                                    },
+                                    {
+                                        "en": "another benefit",
+                                        "vn": "một lợi ích khác",
+                                        "connector": "➜",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "help people understand themselves better",
+                                        "vn": "giúp con người thấu hiểu bản thân tốt hơn"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lợi ích 2: Nhìn nhận bản thân và định hướng tương lai",
+                                "hints": [
+                                    {
+                                        "en": "write about daily experiences",
+                                        "vn": "viết về những trải nghiệm hàng ngày",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "reflect on what they did well",
+                                        "vn": "suy ngẫm về những điều mình đã làm tốt",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "problems they faced",
+                                        "vn": "những vấn đề mình đã gặp phải",
+                                        "connector": "➜",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "write about personal goals and plans",
+                                        "vn": "viết về các mục tiêu và kế hoạch cá nhân",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "understand their feelings",
+                                        "vn": "hiểu rõ cảm xúc của mình",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "make better decisions in the future",
+                                        "vn": "đưa ra những quyết định tốt hơn trong tương lai"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Đoạn 3: Lưu giữ những khoảnh khắc quan trọng (Remember important moments)",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "Finally",
+                                        "vn": "Cuối cùng",
+                                        "connector": ":"
+                                    },
+                                    {
+                                        "en": "a significant advantage",
+                                        "vn": "một lợi ích đáng kể",
+                                        "connector": "➜",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "remember important moments in life",
+                                        "vn": "ghi nhớ những khoảnh khắc quan trọng trong cuộc đời"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lợi ích 3: Lưu giữ kỷ niệm và trân trọng quá khứ",
+                                "hints": [
+                                    {
+                                        "en": "record special events and happy experiences",
+                                        "vn": "ghi lại những sự kiện đặc biệt và trải nghiệm vui vẻ",
+                                        "connector": "+",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "difficult times in daily life",
+                                        "vn": "những giai đoạn khó khăn trong cuộc sống thường ngày",
+                                        "connector": "➜",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "read old diaries after some years",
+                                        "vn": "đọc lại nhật ký cũ sau một vài năm",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "recall memorable moments",
+                                        "vn": "nhớ lại những khoảnh khắc đáng nhớ",
+                                        "connector": "➜",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "see how they have changed",
+                                        "vn": "thấy bản thân đã thay đổi như thế nào",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "appreciate past experiences",
+                                        "vn": "trân trọng những trải nghiệm trong quá khứ"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "conclusionVn": "Tóm lại, việc viết nhật ký có thể giúp con người giảm căng thẳng, thấu hiểu bản thân tốt hơn và ghi nhớ những khoảnh khắc quan trọng. Do đó, đây là một thói quen đơn giản có thể mang lại nhiều tác động tích cực đối với cuộc sống của con người.",
+                "conclusionChunks": [
+                    {
+                        "en": "In conclusion,",
+                        "vn": "Tóm lại,"
+                    },
+                    {
+                        "en": "keeping a diary can help people",
+                        "vn": "việc viết nhật ký có thể giúp con người"
+                    },
+                    {
+                        "en": "reduce stress,",
+                        "vn": "giảm căng thẳng,"
+                    },
+                    {
+                        "en": "understand themselves better",
+                        "vn": "thấu hiểu bản thân tốt hơn"
+                    },
+                    {
+                        "en": "and remember important moments.",
+                        "vn": "và ghi nhớ những khoảnh khắc quan trọng."
+                    },
+                    {
+                        "en": "Therefore,",
+                        "vn": "Do đó,"
+                    },
+                    {
+                        "en": "it is a simple habit",
+                        "vn": "đây là một thói quen đơn giản"
+                    },
+                    {
+                        "en": "that can have many positive effects",
+                        "vn": "có thể mang lại nhiều tác động tích cực"
+                    },
+                    {
+                        "en": "on people's lives.",
+                        "vn": "đối với cuộc sống của con người."
+                    }
+                ],
+                "sampleEssay": {
+                    "paragraphs": [
+                        [
+                            {
+                                "en": "Nowadays, many people spend some time writing about their daily lives, thoughts and feelings in a diary.",
+                                "vn": "Ngày nay, nhiều người dành thời gian viết về cuộc sống hàng ngày, suy nghĩ và cảm xúc của họ vào một cuốn nhật ký.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This is a simple habit, but it can bring several benefits to people's lives.",
+                                "vn": "Đây là một thói quen đơn giản, nhưng nó có thể mang lại một số lợi ích cho cuộc sống của con người.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This essay will discuss some of the main advantages of keeping a diary.",
+                                "vn": "Bài luận này sẽ thảo luận về một số lợi ích chính của việc viết nhật ký.",
+                                "isRed": true
+                            }
+                        ],
+                        [
+                            {
+                                "en": "First of all, one important benefit of this habit is that keeping a diary can help people reduce stress.",
+                                "vn": "Trước hết, một lợi ích quan trọng của thói quen này là việc viết nhật ký có thể giúp con người giảm căng thẳng.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "When people have problems at school, at work or in their relationships, they may feel worried or upset.",
+                                "vn": "Khi con người gặp vấn đề ở trường học, nơi làm việc hoặc trong các mối quan hệ, họ có thể cảm thấy lo lắng hoặc buồn bã.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Writing down their thoughts and feelings can help them express their emotions instead of keeping everything inside.",
+                                "vn": "Viết ra những suy nghĩ và cảm xúc có thể giúp họ giải tỏa cảm xúc thay vì kìm nén mọi thứ bên trong.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "As a result, they may feel calmer and more relaxed after writing.",
+                                "vn": "Kết quả là, họ có thể cảm thấy bình tĩnh hơn và thư thái hơn sau khi viết.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "Secondly, another benefit is that writing a diary can help people understand themselves better.",
+                                "vn": "Thứ hai, một lợi ích khác là viết nhật ký có thể giúp con người thấu hiểu bản thân tốt hơn.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "By writing about their daily experiences, they can think about what they did well and what problems they had.",
+                                "vn": "Bằng cách viết về những trải nghiệm hàng ngày, họ có thể suy ngẫm về những điều mình đã làm tốt và những vấn đề mình gặp phải.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "They can also write about their personal goals and plans.",
+                                "vn": "Họ cũng có thể viết về các mục tiêu và kế hoạch cá nhân của mình.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This can help them understand their feelings and make better decisions in the future.",
+                                "vn": "Điều này có thể giúp họ hiểu được cảm xúc của mình và đưa ra những quyết định tốt hơn trong tương lai.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "Finally, keeping a diary can help people remember important moments in their lives.",
+                                "vn": "Cuối cùng, viết nhật ký có thể giúp con người ghi nhớ những khoảnh khắc quan trọng trong cuộc đời của họ.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "People can write about special events, happy experiences or difficult times in their daily lives.",
+                                "vn": "Mọi người có thể viết về những sự kiện đặc biệt, những trải nghiệm vui vẻ hoặc những giai đoạn khó khăn trong cuộc sống thường ngày.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "After some years, they can read their old diary and remember these moments.",
+                                "vn": "Sau một vài năm, họ có thể đọc lại cuốn nhật ký cũ của mình và nhớ lại những khoảnh khắc này.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This can help them see how they have changed and appreciate their past experiences.",
+                                "vn": "Điều này có thể giúp họ thấy được bản thân đã thay đổi như thế nào và trân trọng những trải nghiệm trong quá khứ.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "In conclusion, keeping a diary can help people reduce stress, understand themselves better and remember important moments.",
+                                "vn": "Tóm lại, viết nhật ký có thể giúp con người giảm căng thẳng, thấu hiểu bản thân tốt hơn và ghi nhớ những khoảnh khắc quan trọng.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "Therefore, it is a simple habit that can have many positive effects on people's lives.",
+                                "vn": "Do đó, đây là một thói quen đơn giản có thể mang lại nhiều tác động tích cực đối với cuộc sống của con người.",
+                                "isRed": false
+                            }
+                        ]
+                    ]
                 }
             }
         ]
