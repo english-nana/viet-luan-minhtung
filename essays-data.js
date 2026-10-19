@@ -6545,7 +6545,7 @@ window.ESSAY_TOPICS = [
         "meta": {
             "category": "Giáo dục",
             "taskType": "Advantages / Disadvantages",
-            "level": "B1-B2",
+            "level": "B1-B2-C1",
             "estimatedMinutes": 40
         },
         "prompt": [
@@ -7032,7 +7032,489 @@ window.ESSAY_TOPICS = [
                 }
             },
             {
-                "name": "Level B2"
+                "name": "Level B2",
+                "vocab": [],
+                "introChunks": [],
+                "introVn": "",
+                "bodyParagraphs": [],
+                "conclusionChunks": [],
+                "conclusionVn": "",
+                "sampleEssay": {
+                    "paragraphs": []
+                }
+            },
+            {
+                "name": "Level C1",
+                "vocab": [
+                    {
+                        "en": "greater flexibility",
+                        "vn": "sự linh hoạt lớn hơn"
+                    },
+                    {
+                        "en": "create certain challenges",
+                        "vn": "tạo ra những thách thức nhất định"
+                    },
+                    {
+                        "en": "language levels",
+                        "vn": "trình độ ngôn ngữ"
+                    },
+                    {
+                        "en": "learning needs",
+                        "vn": "nhu cầu học tập"
+                    },
+                    {
+                        "en": "basic vocabulary and grammar",
+                        "vn": "từ vựng và ngữ pháp cơ bản"
+                    },
+                    {
+                        "en": "advanced learners",
+                        "vn": "người học ở trình độ nâng cao"
+                    },
+                    {
+                        "en": "critical thinking",
+                        "vn": "tư duy phản biện"
+                    },
+                    {
+                        "en": "communication skills",
+                        "vn": "kỹ năng giao tiếp"
+                    },
+                    {
+                        "en": "up-to-date content",
+                        "vn": "nội dung cập nhật"
+                    },
+                    {
+                        "en": "practical language skills",
+                        "vn": "kỹ năng ngôn ngữ thực tế"
+                    },
+                    {
+                        "en": "real-life situations",
+                        "vn": "các tình huống đời thực"
+                    },
+                    {
+                        "en": "well-funded schools",
+                        "vn": "các trường có kinh phí dồi dào"
+                    },
+                    {
+                        "en": "high-quality textbooks",
+                        "vn": "sách giáo khoa chất lượng cao"
+                    },
+                    {
+                        "en": "limited budgets",
+                        "vn": "ngân sách hạn hẹp"
+                    },
+                    {
+                        "en": "unfair learning environment",
+                        "vn": "môi trường học tập không công bằng"
+                    },
+                    {
+                        "en": "place additional pressure on",
+                        "vn": "đặt thêm áp lực lên"
+                    },
+                    {
+                        "en": "school managers",
+                        "vn": "các nhà quản lý trường học"
+                    },
+                    {
+                        "en": "educational requirements",
+                        "vn": "các yêu cầu giáo dục"
+                    },
+                    {
+                        "en": "increase workload",
+                        "vn": "làm tăng khối lượng công việc"
+                    },
+                    {
+                        "en": "unequal educational opportunities",
+                        "vn": "cơ hội giáo dục không bình đẳng"
+                    },
+                    {
+                        "en": "national standards",
+                        "vn": "các tiêu chuẩn quốc gia"
+                    }
+                ],
+                "introVn": "Ngày nay, một số trường học có thể tự lựa chọn sách giáo khoa ngoại ngữ thay vì sử dụng tài liệu do chính phủ cung cấp. Mặc dù cách tiếp cận này mang lại sự linh hoạt lớn hơn và có thể cải thiện việc học, nhưng nó cũng có thể tạo ra những thách thức nhất định. Bài luận này sẽ thảo luận về cả những ưu điểm và nhược điểm của cách tiếp cận này.",
+                "introChunks": [
+                    {
+                        "en": "Nowadays,",
+                        "vn": "Ngày nay,"
+                    },
+                    {
+                        "en": "some schools can choose",
+                        "vn": "một số trường học có thể tự lựa chọn"
+                    },
+                    {
+                        "en": "their own foreign language textbooks",
+                        "vn": "sách giáo khoa ngoại ngữ"
+                    },
+                    {
+                        "en": "instead of using materials",
+                        "vn": "thay vì sử dụng tài liệu"
+                    },
+                    {
+                        "en": "provided by the government.",
+                        "vn": "do chính phủ cung cấp."
+                    },
+                    {
+                        "en": "While this approach",
+                        "vn": "Mặc dù cách tiếp cận này"
+                    },
+                    {
+                        "en": "offers greater flexibility",
+                        "vn": "mang lại sự linh hoạt lớn hơn"
+                    },
+                    {
+                        "en": "and can improve learning,",
+                        "vn": "và có thể cải thiện việc học,"
+                    },
+                    {
+                        "en": "it may also create",
+                        "vn": "nhưng nó cũng có thể tạo ra"
+                    },
+                    {
+                        "en": "certain challenges.",
+                        "vn": "những thách thức nhất định."
+                    },
+                    {
+                        "en": "This essay will discuss",
+                        "vn": "Bài luận này sẽ thảo luận về"
+                    },
+                    {
+                        "en": "both the advantages and disadvantages",
+                        "vn": "cả những ưu điểm và nhược điểm"
+                    },
+                    {
+                        "en": "of this approach.",
+                        "vn": "của cách tiếp cận này."
+                    }
+                ],
+                "bodyParagraphs": [
+                    {
+                        "title": "Đoạn 1: Lợi ích của việc trường học tự chọn sách giáo khoa (Advantages)",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "On the one hand",
+                                        "vn": "Một mặt",
+                                        "connector": ":"
+                                    },
+                                    {
+                                        "en": "allowing schools to choose their own textbooks",
+                                        "vn": "việc cho phép các trường tự chọn sách giáo khoa",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "definitely offers several advantages",
+                                        "vn": "chắc chắn mang lại một số lợi ích",
+                                        "isBoldRed": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lợi ích 1: Phù hợp với trình độ ngôn ngữ và nhu cầu học tập của học sinh",
+                                "hints": [
+                                    {
+                                        "en": "select materials that better match students’ language levels and learning needs",
+                                        "vn": "chọn tài liệu phù hợp hơn với trình độ ngôn ngữ và nhu cầu học tập của học sinh",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "students with limited English skills",
+                                        "vn": "học sinh có kỹ năng tiếng Anh hạn chế",
+                                        "connector": "➜",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "benefit from textbooks that focus on basic vocabulary and grammar",
+                                        "vn": "hưởng lợi từ sách giáo khoa tập trung vào từ vựng và ngữ pháp cơ bản",
+                                        "connector": ""
+                                    },
+                                    {
+                                        "en": "more advanced learners",
+                                        "vn": "người học ở trình độ nâng cao hơn",
+                                        "connector": "➜",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "need materials that develop critical thinking and communication skills",
+                                        "vn": "cần tài liệu phát triển tư duy phản biện và kỹ năng giao tiếp"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lợi ích 2: Tự do chọn nội dung hấp dẫn, cập nhật & phát triển kỹ năng thực tế",
+                                "hints": [
+                                    {
+                                        "en": "more freedom to choose engaging and up-to-date content",
+                                        "vn": "nhiều sự tự do hơn để chọn nội dung hấp dẫn và cập nhật",
+                                        "connector": "➜",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "make lessons more interesting",
+                                        "vn": "làm cho các bài học trở nên thú vị hơn",
+                                        "connector": "+",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "help students develop practical language skills",
+                                        "vn": "giúp học sinh phát triển các kỹ năng ngôn ngữ thực tế",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "useful in real-life situations",
+                                        "vn": "hữu ích trong các tình huống đời thực",
+                                        "prefix": "(",
+                                        "suffix": ")"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Đoạn 2: Những bất lợi của việc trường học tự chọn sách giáo khoa (Disadvantages)",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "Despite these advantages",
+                                        "vn": "Mặc dù có những ưu điểm này",
+                                        "connector": ":"
+                                    },
+                                    {
+                                        "en": "this approach also has",
+                                        "vn": "cách tiếp cận này cũng có",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "some disadvantages",
+                                        "vn": "một số nhược điểm",
+                                        "isBoldRed": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Bất lợi 1: Chênh lệch chất lượng giáo dục giữa các trường",
+                                "hints": [
+                                    {
+                                        "en": "the quality of education may differ between schools",
+                                        "vn": "chất lượng giáo dục có thể khác nhau giữa các trường",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "well-funded schools",
+                                        "vn": "các trường có kinh phí dồi dào",
+                                        "connector": "➜",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "afford high-quality textbooks",
+                                        "vn": "có khả năng chi trả cho sách giáo khoa chất lượng cao",
+                                        "connector": ""
+                                    },
+                                    {
+                                        "en": "schools with limited budgets",
+                                        "vn": "các trường có ngân sách hạn hẹp",
+                                        "connector": "➜",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "use less effective materials",
+                                        "vn": "phải sử dụng những tài liệu kém hiệu quả hơn",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "creating an unfair learning environment",
+                                        "vn": "tạo ra một môi trường học tập không công bằng"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Bất lợi 2: Gia tăng áp lực và khối lượng công việc cho giáo viên, quản lý",
+                                "hints": [
+                                    {
+                                        "en": "place additional pressure on teachers and school managers",
+                                        "vn": "đặt thêm áp lực lên giáo viên và các nhà quản lý trường học",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "spend time comparing different materials",
+                                        "vn": "dành thời gian so sánh các tài liệu khác nhau",
+                                        "connector": "+",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "ensuring that the selected textbooks meet educational requirements",
+                                        "vn": "đảm bảo rằng sách giáo khoa được chọn đáp ứng các yêu cầu giáo dục",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "increase their workload",
+                                        "vn": "làm tăng khối lượng công việc của họ",
+                                        "connector": "+",
+                                        "newLine": true
+                                    },
+                                    {
+                                        "en": "take time away from other important teaching activities",
+                                        "vn": "lấy đi thời gian dành cho các hoạt động giảng dạy quan trọng khác"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "conclusionVn": "Tóm lại, việc cho phép các trường tự chọn sách giáo khoa ngoại ngữ có thể làm cho việc học trở nên phù hợp và hấp dẫn hơn. Tuy nhiên, nó cũng có thể dẫn đến những cơ hội giáo dục không bình đẳng và làm tăng trách nhiệm của giáo viên. Vì vậy, các trường học nên có sự tự do nhất định trong việc lựa chọn sách giáo khoa đồng thời tuân thủ các tiêu chuẩn quốc gia rõ ràng.",
+                "conclusionChunks": [
+                    {
+                        "en": "In conclusion,",
+                        "vn": "Tóm lại,"
+                    },
+                    {
+                        "en": "allowing schools to choose",
+                        "vn": "việc cho phép các trường tự chọn"
+                    },
+                    {
+                        "en": "their own foreign language textbooks",
+                        "vn": "sách giáo khoa ngoại ngữ"
+                    },
+                    {
+                        "en": "can make learning",
+                        "vn": "có thể làm cho việc học"
+                    },
+                    {
+                        "en": "more suitable and engaging.",
+                        "vn": "trở nên phù hợp và hấp dẫn hơn."
+                    },
+                    {
+                        "en": "However, it may also lead to",
+                        "vn": "Tuy nhiên, nó cũng có thể dẫn đến"
+                    },
+                    {
+                        "en": "unequal educational opportunities",
+                        "vn": "những cơ hội giáo dục không bình đẳng"
+                    },
+                    {
+                        "en": "and increase teachers’ responsibilities.|and increase teachers' responsibilities.",
+                        "vn": "và làm tăng trách nhiệm của giáo viên."
+                    },
+                    {
+                        "en": "Therefore, schools should have",
+                        "vn": "Vì vậy, các trường học nên có"
+                    },
+                    {
+                        "en": "some freedom in selecting textbooks",
+                        "vn": "sự tự do nhất định trong việc lựa chọn sách giáo khoa"
+                    },
+                    {
+                        "en": "while following",
+                        "vn": "đồng thời tuân thủ"
+                    },
+                    {
+                        "en": "clear national standards.",
+                        "vn": "các tiêu chuẩn quốc gia rõ ràng."
+                    }
+                ],
+                "sampleEssay": {
+                    "paragraphs": [
+                        [
+                            {
+                                "en": "Nowadays, some schools can choose their own foreign language textbooks instead of using materials provided by the government.",
+                                "vn": "Ngày nay, một số trường học có thể tự lựa chọn sách giáo khoa ngoại ngữ thay vì sử dụng tài liệu do chính phủ cung cấp.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "While this approach offers greater flexibility and can improve learning, it may also create certain challenges.",
+                                "vn": "Mặc dù cách tiếp cận này mang lại sự linh hoạt lớn hơn và có thể cải thiện việc học, nhưng nó cũng có thể tạo ra những thách thức nhất định.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This essay will discuss both the advantages and disadvantages of this approach.",
+                                "vn": "Bài luận này sẽ thảo luận về cả những ưu điểm và nhược điểm của cách tiếp cận này.",
+                                "isRed": true
+                            }
+                        ],
+                        [
+                            {
+                                "en": "On the one hand, allowing schools to choose their own textbooks definitely offers several advantages.",
+                                "vn": "Một mặt, việc cho phép các trường tự chọn sách giáo khoa chắc chắn mang lại một số lợi ích.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "First, schools can select materials that better match students’ language levels and learning needs.",
+                                "vn": "Thứ nhất, nhà trường có thể lựa chọn các tài liệu phù hợp hơn với trình độ ngôn ngữ và nhu cầu học tập của học sinh.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "For example, students with limited English skills may benefit from textbooks that focus on basic vocabulary and grammar, while more advanced learners may need materials that develop critical thinking and communication skills.",
+                                "vn": "Ví dụ, những học sinh có kỹ năng tiếng Anh hạn chế có thể hưởng lợi từ sách giáo khoa tập trung vào từ vựng và ngữ pháp cơ bản, trong khi những người học ở trình độ nâng cao hơn có thể cần tài liệu phát triển tư duy phản biện và kỹ năng giao tiếp.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Second, teachers have more freedom to choose engaging and up-to-date content.",
+                                "vn": "Thứ hai, giáo viên có nhiều sự tự do hơn để lựa chọn nội dung hấp dẫn và cập nhật.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This can make lessons more interesting and help students develop practical language skills that are useful in real-life situations.",
+                                "vn": "Điều này có thể làm cho các bài học trở nên thú vị hơn và giúp học sinh phát triển các kỹ năng ngôn ngữ thực tế hữu ích trong các tình huống đời thực.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "Despite these advantages, this approach also has some disadvantages.",
+                                "vn": "Mặc dù có những ưu điểm này, cách tiếp cận này cũng có một số nhược điểm.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "One major concern is that the quality of education may differ between schools.",
+                                "vn": "Một mối lo ngại lớn là chất lượng giáo dục có thể khác nhau giữa các trường.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Well-funded schools may afford high-quality textbooks, while schools with limited budgets may have to use less effective materials, creating an unfair learning environment.",
+                                "vn": "Các trường có nguồn kinh phí dồi dào có thể chi trả cho những cuốn sách giáo khoa chất lượng cao, trong khi các trường có ngân sách hạn hẹp có thể phải sử dụng những tài liệu kém hiệu quả hơn, tạo ra một môi trường học tập không công bằng.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Another drawback is that choosing textbooks can place additional pressure on teachers and school managers.",
+                                "vn": "Một hạn chế khác là việc lựa chọn sách giáo khoa có thể đặt thêm áp lực lên giáo viên và các nhà quản lý trường học.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "They need to spend time comparing different materials and ensuring that the selected textbooks meet educational requirements.",
+                                "vn": "Họ cần dành thời gian so sánh các tài liệu khác nhau và đảm bảo rằng những cuốn sách giáo khoa được chọn đáp ứng các yêu cầu giáo dục.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This may increase their workload and take time away from other important teaching activities.",
+                                "vn": "Điều này có thể làm tăng khối lượng công việc của họ và lấy đi thời gian dành cho các hoạt động giảng dạy quan trọng khác.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "In conclusion, allowing schools to choose their own foreign language textbooks can make learning more suitable and engaging.",
+                                "vn": "Tóm lại, việc cho phép các trường tự chọn sách giáo khoa ngoại ngữ có thể làm cho việc học trở nên phù hợp và hấp dẫn hơn.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "However, it may also lead to unequal educational opportunities and increase teachers’ responsibilities.",
+                                "vn": "Tuy nhiên, nó cũng có thể dẫn đến những cơ hội giáo dục không bình đẳng và làm tăng trách nhiệm của giáo viên.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Therefore, schools should have some freedom in selecting textbooks while following clear national standards.",
+                                "vn": "Vì vậy, các trường học nên có sự tự do nhất định trong việc lựa chọn sách giáo khoa đồng thời tuân thủ các tiêu chuẩn quốc gia rõ ràng.",
+                                "isRed": false
+                            }
+                        ]
+                    ]
+                }
             }
         ]
     },
@@ -13074,6 +13556,554 @@ window.ESSAY_TOPICS = [
                             }
                         ]
                     ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "traffic-accidents-congestion",
+        "title": "22. Tai nạn và ùn tắc giao thông",
+        "summary": "Bài luận về các nguyên nhân chính gây ra tai nạn giao thông, tình trạng ùn tắc đô thị và các giải pháp khắc phục thực tế.",
+        "isMatchingVocab": true,
+        "meta": {
+            "category": "Giao thông & xã hội",
+            "taskType": "Causes - Problems - Solutions",
+            "level": "B1-B2",
+            "estimatedMinutes": 40
+        },
+        "prompt": [
+            {
+                "en": "Traffic accidents and traffic congestion are becoming increasingly common in many cities.",
+                "vn": "Tai nạn giao thông và ùn tắc giao thông đang ngày càng trở nên phổ biến ở nhiều thành phố."
+            },
+            {
+                "en": "What are the main causes of these problems, and what solutions can be taken to address them?",
+                "vn": "Những nguyên nhân chính của các vấn đề này là gì, và những giải pháp nào có thể được thực hiện để giải quyết chúng?"
+            },
+            {
+                "en": "Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+                "vn": "Hãy đưa ra lý do cho câu trả lời của bạn và kèm theo các ví dụ liên quan từ kiến thức hoặc trải nghiệm của chính bạn."
+            }
+        ],
+        "introEnExpectedLength": 268,
+        "conclusionEnExpectedLength": 260,
+        "currentVariantIndex": 0,
+        "variants": [
+            {
+                "name": "Level B1",
+                "vocab": [
+                    {
+                        "en": "traffic accidents",
+                        "vn": "tai nạn giao thông"
+                    },
+                    {
+                        "en": "traffic congestion",
+                        "vn": "ùn tắc giao thông"
+                    },
+                    {
+                        "en": "increasingly common",
+                        "vn": "ngày càng phổ biến"
+                    },
+                    {
+                        "en": "serious problems",
+                        "vn": "các vấn đề nghiêm trọng"
+                    },
+                    {
+                        "en": "road users",
+                        "vn": "người tham gia giao thông"
+                    },
+                    {
+                        "en": "the main reasons",
+                        "vn": "những nguyên nhân chính"
+                    },
+                    {
+                        "en": "practical measures",
+                        "vn": "các biện pháp thiết thực"
+                    },
+                    {
+                        "en": "private vehicles",
+                        "vn": "phương tiện cá nhân"
+                    },
+                    {
+                        "en": "convenient",
+                        "vn": "thuận tiện, tiện lợi"
+                    },
+                    {
+                        "en": "save time",
+                        "vn": "tiết kiệm thời gian"
+                    },
+                    {
+                        "en": "rush hours",
+                        "vn": "giờ cao điểm"
+                    },
+                    {
+                        "en": "traffic rules",
+                        "vn": "luật giao thông"
+                    },
+                    {
+                        "en": "ignore traffic lights",
+                        "vn": "vượt đèn đỏ, phớt lờ đèn tín hiệu"
+                    },
+                    {
+                        "en": "public transport",
+                        "vn": "phương tiện giao thông công cộng"
+                    },
+                    {
+                        "en": "comfortable",
+                        "vn": "thoải mái"
+                    },
+                    {
+                        "en": "raise public awareness",
+                        "vn": "nâng cao nhận thức cộng đồng"
+                    },
+                    {
+                        "en": "give fines",
+                        "vn": "xử phạt tiền"
+                    },
+                    {
+                        "en": "drive dangerously",
+                        "vn": "lái xe nguy hiểm"
+                    },
+                    {
+                        "en": "break traffic laws",
+                        "vn": "vi phạm luật giao thông"
+                    },
+                    {
+                        "en": "traffic jams",
+                        "vn": "tắc nghẽn giao thông"
+                    },
+                    {
+                        "en": "unsafe driving habits",
+                        "vn": "thói quen lái xe không an toàn"
+                    },
+                    {
+                        "en": "strictly controlling",
+                        "vn": "kiểm soát nghiêm ngặt"
+                    }
+                ],
+                "introVn": "Tai nạn giao thông và ùn tắc giao thông là những vấn đề nghiêm trọng ở nhiều thành phố ngày nay. Những vấn đề này có thể làm cho việc đi lại trở nên khó khăn và cũng gây ra nhiều nguy hiểm cho người tham gia giao thông. Bài luận này sẽ thảo luận về những nguyên nhân chính đằng sau các vấn đề này và đề xuất một số giải pháp khả thi.",
+                "introChunks": [
+                    {
+                        "en": "Traffic accidents and traffic congestion",
+                        "vn": "Tai nạn giao thông và ùn tắc giao thông"
+                    },
+                    {
+                        "en": "are serious problems",
+                        "vn": "là những vấn đề nghiêm trọng"
+                    },
+                    {
+                        "en": "in many cities today.",
+                        "vn": "ở nhiều thành phố ngày nay."
+                    },
+                    {
+                        "en": "These problems can make travelling difficult",
+                        "vn": "Những vấn đề này có thể làm cho việc đi lại trở nên khó khăn"
+                    },
+                    {
+                        "en": "and also cause many dangers",
+                        "vn": "và cũng gây ra nhiều nguy hiểm"
+                    },
+                    {
+                        "en": "for road users.",
+                        "vn": "cho người tham gia giao thông."
+                    },
+                    {
+                        "en": "This essay will discuss",
+                        "vn": "Bài luận này sẽ thảo luận về"
+                    },
+                    {
+                        "en": "the main reasons behind these issues",
+                        "vn": "những nguyên nhân chính đằng sau các vấn đề này"
+                    },
+                    {
+                        "en": "and suggest some possible solutions.",
+                        "vn": "và đề xuất một số giải pháp khả thi."
+                    }
+                ],
+                "bodyParagraphs": [
+                    {
+                        "title": "Đoạn 1: Nguyên nhân của tai nạn và ùn tắc (Main causes)",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "several factors can explain why",
+                                        "vn": "một số yếu tố có thể giải thích lý do tại sao",
+                                        "connector": "➜",
+                                        "isTopic": true
+                                    },
+                                    {
+                                        "en": "traffic accidents and congestion",
+                                        "vn": "tai nạn giao thông và ùn tắc",
+                                        "connector": "➜",
+                                        "isTopic": true
+                                    },
+                                    {
+                                        "en": "increasingly common these days",
+                                        "vn": "ngày càng phổ biến dạo gần đây",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Nguyên nhân 1: Sự gia tăng nhanh chóng của phương tiện cá nhân",
+                                "hints": [
+                                    {
+                                        "en": "the number of private vehicles",
+                                        "vn": "số lượng phương tiện cá nhân",
+                                        "connector": ":",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "increasing quickly",
+                                        "vn": "gia tăng nhanh chóng",
+                                        "connector": ""
+                                    },
+                                    {
+                                        "en": "prefer using cars and motorbikes",
+                                        "vn": "chuộng sử dụng ô tô và xe máy",
+                                        "newLine": true,
+                                        "connector": ":"
+                                    },
+                                    {
+                                        "en": "convenient",
+                                        "vn": "thuận tiện, tiện lợi",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "save time",
+                                        "vn": "tiết kiệm thời gian",
+                                        "connector": ""
+                                    },
+                                    {
+                                        "en": "too many vehicles use the roads at the same time",
+                                        "vn": "quá nhiều phương tiện lưu thông cùng lúc",
+                                        "newLine": true,
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "traffic congestion can easily happen",
+                                        "vn": "ùn tắc giao thông có thể dễ dàng xảy ra",
+                                        "connector": ":"
+                                    },
+                                    {
+                                        "en": "especially during rush hours",
+                                        "vn": "đặc biệt là trong giờ cao điểm"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Nguyên nhân 2: Ý thức chấp hành luật giao thông kém",
+                                "hints": [
+                                    {
+                                        "en": "do not follow traffic rules",
+                                        "vn": "không tuân thủ luật lệ giao thông",
+                                        "connector": "",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "for example",
+                                        "vn": "ví dụ",
+                                        "newLine": true,
+                                        "connector": ":"
+                                    },
+                                    {
+                                        "en": "drive too fast",
+                                        "vn": "lái xe quá tốc độ",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "ignore traffic lights",
+                                        "vn": "vượt đèn đỏ",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "use their phones while driving",
+                                        "vn": "dùng điện thoại khi đang lái xe",
+                                        "connector": ""
+                                    },
+                                    {
+                                        "en": "these behaviours",
+                                        "vn": "những hành vi này",
+                                        "newLine": true,
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "cause serious traffic accidents",
+                                        "vn": "gây ra các vụ tai nạn giao thông nghiêm trọng"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Đoạn 2: Các biện pháp giải quyết (Practical solutions)",
+                        "hintGroups": [
+                            {
+                                "label": "Topic sentence",
+                                "hints": [
+                                    {
+                                        "en": "in order to address these problems",
+                                        "vn": "để giải quyết các vấn đề này",
+                                        "connector": "➜",
+                                        "isTopic": true
+                                    },
+                                    {
+                                        "en": "several practical measures could be implemented",
+                                        "vn": "một số biện pháp thiết thực có thể được thực hiện",
+                                        "isTopic": true
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Giải pháp 1: Phát triển giao thông công cộng",
+                                "hints": [
+                                    {
+                                        "en": "One solution",
+                                        "vn": "Một giải pháp",
+                                        "connector": ":"
+                                    },
+                                    {
+                                        "en": "improve public transport",
+                                        "vn": "cải thiện giao thông công cộng",
+                                        "connector": "",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "buses and trains",
+                                        "vn": "xe buýt và tàu hỏa",
+                                        "newLine": true,
+                                        "connector": ":"
+                                    },
+                                    {
+                                        "en": "cheap, comfortable and convenient",
+                                        "vn": "giá rẻ, thoải mái và thuận tiện",
+                                        "connector": ""
+                                    },
+                                    {
+                                        "en": "choose them instead of using their own vehicles",
+                                        "vn": "lựa chọn chúng thay vì dùng xe cá nhân",
+                                        "newLine": true,
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "fewer vehicles on the roads",
+                                        "vn": "ít phương tiện hơn trên đường phố"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Giải pháp 2: Nâng cao ý thức người dân và xử phạt nghiêm",
+                                "hints": [
+                                    {
+                                        "en": "Another solution",
+                                        "vn": "Một giải pháp khác",
+                                        "connector": ":"
+                                    },
+                                    {
+                                        "en": "raise public awareness about traffic rules",
+                                        "vn": "nâng cao nhận thức về luật giao thông",
+                                        "connector": "",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "give fines to people",
+                                        "vn": "xử phạt những người",
+                                        "newLine": true,
+                                        "connector": ":"
+                                    },
+                                    {
+                                        "en": "drive dangerously",
+                                        "vn": "lái xe nguy hiểm",
+                                        "connector": "+"
+                                    },
+                                    {
+                                        "en": "break traffic laws",
+                                        "vn": "vi phạm luật giao thông"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Giải pháp 3: Nâng cấp đường sá và hệ thống giao thông",
+                                "hints": [
+                                    {
+                                        "en": "improve roads",
+                                        "vn": "nâng cấp, cải tạo đường sá",
+                                        "connector": "+",
+                                        "isBoldRed": true
+                                    },
+                                    {
+                                        "en": "build more suitable traffic systems",
+                                        "vn": "xây dựng hệ thống giao thông phù hợp hơn",
+                                        "connector": "➜"
+                                    },
+                                    {
+                                        "en": "reduce traffic jams",
+                                        "vn": "giảm thiểu ùn tắc giao thông"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "conclusionVn": "Tóm lại, số lượng ngày càng tăng của các phương tiện cá nhân và thói quen lái xe không an toàn của người dân là hai nguyên nhân chính gây ra các vấn đề giao thông. Việc cải thiện giao thông công cộng và kiểm soát nghiêm ngặt luật giao thông có thể giúp cho đường sá an toàn hơn và giảm ùn tắc giao thông.",
+                "conclusionChunks": [
+                    {
+                        "en": "In conclusion,",
+                        "vn": "Tóm lại,"
+                    },
+                    {
+                        "en": "the increasing number of private vehicles",
+                        "vn": "số lượng ngày càng tăng của các phương tiện cá nhân"
+                    },
+                    {
+                        "en": "and people's unsafe driving habits",
+                        "vn": "và thói quen lái xe không an toàn của người dân"
+                    },
+                    {
+                        "en": "are two major causes",
+                        "vn": "là hai nguyên nhân chính"
+                    },
+                    {
+                        "en": "of traffic problems.",
+                        "vn": "gây ra các vấn đề giao thông."
+                    },
+                    {
+                        "en": "Improving public transport",
+                        "vn": "Việc cải thiện giao thông công cộng"
+                    },
+                    {
+                        "en": "and strictly controlling traffic rules",
+                        "vn": "và kiểm soát nghiêm ngặt luật giao thông"
+                    },
+                    {
+                        "en": "can help make roads safer",
+                        "vn": "có thể giúp cho đường sá an toàn hơn"
+                    },
+                    {
+                        "en": "and reduce traffic congestion.",
+                        "vn": "và giảm ùn tắc giao thông."
+                    }
+                ],
+                "sampleEssay": {
+                    "paragraphs": [
+                        [
+                            {
+                                "en": "Traffic accidents and traffic congestion are serious problems in many cities today.",
+                                "vn": "Tai nạn giao thông và ùn tắc giao thông là những vấn đề nghiêm trọng ở nhiều thành phố ngày nay.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "These problems can make travelling difficult and also cause many dangers for road users.",
+                                "vn": "Những vấn đề này có thể làm cho việc đi lại trở nên khó khăn và cũng gây ra nhiều nguy hiểm cho người tham gia giao thông.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "This essay will discuss the main reasons behind these issues and suggest some possible solutions.",
+                                "vn": "Bài luận này sẽ thảo luận về những nguyên nhân chính đằng sau các vấn đề này và đề xuất một số giải pháp khả thi.",
+                                "isRed": true
+                            }
+                        ],
+                        [
+                            {
+                                "en": "Several factors can explain why traffic accidents and congestion are increasingly common these days.",
+                                "vn": "Một số yếu tố có thể giải thích tại sao tai nạn giao thông và ùn tắc ngày càng trở nên phổ biến dạo gần đây.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "First of all, the number of private vehicles is increasing quickly.",
+                                "vn": "Trước hết, số lượng các phương tiện cá nhân đang gia tăng một cách nhanh chóng.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Many people prefer using cars and motorbikes because they are convenient and save time.",
+                                "vn": "Nhiều người thích sử dụng ô tô và xe máy hơn vì chúng tiện lợi và tiết kiệm thời gian.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "However, when too many vehicles use the roads at the same time, traffic congestion can easily happen, especially during rush hours.",
+                                "vn": "Tuy nhiên, khi có quá nhiều phương tiện lưu thông trên đường cùng một lúc, ùn tắc giao thông có thể dễ dàng xảy ra, đặc biệt là trong các giờ cao điểm.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "In addition, some people do not follow traffic rules.",
+                                "vn": "Thêm vào đó, một số người không tuân thủ luật lệ giao thông.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "For example, they may drive too fast, ignore traffic lights, or use their phones while driving.",
+                                "vn": "Ví dụ, họ có thể lái xe quá tốc độ, vượt đèn đỏ hoặc sử dụng điện thoại trong khi đang lái xe.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "These behaviours can cause serious traffic accidents.",
+                                "vn": "Những hành vi này có thể gây ra những vụ tai nạn giao thông nghiêm trọng.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "In order to address these problems, several practical measures could be implemented.",
+                                "vn": "Để giải quyết những vấn đề này, một số biện pháp thiết thực có thể được thực hiện.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "One solution is to improve public transport.",
+                                "vn": "Một giải pháp là cải thiện hệ thống phương tiện giao thông công cộng.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "If buses and trains are cheap, comfortable and convenient, more people may choose them instead of using their own vehicles.",
+                                "vn": "Nếu xe buýt và tàu hỏa có giá rẻ, thoải mái và thuận tiện, nhiều người có thể lựa chọn chúng thay vì sử dụng xe cá nhân.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "As a result, there will be fewer vehicles on the roads.",
+                                "vn": "Kết quả là, sẽ có ít phương tiện hơn lưu thông trên đường.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "Another solution is to raise public awareness about traffic rules.",
+                                "vn": "Một giải pháp khác là nâng cao nhận thức của người dân về luật giao thông.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "The government should give fines to people who drive dangerously or break traffic laws.",
+                                "vn": "Chính phủ nên xử phạt những người lái xe nguy hiểm hoặc vi phạm luật giao thông.",
+                                "isRed": false
+                            },
+                            {
+                                "en": "In addition, cities can improve roads and build more suitable traffic systems to reduce traffic jams.",
+                                "vn": "Ngoài ra, các thành phố có thể nâng cấp đường sá và xây dựng các hệ thống giao thông phù hợp hơn để giảm bớt ùn tắc.",
+                                "isRed": false
+                            }
+                        ],
+                        [
+                            {
+                                "en": "In conclusion, the increasing number of private vehicles and people's unsafe driving habits are two major causes of traffic problems.",
+                                "vn": "Tóm lại, số lượng phương tiện cá nhân ngày càng gia tăng và thói quen lái xe không an toàn của người dân là hai nguyên nhân chính gây ra các vấn đề giao thông.",
+                                "isRed": true
+                            },
+                            {
+                                "en": "Improving public transport and strictly controlling traffic rules can help make roads safer and reduce traffic congestion.",
+                                "vn": "Việc nâng cao chất lượng giao thông công cộng và kiểm soát chặt chẽ luật giao thông có thể giúp đường sá an toàn hơn và giảm bớt ùn tắc giao thông.",
+                                "isRed": false
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Level B2",
+                "vocab": [],
+                "introChunks": [],
+                "introVn": "",
+                "bodyParagraphs": [],
+                "conclusionChunks": [],
+                "conclusionVn": "",
+                "sampleEssay": {
+                    "paragraphs": []
                 }
             }
         ]

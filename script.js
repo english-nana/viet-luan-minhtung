@@ -2557,7 +2557,7 @@ function setupTranslationWorkspace(type, data) {
 
         if (chunks) {
             // Robust token-based matching logic (ignores punctuation for better UX)
-            const extractTokens = (str) => str.replace(/[.,!?;:()[\]"“”]/g, "").trim().toLowerCase().split(/\s+/).filter(t => t.length > 0);
+            const extractTokens = (str) => str.replace(/[’‘]/g, "'").replace(/[.,!?;:()[\]"“”]/g, "").trim().toLowerCase().split(/\s+/).filter(t => t.length > 0);
             const userWords = extractTokens(completedText);
             let userWordIdx = 0;
             
@@ -3110,6 +3110,14 @@ function saveValue(essayId, field, value) {
 }
 
 function getStorageKey(essayId, field) {
+    const currentEssay = typeof essays !== "undefined" && state && typeof state.currentEssayIndex === "number" ? essays[state.currentEssayIndex] : null;
+    if (currentEssay && currentEssay.id === essayId && !field.startsWith("matchedVocab")) {
+        const activeVariant = currentEssay.variants && currentEssay.variants[currentEssay.currentVariantIndex || 0];
+        const isC1 = currentEssay.currentLevel === "C1" || (activeVariant && activeVariant.name && activeVariant.name.includes("C1"));
+        if (isC1 && !field.endsWith("_LevelC1")) {
+            return `${STORAGE_PREFIX}:${essayId}:${field}_LevelC1`;
+        }
+    }
     return `${STORAGE_PREFIX}:${essayId}:${field}`;
 }
 
@@ -3117,7 +3125,11 @@ function clearCurrentDraft() {
     const essay = essays[state.currentEssayIndex];
     if (!essay) return;
 
-    const confirmed = window.confirm(`Xóa toàn bộ nháp đang lưu cho "${essay.title}"?`);
+    const activeVariant = essay.variants && essay.variants[essay.currentVariantIndex || 0];
+    const isC1 = essay.currentLevel === "C1" || (activeVariant && activeVariant.name && activeVariant.name.includes("C1"));
+    const levelLabel = isC1 ? " (Level C1)" : "";
+
+    const confirmed = window.confirm(`Xóa toàn bộ nháp đang lưu cho "${essay.title}"${levelLabel}?`);
     if (!confirmed) return;
 
     if (document.activeElement && typeof document.activeElement.blur === "function") {
@@ -3127,7 +3139,10 @@ function clearCurrentDraft() {
     const prefix = `${STORAGE_PREFIX}:${essay.id}:`;
     Object.keys(localStorage).forEach((key) => {
         if (key.startsWith(prefix)) {
-            localStorage.removeItem(key);
+            const keyEndsWithC1 = key.endsWith("_LevelC1");
+            if (isC1 ? keyEndsWithC1 : !keyEndsWithC1) {
+                localStorage.removeItem(key);
+            }
         }
     });
 
